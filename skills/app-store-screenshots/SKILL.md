@@ -448,7 +448,7 @@ Fastlane frames are not all measured the same way. Do not assume every PNG share
 
 Use this approach:
 
-1. Keep per-frame screen inset metadata in a `FRAME_SPECS` object keyed by normalized frame id.
+1. Keep per-frame screen inset metadata in a `FRAME_SPECS` object keyed by the lowercased frame filename stem.
 2. Add entries only for the frames actually present in `public/frames/`.
 3. Prefer generating those entries with `scripts/measure_frame_insets.py` rather than hand-measuring every bezel.
 4. Reuse one preset across color variants of the same device/orientation pair.

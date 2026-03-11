@@ -12,7 +12,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import struct
 from pathlib import Path
 
@@ -23,10 +22,12 @@ except ImportError:  # pragma: no cover - Pillow is expected locally, but keep f
 
 
 DEFAULT_FRAME_DIR = str(Path.home() / ".fastlane" / "frameit" / "latest")
+def build_frame_key(path: Path) -> str:
+    return path.stem.lower()
 
 
-def normalize_filename(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+def build_frame_path(filename: str) -> str:
+    return f"/frames/{filename}"
 
 
 def is_image(path: Path) -> bool:
@@ -269,7 +270,7 @@ def measure_frame(path: Path) -> dict | None:
         print(f"[warn] implausible screen opening detected in {path.name}")
         return None
     filename = path.name
-    key = normalize_filename(path.stem)
+    key = build_frame_key(path)
     return {
         "key": key,
         "filename": filename,
@@ -277,7 +278,7 @@ def measure_frame(path: Path) -> dict | None:
         "orientation": "landscape" if frame_w > frame_h else "portrait",
         "frameW": frame_w,
         "frameH": frame_h,
-        "framePath": f"/frames/{key}.png",
+        "framePath": build_frame_path(filename),
         "screen": screen,
         "screenPercent": {
             "left": round(screen["left"] / frame_w * 100, 4),
@@ -323,7 +324,7 @@ def build_ts(entries: list[dict]) -> str:
         lines.extend(
             [
                 f'  "{entry["key"]}": {{',
-                f'    framePath: "/frames/{entry["key"]}.png",',
+                f'    framePath: {json.dumps(entry["framePath"])},',
                 f'    frameW: {entry["frameW"]},',
                 f'    frameH: {entry["frameH"]},',
                 "    screen: {",

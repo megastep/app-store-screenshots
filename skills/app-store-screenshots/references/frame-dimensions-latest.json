@@ -1,0 +1,1787 @@
+[
+  {
+    "filename": "Samsung Galaxy S Duos.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 574,
+    "height": 1100
+  },
+  {
+    "filename": "Samsung Galaxy Grand Prime Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 633,
+    "height": 1250
+  },
+  {
+    "filename": "Samsung Galaxy Grand Prime Gold.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 633,
+    "height": 1250
+  },
+  {
+    "filename": "Samsung Galaxy Grand Prime White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 633,
+    "height": 1250
+  },
+  {
+    "filename": "Motorola Moto E Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 658,
+    "height": 1265
+  },
+  {
+    "filename": "Motorola Moto E White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 658,
+    "height": 1265
+  },
+  {
+    "filename": "Motorola Moto G.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 834,
+    "height": 1627
+  },
+  {
+    "filename": "Samsung Galaxy S3.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 845,
+    "height": 1618
+  },
+  {
+    "filename": "Nexus 4.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 855,
+    "height": 1658
+  },
+  {
+    "filename": "Samsung Galaxy Note 10 Aura Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1128,
+    "height": 2364
+  },
+  {
+    "filename": "Samsung Galaxy Note 10 Aura Glow.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1128,
+    "height": 2364
+  },
+  {
+    "filename": "Samsung Galaxy Note 10 Aura Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1128,
+    "height": 2364
+  },
+  {
+    "filename": "Samsung Galaxy Note 10 Aura Red.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1128,
+    "height": 2364
+  },
+  {
+    "filename": "Samsung Galaxy Note 10 Aura White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1128,
+    "height": 2364
+  },
+  {
+    "filename": "Nexus 5x.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1195,
+    "height": 2406
+  },
+  {
+    "filename": "Huawei P8 Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1200,
+    "height": 2400
+  },
+  {
+    "filename": "Huawei P8 White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1200,
+    "height": 2400
+  },
+  {
+    "filename": "Google Pixel 4 Clearly White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1178,
+    "height": 2496
+  },
+  {
+    "filename": "Google Pixel 4 Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1178,
+    "height": 2496
+  },
+  {
+    "filename": "Google Pixel 4 Oh So Orange.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1178,
+    "height": 2496
+  },
+  {
+    "filename": "Samsung Galaxy S21 5G Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Samsung Galaxy S21 5G Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Samsung Galaxy S21 5G Violet.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Samsung Galaxy S21 5G White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Samsung Galaxy S21+ 5G Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Samsung Galaxy S21+ 5G Silver.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Samsung Galaxy S21+ 5G Violet.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1180,
+    "height": 2500
+  },
+  {
+    "filename": "Google Pixel 5 Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1204,
+    "height": 2456
+  },
+  {
+    "filename": "Google Pixel 5\u00a0Sorta Sage.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1204,
+    "height": 2456
+  },
+  {
+    "filename": "Samsung Galaxy S5 Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1236,
+    "height": 2398
+  },
+  {
+    "filename": "Samsung Galaxy S5 White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1236,
+    "height": 2398
+  },
+  {
+    "filename": "Google Pixel Quite Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1213,
+    "height": 2458
+  },
+  {
+    "filename": "Google Pixel Really Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1213,
+    "height": 2458
+  },
+  {
+    "filename": "Google Pixel Very Silver.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1213,
+    "height": 2458
+  },
+  {
+    "filename": "Google PIxel 2 Kinda Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1210,
+    "height": 2513
+  },
+  {
+    "filename": "Google Pixel 2 Clearly White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1210,
+    "height": 2513
+  },
+  {
+    "filename": "Google Pixel 2 Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1210,
+    "height": 2513
+  },
+  {
+    "filename": "Google Pixel 3 Clearly White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1199,
+    "height": 2542
+  },
+  {
+    "filename": "Google Pixel 3 Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1199,
+    "height": 2542
+  },
+  {
+    "filename": "Google Pixel 3 Not Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1199,
+    "height": 2542
+  },
+  {
+    "filename": "HTC One M8 Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1228,
+    "height": 2513
+  },
+  {
+    "filename": "HTC One M8 Gold.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1228,
+    "height": 2513
+  },
+  {
+    "filename": "HTC One M8 Silver.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1228,
+    "height": 2513
+  },
+  {
+    "filename": "HTC One A9 Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1244,
+    "height": 2547
+  },
+  {
+    "filename": "Nexus 9.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1728,
+    "height": 2567
+  },
+  {
+    "filename": "Samsung Galaxy Note 10+ Aura Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1502,
+    "height": 3151
+  },
+  {
+    "filename": "Samsung Galaxy Note 10+ Aura Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1502,
+    "height": 3151
+  },
+  {
+    "filename": "Samsung Galaxy Note 10+ Aura Glow.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1502,
+    "height": 3151
+  },
+  {
+    "filename": "Samsung Galaxy Note 10+ Aura White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1502,
+    "height": 3151
+  },
+  {
+    "filename": "Samsung Galaxy S10+ Ceramic White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1522,
+    "height": 3208
+  },
+  {
+    "filename": "Samsung Galaxy S10+ Flamingo Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1522,
+    "height": 3208
+  },
+  {
+    "filename": "Samsung Galaxy S10+ Prism Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1522,
+    "height": 3208
+  },
+  {
+    "filename": "Samsung Galaxy S10+ Prism Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1522,
+    "height": 3208
+  },
+  {
+    "filename": "Samsung Galaxy S10+ Prism Green.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1522,
+    "height": 3208
+  },
+  {
+    "filename": "Samsung Galaxy S10+ Prism White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1522,
+    "height": 3208
+  },
+  {
+    "filename": "Samsung Galaxy Note 5 Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1568,
+    "height": 3117
+  },
+  {
+    "filename": "Samsung Galaxy Note 5 Gold.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1568,
+    "height": 3117
+  },
+  {
+    "filename": "Samsung Galaxy Note 5 Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1568,
+    "height": 3117
+  },
+  {
+    "filename": "Samsung Galaxy Note 5 Silver Titanium.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1568,
+    "height": 3117
+  },
+  {
+    "filename": "Samsung Galaxy Note 5 White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1568,
+    "height": 3117
+  },
+  {
+    "filename": "Samsung Galaxy S10 Flamingo Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1523,
+    "height": 3214
+  },
+  {
+    "filename": "Samsung Galaxy S10 Prism Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1523,
+    "height": 3214
+  },
+  {
+    "filename": "Samsung Galaxy S10 Prism Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1523,
+    "height": 3214
+  },
+  {
+    "filename": "Samsung Galaxy S10 Prism Green.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1523,
+    "height": 3214
+  },
+  {
+    "filename": "Samsung Galaxy S10 Prism White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1523,
+    "height": 3214
+  },
+  {
+    "filename": "Nexus 6P.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1566,
+    "height": 3198
+  },
+  {
+    "filename": "Samsung Galaxy S9 Burgundy Red.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1532,
+    "height": 3288
+  },
+  {
+    "filename": "Samsung Galaxy S9 Coral Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1532,
+    "height": 3288
+  },
+  {
+    "filename": "Samsung Galaxy S9 Lilac Purple.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1532,
+    "height": 3288
+  },
+  {
+    "filename": "Samsung Galaxy S9 Midnight Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1532,
+    "height": 3288
+  },
+  {
+    "filename": "Samsung Galaxy S9 Sunrise Gold.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1532,
+    "height": 3288
+  },
+  {
+    "filename": "Samsung Galaxy S9 Titanium Gray.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1532,
+    "height": 3288
+  },
+  {
+    "filename": "Samsung Galaxy S20 Utra Cosmic Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1527,
+    "height": 3318
+  },
+  {
+    "filename": "Samsung Galaxy S20 Utra Cosmic Gray.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1527,
+    "height": 3318
+  },
+  {
+    "filename": "Samsung Galaxy S20+ Cloud Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1527,
+    "height": 3318
+  },
+  {
+    "filename": "Samsung Galaxy S20+ Cosmic Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1527,
+    "height": 3318
+  },
+  {
+    "filename": "Samsung Galaxy S20+ Cosmic Gray.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1527,
+    "height": 3318
+  },
+  {
+    "filename": "Samsung Galaxy S8 Arctic Silver.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1536,
+    "height": 3312
+  },
+  {
+    "filename": "Samsung Galaxy S8 Coral Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1536,
+    "height": 3312
+  },
+  {
+    "filename": "Samsung Galaxy S8 Maple Gold.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1536,
+    "height": 3312
+  },
+  {
+    "filename": "Samsung Galaxy S8 Midnight Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1536,
+    "height": 3312
+  },
+  {
+    "filename": "Samsung Galaxy S8 Orchid Gray.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1536,
+    "height": 3312
+  },
+  {
+    "filename": "Samsung Galaxy S7 Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1588,
+    "height": 3212
+  },
+  {
+    "filename": "Samsung Galaxy S7 Gold.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1588,
+    "height": 3212
+  },
+  {
+    "filename": "Samsung Galaxy S7 Silver.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1588,
+    "height": 3212
+  },
+  {
+    "filename": "Samsung Galaxy S7 White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1588,
+    "height": 3212
+  },
+  {
+    "filename": "Samsung Galaxy S21 Ultra 5G Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1540,
+    "height": 3324
+  },
+  {
+    "filename": "Samsung Galaxy S21 Ultra 5G Silver.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1540,
+    "height": 3324
+  },
+  {
+    "filename": "Samsung Galaxy S20 Cloud Blue.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1537,
+    "height": 3335
+  },
+  {
+    "filename": "Samsung Galaxy S20 Cloud Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1537,
+    "height": 3335
+  },
+  {
+    "filename": "Samsung Galaxy S20 Cosmic Gray.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1537,
+    "height": 3335
+  },
+  {
+    "filename": "Google Pixel 3 XL Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1589,
+    "height": 3248
+  },
+  {
+    "filename": "Google Pixel 3 XL Clearly White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1591,
+    "height": 3248
+  },
+  {
+    "filename": "Google Pixel 3 XL Not Pink.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1591,
+    "height": 3248
+  },
+  {
+    "filename": "Google Pixel 4 XL Clearly White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1564,
+    "height": 3320
+  },
+  {
+    "filename": "Google Pixel 4 XL Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1564,
+    "height": 3320
+  },
+  {
+    "filename": "Google Pixel 4 XL Oh So Orange.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1564,
+    "height": 3320
+  },
+  {
+    "filename": "Google Pixel 2 XL Black and White.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1630,
+    "height": 3339
+  },
+  {
+    "filename": "Google Pixel 2 XL Just Black.png",
+    "family": "android-phone",
+    "orientation": "portrait",
+    "width": 1630,
+    "height": 3339
+  },
+  {
+    "filename": "Google Pixel Slate.png",
+    "family": "android-tablet",
+    "orientation": "landscape",
+    "width": 3313,
+    "height": 2304
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2 Gold.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1763,
+    "height": 2495
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2 Silver.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1763,
+    "height": 2495
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2 Space Gray.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1763,
+    "height": 2495
+  },
+  {
+    "filename": "Apple iPad Mini (2019) Gold.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1728,
+    "height": 2607
+  },
+  {
+    "filename": "Apple iPad Mini (2019) Silver.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1728,
+    "height": 2607
+  },
+  {
+    "filename": "Apple iPad Mini (2019) Space Gray.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1728,
+    "height": 2607
+  },
+  {
+    "filename": "Apple iPad 10.2 Gold.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1812,
+    "height": 2606
+  },
+  {
+    "filename": "Apple iPad 10.2 Silver.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1812,
+    "height": 2606
+  },
+  {
+    "filename": "Apple iPad 10.2 Space Gray.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1812,
+    "height": 2606
+  },
+  {
+    "filename": "Apple iPad Pro (11-inch) Silver.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1863,
+    "height": 2583
+  },
+  {
+    "filename": "Apple iPad Pro (11-inch) Space Gray.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1863,
+    "height": 2583
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2020 Green Portrait.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1864,
+    "height": 2584
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2020 Rose Gold Portrait.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1864,
+    "height": 2584
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2020 Silver Portrait.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1864,
+    "height": 2584
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2020 Sky Blue Portrait.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1864,
+    "height": 2584
+  },
+  {
+    "filename": "Apple iPad Air (2019) 2020 Space Gray Portrait.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 1864,
+    "height": 2584
+  },
+  {
+    "filename": "Apple iPad Pro (12.9-inch) (4th generation) Silver.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 2245,
+    "height": 2930
+  },
+  {
+    "filename": "Apple iPad Pro (12.9-inch) (4th generation) Space Gray.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 2245,
+    "height": 2930
+  },
+  {
+    "filename": "Apple iPad Pro Gold.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 2286,
+    "height": 3168
+  },
+  {
+    "filename": "Apple iPad Pro Silver.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 2286,
+    "height": 3168
+  },
+  {
+    "filename": "Apple iPad Pro Space Gray.png",
+    "family": "ipad",
+    "orientation": "portrait",
+    "width": 2286,
+    "height": 3168
+  },
+  {
+    "filename": "Apple iPhone 5s Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 760,
+    "height": 1597
+  },
+  {
+    "filename": "Apple iPhone 5s Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 760,
+    "height": 1597
+  },
+  {
+    "filename": "Apple iPhone 5s Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 760,
+    "height": 1597
+  },
+  {
+    "filename": "Apple iPhone 5c Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 767,
+    "height": 1605
+  },
+  {
+    "filename": "Apple iPhone 5c Green.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 767,
+    "height": 1605
+  },
+  {
+    "filename": "Apple iPhone 5c Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 767,
+    "height": 1605
+  },
+  {
+    "filename": "Apple iPhone 5c White.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 767,
+    "height": 1605
+  },
+  {
+    "filename": "Apple iPhone 5c Yellow.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 767,
+    "height": 1605
+  },
+  {
+    "filename": "Apple iPhone 6s Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 6s Rose Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 6s Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 6s Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 7 Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 7 Jet Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 7 Matte Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 7 Rose Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 7 Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 8 Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 8 Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 8 Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone SE Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone SE Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone SE White.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 871,
+    "height": 1776
+  },
+  {
+    "filename": "Apple iPhone 11 Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone 11 Green.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone 11 Purple.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone 11 Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone 11 White.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone 11 Yellow.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone XR Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone XR Coral.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone XR Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone XR Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone XR Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone XR Yellow.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 979,
+    "height": 1934
+  },
+  {
+    "filename": "Apple iPhone 12 Mini Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1220,
+    "height": 2458
+  },
+  {
+    "filename": "Apple iPhone 12 Mini Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1220,
+    "height": 2458
+  },
+  {
+    "filename": "Apple iPhone 12 Mini Green.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1220,
+    "height": 2458
+  },
+  {
+    "filename": "Apple iPhone 12 Mini Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1220,
+    "height": 2458
+  },
+  {
+    "filename": "Apple iPhone 12 Mini White.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1220,
+    "height": 2458
+  },
+  {
+    "filename": "Apple iPhone 13 Mini Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "Apple iPhone 13 Mini Midnight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "Apple iPhone 13 Mini Pink.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "Apple iPhone 13 Mini Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "Apple iPhone 13 Mini Starlight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "iPhone 13 Mini Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "iPhone 13 Mini Midnight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "iPhone 13 Mini Pink.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "iPhone 13 Mini Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "iPhone 13 Mini Starlight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1223,
+    "height": 2466
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Midnight Green.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone X Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone X Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone XS Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone XS Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone XS Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1295,
+    "height": 2590
+  },
+  {
+    "filename": "Apple iPhone 14 Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1309,
+    "height": 2655
+  },
+  {
+    "filename": "Apple iPhone 14 Midnight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1309,
+    "height": 2655
+  },
+  {
+    "filename": "Apple iPhone 14 Purple.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1309,
+    "height": 2655
+  },
+  {
+    "filename": "Apple iPhone 14 Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1309,
+    "height": 2655
+  },
+  {
+    "filename": "Apple iPhone 14 Starlight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1309,
+    "height": 2655
+  },
+  {
+    "filename": "Apple iPhone 12 Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Green.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Graphite.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Pacific Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 12 White.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1314,
+    "height": 2658
+  },
+  {
+    "filename": "Apple iPhone 13 Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1313,
+    "height": 2661
+  },
+  {
+    "filename": "Apple iPhone 13 Midnight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1313,
+    "height": 2661
+  },
+  {
+    "filename": "Apple iPhone 13 Pink.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1313,
+    "height": 2661
+  },
+  {
+    "filename": "Apple iPhone 13 Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1313,
+    "height": 2661
+  },
+  {
+    "filename": "Apple iPhone 13 Starlight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1313,
+    "height": 2661
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1311,
+    "height": 2672
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1311,
+    "height": 2672
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Purple.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1311,
+    "height": 2672
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1311,
+    "height": 2672
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1318,
+    "height": 2660
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Graphite.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1318,
+    "height": 2660
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Sierra Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1318,
+    "height": 2660
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1318,
+    "height": 2660
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Max Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Max Midnight Green.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Max Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone 11 Pro Max Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone XS Max Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone XS Max Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone XS Max Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1413,
+    "height": 2844
+  },
+  {
+    "filename": "Apple iPhone 8 Plus Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1436,
+    "height": 2876
+  },
+  {
+    "filename": "Apple iPhone 8 Plus Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1436,
+    "height": 2876
+  },
+  {
+    "filename": "Apple iPhone 8 Plus Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1436,
+    "height": 2876
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Max Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1421,
+    "height": 2909
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Max Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1421,
+    "height": 2909
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Max Purple.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1421,
+    "height": 2909
+  },
+  {
+    "filename": "Apple iPhone 14 Pro Max Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1421,
+    "height": 2909
+  },
+  {
+    "filename": "Apple iPhone 14 Plus Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1429,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 14 Plus Midnight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1429,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 14 Plus Purple.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1429,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 14 Plus Red.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1429,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 14 Plus Starlight.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1429,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Max Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1432,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Max Graphite.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1432,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Max Pacific Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1432,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 12 Pro Max Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1432,
+    "height": 2902
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Max Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1433,
+    "height": 2908
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Max Graphite.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1433,
+    "height": 2908
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Max Sierra Blue.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1433,
+    "height": 2908
+  },
+  {
+    "filename": "Apple iPhone 13 Pro Max Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1433,
+    "height": 2908
+  },
+  {
+    "filename": "Apple iPhone 6s Plus Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 6s Plus Rose Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 6s Plus Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 6s Plus Space Gray.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 7 Plus Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 7 Plus Jet Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 7 Plus Matte Black.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 7 Plus Rose Gold.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple iPhone 7 Plus Silver.png",
+    "family": "iphone",
+    "orientation": "portrait",
+    "width": 1446,
+    "height": 2948
+  },
+  {
+    "filename": "Apple-Macbook-Gold.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3064,
+    "height": 1762
+  },
+  {
+    "filename": "Apple-Macbook-Space-Gray.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3064,
+    "height": 1762
+  },
+  {
+    "filename": "Apple MacBook Air Gold.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3306,
+    "height": 1897
+  },
+  {
+    "filename": "Apple MacBook Air Silver.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3306,
+    "height": 1897
+  },
+  {
+    "filename": "Apple MacBook Air Space Gray.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3306,
+    "height": 1897
+  },
+  {
+    "filename": "Apple Macbook Pro 13 Silver.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3348,
+    "height": 1974
+  },
+  {
+    "filename": "Apple Macbook Pro 13 Space Gray.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3348,
+    "height": 1974
+  },
+  {
+    "filename": "Apple Macbook Pro 16 Silver.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3910,
+    "height": 2241
+  },
+  {
+    "filename": "Apple Macbook Pro 16 Space Gray.png",
+    "family": "mac",
+    "orientation": "landscape",
+    "width": 3910,
+    "height": 2241
+  },
+  {
+    "filename": "Surface Pro X Black.png",
+    "family": "other",
+    "orientation": "landscape",
+    "width": 3020,
+    "height": 2188
+  },
+  {
+    "filename": "Surface Pro X Silver.png",
+    "family": "other",
+    "orientation": "landscape",
+    "width": 3020,
+    "height": 2188
+  },
+  {
+    "filename": "Xiaomi Mi Mix Alpha.png",
+    "family": "other",
+    "orientation": "portrait",
+    "width": 1090,
+    "height": 2328
+  }
+]

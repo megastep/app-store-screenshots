@@ -14,24 +14,53 @@ from pathlib import Path
 
 IDENTIFIER_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 LOCALE_RE = re.compile(r"^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$")
+RTL_BASE_LANGUAGES = {"ar", "he"}
+# Covers Apple's current App Store metadata localization set plus common script aliases.
 LOCALE_LABELS = {
     "ar": "Arabic",
+    "ca": "Catalan",
+    "cs": "Czech",
+    "da": "Danish",
     "de": "German",
+    "el": "Greek",
     "en": "English",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (UK)",
+    "en-US": "English (US)",
     "es": "Spanish",
+    "es-ES": "Spanish (Spain)",
+    "es-MX": "Spanish (Mexico)",
+    "fi": "Finnish",
     "fr": "French",
+    "fr-CA": "French (Canada)",
     "he": "Hebrew",
+    "hi": "Hindi",
+    "hr": "Croatian",
+    "hu": "Hungarian",
+    "id": "Indonesian",
     "it": "Italian",
     "ja": "Japanese",
     "ko": "Korean",
+    "ms": "Malay",
     "nl": "Dutch",
+    "no": "Norwegian",
     "pl": "Polish",
+    "pt": "Portuguese",
     "pt-BR": "Portuguese (Brazil)",
     "pt-PT": "Portuguese (Portugal)",
+    "ro": "Romanian",
     "ru": "Russian",
+    "sk": "Slovak",
+    "sv": "Swedish",
+    "th": "Thai",
     "tr": "Turkish",
     "uk": "Ukrainian",
+    "vi": "Vietnamese",
+    "zh": "Chinese",
     "zh-CN": "Chinese (Simplified)",
+    "zh-Hans": "Chinese (Simplified)",
+    "zh-Hant": "Chinese (Traditional)",
     "zh-TW": "Chinese (Traditional)",
 }
 
@@ -76,13 +105,33 @@ def validate_identifier(value: str, label: str) -> str:
     return value
 
 
+def normalize_locale_code(locale: str) -> str:
+    parts = locale.split("-")
+    normalized = [parts[0].lower()]
+    for part in parts[1:]:
+        if len(part) == 4 and part.isalpha():
+            normalized.append(part[:1].upper() + part[1:].lower())
+        elif len(part) in {2, 3}:
+            normalized.append(part.upper())
+        else:
+            normalized.append(part)
+    return "-".join(normalized)
+
+
 def parse_locales(value: str, label: str) -> list[str]:
-    locales = [part.strip() for part in value.split(",") if part.strip()]
-    if not locales:
+    raw_locales = [part.strip() for part in value.split(",") if part.strip()]
+    if not raw_locales:
         raise SystemExit(f"{label} must include at least one locale.")
-    for locale in locales:
+    locales: list[str] = []
+    seen: set[str] = set()
+    for locale in raw_locales:
         if not LOCALE_RE.fullmatch(locale):
             raise SystemExit(f"Invalid locale code in {label}: {locale!r}")
+        normalized = normalize_locale_code(locale)
+        if normalized in seen:
+            raise SystemExit(f"Duplicate locale code in {label}: {normalized!r}")
+        seen.add(normalized)
+        locales.append(normalized)
     return locales
 
 
@@ -94,6 +143,10 @@ def infer_label(locale: str) -> str:
     return LOCALE_LABELS.get(locale) or LOCALE_LABELS.get(infer_lang(locale)) or locale
 
 
+def is_rtl_locale(locale: str, rtl_locales: set[str]) -> bool:
+    return locale in rtl_locales or infer_lang(locale) in rtl_locales
+
+
 def build_supported_locales(locales: list[str], default_locale: str, rtl_locales: set[str]) -> str:
     rows = []
     for locale in locales:
@@ -103,7 +156,7 @@ def build_supported_locales(locales: list[str], default_locale: str, rtl_locales
                 locale,
                 infer_lang(locale),
                 infer_label(locale).replace('"', '\\"'),
-                "rtl" if locale in rtl_locales else "ltr",
+                "rtl" if is_rtl_locale(locale, rtl_locales) else "ltr",
                 "true" if locale == default_locale else "false",
             )
         )
@@ -156,31 +209,23 @@ def build_translation_style_guide(default_locale: str, rtl_locales: set[str]) ->
     )
 
 
+def empty_ui_messages() -> dict[str, str]:
+    return {
+        "appTitle": "",
+        "localeLabel": "",
+        "directionLabel": "",
+        "exportCurrentLocale": "",
+        "exportAllLocales": "",
+        "rtlBadge": "",
+        "ltrBadge": "",
+        "slidesLabel": "",
+        "exportsLabel": "",
+    }
+
+
 def build_ui_messages(locale: str, is_source: bool) -> dict[str, str]:
-    if locale == "ar" and not is_source:
-        return {
-            "appTitle": "استوديو لقطات الشاشة",
-            "localeLabel": "اللغة",
-            "directionLabel": "الاتجاه",
-            "exportCurrentLocale": "تصدير اللغة الحالية",
-            "exportAllLocales": "تصدير كل اللغات",
-            "rtlBadge": "من اليمين إلى اليسار",
-            "ltrBadge": "من اليسار إلى اليمين",
-            "slidesLabel": "الشرائح",
-            "exportsLabel": "عمليات التصدير",
-        }
-    if not is_source:
-        return {
-            "appTitle": "",
-            "localeLabel": "",
-            "directionLabel": "",
-            "exportCurrentLocale": "",
-            "exportAllLocales": "",
-            "rtlBadge": "",
-            "ltrBadge": "",
-            "slidesLabel": "",
-            "exportsLabel": "",
-        }
+    if infer_lang(locale) != "en" or not is_source:
+        return empty_ui_messages()
     label = infer_label(locale)
     return {
         "appTitle": "Screenshot Studio",
@@ -195,49 +240,32 @@ def build_ui_messages(locale: str, is_source: bool) -> dict[str, str]:
     }
 
 
+def empty_slide_messages() -> dict[str, object]:
+    return {
+        "deck": {
+            "appName": "",
+            "tagline": "",
+            "slides": {
+                "hero": {
+                    "kicker": "",
+                    "title": "",
+                    "body": "",
+                    "exportLabel": "",
+                },
+                "insights": {
+                    "kicker": "",
+                    "title": "",
+                    "body": "",
+                    "exportLabel": "",
+                },
+            },
+        }
+    }
+
+
 def build_slide_messages(locale: str, is_source: bool) -> dict[str, object]:
-    if locale == "ar" and not is_source:
-        return {
-            "deck": {
-                "appName": "بلوم كوفي",
-                "tagline": "قهوة أفضل في كل مرة",
-                "slides": {
-                    "hero": {
-                        "kicker": "مفكرة القهوة",
-                        "title": "حضّر كوبًا أفضل كل صباح",
-                        "body": "احفظ كل حبة ووصفة وملاحظة تذوق في مكان واحد.",
-                        "exportLabel": "hero-ar",
-                    },
-                    "insights": {
-                        "kicker": "رؤى التذوق",
-                        "title": "اعرف ما الذي تغيّر بسرعة",
-                        "body": "قارن بين التحضيرات جنبًا إلى جنب واعرف ما الذي تحسّن فعلًا.",
-                        "exportLabel": "insights-ar",
-                    },
-                },
-            }
-        }
-    if not is_source:
-        return {
-            "deck": {
-                "appName": "",
-                "tagline": "",
-                "slides": {
-                    "hero": {
-                        "kicker": "",
-                        "title": "",
-                        "body": "",
-                        "exportLabel": "",
-                    },
-                    "insights": {
-                        "kicker": "",
-                        "title": "",
-                        "body": "",
-                        "exportLabel": "",
-                    },
-                },
-            }
-        }
+    if infer_lang(locale) != "en" or not is_source:
+        return empty_slide_messages()
     return {
         "deck": {
             "appName": "Bloom Coffee",
@@ -267,7 +295,7 @@ def main() -> int:
     parser.add_argument("--font-const", default="font", help="Local font constant name used in layout.tsx")
     parser.add_argument("--locales", default="en,ar", help="Comma-separated locale codes to scaffold. Default: en,ar")
     parser.add_argument("--default-locale", default="en", help="Source/default locale code. Default: en")
-    parser.add_argument("--rtl-locales", default="ar", help="Comma-separated RTL locale codes. Default: ar")
+    parser.add_argument("--rtl-locales", default="", help="Comma-separated RTL locale codes. Default: infer from selected locales")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files")
     parser.add_argument("--with-layout", action="store_true", help="Also write src/app/layout.tsx from the template")
     args = parser.parse_args()
@@ -275,13 +303,18 @@ def main() -> int:
     font_import = validate_identifier(args.font_import, "font import")
     font_const = validate_identifier(args.font_const, "font const")
     locales = parse_locales(args.locales, "--locales")
-    default_locale = args.default_locale.strip()
+    default_locale = normalize_locale_code(args.default_locale.strip())
     if default_locale not in locales:
         raise SystemExit(f"--default-locale must be included in --locales. Missing: {default_locale!r}")
-    rtl_locales = set(parse_locales(args.rtl_locales, "--rtl-locales")) if args.rtl_locales.strip() else set()
-    unknown_rtl = sorted(rtl_locales - set(locales))
+    locale_languages = {infer_lang(locale) for locale in locales}
+    rtl_locales = (
+        set(parse_locales(args.rtl_locales, "--rtl-locales"))
+        if args.rtl_locales.strip()
+        else {lang for lang in locale_languages if lang in RTL_BASE_LANGUAGES}
+    )
+    unknown_rtl = sorted(code for code in rtl_locales if code not in set(locales) and code not in locale_languages)
     if unknown_rtl:
-        raise SystemExit(f"RTL locales must also appear in --locales: {', '.join(unknown_rtl)}")
+        raise SystemExit(f"RTL locales must also appear in --locales or match their base languages: {', '.join(unknown_rtl)}")
 
     skill_root = Path(__file__).resolve().parents[1]
     templates_root = skill_root / "assets" / "templates"

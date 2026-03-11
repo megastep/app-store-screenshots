@@ -1,12 +1,12 @@
 [
   {
-    "key": "google-pixel-2-kinda-blue",
+    "key": "google pixel 2 kinda blue",
     "filename": "Google PIxel 2 Kinda Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1210,
     "frameH": 2513,
-    "framePath": "/frames/google-pixel-2-kinda-blue.png",
+    "framePath": "/frames/Google PIxel 2 Kinda Blue.png",
     "screen": {
       "left": 59,
       "top": 295,
@@ -26,13 +26,13 @@
     }
   },
   {
-    "key": "google-pixel-2-clearly-white",
+    "key": "google pixel 2 clearly white",
     "filename": "Google Pixel 2 Clearly White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1210,
     "frameH": 2513,
-    "framePath": "/frames/google-pixel-2-clearly-white.png",
+    "framePath": "/frames/Google Pixel 2 Clearly White.png",
     "screen": {
       "left": 59,
       "top": 296,
@@ -52,13 +52,13 @@
     }
   },
   {
-    "key": "google-pixel-2-just-black",
+    "key": "google pixel 2 just black",
     "filename": "Google Pixel 2 Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1210,
     "frameH": 2513,
-    "framePath": "/frames/google-pixel-2-just-black.png",
+    "framePath": "/frames/Google Pixel 2 Just Black.png",
     "screen": {
       "left": 59,
       "top": 295,
@@ -78,13 +78,13 @@
     }
   },
   {
-    "key": "google-pixel-2-xl-black-and-white",
+    "key": "google pixel 2 xl black and white",
     "filename": "Google Pixel 2 XL Black and White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1630,
     "frameH": 3339,
-    "framePath": "/frames/google-pixel-2-xl-black-and-white.png",
+    "framePath": "/frames/Google Pixel 2 XL Black and White.png",
     "screen": {
       "left": 91,
       "top": 242,
@@ -104,13 +104,13 @@
     }
   },
   {
-    "key": "google-pixel-2-xl-just-black",
+    "key": "google pixel 2 xl just black",
     "filename": "Google Pixel 2 XL Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1630,
     "frameH": 3339,
-    "framePath": "/frames/google-pixel-2-xl-just-black.png",
+    "framePath": "/frames/Google Pixel 2 XL Just Black.png",
     "screen": {
       "left": 91,
       "top": 242,
@@ -130,13 +130,13 @@
     }
   },
   {
-    "key": "google-pixel-3-clearly-white",
+    "key": "google pixel 3 clearly white",
     "filename": "Google Pixel 3 Clearly White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1199,
     "frameH": 2542,
-    "framePath": "/frames/google-pixel-3-clearly-white.png",
+    "framePath": "/frames/Google Pixel 3 Clearly White.png",
     "screen": {
       "left": 55,
       "top": 199,
@@ -156,13 +156,13 @@
     }
   },
   {
-    "key": "google-pixel-3-just-black",
+    "key": "google pixel 3 just black",
     "filename": "Google Pixel 3 Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1199,
     "frameH": 2542,
-    "framePath": "/frames/google-pixel-3-just-black.png",
+    "framePath": "/frames/Google Pixel 3 Just Black.png",
     "screen": {
       "left": 55,
       "top": 199,
@@ -182,13 +182,13 @@
     }
   },
   {
-    "key": "google-pixel-3-not-pink",
+    "key": "google pixel 3 not pink",
     "filename": "Google Pixel 3 Not Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1199,
     "frameH": 2542,
-    "framePath": "/frames/google-pixel-3-not-pink.png",
+    "framePath": "/frames/Google Pixel 3 Not Pink.png",
     "screen": {
       "left": 55,
       "top": 199,
@@ -208,13 +208,13 @@
     }
   },
   {
-    "key": "google-pixel-3-xl-clearly-white",
+    "key": "google pixel 3 xl clearly white",
     "filename": "Google Pixel 3 XL Clearly White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1591,
     "frameH": 3248,
-    "framePath": "/frames/google-pixel-3-xl-clearly-white.png",
+    "framePath": "/frames/Google Pixel 3 XL Clearly White.png",
     "screen": {
       "left": 69,
       "top": 242,
@@ -234,13 +234,13 @@
     }
   },
   {
-    "key": "google-pixel-3-xl-just-black",
+    "key": "google pixel 3 xl just black",
     "filename": "Google Pixel 3 XL Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1589,
     "frameH": 3248,
-    "framePath": "/frames/google-pixel-3-xl-just-black.png",
+    "framePath": "/frames/Google Pixel 3 XL Just Black.png",
     "screen": {
       "left": 69,
       "top": 242,
@@ -260,13 +260,13 @@
     }
   },
   {
-    "key": "google-pixel-3-xl-not-pink",
+    "key": "google pixel 3 xl not pink",
     "filename": "Google Pixel 3 XL Not Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1591,
     "frameH": 3248,
-    "framePath": "/frames/google-pixel-3-xl-not-pink.png",
+    "framePath": "/frames/Google Pixel 3 XL Not Pink.png",
     "screen": {
       "left": 69,
       "top": 242,
@@ -286,13 +286,13 @@
     }
   },
   {
-    "key": "google-pixel-4-clearly-white",
+    "key": "google pixel 4 clearly white",
     "filename": "Google Pixel 4 Clearly White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1178,
     "frameH": 2496,
-    "framePath": "/frames/google-pixel-4-clearly-white.png",
+    "framePath": "/frames/Google Pixel 4 Clearly White.png",
     "screen": {
       "left": 44,
       "top": 145,
@@ -312,13 +312,13 @@
     }
   },
   {
-    "key": "google-pixel-4-just-black",
+    "key": "google pixel 4 just black",
     "filename": "Google Pixel 4 Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1178,
     "frameH": 2496,
-    "framePath": "/frames/google-pixel-4-just-black.png",
+    "framePath": "/frames/Google Pixel 4 Just Black.png",
     "screen": {
       "left": 44,
       "top": 145,
@@ -338,13 +338,13 @@
     }
   },
   {
-    "key": "google-pixel-4-oh-so-orange",
+    "key": "google pixel 4 oh so orange",
     "filename": "Google Pixel 4 Oh So Orange.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1178,
     "frameH": 2496,
-    "framePath": "/frames/google-pixel-4-oh-so-orange.png",
+    "framePath": "/frames/Google Pixel 4 Oh So Orange.png",
     "screen": {
       "left": 44,
       "top": 145,
@@ -364,13 +364,13 @@
     }
   },
   {
-    "key": "google-pixel-4-xl-clearly-white",
+    "key": "google pixel 4 xl clearly white",
     "filename": "Google Pixel 4 XL Clearly White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1564,
     "frameH": 3320,
-    "framePath": "/frames/google-pixel-4-xl-clearly-white.png",
+    "framePath": "/frames/Google Pixel 4 XL Clearly White.png",
     "screen": {
       "left": 60,
       "top": 193,
@@ -390,13 +390,13 @@
     }
   },
   {
-    "key": "google-pixel-4-xl-just-black",
+    "key": "google pixel 4 xl just black",
     "filename": "Google Pixel 4 XL Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1564,
     "frameH": 3320,
-    "framePath": "/frames/google-pixel-4-xl-just-black.png",
+    "framePath": "/frames/Google Pixel 4 XL Just Black.png",
     "screen": {
       "left": 60,
       "top": 193,
@@ -416,13 +416,13 @@
     }
   },
   {
-    "key": "google-pixel-4-xl-oh-so-orange",
+    "key": "google pixel 4 xl oh so orange",
     "filename": "Google Pixel 4 XL Oh So Orange.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1564,
     "frameH": 3320,
-    "framePath": "/frames/google-pixel-4-xl-oh-so-orange.png",
+    "framePath": "/frames/Google Pixel 4 XL Oh So Orange.png",
     "screen": {
       "left": 60,
       "top": 193,
@@ -442,13 +442,13 @@
     }
   },
   {
-    "key": "google-pixel-5-just-black",
+    "key": "google pixel 5 just black",
     "filename": "Google Pixel 5 Just Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1204,
     "frameH": 2456,
-    "framePath": "/frames/google-pixel-5-just-black.png",
+    "framePath": "/frames/Google Pixel 5 Just Black.png",
     "screen": {
       "left": 58,
       "top": 58,
@@ -468,13 +468,13 @@
     }
   },
   {
-    "key": "google-pixel-5-sorta-sage",
+    "key": "google pixel 5\u00a0sorta sage",
     "filename": "Google Pixel 5\u00a0Sorta Sage.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1204,
     "frameH": 2456,
-    "framePath": "/frames/google-pixel-5-sorta-sage.png",
+    "framePath": "/frames/Google Pixel 5\u00a0Sorta Sage.png",
     "screen": {
       "left": 58,
       "top": 58,
@@ -494,13 +494,13 @@
     }
   },
   {
-    "key": "google-pixel-quite-black",
+    "key": "google pixel quite black",
     "filename": "Google Pixel Quite Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1213,
     "frameH": 2458,
-    "framePath": "/frames/google-pixel-quite-black.png",
+    "framePath": "/frames/Google Pixel Quite Black.png",
     "screen": {
       "left": 62,
       "top": 252,
@@ -520,13 +520,13 @@
     }
   },
   {
-    "key": "google-pixel-really-blue",
+    "key": "google pixel really blue",
     "filename": "Google Pixel Really Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1213,
     "frameH": 2458,
-    "framePath": "/frames/google-pixel-really-blue.png",
+    "framePath": "/frames/Google Pixel Really Blue.png",
     "screen": {
       "left": 62,
       "top": 252,
@@ -546,13 +546,13 @@
     }
   },
   {
-    "key": "google-pixel-very-silver",
+    "key": "google pixel very silver",
     "filename": "Google Pixel Very Silver.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1213,
     "frameH": 2458,
-    "framePath": "/frames/google-pixel-very-silver.png",
+    "framePath": "/frames/Google Pixel Very Silver.png",
     "screen": {
       "left": 62,
       "top": 252,
@@ -572,13 +572,13 @@
     }
   },
   {
-    "key": "htc-one-a9-black",
+    "key": "htc one a9 black",
     "filename": "HTC One A9 Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1244,
     "frameH": 2547,
-    "framePath": "/frames/htc-one-a9-black.png",
+    "framePath": "/frames/HTC One A9 Black.png",
     "screen": {
       "left": 79,
       "top": 292,
@@ -598,13 +598,13 @@
     }
   },
   {
-    "key": "huawei-p8-black",
+    "key": "huawei p8 black",
     "filename": "Huawei P8 Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1200,
     "frameH": 2400,
-    "framePath": "/frames/huawei-p8-black.png",
+    "framePath": "/frames/Huawei P8 Black.png",
     "screen": {
       "left": 60,
       "top": 230,
@@ -624,13 +624,13 @@
     }
   },
   {
-    "key": "huawei-p8-white",
+    "key": "huawei p8 white",
     "filename": "Huawei P8 White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1200,
     "frameH": 2400,
-    "framePath": "/frames/huawei-p8-white.png",
+    "framePath": "/frames/Huawei P8 White.png",
     "screen": {
       "left": 60,
       "top": 230,
@@ -650,13 +650,13 @@
     }
   },
   {
-    "key": "motorola-moto-e-black",
+    "key": "motorola moto e black",
     "filename": "Motorola Moto E Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 658,
     "frameH": 1265,
-    "framePath": "/frames/motorola-moto-e-black.png",
+    "framePath": "/frames/Motorola Moto E Black.png",
     "screen": {
       "left": 55,
       "top": 185,
@@ -676,13 +676,13 @@
     }
   },
   {
-    "key": "motorola-moto-e-white",
+    "key": "motorola moto e white",
     "filename": "Motorola Moto E White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 658,
     "frameH": 1265,
-    "framePath": "/frames/motorola-moto-e-white.png",
+    "framePath": "/frames/Motorola Moto E White.png",
     "screen": {
       "left": 55,
       "top": 185,
@@ -702,13 +702,13 @@
     }
   },
   {
-    "key": "motorola-moto-g",
+    "key": "motorola moto g",
     "filename": "Motorola Moto G.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 834,
     "frameH": 1627,
-    "framePath": "/frames/motorola-moto-g.png",
+    "framePath": "/frames/Motorola Moto G.png",
     "screen": {
       "left": 55,
       "top": 189,
@@ -728,13 +728,13 @@
     }
   },
   {
-    "key": "nexus-4",
+    "key": "nexus 4",
     "filename": "Nexus 4.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 855,
     "frameH": 1658,
-    "framePath": "/frames/nexus-4.png",
+    "framePath": "/frames/Nexus 4.png",
     "screen": {
       "left": 41,
       "top": 185,
@@ -754,13 +754,13 @@
     }
   },
   {
-    "key": "nexus-5x",
+    "key": "nexus 5x",
     "filename": "Nexus 5x.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1195,
     "frameH": 2406,
-    "framePath": "/frames/nexus-5x.png",
+    "framePath": "/frames/Nexus 5x.png",
     "screen": {
       "left": 53,
       "top": 231,
@@ -780,13 +780,13 @@
     }
   },
   {
-    "key": "nexus-6p",
+    "key": "nexus 6p",
     "filename": "Nexus 6P.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1566,
     "frameH": 3198,
-    "framePath": "/frames/nexus-6p.png",
+    "framePath": "/frames/Nexus 6P.png",
     "screen": {
       "left": 59,
       "top": 329,
@@ -806,13 +806,13 @@
     }
   },
   {
-    "key": "nexus-9",
+    "key": "nexus 9",
     "filename": "Nexus 9.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1728,
     "frameH": 2567,
-    "framePath": "/frames/nexus-9.png",
+    "framePath": "/frames/Nexus 9.png",
     "screen": {
       "left": 96,
       "top": 260,
@@ -832,13 +832,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-black",
+    "key": "samsung galaxy note 10 aura black",
     "filename": "Samsung Galaxy Note 10 Aura Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1128,
     "frameH": 2364,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-black.png",
+    "framePath": "/frames/Samsung Galaxy Note 10 Aura Black.png",
     "screen": {
       "left": 39,
       "top": 119,
@@ -858,13 +858,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-glow",
+    "key": "samsung galaxy note 10 aura glow",
     "filename": "Samsung Galaxy Note 10 Aura Glow.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1128,
     "frameH": 2364,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-glow.png",
+    "framePath": "/frames/Samsung Galaxy Note 10 Aura Glow.png",
     "screen": {
       "left": 39,
       "top": 119,
@@ -884,13 +884,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-pink",
+    "key": "samsung galaxy note 10 aura pink",
     "filename": "Samsung Galaxy Note 10 Aura Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1128,
     "frameH": 2364,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-pink.png",
+    "framePath": "/frames/Samsung Galaxy Note 10 Aura Pink.png",
     "screen": {
       "left": 39,
       "top": 119,
@@ -910,13 +910,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-red",
+    "key": "samsung galaxy note 10 aura red",
     "filename": "Samsung Galaxy Note 10 Aura Red.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1128,
     "frameH": 2364,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-red.png",
+    "framePath": "/frames/Samsung Galaxy Note 10 Aura Red.png",
     "screen": {
       "left": 39,
       "top": 119,
@@ -936,13 +936,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-white",
+    "key": "samsung galaxy note 10 aura white",
     "filename": "Samsung Galaxy Note 10 Aura White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1128,
     "frameH": 2364,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-white.png",
+    "framePath": "/frames/Samsung Galaxy Note 10 Aura White.png",
     "screen": {
       "left": 39,
       "top": 119,
@@ -962,13 +962,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-black",
+    "key": "samsung galaxy note 10+ aura black",
     "filename": "Samsung Galaxy Note 10+ Aura Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1502,
     "frameH": 3151,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-black.png",
+    "framePath": "/frames/Samsung Galaxy Note 10+ Aura Black.png",
     "screen": {
       "left": 51,
       "top": 159,
@@ -988,13 +988,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-blue",
+    "key": "samsung galaxy note 10+ aura blue",
     "filename": "Samsung Galaxy Note 10+ Aura Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1502,
     "frameH": 3151,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-blue.png",
+    "framePath": "/frames/Samsung Galaxy Note 10+ Aura Blue.png",
     "screen": {
       "left": 51,
       "top": 159,
@@ -1014,13 +1014,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-glow",
+    "key": "samsung galaxy note 10+ aura glow",
     "filename": "Samsung Galaxy Note 10+ Aura Glow.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1502,
     "frameH": 3151,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-glow.png",
+    "framePath": "/frames/Samsung Galaxy Note 10+ Aura Glow.png",
     "screen": {
       "left": 51,
       "top": 159,
@@ -1040,13 +1040,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-10-aura-white",
+    "key": "samsung galaxy note 10+ aura white",
     "filename": "Samsung Galaxy Note 10+ Aura White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1502,
     "frameH": 3151,
-    "framePath": "/frames/samsung-galaxy-note-10-aura-white.png",
+    "framePath": "/frames/Samsung Galaxy Note 10+ Aura White.png",
     "screen": {
       "left": 51,
       "top": 159,
@@ -1066,13 +1066,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-5-black",
+    "key": "samsung galaxy note 5 black",
     "filename": "Samsung Galaxy Note 5 Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1568,
     "frameH": 3117,
-    "framePath": "/frames/samsung-galaxy-note-5-black.png",
+    "framePath": "/frames/Samsung Galaxy Note 5 Black.png",
     "screen": {
       "left": 66,
       "top": 290,
@@ -1092,13 +1092,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-5-gold",
+    "key": "samsung galaxy note 5 gold",
     "filename": "Samsung Galaxy Note 5 Gold.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1568,
     "frameH": 3117,
-    "framePath": "/frames/samsung-galaxy-note-5-gold.png",
+    "framePath": "/frames/Samsung Galaxy Note 5 Gold.png",
     "screen": {
       "left": 66,
       "top": 290,
@@ -1118,13 +1118,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-5-pink",
+    "key": "samsung galaxy note 5 pink",
     "filename": "Samsung Galaxy Note 5 Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1568,
     "frameH": 3117,
-    "framePath": "/frames/samsung-galaxy-note-5-pink.png",
+    "framePath": "/frames/Samsung Galaxy Note 5 Pink.png",
     "screen": {
       "left": 66,
       "top": 290,
@@ -1144,13 +1144,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-5-silver-titanium",
+    "key": "samsung galaxy note 5 silver titanium",
     "filename": "Samsung Galaxy Note 5 Silver Titanium.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1568,
     "frameH": 3117,
-    "framePath": "/frames/samsung-galaxy-note-5-silver-titanium.png",
+    "framePath": "/frames/Samsung Galaxy Note 5 Silver Titanium.png",
     "screen": {
       "left": 66,
       "top": 290,
@@ -1170,13 +1170,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-note-5-white",
+    "key": "samsung galaxy note 5 white",
     "filename": "Samsung Galaxy Note 5 White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1568,
     "frameH": 3117,
-    "framePath": "/frames/samsung-galaxy-note-5-white.png",
+    "framePath": "/frames/Samsung Galaxy Note 5 White.png",
     "screen": {
       "left": 66,
       "top": 290,
@@ -1196,13 +1196,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s-duos",
+    "key": "samsung galaxy s duos",
     "filename": "Samsung Galaxy S Duos.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 574,
     "frameH": 1100,
-    "framePath": "/frames/samsung-galaxy-s-duos.png",
+    "framePath": "/frames/Samsung Galaxy S Duos.png",
     "screen": {
       "left": 48,
       "top": 156,
@@ -1222,13 +1222,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-flamingo-pink",
+    "key": "samsung galaxy s10 flamingo pink",
     "filename": "Samsung Galaxy S10 Flamingo Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1523,
     "frameH": 3214,
-    "framePath": "/frames/samsung-galaxy-s10-flamingo-pink.png",
+    "framePath": "/frames/Samsung Galaxy S10 Flamingo Pink.png",
     "screen": {
       "left": 66,
       "top": 71,
@@ -1248,13 +1248,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-black",
+    "key": "samsung galaxy s10 prism black",
     "filename": "Samsung Galaxy S10 Prism Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1523,
     "frameH": 3214,
-    "framePath": "/frames/samsung-galaxy-s10-prism-black.png",
+    "framePath": "/frames/Samsung Galaxy S10 Prism Black.png",
     "screen": {
       "left": 66,
       "top": 71,
@@ -1274,13 +1274,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-blue",
+    "key": "samsung galaxy s10 prism blue",
     "filename": "Samsung Galaxy S10 Prism Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1523,
     "frameH": 3214,
-    "framePath": "/frames/samsung-galaxy-s10-prism-blue.png",
+    "framePath": "/frames/Samsung Galaxy S10 Prism Blue.png",
     "screen": {
       "left": 66,
       "top": 71,
@@ -1300,13 +1300,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-green",
+    "key": "samsung galaxy s10 prism green",
     "filename": "Samsung Galaxy S10 Prism Green.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1523,
     "frameH": 3214,
-    "framePath": "/frames/samsung-galaxy-s10-prism-green.png",
+    "framePath": "/frames/Samsung Galaxy S10 Prism Green.png",
     "screen": {
       "left": 66,
       "top": 71,
@@ -1326,13 +1326,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-white",
+    "key": "samsung galaxy s10 prism white",
     "filename": "Samsung Galaxy S10 Prism White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1523,
     "frameH": 3214,
-    "framePath": "/frames/samsung-galaxy-s10-prism-white.png",
+    "framePath": "/frames/Samsung Galaxy S10 Prism White.png",
     "screen": {
       "left": 66,
       "top": 71,
@@ -1352,13 +1352,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-ceramic-white",
+    "key": "samsung galaxy s10+ ceramic white",
     "filename": "Samsung Galaxy S10+ Ceramic White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1522,
     "frameH": 3208,
-    "framePath": "/frames/samsung-galaxy-s10-ceramic-white.png",
+    "framePath": "/frames/Samsung Galaxy S10+ Ceramic White.png",
     "screen": {
       "left": 66,
       "top": 65,
@@ -1378,13 +1378,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-flamingo-pink",
+    "key": "samsung galaxy s10+ flamingo pink",
     "filename": "Samsung Galaxy S10+ Flamingo Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1522,
     "frameH": 3208,
-    "framePath": "/frames/samsung-galaxy-s10-flamingo-pink.png",
+    "framePath": "/frames/Samsung Galaxy S10+ Flamingo Pink.png",
     "screen": {
       "left": 66,
       "top": 65,
@@ -1404,13 +1404,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-black",
+    "key": "samsung galaxy s10+ prism black",
     "filename": "Samsung Galaxy S10+ Prism Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1522,
     "frameH": 3208,
-    "framePath": "/frames/samsung-galaxy-s10-prism-black.png",
+    "framePath": "/frames/Samsung Galaxy S10+ Prism Black.png",
     "screen": {
       "left": 66,
       "top": 65,
@@ -1430,13 +1430,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-blue",
+    "key": "samsung galaxy s10+ prism blue",
     "filename": "Samsung Galaxy S10+ Prism Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1522,
     "frameH": 3208,
-    "framePath": "/frames/samsung-galaxy-s10-prism-blue.png",
+    "framePath": "/frames/Samsung Galaxy S10+ Prism Blue.png",
     "screen": {
       "left": 66,
       "top": 65,
@@ -1456,13 +1456,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-green",
+    "key": "samsung galaxy s10+ prism green",
     "filename": "Samsung Galaxy S10+ Prism Green.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1522,
     "frameH": 3208,
-    "framePath": "/frames/samsung-galaxy-s10-prism-green.png",
+    "framePath": "/frames/Samsung Galaxy S10+ Prism Green.png",
     "screen": {
       "left": 66,
       "top": 65,
@@ -1482,13 +1482,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s10-prism-white",
+    "key": "samsung galaxy s10+ prism white",
     "filename": "Samsung Galaxy S10+ Prism White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1522,
     "frameH": 3208,
-    "framePath": "/frames/samsung-galaxy-s10-prism-white.png",
+    "framePath": "/frames/Samsung Galaxy S10+ Prism White.png",
     "screen": {
       "left": 66,
       "top": 65,
@@ -1508,13 +1508,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-cloud-blue",
+    "key": "samsung galaxy s20 cloud blue",
     "filename": "Samsung Galaxy S20 Cloud Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1537,
     "frameH": 3335,
-    "framePath": "/frames/samsung-galaxy-s20-cloud-blue.png",
+    "framePath": "/frames/Samsung Galaxy S20 Cloud Blue.png",
     "screen": {
       "left": 91,
       "top": 168,
@@ -1534,13 +1534,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-cloud-pink",
+    "key": "samsung galaxy s20 cloud pink",
     "filename": "Samsung Galaxy S20 Cloud Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1537,
     "frameH": 3335,
-    "framePath": "/frames/samsung-galaxy-s20-cloud-pink.png",
+    "framePath": "/frames/Samsung Galaxy S20 Cloud Pink.png",
     "screen": {
       "left": 91,
       "top": 168,
@@ -1560,13 +1560,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-cosmic-gray",
+    "key": "samsung galaxy s20 cosmic gray",
     "filename": "Samsung Galaxy S20 Cosmic Gray.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1537,
     "frameH": 3335,
-    "framePath": "/frames/samsung-galaxy-s20-cosmic-gray.png",
+    "framePath": "/frames/Samsung Galaxy S20 Cosmic Gray.png",
     "screen": {
       "left": 91,
       "top": 168,
@@ -1586,13 +1586,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-utra-cosmic-black",
+    "key": "samsung galaxy s20 utra cosmic black",
     "filename": "Samsung Galaxy S20 Utra Cosmic Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1527,
     "frameH": 3318,
-    "framePath": "/frames/samsung-galaxy-s20-utra-cosmic-black.png",
+    "framePath": "/frames/Samsung Galaxy S20 Utra Cosmic Black.png",
     "screen": {
       "left": 90,
       "top": 143,
@@ -1612,13 +1612,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-utra-cosmic-gray",
+    "key": "samsung galaxy s20 utra cosmic gray",
     "filename": "Samsung Galaxy S20 Utra Cosmic Gray.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1527,
     "frameH": 3318,
-    "framePath": "/frames/samsung-galaxy-s20-utra-cosmic-gray.png",
+    "framePath": "/frames/Samsung Galaxy S20 Utra Cosmic Gray.png",
     "screen": {
       "left": 90,
       "top": 143,
@@ -1638,13 +1638,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-cloud-blue",
+    "key": "samsung galaxy s20+ cloud blue",
     "filename": "Samsung Galaxy S20+ Cloud Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1527,
     "frameH": 3318,
-    "framePath": "/frames/samsung-galaxy-s20-cloud-blue.png",
+    "framePath": "/frames/Samsung Galaxy S20+ Cloud Blue.png",
     "screen": {
       "left": 90,
       "top": 145,
@@ -1664,13 +1664,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-cosmic-black",
+    "key": "samsung galaxy s20+ cosmic black",
     "filename": "Samsung Galaxy S20+ Cosmic Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1527,
     "frameH": 3318,
-    "framePath": "/frames/samsung-galaxy-s20-cosmic-black.png",
+    "framePath": "/frames/Samsung Galaxy S20+ Cosmic Black.png",
     "screen": {
       "left": 90,
       "top": 145,
@@ -1690,13 +1690,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s20-cosmic-gray",
+    "key": "samsung galaxy s20+ cosmic gray",
     "filename": "Samsung Galaxy S20+ Cosmic Gray.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1527,
     "frameH": 3318,
-    "framePath": "/frames/samsung-galaxy-s20-cosmic-gray.png",
+    "framePath": "/frames/Samsung Galaxy S20+ Cosmic Gray.png",
     "screen": {
       "left": 90,
       "top": 145,
@@ -1716,13 +1716,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-black",
+    "key": "samsung galaxy s21 5g black",
     "filename": "Samsung Galaxy S21 5G Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-black.png",
+    "framePath": "/frames/Samsung Galaxy S21 5G Black.png",
     "screen": {
       "left": 44,
       "top": 121,
@@ -1742,13 +1742,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-pink",
+    "key": "samsung galaxy s21 5g pink",
     "filename": "Samsung Galaxy S21 5G Pink.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-pink.png",
+    "framePath": "/frames/Samsung Galaxy S21 5G Pink.png",
     "screen": {
       "left": 44,
       "top": 121,
@@ -1768,13 +1768,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-violet",
+    "key": "samsung galaxy s21 5g violet",
     "filename": "Samsung Galaxy S21 5G Violet.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-violet.png",
+    "framePath": "/frames/Samsung Galaxy S21 5G Violet.png",
     "screen": {
       "left": 44,
       "top": 121,
@@ -1794,13 +1794,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-white",
+    "key": "samsung galaxy s21 5g white",
     "filename": "Samsung Galaxy S21 5G White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-white.png",
+    "framePath": "/frames/Samsung Galaxy S21 5G White.png",
     "screen": {
       "left": 44,
       "top": 121,
@@ -1820,13 +1820,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-ultra-5g-black",
+    "key": "samsung galaxy s21 ultra 5g black",
     "filename": "Samsung Galaxy S21 Ultra 5G Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1540,
     "frameH": 3324,
-    "framePath": "/frames/samsung-galaxy-s21-ultra-5g-black.png",
+    "framePath": "/frames/Samsung Galaxy S21 Ultra 5G Black.png",
     "screen": {
       "left": 44,
       "top": 148,
@@ -1846,13 +1846,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-ultra-5g-silver",
+    "key": "samsung galaxy s21 ultra 5g silver",
     "filename": "Samsung Galaxy S21 Ultra 5G Silver.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1540,
     "frameH": 3324,
-    "framePath": "/frames/samsung-galaxy-s21-ultra-5g-silver.png",
+    "framePath": "/frames/Samsung Galaxy S21 Ultra 5G Silver.png",
     "screen": {
       "left": 44,
       "top": 148,
@@ -1872,13 +1872,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-black",
+    "key": "samsung galaxy s21+ 5g black",
     "filename": "Samsung Galaxy S21+ 5G Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-black.png",
+    "framePath": "/frames/Samsung Galaxy S21+ 5G Black.png",
     "screen": {
       "left": 44,
       "top": 121,
@@ -1898,13 +1898,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-silver",
+    "key": "samsung galaxy s21+ 5g silver",
     "filename": "Samsung Galaxy S21+ 5G Silver.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-silver.png",
+    "framePath": "/frames/Samsung Galaxy S21+ 5G Silver.png",
     "screen": {
       "left": 41,
       "top": 121,
@@ -1924,13 +1924,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s21-5g-violet",
+    "key": "samsung galaxy s21+ 5g violet",
     "filename": "Samsung Galaxy S21+ 5G Violet.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1180,
     "frameH": 2500,
-    "framePath": "/frames/samsung-galaxy-s21-5g-violet.png",
+    "framePath": "/frames/Samsung Galaxy S21+ 5G Violet.png",
     "screen": {
       "left": 43,
       "top": 121,
@@ -1950,13 +1950,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s3",
+    "key": "samsung galaxy s3",
     "filename": "Samsung Galaxy S3.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 845,
     "frameH": 1618,
-    "framePath": "/frames/samsung-galaxy-s3.png",
+    "framePath": "/frames/Samsung Galaxy S3.png",
     "screen": {
       "left": 65,
       "top": 158,
@@ -1976,13 +1976,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s5-black",
+    "key": "samsung galaxy s5 black",
     "filename": "Samsung Galaxy S5 Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1236,
     "frameH": 2398,
-    "framePath": "/frames/samsung-galaxy-s5-black.png",
+    "framePath": "/frames/Samsung Galaxy S5 Black.png",
     "screen": {
       "left": 79,
       "top": 246,
@@ -2002,13 +2002,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s5-white",
+    "key": "samsung galaxy s5 white",
     "filename": "Samsung Galaxy S5 White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1236,
     "frameH": 2398,
-    "framePath": "/frames/samsung-galaxy-s5-white.png",
+    "framePath": "/frames/Samsung Galaxy S5 White.png",
     "screen": {
       "left": 79,
       "top": 246,
@@ -2028,13 +2028,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s7-black",
+    "key": "samsung galaxy s7 black",
     "filename": "Samsung Galaxy S7 Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1588,
     "frameH": 3212,
-    "framePath": "/frames/samsung-galaxy-s7-black.png",
+    "framePath": "/frames/Samsung Galaxy S7 Black.png",
     "screen": {
       "left": 73,
       "top": 338,
@@ -2054,13 +2054,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s7-gold",
+    "key": "samsung galaxy s7 gold",
     "filename": "Samsung Galaxy S7 Gold.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1588,
     "frameH": 3212,
-    "framePath": "/frames/samsung-galaxy-s7-gold.png",
+    "framePath": "/frames/Samsung Galaxy S7 Gold.png",
     "screen": {
       "left": 73,
       "top": 338,
@@ -2080,13 +2080,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s7-silver",
+    "key": "samsung galaxy s7 silver",
     "filename": "Samsung Galaxy S7 Silver.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1588,
     "frameH": 3212,
-    "framePath": "/frames/samsung-galaxy-s7-silver.png",
+    "framePath": "/frames/Samsung Galaxy S7 Silver.png",
     "screen": {
       "left": 73,
       "top": 338,
@@ -2106,13 +2106,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s7-white",
+    "key": "samsung galaxy s7 white",
     "filename": "Samsung Galaxy S7 White.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1588,
     "frameH": 3212,
-    "framePath": "/frames/samsung-galaxy-s7-white.png",
+    "framePath": "/frames/Samsung Galaxy S7 White.png",
     "screen": {
       "left": 73,
       "top": 338,
@@ -2132,13 +2132,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s8-arctic-silver",
+    "key": "samsung galaxy s8 arctic silver",
     "filename": "Samsung Galaxy S8 Arctic Silver.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1536,
     "frameH": 3312,
-    "framePath": "/frames/samsung-galaxy-s8-arctic-silver.png",
+    "framePath": "/frames/Samsung Galaxy S8 Arctic Silver.png",
     "screen": {
       "left": 48,
       "top": 187,
@@ -2158,13 +2158,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s8-coral-blue",
+    "key": "samsung galaxy s8 coral blue",
     "filename": "Samsung Galaxy S8 Coral Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1536,
     "frameH": 3312,
-    "framePath": "/frames/samsung-galaxy-s8-coral-blue.png",
+    "framePath": "/frames/Samsung Galaxy S8 Coral Blue.png",
     "screen": {
       "left": 48,
       "top": 187,
@@ -2184,13 +2184,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s8-maple-gold",
+    "key": "samsung galaxy s8 maple gold",
     "filename": "Samsung Galaxy S8 Maple Gold.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1536,
     "frameH": 3312,
-    "framePath": "/frames/samsung-galaxy-s8-maple-gold.png",
+    "framePath": "/frames/Samsung Galaxy S8 Maple Gold.png",
     "screen": {
       "left": 48,
       "top": 187,
@@ -2210,13 +2210,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s8-midnight-black",
+    "key": "samsung galaxy s8 midnight black",
     "filename": "Samsung Galaxy S8 Midnight Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1536,
     "frameH": 3312,
-    "framePath": "/frames/samsung-galaxy-s8-midnight-black.png",
+    "framePath": "/frames/Samsung Galaxy S8 Midnight Black.png",
     "screen": {
       "left": 48,
       "top": 187,
@@ -2236,13 +2236,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s8-orchid-gray",
+    "key": "samsung galaxy s8 orchid gray",
     "filename": "Samsung Galaxy S8 Orchid Gray.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1536,
     "frameH": 3312,
-    "framePath": "/frames/samsung-galaxy-s8-orchid-gray.png",
+    "framePath": "/frames/Samsung Galaxy S8 Orchid Gray.png",
     "screen": {
       "left": 48,
       "top": 187,
@@ -2262,13 +2262,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s9-burgundy-red",
+    "key": "samsung galaxy s9 burgundy red",
     "filename": "Samsung Galaxy S9 Burgundy Red.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1532,
     "frameH": 3288,
-    "framePath": "/frames/samsung-galaxy-s9-burgundy-red.png",
+    "framePath": "/frames/Samsung Galaxy S9 Burgundy Red.png",
     "screen": {
       "left": 101,
       "top": 178,
@@ -2288,13 +2288,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s9-coral-blue",
+    "key": "samsung galaxy s9 coral blue",
     "filename": "Samsung Galaxy S9 Coral Blue.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1532,
     "frameH": 3288,
-    "framePath": "/frames/samsung-galaxy-s9-coral-blue.png",
+    "framePath": "/frames/Samsung Galaxy S9 Coral Blue.png",
     "screen": {
       "left": 101,
       "top": 178,
@@ -2314,13 +2314,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s9-lilac-purple",
+    "key": "samsung galaxy s9 lilac purple",
     "filename": "Samsung Galaxy S9 Lilac Purple.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1532,
     "frameH": 3288,
-    "framePath": "/frames/samsung-galaxy-s9-lilac-purple.png",
+    "framePath": "/frames/Samsung Galaxy S9 Lilac Purple.png",
     "screen": {
       "left": 101,
       "top": 178,
@@ -2340,13 +2340,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s9-midnight-black",
+    "key": "samsung galaxy s9 midnight black",
     "filename": "Samsung Galaxy S9 Midnight Black.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1532,
     "frameH": 3288,
-    "framePath": "/frames/samsung-galaxy-s9-midnight-black.png",
+    "framePath": "/frames/Samsung Galaxy S9 Midnight Black.png",
     "screen": {
       "left": 101,
       "top": 178,
@@ -2366,13 +2366,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s9-sunrise-gold",
+    "key": "samsung galaxy s9 sunrise gold",
     "filename": "Samsung Galaxy S9 Sunrise Gold.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1532,
     "frameH": 3288,
-    "framePath": "/frames/samsung-galaxy-s9-sunrise-gold.png",
+    "framePath": "/frames/Samsung Galaxy S9 Sunrise Gold.png",
     "screen": {
       "left": 101,
       "top": 178,
@@ -2392,13 +2392,13 @@
     }
   },
   {
-    "key": "samsung-galaxy-s9-titanium-gray",
+    "key": "samsung galaxy s9 titanium gray",
     "filename": "Samsung Galaxy S9 Titanium Gray.png",
     "family": "android-phone",
     "orientation": "portrait",
     "frameW": 1532,
     "frameH": 3288,
-    "framePath": "/frames/samsung-galaxy-s9-titanium-gray.png",
+    "framePath": "/frames/Samsung Galaxy S9 Titanium Gray.png",
     "screen": {
       "left": 101,
       "top": 178,
@@ -2418,13 +2418,13 @@
     }
   },
   {
-    "key": "google-pixel-slate",
+    "key": "google pixel slate",
     "filename": "Google Pixel Slate.png",
     "family": "android-tablet",
     "orientation": "landscape",
     "frameW": 3313,
     "frameH": 2304,
-    "framePath": "/frames/google-pixel-slate.png",
+    "framePath": "/frames/Google Pixel Slate.png",
     "screen": {
       "left": 161,
       "top": 152,
@@ -2444,13 +2444,13 @@
     }
   },
   {
-    "key": "apple-ipad-10-2-gold",
+    "key": "apple ipad 10.2 gold",
     "filename": "Apple iPad 10.2 Gold.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1812,
     "frameH": 2606,
-    "framePath": "/frames/apple-ipad-10-2-gold.png",
+    "framePath": "/frames/Apple iPad 10.2 Gold.png",
     "screen": {
       "left": 96,
       "top": 225,
@@ -2470,13 +2470,13 @@
     }
   },
   {
-    "key": "apple-ipad-10-2-silver",
+    "key": "apple ipad 10.2 silver",
     "filename": "Apple iPad 10.2 Silver.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1812,
     "frameH": 2606,
-    "framePath": "/frames/apple-ipad-10-2-silver.png",
+    "framePath": "/frames/Apple iPad 10.2 Silver.png",
     "screen": {
       "left": 96,
       "top": 225,
@@ -2496,13 +2496,13 @@
     }
   },
   {
-    "key": "apple-ipad-10-2-space-gray",
+    "key": "apple ipad 10.2 space gray",
     "filename": "Apple iPad 10.2 Space Gray.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1812,
     "frameH": 2606,
-    "framePath": "/frames/apple-ipad-10-2-space-gray.png",
+    "framePath": "/frames/Apple iPad 10.2 Space Gray.png",
     "screen": {
       "left": 96,
       "top": 225,
@@ -2522,13 +2522,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2-gold",
+    "key": "apple ipad air (2019) 2 gold",
     "filename": "Apple iPad Air (2019) 2 Gold.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1763,
     "frameH": 2495,
-    "framePath": "/frames/apple-ipad-air-2019-2-gold.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2 Gold.png",
     "screen": {
       "left": 112,
       "top": 224,
@@ -2548,13 +2548,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2-silver",
+    "key": "apple ipad air (2019) 2 silver",
     "filename": "Apple iPad Air (2019) 2 Silver.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1763,
     "frameH": 2495,
-    "framePath": "/frames/apple-ipad-air-2019-2-silver.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2 Silver.png",
     "screen": {
       "left": 112,
       "top": 224,
@@ -2574,13 +2574,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2-space-gray",
+    "key": "apple ipad air (2019) 2 space gray",
     "filename": "Apple iPad Air (2019) 2 Space Gray.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1763,
     "frameH": 2495,
-    "framePath": "/frames/apple-ipad-air-2019-2-space-gray.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2 Space Gray.png",
     "screen": {
       "left": 111,
       "top": 224,
@@ -2600,13 +2600,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2020-green-portrait",
+    "key": "apple ipad air (2019) 2020 green portrait",
     "filename": "Apple iPad Air (2019) 2020 Green Portrait.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1864,
     "frameH": 2584,
-    "framePath": "/frames/apple-ipad-air-2019-2020-green-portrait.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2020 Green Portrait.png",
     "screen": {
       "left": 110,
       "top": 114,
@@ -2626,13 +2626,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2020-rose-gold-portrait",
+    "key": "apple ipad air (2019) 2020 rose gold portrait",
     "filename": "Apple iPad Air (2019) 2020 Rose Gold Portrait.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1864,
     "frameH": 2584,
-    "framePath": "/frames/apple-ipad-air-2019-2020-rose-gold-portrait.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2020 Rose Gold Portrait.png",
     "screen": {
       "left": 110,
       "top": 114,
@@ -2652,13 +2652,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2020-silver-portrait",
+    "key": "apple ipad air (2019) 2020 silver portrait",
     "filename": "Apple iPad Air (2019) 2020 Silver Portrait.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1864,
     "frameH": 2584,
-    "framePath": "/frames/apple-ipad-air-2019-2020-silver-portrait.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2020 Silver Portrait.png",
     "screen": {
       "left": 110,
       "top": 114,
@@ -2678,13 +2678,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2020-sky-blue-portrait",
+    "key": "apple ipad air (2019) 2020 sky blue portrait",
     "filename": "Apple iPad Air (2019) 2020 Sky Blue Portrait.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1864,
     "frameH": 2584,
-    "framePath": "/frames/apple-ipad-air-2019-2020-sky-blue-portrait.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2020 Sky Blue Portrait.png",
     "screen": {
       "left": 110,
       "top": 114,
@@ -2704,13 +2704,13 @@
     }
   },
   {
-    "key": "apple-ipad-air-2019-2020-space-gray-portrait",
+    "key": "apple ipad air (2019) 2020 space gray portrait",
     "filename": "Apple iPad Air (2019) 2020 Space Gray Portrait.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1864,
     "frameH": 2584,
-    "framePath": "/frames/apple-ipad-air-2019-2020-space-gray-portrait.png",
+    "framePath": "/frames/Apple iPad Air (2019) 2020 Space Gray Portrait.png",
     "screen": {
       "left": 110,
       "top": 114,
@@ -2730,13 +2730,13 @@
     }
   },
   {
-    "key": "apple-ipad-mini-2019-gold",
+    "key": "apple ipad mini (2019) gold",
     "filename": "Apple iPad Mini (2019) Gold.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1728,
     "frameH": 2607,
-    "framePath": "/frames/apple-ipad-mini-2019-gold.png",
+    "framePath": "/frames/Apple iPad Mini (2019) Gold.png",
     "screen": {
       "left": 96,
       "top": 279,
@@ -2756,13 +2756,13 @@
     }
   },
   {
-    "key": "apple-ipad-mini-2019-silver",
+    "key": "apple ipad mini (2019) silver",
     "filename": "Apple iPad Mini (2019) Silver.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1728,
     "frameH": 2607,
-    "framePath": "/frames/apple-ipad-mini-2019-silver.png",
+    "framePath": "/frames/Apple iPad Mini (2019) Silver.png",
     "screen": {
       "left": 96,
       "top": 279,
@@ -2782,13 +2782,13 @@
     }
   },
   {
-    "key": "apple-ipad-mini-2019-space-gray",
+    "key": "apple ipad mini (2019) space gray",
     "filename": "Apple iPad Mini (2019) Space Gray.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1728,
     "frameH": 2607,
-    "framePath": "/frames/apple-ipad-mini-2019-space-gray.png",
+    "framePath": "/frames/Apple iPad Mini (2019) Space Gray.png",
     "screen": {
       "left": 96,
       "top": 279,
@@ -2808,13 +2808,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-11-inch-silver",
+    "key": "apple ipad pro (11-inch) silver",
     "filename": "Apple iPad Pro (11-inch) Silver.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1863,
     "frameH": 2583,
-    "framePath": "/frames/apple-ipad-pro-11-inch-silver.png",
+    "framePath": "/frames/Apple iPad Pro (11-inch) Silver.png",
     "screen": {
       "left": 95,
       "top": 100,
@@ -2834,13 +2834,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-11-inch-space-gray",
+    "key": "apple ipad pro (11-inch) space gray",
     "filename": "Apple iPad Pro (11-inch) Space Gray.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 1863,
     "frameH": 2583,
-    "framePath": "/frames/apple-ipad-pro-11-inch-space-gray.png",
+    "framePath": "/frames/Apple iPad Pro (11-inch) Space Gray.png",
     "screen": {
       "left": 95,
       "top": 100,
@@ -2860,13 +2860,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-12-9-inch-4th-generation-silver",
+    "key": "apple ipad pro (12.9-inch) (4th generation) silver",
     "filename": "Apple iPad Pro (12.9-inch) (4th generation) Silver.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 2245,
     "frameH": 2930,
-    "framePath": "/frames/apple-ipad-pro-12-9-inch-4th-generation-silver.png",
+    "framePath": "/frames/Apple iPad Pro (12.9-inch) (4th generation) Silver.png",
     "screen": {
       "left": 96,
       "top": 102,
@@ -2886,13 +2886,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-12-9-inch-4th-generation-space-gray",
+    "key": "apple ipad pro (12.9-inch) (4th generation) space gray",
     "filename": "Apple iPad Pro (12.9-inch) (4th generation) Space Gray.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 2245,
     "frameH": 2930,
-    "framePath": "/frames/apple-ipad-pro-12-9-inch-4th-generation-space-gray.png",
+    "framePath": "/frames/Apple iPad Pro (12.9-inch) (4th generation) Space Gray.png",
     "screen": {
       "left": 96,
       "top": 102,
@@ -2912,13 +2912,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-gold",
+    "key": "apple ipad pro gold",
     "filename": "Apple iPad Pro Gold.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 2286,
     "frameH": 3168,
-    "framePath": "/frames/apple-ipad-pro-gold.png",
+    "framePath": "/frames/Apple iPad Pro Gold.png",
     "screen": {
       "left": 119,
       "top": 216,
@@ -2938,13 +2938,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-silver",
+    "key": "apple ipad pro silver",
     "filename": "Apple iPad Pro Silver.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 2286,
     "frameH": 3168,
-    "framePath": "/frames/apple-ipad-pro-silver.png",
+    "framePath": "/frames/Apple iPad Pro Silver.png",
     "screen": {
       "left": 119,
       "top": 216,
@@ -2964,13 +2964,13 @@
     }
   },
   {
-    "key": "apple-ipad-pro-space-gray",
+    "key": "apple ipad pro space gray",
     "filename": "Apple iPad Pro Space Gray.png",
     "family": "ipad",
     "orientation": "portrait",
     "frameW": 2286,
     "frameH": 3168,
-    "framePath": "/frames/apple-ipad-pro-space-gray.png",
+    "framePath": "/frames/Apple iPad Pro Space Gray.png",
     "screen": {
       "left": 119,
       "top": 216,
@@ -2990,13 +2990,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-black",
+    "key": "apple iphone 11 black",
     "filename": "Apple iPhone 11 Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-11-black.png",
+    "framePath": "/frames/Apple iPhone 11 Black.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -3016,13 +3016,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-green",
+    "key": "apple iphone 11 green",
     "filename": "Apple iPhone 11 Green.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-11-green.png",
+    "framePath": "/frames/Apple iPhone 11 Green.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -3042,13 +3042,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-gold",
+    "key": "apple iphone 11 pro gold",
     "filename": "Apple iPhone 11 Pro Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-11-pro-gold.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Gold.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -3068,13 +3068,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-max-gold",
+    "key": "apple iphone 11 pro max gold",
     "filename": "Apple iPhone 11 Pro Max Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-11-pro-max-gold.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Max Gold.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -3094,13 +3094,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-max-midnight-green",
+    "key": "apple iphone 11 pro max midnight green",
     "filename": "Apple iPhone 11 Pro Max Midnight Green.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-11-pro-max-midnight-green.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Max Midnight Green.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -3120,13 +3120,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-max-silver",
+    "key": "apple iphone 11 pro max silver",
     "filename": "Apple iPhone 11 Pro Max Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-11-pro-max-silver.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Max Silver.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -3146,13 +3146,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-max-space-gray",
+    "key": "apple iphone 11 pro max space gray",
     "filename": "Apple iPhone 11 Pro Max Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-11-pro-max-space-gray.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Max Space Gray.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -3172,13 +3172,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-midnight-green",
+    "key": "apple iphone 11 pro midnight green",
     "filename": "Apple iPhone 11 Pro Midnight Green.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-11-pro-midnight-green.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Midnight Green.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -3198,13 +3198,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-silver",
+    "key": "apple iphone 11 pro silver",
     "filename": "Apple iPhone 11 Pro Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-11-pro-silver.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Silver.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -3224,13 +3224,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-pro-space-gray",
+    "key": "apple iphone 11 pro space gray",
     "filename": "Apple iPhone 11 Pro Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-11-pro-space-gray.png",
+    "framePath": "/frames/Apple iPhone 11 Pro Space Gray.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -3250,13 +3250,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-purple",
+    "key": "apple iphone 11 purple",
     "filename": "Apple iPhone 11 Purple.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-11-purple.png",
+    "framePath": "/frames/Apple iPhone 11 Purple.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -3276,13 +3276,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-red",
+    "key": "apple iphone 11 red",
     "filename": "Apple iPhone 11 Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-11-red.png",
+    "framePath": "/frames/Apple iPhone 11 Red.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -3302,13 +3302,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-white",
+    "key": "apple iphone 11 white",
     "filename": "Apple iPhone 11 White.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-11-white.png",
+    "framePath": "/frames/Apple iPhone 11 White.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -3328,13 +3328,13 @@
     }
   },
   {
-    "key": "apple-iphone-11-yellow",
+    "key": "apple iphone 11 yellow",
     "filename": "Apple iPhone 11 Yellow.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-11-yellow.png",
+    "framePath": "/frames/Apple iPhone 11 Yellow.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -3354,13 +3354,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-black",
+    "key": "apple iphone 12 black",
     "filename": "Apple iPhone 12 Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-black.png",
+    "framePath": "/frames/Apple iPhone 12 Black.png",
     "screen": {
       "left": 72,
       "top": 158,
@@ -3380,13 +3380,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-blue",
+    "key": "apple iphone 12 blue",
     "filename": "Apple iPhone 12 Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-blue.png",
+    "framePath": "/frames/Apple iPhone 12 Blue.png",
     "screen": {
       "left": 72,
       "top": 158,
@@ -3406,13 +3406,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-green",
+    "key": "apple iphone 12 green",
     "filename": "Apple iPhone 12 Green.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-green.png",
+    "framePath": "/frames/Apple iPhone 12 Green.png",
     "screen": {
       "left": 72,
       "top": 158,
@@ -3432,13 +3432,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-mini-black",
+    "key": "apple iphone 12 mini black",
     "filename": "Apple iPhone 12 Mini Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1220,
     "frameH": 2458,
-    "framePath": "/frames/apple-iphone-12-mini-black.png",
+    "framePath": "/frames/Apple iPhone 12 Mini Black.png",
     "screen": {
       "left": 70,
       "top": 158,
@@ -3458,13 +3458,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-mini-blue",
+    "key": "apple iphone 12 mini blue",
     "filename": "Apple iPhone 12 Mini Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1220,
     "frameH": 2458,
-    "framePath": "/frames/apple-iphone-12-mini-blue.png",
+    "framePath": "/frames/Apple iPhone 12 Mini Blue.png",
     "screen": {
       "left": 70,
       "top": 158,
@@ -3484,13 +3484,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-mini-green",
+    "key": "apple iphone 12 mini green",
     "filename": "Apple iPhone 12 Mini Green.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1220,
     "frameH": 2458,
-    "framePath": "/frames/apple-iphone-12-mini-green.png",
+    "framePath": "/frames/Apple iPhone 12 Mini Green.png",
     "screen": {
       "left": 70,
       "top": 158,
@@ -3510,13 +3510,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-mini-red",
+    "key": "apple iphone 12 mini red",
     "filename": "Apple iPhone 12 Mini Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1220,
     "frameH": 2458,
-    "framePath": "/frames/apple-iphone-12-mini-red.png",
+    "framePath": "/frames/Apple iPhone 12 Mini Red.png",
     "screen": {
       "left": 70,
       "top": 158,
@@ -3536,13 +3536,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-mini-white",
+    "key": "apple iphone 12 mini white",
     "filename": "Apple iPhone 12 Mini White.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1220,
     "frameH": 2458,
-    "framePath": "/frames/apple-iphone-12-mini-white.png",
+    "framePath": "/frames/Apple iPhone 12 Mini White.png",
     "screen": {
       "left": 70,
       "top": 158,
@@ -3562,13 +3562,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-gold",
+    "key": "apple iphone 12 pro gold",
     "filename": "Apple iPhone 12 Pro Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-pro-gold.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Gold.png",
     "screen": {
       "left": 72,
       "top": 159,
@@ -3588,13 +3588,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-graphite",
+    "key": "apple iphone 12 pro graphite",
     "filename": "Apple iPhone 12 Pro Graphite.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-pro-graphite.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Graphite.png",
     "screen": {
       "left": 72,
       "top": 159,
@@ -3614,13 +3614,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-max-gold",
+    "key": "apple iphone 12 pro max gold",
     "filename": "Apple iPhone 12 Pro Max Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1432,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-12-pro-max-gold.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Max Gold.png",
     "screen": {
       "left": 74,
       "top": 158,
@@ -3640,13 +3640,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-max-graphite",
+    "key": "apple iphone 12 pro max graphite",
     "filename": "Apple iPhone 12 Pro Max Graphite.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1432,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-12-pro-max-graphite.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Max Graphite.png",
     "screen": {
       "left": 74,
       "top": 158,
@@ -3666,13 +3666,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-max-pacific-blue",
+    "key": "apple iphone 12 pro max pacific blue",
     "filename": "Apple iPhone 12 Pro Max Pacific Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1432,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-12-pro-max-pacific-blue.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Max Pacific Blue.png",
     "screen": {
       "left": 74,
       "top": 158,
@@ -3692,13 +3692,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-max-silver",
+    "key": "apple iphone 12 pro max silver",
     "filename": "Apple iPhone 12 Pro Max Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1432,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-12-pro-max-silver.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Max Silver.png",
     "screen": {
       "left": 74,
       "top": 158,
@@ -3718,13 +3718,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-pacific-blue",
+    "key": "apple iphone 12 pro pacific blue",
     "filename": "Apple iPhone 12 Pro Pacific Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-pro-pacific-blue.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Pacific Blue.png",
     "screen": {
       "left": 72,
       "top": 159,
@@ -3744,13 +3744,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-pro-silver",
+    "key": "apple iphone 12 pro silver",
     "filename": "Apple iPhone 12 Pro Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-pro-silver.png",
+    "framePath": "/frames/Apple iPhone 12 Pro Silver.png",
     "screen": {
       "left": 72,
       "top": 159,
@@ -3770,13 +3770,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-red",
+    "key": "apple iphone 12 red",
     "filename": "Apple iPhone 12 Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-red.png",
+    "framePath": "/frames/Apple iPhone 12 Red.png",
     "screen": {
       "left": 72,
       "top": 158,
@@ -3796,13 +3796,13 @@
     }
   },
   {
-    "key": "apple-iphone-12-white",
+    "key": "apple iphone 12 white",
     "filename": "Apple iPhone 12 White.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1314,
     "frameH": 2658,
-    "framePath": "/frames/apple-iphone-12-white.png",
+    "framePath": "/frames/Apple iPhone 12 White.png",
     "screen": {
       "left": 72,
       "top": 158,
@@ -3822,13 +3822,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-blue",
+    "key": "apple iphone 13 blue",
     "filename": "Apple iPhone 13 Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1313,
     "frameH": 2661,
-    "framePath": "/frames/apple-iphone-13-blue.png",
+    "framePath": "/frames/Apple iPhone 13 Blue.png",
     "screen": {
       "left": 72,
       "top": 166,
@@ -3848,13 +3848,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-midnight",
+    "key": "apple iphone 13 midnight",
     "filename": "Apple iPhone 13 Midnight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1313,
     "frameH": 2661,
-    "framePath": "/frames/apple-iphone-13-midnight.png",
+    "framePath": "/frames/Apple iPhone 13 Midnight.png",
     "screen": {
       "left": 72,
       "top": 166,
@@ -3874,13 +3874,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-mini-blue",
+    "key": "apple iphone 13 mini blue",
     "filename": "Apple iPhone 13 Mini Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/apple-iphone-13-mini-blue.png",
+    "framePath": "/frames/Apple iPhone 13 Mini Blue.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -3900,13 +3900,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-mini-midnight",
+    "key": "apple iphone 13 mini midnight",
     "filename": "Apple iPhone 13 Mini Midnight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/apple-iphone-13-mini-midnight.png",
+    "framePath": "/frames/Apple iPhone 13 Mini Midnight.png",
     "screen": {
       "left": 74,
       "top": 175,
@@ -3926,13 +3926,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-mini-pink",
+    "key": "apple iphone 13 mini pink",
     "filename": "Apple iPhone 13 Mini Pink.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/apple-iphone-13-mini-pink.png",
+    "framePath": "/frames/Apple iPhone 13 Mini Pink.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -3952,13 +3952,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-mini-red",
+    "key": "apple iphone 13 mini red",
     "filename": "Apple iPhone 13 Mini Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/apple-iphone-13-mini-red.png",
+    "framePath": "/frames/Apple iPhone 13 Mini Red.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -3978,13 +3978,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-mini-starlight",
+    "key": "apple iphone 13 mini starlight",
     "filename": "Apple iPhone 13 Mini Starlight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/apple-iphone-13-mini-starlight.png",
+    "framePath": "/frames/Apple iPhone 13 Mini Starlight.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -4004,13 +4004,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pink",
+    "key": "apple iphone 13 pink",
     "filename": "Apple iPhone 13 Pink.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1313,
     "frameH": 2661,
-    "framePath": "/frames/apple-iphone-13-pink.png",
+    "framePath": "/frames/Apple iPhone 13 Pink.png",
     "screen": {
       "left": 72,
       "top": 166,
@@ -4030,13 +4030,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-gold",
+    "key": "apple iphone 13 pro gold",
     "filename": "Apple iPhone 13 Pro Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1318,
     "frameH": 2660,
-    "framePath": "/frames/apple-iphone-13-pro-gold.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Gold.png",
     "screen": {
       "left": 74,
       "top": 167,
@@ -4056,13 +4056,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-graphite",
+    "key": "apple iphone 13 pro graphite",
     "filename": "Apple iPhone 13 Pro Graphite.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1318,
     "frameH": 2660,
-    "framePath": "/frames/apple-iphone-13-pro-graphite.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Graphite.png",
     "screen": {
       "left": 74,
       "top": 167,
@@ -4082,13 +4082,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-max-gold",
+    "key": "apple iphone 13 pro max gold",
     "filename": "Apple iPhone 13 Pro Max Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1433,
     "frameH": 2908,
-    "framePath": "/frames/apple-iphone-13-pro-max-gold.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Max Gold.png",
     "screen": {
       "left": 75,
       "top": 186,
@@ -4108,13 +4108,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-max-graphite",
+    "key": "apple iphone 13 pro max graphite",
     "filename": "Apple iPhone 13 Pro Max Graphite.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1433,
     "frameH": 2908,
-    "framePath": "/frames/apple-iphone-13-pro-max-graphite.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Max Graphite.png",
     "screen": {
       "left": 75,
       "top": 185,
@@ -4134,13 +4134,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-max-sierra-blue",
+    "key": "apple iphone 13 pro max sierra blue",
     "filename": "Apple iPhone 13 Pro Max Sierra Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1433,
     "frameH": 2908,
-    "framePath": "/frames/apple-iphone-13-pro-max-sierra-blue.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Max Sierra Blue.png",
     "screen": {
       "left": 74,
       "top": 185,
@@ -4160,13 +4160,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-max-silver",
+    "key": "apple iphone 13 pro max silver",
     "filename": "Apple iPhone 13 Pro Max Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1433,
     "frameH": 2908,
-    "framePath": "/frames/apple-iphone-13-pro-max-silver.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Max Silver.png",
     "screen": {
       "left": 75,
       "top": 185,
@@ -4186,13 +4186,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-sierra-blue",
+    "key": "apple iphone 13 pro sierra blue",
     "filename": "Apple iPhone 13 Pro Sierra Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1318,
     "frameH": 2660,
-    "framePath": "/frames/apple-iphone-13-pro-sierra-blue.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Sierra Blue.png",
     "screen": {
       "left": 74,
       "top": 167,
@@ -4212,13 +4212,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-pro-silver",
+    "key": "apple iphone 13 pro silver",
     "filename": "Apple iPhone 13 Pro Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1318,
     "frameH": 2660,
-    "framePath": "/frames/apple-iphone-13-pro-silver.png",
+    "framePath": "/frames/Apple iPhone 13 Pro Silver.png",
     "screen": {
       "left": 74,
       "top": 168,
@@ -4238,13 +4238,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-red",
+    "key": "apple iphone 13 red",
     "filename": "Apple iPhone 13 Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1313,
     "frameH": 2661,
-    "framePath": "/frames/apple-iphone-13-red.png",
+    "framePath": "/frames/Apple iPhone 13 Red.png",
     "screen": {
       "left": 72,
       "top": 166,
@@ -4264,13 +4264,13 @@
     }
   },
   {
-    "key": "apple-iphone-13-starlight",
+    "key": "apple iphone 13 starlight",
     "filename": "Apple iPhone 13 Starlight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1313,
     "frameH": 2661,
-    "framePath": "/frames/apple-iphone-13-starlight.png",
+    "framePath": "/frames/Apple iPhone 13 Starlight.png",
     "screen": {
       "left": 72,
       "top": 166,
@@ -4290,13 +4290,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-blue",
+    "key": "apple iphone 14 blue",
     "filename": "Apple iPhone 14 Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1309,
     "frameH": 2655,
-    "framePath": "/frames/apple-iphone-14-blue.png",
+    "framePath": "/frames/Apple iPhone 14 Blue.png",
     "screen": {
       "left": 1,
       "top": 165,
@@ -4316,13 +4316,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-midnight",
+    "key": "apple iphone 14 midnight",
     "filename": "Apple iPhone 14 Midnight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1309,
     "frameH": 2655,
-    "framePath": "/frames/apple-iphone-14-midnight.png",
+    "framePath": "/frames/Apple iPhone 14 Midnight.png",
     "screen": {
       "left": 1,
       "top": 165,
@@ -4342,13 +4342,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-plus-blue",
+    "key": "apple iphone 14 plus blue",
     "filename": "Apple iPhone 14 Plus Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1429,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-14-plus-blue.png",
+    "framePath": "/frames/Apple iPhone 14 Plus Blue.png",
     "screen": {
       "left": 1,
       "top": 164,
@@ -4368,13 +4368,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-plus-midnight",
+    "key": "apple iphone 14 plus midnight",
     "filename": "Apple iPhone 14 Plus Midnight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1429,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-14-plus-midnight.png",
+    "framePath": "/frames/Apple iPhone 14 Plus Midnight.png",
     "screen": {
       "left": 1,
       "top": 164,
@@ -4394,13 +4394,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-plus-purple",
+    "key": "apple iphone 14 plus purple",
     "filename": "Apple iPhone 14 Plus Purple.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1429,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-14-plus-purple.png",
+    "framePath": "/frames/Apple iPhone 14 Plus Purple.png",
     "screen": {
       "left": 1,
       "top": 164,
@@ -4420,13 +4420,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-plus-red",
+    "key": "apple iphone 14 plus red",
     "filename": "Apple iPhone 14 Plus Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1429,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-14-plus-red.png",
+    "framePath": "/frames/Apple iPhone 14 Plus Red.png",
     "screen": {
       "left": 1,
       "top": 164,
@@ -4446,13 +4446,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-plus-starlight",
+    "key": "apple iphone 14 plus starlight",
     "filename": "Apple iPhone 14 Plus Starlight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1429,
     "frameH": 2902,
-    "framePath": "/frames/apple-iphone-14-plus-starlight.png",
+    "framePath": "/frames/Apple iPhone 14 Plus Starlight.png",
     "screen": {
       "left": 1,
       "top": 164,
@@ -4472,13 +4472,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-black",
+    "key": "apple iphone 14 pro black",
     "filename": "Apple iPhone 14 Pro Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1311,
     "frameH": 2672,
-    "framePath": "/frames/apple-iphone-14-pro-black.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Black.png",
     "screen": {
       "left": 1,
       "top": 204,
@@ -4498,13 +4498,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-gold",
+    "key": "apple iphone 14 pro gold",
     "filename": "Apple iPhone 14 Pro Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1311,
     "frameH": 2672,
-    "framePath": "/frames/apple-iphone-14-pro-gold.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Gold.png",
     "screen": {
       "left": 1,
       "top": 204,
@@ -4524,13 +4524,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-max-black",
+    "key": "apple iphone 14 pro max black",
     "filename": "Apple iPhone 14 Pro Max Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1421,
     "frameH": 2909,
-    "framePath": "/frames/apple-iphone-14-pro-max-black.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Max Black.png",
     "screen": {
       "left": 1,
       "top": 202,
@@ -4550,13 +4550,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-max-gold",
+    "key": "apple iphone 14 pro max gold",
     "filename": "Apple iPhone 14 Pro Max Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1421,
     "frameH": 2909,
-    "framePath": "/frames/apple-iphone-14-pro-max-gold.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Max Gold.png",
     "screen": {
       "left": 1,
       "top": 202,
@@ -4576,13 +4576,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-max-purple",
+    "key": "apple iphone 14 pro max purple",
     "filename": "Apple iPhone 14 Pro Max Purple.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1421,
     "frameH": 2909,
-    "framePath": "/frames/apple-iphone-14-pro-max-purple.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Max Purple.png",
     "screen": {
       "left": 1,
       "top": 202,
@@ -4602,13 +4602,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-max-silver",
+    "key": "apple iphone 14 pro max silver",
     "filename": "Apple iPhone 14 Pro Max Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1421,
     "frameH": 2909,
-    "framePath": "/frames/apple-iphone-14-pro-max-silver.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Max Silver.png",
     "screen": {
       "left": 1,
       "top": 202,
@@ -4628,13 +4628,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-purple",
+    "key": "apple iphone 14 pro purple",
     "filename": "Apple iPhone 14 Pro Purple.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1311,
     "frameH": 2672,
-    "framePath": "/frames/apple-iphone-14-pro-purple.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Purple.png",
     "screen": {
       "left": 1,
       "top": 204,
@@ -4654,13 +4654,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-pro-silver",
+    "key": "apple iphone 14 pro silver",
     "filename": "Apple iPhone 14 Pro Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1311,
     "frameH": 2672,
-    "framePath": "/frames/apple-iphone-14-pro-silver.png",
+    "framePath": "/frames/Apple iPhone 14 Pro Silver.png",
     "screen": {
       "left": 1,
       "top": 204,
@@ -4680,13 +4680,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-purple",
+    "key": "apple iphone 14 purple",
     "filename": "Apple iPhone 14 Purple.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1309,
     "frameH": 2655,
-    "framePath": "/frames/apple-iphone-14-purple.png",
+    "framePath": "/frames/Apple iPhone 14 Purple.png",
     "screen": {
       "left": 1,
       "top": 165,
@@ -4706,13 +4706,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-red",
+    "key": "apple iphone 14 red",
     "filename": "Apple iPhone 14 Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1309,
     "frameH": 2655,
-    "framePath": "/frames/apple-iphone-14-red.png",
+    "framePath": "/frames/Apple iPhone 14 Red.png",
     "screen": {
       "left": 1,
       "top": 165,
@@ -4732,13 +4732,13 @@
     }
   },
   {
-    "key": "apple-iphone-14-starlight",
+    "key": "apple iphone 14 starlight",
     "filename": "Apple iPhone 14 Starlight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1309,
     "frameH": 2655,
-    "framePath": "/frames/apple-iphone-14-starlight.png",
+    "framePath": "/frames/Apple iPhone 14 Starlight.png",
     "screen": {
       "left": 1,
       "top": 165,
@@ -4758,13 +4758,13 @@
     }
   },
   {
-    "key": "apple-iphone-5c-blue",
+    "key": "apple iphone 5c blue",
     "filename": "Apple iPhone 5c Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 767,
     "frameH": 1605,
-    "framePath": "/frames/apple-iphone-5c-blue.png",
+    "framePath": "/frames/Apple iPhone 5c Blue.png",
     "screen": {
       "left": 67,
       "top": 239,
@@ -4784,13 +4784,13 @@
     }
   },
   {
-    "key": "apple-iphone-5c-green",
+    "key": "apple iphone 5c green",
     "filename": "Apple iPhone 5c Green.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 767,
     "frameH": 1605,
-    "framePath": "/frames/apple-iphone-5c-green.png",
+    "framePath": "/frames/Apple iPhone 5c Green.png",
     "screen": {
       "left": 67,
       "top": 239,
@@ -4810,13 +4810,13 @@
     }
   },
   {
-    "key": "apple-iphone-5c-red",
+    "key": "apple iphone 5c red",
     "filename": "Apple iPhone 5c Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 767,
     "frameH": 1605,
-    "framePath": "/frames/apple-iphone-5c-red.png",
+    "framePath": "/frames/Apple iPhone 5c Red.png",
     "screen": {
       "left": 67,
       "top": 239,
@@ -4836,13 +4836,13 @@
     }
   },
   {
-    "key": "apple-iphone-5c-white",
+    "key": "apple iphone 5c white",
     "filename": "Apple iPhone 5c White.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 767,
     "frameH": 1605,
-    "framePath": "/frames/apple-iphone-5c-white.png",
+    "framePath": "/frames/Apple iPhone 5c White.png",
     "screen": {
       "left": 67,
       "top": 239,
@@ -4862,13 +4862,13 @@
     }
   },
   {
-    "key": "apple-iphone-5c-yellow",
+    "key": "apple iphone 5c yellow",
     "filename": "Apple iPhone 5c Yellow.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 767,
     "frameH": 1605,
-    "framePath": "/frames/apple-iphone-5c-yellow.png",
+    "framePath": "/frames/Apple iPhone 5c Yellow.png",
     "screen": {
       "left": 67,
       "top": 239,
@@ -4888,13 +4888,13 @@
     }
   },
   {
-    "key": "apple-iphone-5s-gold",
+    "key": "apple iphone 5s gold",
     "filename": "Apple iPhone 5s Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 760,
     "frameH": 1597,
-    "framePath": "/frames/apple-iphone-5s-gold.png",
+    "framePath": "/frames/Apple iPhone 5s Gold.png",
     "screen": {
       "left": 64,
       "top": 238,
@@ -4914,13 +4914,13 @@
     }
   },
   {
-    "key": "apple-iphone-5s-silver",
+    "key": "apple iphone 5s silver",
     "filename": "Apple iPhone 5s Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 760,
     "frameH": 1597,
-    "framePath": "/frames/apple-iphone-5s-silver.png",
+    "framePath": "/frames/Apple iPhone 5s Silver.png",
     "screen": {
       "left": 64,
       "top": 238,
@@ -4940,13 +4940,13 @@
     }
   },
   {
-    "key": "apple-iphone-5s-space-gray",
+    "key": "apple iphone 5s space gray",
     "filename": "Apple iPhone 5s Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 760,
     "frameH": 1597,
-    "framePath": "/frames/apple-iphone-5s-space-gray.png",
+    "framePath": "/frames/Apple iPhone 5s Space Gray.png",
     "screen": {
       "left": 64,
       "top": 238,
@@ -4966,13 +4966,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-gold",
+    "key": "apple iphone 6s gold",
     "filename": "Apple iPhone 6s Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-6s-gold.png",
+    "framePath": "/frames/Apple iPhone 6s Gold.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -4992,13 +4992,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-plus-gold",
+    "key": "apple iphone 6s plus gold",
     "filename": "Apple iPhone 6s Plus Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-6s-plus-gold.png",
+    "framePath": "/frames/Apple iPhone 6s Plus Gold.png",
     "screen": {
       "left": 102,
       "top": 379,
@@ -5018,13 +5018,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-plus-rose-gold",
+    "key": "apple iphone 6s plus rose gold",
     "filename": "Apple iPhone 6s Plus Rose Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-6s-plus-rose-gold.png",
+    "framePath": "/frames/Apple iPhone 6s Plus Rose Gold.png",
     "screen": {
       "left": 102,
       "top": 379,
@@ -5044,13 +5044,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-plus-silver",
+    "key": "apple iphone 6s plus silver",
     "filename": "Apple iPhone 6s Plus Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-6s-plus-silver.png",
+    "framePath": "/frames/Apple iPhone 6s Plus Silver.png",
     "screen": {
       "left": 102,
       "top": 379,
@@ -5070,13 +5070,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-plus-space-gray",
+    "key": "apple iphone 6s plus space gray",
     "filename": "Apple iPhone 6s Plus Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-6s-plus-space-gray.png",
+    "framePath": "/frames/Apple iPhone 6s Plus Space Gray.png",
     "screen": {
       "left": 102,
       "top": 379,
@@ -5096,13 +5096,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-rose-gold",
+    "key": "apple iphone 6s rose gold",
     "filename": "Apple iPhone 6s Rose Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-6s-rose-gold.png",
+    "framePath": "/frames/Apple iPhone 6s Rose Gold.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5122,13 +5122,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-silver",
+    "key": "apple iphone 6s silver",
     "filename": "Apple iPhone 6s Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-6s-silver.png",
+    "framePath": "/frames/Apple iPhone 6s Silver.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5148,13 +5148,13 @@
     }
   },
   {
-    "key": "apple-iphone-6s-space-gray",
+    "key": "apple iphone 6s space gray",
     "filename": "Apple iPhone 6s Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-6s-space-gray.png",
+    "framePath": "/frames/Apple iPhone 6s Space Gray.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5174,13 +5174,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-gold",
+    "key": "apple iphone 7 gold",
     "filename": "Apple iPhone 7 Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-7-gold.png",
+    "framePath": "/frames/Apple iPhone 7 Gold.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5200,13 +5200,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-jet-black",
+    "key": "apple iphone 7 jet black",
     "filename": "Apple iPhone 7 Jet Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-7-jet-black.png",
+    "framePath": "/frames/Apple iPhone 7 Jet Black.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5226,13 +5226,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-matte-black",
+    "key": "apple iphone 7 matte black",
     "filename": "Apple iPhone 7 Matte Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-7-matte-black.png",
+    "framePath": "/frames/Apple iPhone 7 Matte Black.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5252,13 +5252,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-plus-gold",
+    "key": "apple iphone 7 plus gold",
     "filename": "Apple iPhone 7 Plus Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-7-plus-gold.png",
+    "framePath": "/frames/Apple iPhone 7 Plus Gold.png",
     "screen": {
       "left": 104,
       "top": 380,
@@ -5278,13 +5278,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-plus-jet-black",
+    "key": "apple iphone 7 plus jet black",
     "filename": "Apple iPhone 7 Plus Jet Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-7-plus-jet-black.png",
+    "framePath": "/frames/Apple iPhone 7 Plus Jet Black.png",
     "screen": {
       "left": 104,
       "top": 380,
@@ -5304,13 +5304,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-plus-matte-black",
+    "key": "apple iphone 7 plus matte black",
     "filename": "Apple iPhone 7 Plus Matte Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-7-plus-matte-black.png",
+    "framePath": "/frames/Apple iPhone 7 Plus Matte Black.png",
     "screen": {
       "left": 104,
       "top": 380,
@@ -5330,13 +5330,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-plus-rose-gold",
+    "key": "apple iphone 7 plus rose gold",
     "filename": "Apple iPhone 7 Plus Rose Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-7-plus-rose-gold.png",
+    "framePath": "/frames/Apple iPhone 7 Plus Rose Gold.png",
     "screen": {
       "left": 104,
       "top": 380,
@@ -5356,13 +5356,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-plus-silver",
+    "key": "apple iphone 7 plus silver",
     "filename": "Apple iPhone 7 Plus Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1446,
     "frameH": 2948,
-    "framePath": "/frames/apple-iphone-7-plus-silver.png",
+    "framePath": "/frames/Apple iPhone 7 Plus Silver.png",
     "screen": {
       "left": 104,
       "top": 380,
@@ -5382,13 +5382,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-rose-gold",
+    "key": "apple iphone 7 rose gold",
     "filename": "Apple iPhone 7 Rose Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-7-rose-gold.png",
+    "framePath": "/frames/Apple iPhone 7 Rose Gold.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5408,13 +5408,13 @@
     }
   },
   {
-    "key": "apple-iphone-7-silver",
+    "key": "apple iphone 7 silver",
     "filename": "Apple iPhone 7 Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-7-silver.png",
+    "framePath": "/frames/Apple iPhone 7 Silver.png",
     "screen": {
       "left": 61,
       "top": 228,
@@ -5434,13 +5434,13 @@
     }
   },
   {
-    "key": "apple-iphone-8-gold",
+    "key": "apple iphone 8 gold",
     "filename": "Apple iPhone 8 Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-8-gold.png",
+    "framePath": "/frames/Apple iPhone 8 Gold.png",
     "screen": {
       "left": 61,
       "top": 219,
@@ -5460,13 +5460,13 @@
     }
   },
   {
-    "key": "apple-iphone-8-plus-gold",
+    "key": "apple iphone 8 plus gold",
     "filename": "Apple iPhone 8 Plus Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1436,
     "frameH": 2876,
-    "framePath": "/frames/apple-iphone-8-plus-gold.png",
+    "framePath": "/frames/Apple iPhone 8 Plus Gold.png",
     "screen": {
       "left": 98,
       "top": 335,
@@ -5486,13 +5486,13 @@
     }
   },
   {
-    "key": "apple-iphone-8-plus-silver",
+    "key": "apple iphone 8 plus silver",
     "filename": "Apple iPhone 8 Plus Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1436,
     "frameH": 2876,
-    "framePath": "/frames/apple-iphone-8-plus-silver.png",
+    "framePath": "/frames/Apple iPhone 8 Plus Silver.png",
     "screen": {
       "left": 98,
       "top": 335,
@@ -5512,13 +5512,13 @@
     }
   },
   {
-    "key": "apple-iphone-8-plus-space-gray",
+    "key": "apple iphone 8 plus space gray",
     "filename": "Apple iPhone 8 Plus Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1436,
     "frameH": 2876,
-    "framePath": "/frames/apple-iphone-8-plus-space-gray.png",
+    "framePath": "/frames/Apple iPhone 8 Plus Space Gray.png",
     "screen": {
       "left": 98,
       "top": 335,
@@ -5538,13 +5538,13 @@
     }
   },
   {
-    "key": "apple-iphone-8-silver",
+    "key": "apple iphone 8 silver",
     "filename": "Apple iPhone 8 Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-8-silver.png",
+    "framePath": "/frames/Apple iPhone 8 Silver.png",
     "screen": {
       "left": 61,
       "top": 219,
@@ -5564,13 +5564,13 @@
     }
   },
   {
-    "key": "apple-iphone-8-space-gray",
+    "key": "apple iphone 8 space gray",
     "filename": "Apple iPhone 8 Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-8-space-gray.png",
+    "framePath": "/frames/Apple iPhone 8 Space Gray.png",
     "screen": {
       "left": 61,
       "top": 219,
@@ -5590,13 +5590,13 @@
     }
   },
   {
-    "key": "apple-iphone-se-black",
+    "key": "apple iphone se black",
     "filename": "Apple iPhone SE Black.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-se-black.png",
+    "framePath": "/frames/Apple iPhone SE Black.png",
     "screen": {
       "left": 61,
       "top": 219,
@@ -5616,13 +5616,13 @@
     }
   },
   {
-    "key": "apple-iphone-se-red",
+    "key": "apple iphone se red",
     "filename": "Apple iPhone SE Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-se-red.png",
+    "framePath": "/frames/Apple iPhone SE Red.png",
     "screen": {
       "left": 61,
       "top": 219,
@@ -5642,13 +5642,13 @@
     }
   },
   {
-    "key": "apple-iphone-se-white",
+    "key": "apple iphone se white",
     "filename": "Apple iPhone SE White.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 871,
     "frameH": 1776,
-    "framePath": "/frames/apple-iphone-se-white.png",
+    "framePath": "/frames/Apple iPhone SE White.png",
     "screen": {
       "left": 61,
       "top": 219,
@@ -5668,13 +5668,13 @@
     }
   },
   {
-    "key": "apple-iphone-x-silver",
+    "key": "apple iphone x silver",
     "filename": "Apple iPhone X Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-x-silver.png",
+    "framePath": "/frames/Apple iPhone X Silver.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -5694,13 +5694,13 @@
     }
   },
   {
-    "key": "apple-iphone-x-space-gray",
+    "key": "apple iphone x space gray",
     "filename": "Apple iPhone X Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-x-space-gray.png",
+    "framePath": "/frames/Apple iPhone X Space Gray.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -5720,13 +5720,13 @@
     }
   },
   {
-    "key": "apple-iphone-xr-blue",
+    "key": "apple iphone xr blue",
     "filename": "Apple iPhone XR Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-xr-blue.png",
+    "framePath": "/frames/Apple iPhone XR Blue.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -5746,13 +5746,13 @@
     }
   },
   {
-    "key": "apple-iphone-xr-coral",
+    "key": "apple iphone xr coral",
     "filename": "Apple iPhone XR Coral.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-xr-coral.png",
+    "framePath": "/frames/Apple iPhone XR Coral.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -5772,13 +5772,13 @@
     }
   },
   {
-    "key": "apple-iphone-xr-red",
+    "key": "apple iphone xr red",
     "filename": "Apple iPhone XR Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-xr-red.png",
+    "framePath": "/frames/Apple iPhone XR Red.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -5798,13 +5798,13 @@
     }
   },
   {
-    "key": "apple-iphone-xr-silver",
+    "key": "apple iphone xr silver",
     "filename": "Apple iPhone XR Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-xr-silver.png",
+    "framePath": "/frames/Apple iPhone XR Silver.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -5824,13 +5824,13 @@
     }
   },
   {
-    "key": "apple-iphone-xr-space-gray",
+    "key": "apple iphone xr space gray",
     "filename": "Apple iPhone XR Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-xr-space-gray.png",
+    "framePath": "/frames/Apple iPhone XR Space Gray.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -5850,13 +5850,13 @@
     }
   },
   {
-    "key": "apple-iphone-xr-yellow",
+    "key": "apple iphone xr yellow",
     "filename": "Apple iPhone XR Yellow.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 979,
     "frameH": 1934,
-    "framePath": "/frames/apple-iphone-xr-yellow.png",
+    "framePath": "/frames/Apple iPhone XR Yellow.png",
     "screen": {
       "left": 75,
       "top": 137,
@@ -5876,13 +5876,13 @@
     }
   },
   {
-    "key": "apple-iphone-xs-gold",
+    "key": "apple iphone xs gold",
     "filename": "Apple iPhone XS Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-xs-gold.png",
+    "framePath": "/frames/Apple iPhone XS Gold.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -5902,13 +5902,13 @@
     }
   },
   {
-    "key": "apple-iphone-xs-max-gold",
+    "key": "apple iphone xs max gold",
     "filename": "Apple iPhone XS Max Gold.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-xs-max-gold.png",
+    "framePath": "/frames/Apple iPhone XS Max Gold.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -5928,13 +5928,13 @@
     }
   },
   {
-    "key": "apple-iphone-xs-max-silver",
+    "key": "apple iphone xs max silver",
     "filename": "Apple iPhone XS Max Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-xs-max-silver.png",
+    "framePath": "/frames/Apple iPhone XS Max Silver.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -5954,13 +5954,13 @@
     }
   },
   {
-    "key": "apple-iphone-xs-max-space-gray",
+    "key": "apple iphone xs max space gray",
     "filename": "Apple iPhone XS Max Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1413,
     "frameH": 2844,
-    "framePath": "/frames/apple-iphone-xs-max-space-gray.png",
+    "framePath": "/frames/Apple iPhone XS Max Space Gray.png",
     "screen": {
       "left": 86,
       "top": 170,
@@ -5980,13 +5980,13 @@
     }
   },
   {
-    "key": "apple-iphone-xs-silver",
+    "key": "apple iphone xs silver",
     "filename": "Apple iPhone XS Silver.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-xs-silver.png",
+    "framePath": "/frames/Apple iPhone XS Silver.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -6006,13 +6006,13 @@
     }
   },
   {
-    "key": "apple-iphone-xs-space-gray",
+    "key": "apple iphone xs space gray",
     "filename": "Apple iPhone XS Space Gray.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1295,
     "frameH": 2590,
-    "framePath": "/frames/apple-iphone-xs-space-gray.png",
+    "framePath": "/frames/Apple iPhone XS Space Gray.png",
     "screen": {
       "left": 85,
       "top": 167,
@@ -6032,13 +6032,13 @@
     }
   },
   {
-    "key": "iphone-13-mini-blue",
+    "key": "iphone 13 mini blue",
     "filename": "iPhone 13 Mini Blue.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/iphone-13-mini-blue.png",
+    "framePath": "/frames/iPhone 13 Mini Blue.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -6058,13 +6058,13 @@
     }
   },
   {
-    "key": "iphone-13-mini-midnight",
+    "key": "iphone 13 mini midnight",
     "filename": "iPhone 13 Mini Midnight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/iphone-13-mini-midnight.png",
+    "framePath": "/frames/iPhone 13 Mini Midnight.png",
     "screen": {
       "left": 74,
       "top": 175,
@@ -6084,13 +6084,13 @@
     }
   },
   {
-    "key": "iphone-13-mini-pink",
+    "key": "iphone 13 mini pink",
     "filename": "iPhone 13 Mini Pink.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/iphone-13-mini-pink.png",
+    "framePath": "/frames/iPhone 13 Mini Pink.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -6110,13 +6110,13 @@
     }
   },
   {
-    "key": "iphone-13-mini-red",
+    "key": "iphone 13 mini red",
     "filename": "iPhone 13 Mini Red.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/iphone-13-mini-red.png",
+    "framePath": "/frames/iPhone 13 Mini Red.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -6136,13 +6136,13 @@
     }
   },
   {
-    "key": "iphone-13-mini-starlight",
+    "key": "iphone 13 mini starlight",
     "filename": "iPhone 13 Mini Starlight.png",
     "family": "iphone",
     "orientation": "portrait",
     "frameW": 1223,
     "frameH": 2466,
-    "framePath": "/frames/iphone-13-mini-starlight.png",
+    "framePath": "/frames/iPhone 13 Mini Starlight.png",
     "screen": {
       "left": 71,
       "top": 172,
@@ -6162,13 +6162,13 @@
     }
   },
   {
-    "key": "apple-macbook-air-gold",
+    "key": "apple macbook air gold",
     "filename": "Apple MacBook Air Gold.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3306,
     "frameH": 1897,
-    "framePath": "/frames/apple-macbook-air-gold.png",
+    "framePath": "/frames/Apple MacBook Air Gold.png",
     "screen": {
       "left": 373,
       "top": 123,
@@ -6188,13 +6188,13 @@
     }
   },
   {
-    "key": "apple-macbook-air-silver",
+    "key": "apple macbook air silver",
     "filename": "Apple MacBook Air Silver.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3306,
     "frameH": 1897,
-    "framePath": "/frames/apple-macbook-air-silver.png",
+    "framePath": "/frames/Apple MacBook Air Silver.png",
     "screen": {
       "left": 373,
       "top": 123,
@@ -6214,13 +6214,13 @@
     }
   },
   {
-    "key": "apple-macbook-air-space-gray",
+    "key": "apple macbook air space gray",
     "filename": "Apple MacBook Air Space Gray.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3306,
     "frameH": 1897,
-    "framePath": "/frames/apple-macbook-air-space-gray.png",
+    "framePath": "/frames/Apple MacBook Air Space Gray.png",
     "screen": {
       "left": 373,
       "top": 123,
@@ -6240,13 +6240,13 @@
     }
   },
   {
-    "key": "apple-macbook-pro-13-silver",
+    "key": "apple macbook pro 13 silver",
     "filename": "Apple Macbook Pro 13 Silver.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3348,
     "frameH": 1974,
-    "framePath": "/frames/apple-macbook-pro-13-silver.png",
+    "framePath": "/frames/Apple Macbook Pro 13 Silver.png",
     "screen": {
       "left": 394,
       "top": 143,
@@ -6266,13 +6266,13 @@
     }
   },
   {
-    "key": "apple-macbook-pro-13-space-gray",
+    "key": "apple macbook pro 13 space gray",
     "filename": "Apple Macbook Pro 13 Space Gray.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3348,
     "frameH": 1974,
-    "framePath": "/frames/apple-macbook-pro-13-space-gray.png",
+    "framePath": "/frames/Apple Macbook Pro 13 Space Gray.png",
     "screen": {
       "left": 394,
       "top": 143,
@@ -6292,13 +6292,13 @@
     }
   },
   {
-    "key": "apple-macbook-pro-16-silver",
+    "key": "apple macbook pro 16 silver",
     "filename": "Apple Macbook Pro 16 Silver.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3910,
     "frameH": 2241,
-    "framePath": "/frames/apple-macbook-pro-16-silver.png",
+    "framePath": "/frames/Apple Macbook Pro 16 Silver.png",
     "screen": {
       "left": 419,
       "top": 98,
@@ -6318,13 +6318,13 @@
     }
   },
   {
-    "key": "apple-macbook-pro-16-space-gray",
+    "key": "apple macbook pro 16 space gray",
     "filename": "Apple Macbook Pro 16 Space Gray.png",
     "family": "mac",
     "orientation": "landscape",
     "frameW": 3910,
     "frameH": 2241,
-    "framePath": "/frames/apple-macbook-pro-16-space-gray.png",
+    "framePath": "/frames/Apple Macbook Pro 16 Space Gray.png",
     "screen": {
       "left": 419,
       "top": 98,
@@ -6350,7 +6350,7 @@
     "orientation": "landscape",
     "frameW": 3064,
     "frameH": 1762,
-    "framePath": "/frames/apple-macbook-gold.png",
+    "framePath": "/frames/Apple-Macbook-Gold.png",
     "screen": {
       "left": 380,
       "top": 128,
@@ -6376,7 +6376,7 @@
     "orientation": "landscape",
     "frameW": 3064,
     "frameH": 1762,
-    "framePath": "/frames/apple-macbook-space-gray.png",
+    "framePath": "/frames/Apple-Macbook-Space-Gray.png",
     "screen": {
       "left": 380,
       "top": 128,
@@ -6396,13 +6396,13 @@
     }
   },
   {
-    "key": "surface-pro-x-black",
+    "key": "surface pro x black",
     "filename": "Surface Pro X Black.png",
     "family": "other",
     "orientation": "landscape",
     "frameW": 3020,
     "frameH": 2188,
-    "framePath": "/frames/surface-pro-x-black.png",
+    "framePath": "/frames/Surface Pro X Black.png",
     "screen": {
       "left": 74,
       "top": 134,
@@ -6422,13 +6422,13 @@
     }
   },
   {
-    "key": "surface-pro-x-silver",
+    "key": "surface pro x silver",
     "filename": "Surface Pro X Silver.png",
     "family": "other",
     "orientation": "landscape",
     "frameW": 3020,
     "frameH": 2188,
-    "framePath": "/frames/surface-pro-x-silver.png",
+    "framePath": "/frames/Surface Pro X Silver.png",
     "screen": {
       "left": 74,
       "top": 134,
@@ -6448,13 +6448,13 @@
     }
   },
   {
-    "key": "xiaomi-mi-mix-alpha",
+    "key": "xiaomi mi mix alpha",
     "filename": "Xiaomi Mi Mix Alpha.png",
     "family": "other",
     "orientation": "portrait",
     "frameW": 1090,
     "frameH": 2328,
-    "framePath": "/frames/xiaomi-mi-mix-alpha.png",
+    "framePath": "/frames/Xiaomi Mi Mix Alpha.png",
     "screen": {
       "left": 81,
       "top": 43,

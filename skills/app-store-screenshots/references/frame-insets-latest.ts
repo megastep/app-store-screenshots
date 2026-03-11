@@ -1,6 +1,6 @@
 export const MEASURED_FRAME_SPECS = {
-  "google-pixel-2-kinda-blue": {
-    framePath: "/frames/google-pixel-2-kinda-blue.png",
+  "google pixel 2 kinda blue": {
+    framePath: "/frames/Google PIxel 2 Kinda Blue.png",
     frameW: 1210,
     frameH: 2513,
     screen: {
@@ -12,8 +12,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-2-clearly-white": {
-    framePath: "/frames/google-pixel-2-clearly-white.png",
+  "google pixel 2 clearly white": {
+    framePath: "/frames/Google Pixel 2 Clearly White.png",
     frameW: 1210,
     frameH: 2513,
     screen: {
@@ -25,8 +25,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-2-just-black": {
-    framePath: "/frames/google-pixel-2-just-black.png",
+  "google pixel 2 just black": {
+    framePath: "/frames/Google Pixel 2 Just Black.png",
     frameW: 1210,
     frameH: 2513,
     screen: {
@@ -38,8 +38,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-2-xl-black-and-white": {
-    framePath: "/frames/google-pixel-2-xl-black-and-white.png",
+  "google pixel 2 xl black and white": {
+    framePath: "/frames/Google Pixel 2 XL Black and White.png",
     frameW: 1630,
     frameH: 3339,
     screen: {
@@ -51,8 +51,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-2-xl-just-black": {
-    framePath: "/frames/google-pixel-2-xl-just-black.png",
+  "google pixel 2 xl just black": {
+    framePath: "/frames/Google Pixel 2 XL Just Black.png",
     frameW: 1630,
     frameH: 3339,
     screen: {
@@ -64,8 +64,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-3-clearly-white": {
-    framePath: "/frames/google-pixel-3-clearly-white.png",
+  "google pixel 3 clearly white": {
+    framePath: "/frames/Google Pixel 3 Clearly White.png",
     frameW: 1199,
     frameH: 2542,
     screen: {
@@ -77,8 +77,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-3-just-black": {
-    framePath: "/frames/google-pixel-3-just-black.png",
+  "google pixel 3 just black": {
+    framePath: "/frames/Google Pixel 3 Just Black.png",
     frameW: 1199,
     frameH: 2542,
     screen: {
@@ -90,8 +90,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-3-not-pink": {
-    framePath: "/frames/google-pixel-3-not-pink.png",
+  "google pixel 3 not pink": {
+    framePath: "/frames/Google Pixel 3 Not Pink.png",
     frameW: 1199,
     frameH: 2542,
     screen: {
@@ -103,8 +103,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-3-xl-clearly-white": {
-    framePath: "/frames/google-pixel-3-xl-clearly-white.png",
+  "google pixel 3 xl clearly white": {
+    framePath: "/frames/Google Pixel 3 XL Clearly White.png",
     frameW: 1591,
     frameH: 3248,
     screen: {
@@ -116,8 +116,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-3-xl-just-black": {
-    framePath: "/frames/google-pixel-3-xl-just-black.png",
+  "google pixel 3 xl just black": {
+    framePath: "/frames/Google Pixel 3 XL Just Black.png",
     frameW: 1589,
     frameH: 3248,
     screen: {
@@ -129,8 +129,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-3-xl-not-pink": {
-    framePath: "/frames/google-pixel-3-xl-not-pink.png",
+  "google pixel 3 xl not pink": {
+    framePath: "/frames/Google Pixel 3 XL Not Pink.png",
     frameW: 1591,
     frameH: 3248,
     screen: {
@@ -142,8 +142,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-4-clearly-white": {
-    framePath: "/frames/google-pixel-4-clearly-white.png",
+  "google pixel 4 clearly white": {
+    framePath: "/frames/Google Pixel 4 Clearly White.png",
     frameW: 1178,
     frameH: 2496,
     screen: {
@@ -155,8 +155,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-4-just-black": {
-    framePath: "/frames/google-pixel-4-just-black.png",
+  "google pixel 4 just black": {
+    framePath: "/frames/Google Pixel 4 Just Black.png",
     frameW: 1178,
     frameH: 2496,
     screen: {
@@ -168,8 +168,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-4-oh-so-orange": {
-    framePath: "/frames/google-pixel-4-oh-so-orange.png",
+  "google pixel 4 oh so orange": {
+    framePath: "/frames/Google Pixel 4 Oh So Orange.png",
     frameW: 1178,
     frameH: 2496,
     screen: {
@@ -181,8 +181,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-4-xl-clearly-white": {
-    framePath: "/frames/google-pixel-4-xl-clearly-white.png",
+  "google pixel 4 xl clearly white": {
+    framePath: "/frames/Google Pixel 4 XL Clearly White.png",
     frameW: 1564,
     frameH: 3320,
     screen: {
@@ -194,8 +194,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-4-xl-just-black": {
-    framePath: "/frames/google-pixel-4-xl-just-black.png",
+  "google pixel 4 xl just black": {
+    framePath: "/frames/Google Pixel 4 XL Just Black.png",
     frameW: 1564,
     frameH: 3320,
     screen: {
@@ -207,8 +207,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-4-xl-oh-so-orange": {
-    framePath: "/frames/google-pixel-4-xl-oh-so-orange.png",
+  "google pixel 4 xl oh so orange": {
+    framePath: "/frames/Google Pixel 4 XL Oh So Orange.png",
     frameW: 1564,
     frameH: 3320,
     screen: {
@@ -220,8 +220,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-5-just-black": {
-    framePath: "/frames/google-pixel-5-just-black.png",
+  "google pixel 5 just black": {
+    framePath: "/frames/Google Pixel 5 Just Black.png",
     frameW: 1204,
     frameH: 2456,
     screen: {
@@ -233,8 +233,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-5-sorta-sage": {
-    framePath: "/frames/google-pixel-5-sorta-sage.png",
+  "google pixel 5 sorta sage": {
+    framePath: "/frames/Google Pixel 5\u00a0Sorta Sage.png",
     frameW: 1204,
     frameH: 2456,
     screen: {
@@ -246,8 +246,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-quite-black": {
-    framePath: "/frames/google-pixel-quite-black.png",
+  "google pixel quite black": {
+    framePath: "/frames/Google Pixel Quite Black.png",
     frameW: 1213,
     frameH: 2458,
     screen: {
@@ -259,8 +259,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-really-blue": {
-    framePath: "/frames/google-pixel-really-blue.png",
+  "google pixel really blue": {
+    framePath: "/frames/Google Pixel Really Blue.png",
     frameW: 1213,
     frameH: 2458,
     screen: {
@@ -272,8 +272,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-very-silver": {
-    framePath: "/frames/google-pixel-very-silver.png",
+  "google pixel very silver": {
+    framePath: "/frames/Google Pixel Very Silver.png",
     frameW: 1213,
     frameH: 2458,
     screen: {
@@ -285,8 +285,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "htc-one-a9-black": {
-    framePath: "/frames/htc-one-a9-black.png",
+  "htc one a9 black": {
+    framePath: "/frames/HTC One A9 Black.png",
     frameW: 1244,
     frameH: 2547,
     screen: {
@@ -298,8 +298,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "huawei-p8-black": {
-    framePath: "/frames/huawei-p8-black.png",
+  "huawei p8 black": {
+    framePath: "/frames/Huawei P8 Black.png",
     frameW: 1200,
     frameH: 2400,
     screen: {
@@ -311,8 +311,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "huawei-p8-white": {
-    framePath: "/frames/huawei-p8-white.png",
+  "huawei p8 white": {
+    framePath: "/frames/Huawei P8 White.png",
     frameW: 1200,
     frameH: 2400,
     screen: {
@@ -324,8 +324,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "motorola-moto-e-black": {
-    framePath: "/frames/motorola-moto-e-black.png",
+  "motorola moto e black": {
+    framePath: "/frames/Motorola Moto E Black.png",
     frameW: 658,
     frameH: 1265,
     screen: {
@@ -337,8 +337,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "motorola-moto-e-white": {
-    framePath: "/frames/motorola-moto-e-white.png",
+  "motorola moto e white": {
+    framePath: "/frames/Motorola Moto E White.png",
     frameW: 658,
     frameH: 1265,
     screen: {
@@ -350,8 +350,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "motorola-moto-g": {
-    framePath: "/frames/motorola-moto-g.png",
+  "motorola moto g": {
+    framePath: "/frames/Motorola Moto G.png",
     frameW: 834,
     frameH: 1627,
     screen: {
@@ -363,8 +363,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "nexus-4": {
-    framePath: "/frames/nexus-4.png",
+  "nexus 4": {
+    framePath: "/frames/Nexus 4.png",
     frameW: 855,
     frameH: 1658,
     screen: {
@@ -376,8 +376,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "nexus-5x": {
-    framePath: "/frames/nexus-5x.png",
+  "nexus 5x": {
+    framePath: "/frames/Nexus 5x.png",
     frameW: 1195,
     frameH: 2406,
     screen: {
@@ -389,8 +389,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "nexus-6p": {
-    framePath: "/frames/nexus-6p.png",
+  "nexus 6p": {
+    framePath: "/frames/Nexus 6P.png",
     frameW: 1566,
     frameH: 3198,
     screen: {
@@ -402,8 +402,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "nexus-9": {
-    framePath: "/frames/nexus-9.png",
+  "nexus 9": {
+    framePath: "/frames/Nexus 9.png",
     frameW: 1728,
     frameH: 2567,
     screen: {
@@ -415,8 +415,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-black": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-black.png",
+  "samsung galaxy note 10 aura black": {
+    framePath: "/frames/Samsung Galaxy Note 10 Aura Black.png",
     frameW: 1128,
     frameH: 2364,
     screen: {
@@ -428,8 +428,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-glow": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-glow.png",
+  "samsung galaxy note 10 aura glow": {
+    framePath: "/frames/Samsung Galaxy Note 10 Aura Glow.png",
     frameW: 1128,
     frameH: 2364,
     screen: {
@@ -441,8 +441,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-pink": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-pink.png",
+  "samsung galaxy note 10 aura pink": {
+    framePath: "/frames/Samsung Galaxy Note 10 Aura Pink.png",
     frameW: 1128,
     frameH: 2364,
     screen: {
@@ -454,8 +454,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-red": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-red.png",
+  "samsung galaxy note 10 aura red": {
+    framePath: "/frames/Samsung Galaxy Note 10 Aura Red.png",
     frameW: 1128,
     frameH: 2364,
     screen: {
@@ -467,8 +467,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-white": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-white.png",
+  "samsung galaxy note 10 aura white": {
+    framePath: "/frames/Samsung Galaxy Note 10 Aura White.png",
     frameW: 1128,
     frameH: 2364,
     screen: {
@@ -480,8 +480,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-black": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-black.png",
+  "samsung galaxy note 10+ aura black": {
+    framePath: "/frames/Samsung Galaxy Note 10+ Aura Black.png",
     frameW: 1502,
     frameH: 3151,
     screen: {
@@ -493,8 +493,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-blue": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-blue.png",
+  "samsung galaxy note 10+ aura blue": {
+    framePath: "/frames/Samsung Galaxy Note 10+ Aura Blue.png",
     frameW: 1502,
     frameH: 3151,
     screen: {
@@ -506,8 +506,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-glow": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-glow.png",
+  "samsung galaxy note 10+ aura glow": {
+    framePath: "/frames/Samsung Galaxy Note 10+ Aura Glow.png",
     frameW: 1502,
     frameH: 3151,
     screen: {
@@ -519,8 +519,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-10-aura-white": {
-    framePath: "/frames/samsung-galaxy-note-10-aura-white.png",
+  "samsung galaxy note 10+ aura white": {
+    framePath: "/frames/Samsung Galaxy Note 10+ Aura White.png",
     frameW: 1502,
     frameH: 3151,
     screen: {
@@ -532,8 +532,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-5-black": {
-    framePath: "/frames/samsung-galaxy-note-5-black.png",
+  "samsung galaxy note 5 black": {
+    framePath: "/frames/Samsung Galaxy Note 5 Black.png",
     frameW: 1568,
     frameH: 3117,
     screen: {
@@ -545,8 +545,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-5-gold": {
-    framePath: "/frames/samsung-galaxy-note-5-gold.png",
+  "samsung galaxy note 5 gold": {
+    framePath: "/frames/Samsung Galaxy Note 5 Gold.png",
     frameW: 1568,
     frameH: 3117,
     screen: {
@@ -558,8 +558,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-5-pink": {
-    framePath: "/frames/samsung-galaxy-note-5-pink.png",
+  "samsung galaxy note 5 pink": {
+    framePath: "/frames/Samsung Galaxy Note 5 Pink.png",
     frameW: 1568,
     frameH: 3117,
     screen: {
@@ -571,8 +571,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-5-silver-titanium": {
-    framePath: "/frames/samsung-galaxy-note-5-silver-titanium.png",
+  "samsung galaxy note 5 silver titanium": {
+    framePath: "/frames/Samsung Galaxy Note 5 Silver Titanium.png",
     frameW: 1568,
     frameH: 3117,
     screen: {
@@ -584,8 +584,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-note-5-white": {
-    framePath: "/frames/samsung-galaxy-note-5-white.png",
+  "samsung galaxy note 5 white": {
+    framePath: "/frames/Samsung Galaxy Note 5 White.png",
     frameW: 1568,
     frameH: 3117,
     screen: {
@@ -597,8 +597,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s-duos": {
-    framePath: "/frames/samsung-galaxy-s-duos.png",
+  "samsung galaxy s duos": {
+    framePath: "/frames/Samsung Galaxy S Duos.png",
     frameW: 574,
     frameH: 1100,
     screen: {
@@ -610,8 +610,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-flamingo-pink": {
-    framePath: "/frames/samsung-galaxy-s10-flamingo-pink.png",
+  "samsung galaxy s10 flamingo pink": {
+    framePath: "/frames/Samsung Galaxy S10 Flamingo Pink.png",
     frameW: 1523,
     frameH: 3214,
     screen: {
@@ -623,8 +623,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-black": {
-    framePath: "/frames/samsung-galaxy-s10-prism-black.png",
+  "samsung galaxy s10 prism black": {
+    framePath: "/frames/Samsung Galaxy S10 Prism Black.png",
     frameW: 1523,
     frameH: 3214,
     screen: {
@@ -636,8 +636,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-blue": {
-    framePath: "/frames/samsung-galaxy-s10-prism-blue.png",
+  "samsung galaxy s10 prism blue": {
+    framePath: "/frames/Samsung Galaxy S10 Prism Blue.png",
     frameW: 1523,
     frameH: 3214,
     screen: {
@@ -649,8 +649,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-green": {
-    framePath: "/frames/samsung-galaxy-s10-prism-green.png",
+  "samsung galaxy s10 prism green": {
+    framePath: "/frames/Samsung Galaxy S10 Prism Green.png",
     frameW: 1523,
     frameH: 3214,
     screen: {
@@ -662,8 +662,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-white": {
-    framePath: "/frames/samsung-galaxy-s10-prism-white.png",
+  "samsung galaxy s10 prism white": {
+    framePath: "/frames/Samsung Galaxy S10 Prism White.png",
     frameW: 1523,
     frameH: 3214,
     screen: {
@@ -675,8 +675,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-ceramic-white": {
-    framePath: "/frames/samsung-galaxy-s10-ceramic-white.png",
+  "samsung galaxy s10+ ceramic white": {
+    framePath: "/frames/Samsung Galaxy S10+ Ceramic White.png",
     frameW: 1522,
     frameH: 3208,
     screen: {
@@ -688,8 +688,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-flamingo-pink": {
-    framePath: "/frames/samsung-galaxy-s10-flamingo-pink.png",
+  "samsung galaxy s10+ flamingo pink": {
+    framePath: "/frames/Samsung Galaxy S10+ Flamingo Pink.png",
     frameW: 1522,
     frameH: 3208,
     screen: {
@@ -701,8 +701,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-black": {
-    framePath: "/frames/samsung-galaxy-s10-prism-black.png",
+  "samsung galaxy s10+ prism black": {
+    framePath: "/frames/Samsung Galaxy S10+ Prism Black.png",
     frameW: 1522,
     frameH: 3208,
     screen: {
@@ -714,8 +714,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-blue": {
-    framePath: "/frames/samsung-galaxy-s10-prism-blue.png",
+  "samsung galaxy s10+ prism blue": {
+    framePath: "/frames/Samsung Galaxy S10+ Prism Blue.png",
     frameW: 1522,
     frameH: 3208,
     screen: {
@@ -727,8 +727,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-green": {
-    framePath: "/frames/samsung-galaxy-s10-prism-green.png",
+  "samsung galaxy s10+ prism green": {
+    framePath: "/frames/Samsung Galaxy S10+ Prism Green.png",
     frameW: 1522,
     frameH: 3208,
     screen: {
@@ -740,8 +740,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s10-prism-white": {
-    framePath: "/frames/samsung-galaxy-s10-prism-white.png",
+  "samsung galaxy s10+ prism white": {
+    framePath: "/frames/Samsung Galaxy S10+ Prism White.png",
     frameW: 1522,
     frameH: 3208,
     screen: {
@@ -753,8 +753,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-cloud-blue": {
-    framePath: "/frames/samsung-galaxy-s20-cloud-blue.png",
+  "samsung galaxy s20 cloud blue": {
+    framePath: "/frames/Samsung Galaxy S20 Cloud Blue.png",
     frameW: 1537,
     frameH: 3335,
     screen: {
@@ -766,8 +766,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-cloud-pink": {
-    framePath: "/frames/samsung-galaxy-s20-cloud-pink.png",
+  "samsung galaxy s20 cloud pink": {
+    framePath: "/frames/Samsung Galaxy S20 Cloud Pink.png",
     frameW: 1537,
     frameH: 3335,
     screen: {
@@ -779,8 +779,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-cosmic-gray": {
-    framePath: "/frames/samsung-galaxy-s20-cosmic-gray.png",
+  "samsung galaxy s20 cosmic gray": {
+    framePath: "/frames/Samsung Galaxy S20 Cosmic Gray.png",
     frameW: 1537,
     frameH: 3335,
     screen: {
@@ -792,8 +792,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-utra-cosmic-black": {
-    framePath: "/frames/samsung-galaxy-s20-utra-cosmic-black.png",
+  "samsung galaxy s20 utra cosmic black": {
+    framePath: "/frames/Samsung Galaxy S20 Utra Cosmic Black.png",
     frameW: 1527,
     frameH: 3318,
     screen: {
@@ -805,8 +805,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-utra-cosmic-gray": {
-    framePath: "/frames/samsung-galaxy-s20-utra-cosmic-gray.png",
+  "samsung galaxy s20 utra cosmic gray": {
+    framePath: "/frames/Samsung Galaxy S20 Utra Cosmic Gray.png",
     frameW: 1527,
     frameH: 3318,
     screen: {
@@ -818,8 +818,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-cloud-blue": {
-    framePath: "/frames/samsung-galaxy-s20-cloud-blue.png",
+  "samsung galaxy s20+ cloud blue": {
+    framePath: "/frames/Samsung Galaxy S20+ Cloud Blue.png",
     frameW: 1527,
     frameH: 3318,
     screen: {
@@ -831,8 +831,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-cosmic-black": {
-    framePath: "/frames/samsung-galaxy-s20-cosmic-black.png",
+  "samsung galaxy s20+ cosmic black": {
+    framePath: "/frames/Samsung Galaxy S20+ Cosmic Black.png",
     frameW: 1527,
     frameH: 3318,
     screen: {
@@ -844,8 +844,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s20-cosmic-gray": {
-    framePath: "/frames/samsung-galaxy-s20-cosmic-gray.png",
+  "samsung galaxy s20+ cosmic gray": {
+    framePath: "/frames/Samsung Galaxy S20+ Cosmic Gray.png",
     frameW: 1527,
     frameH: 3318,
     screen: {
@@ -857,8 +857,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-black": {
-    framePath: "/frames/samsung-galaxy-s21-5g-black.png",
+  "samsung galaxy s21 5g black": {
+    framePath: "/frames/Samsung Galaxy S21 5G Black.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -870,8 +870,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-pink": {
-    framePath: "/frames/samsung-galaxy-s21-5g-pink.png",
+  "samsung galaxy s21 5g pink": {
+    framePath: "/frames/Samsung Galaxy S21 5G Pink.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -883,8 +883,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-violet": {
-    framePath: "/frames/samsung-galaxy-s21-5g-violet.png",
+  "samsung galaxy s21 5g violet": {
+    framePath: "/frames/Samsung Galaxy S21 5G Violet.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -896,8 +896,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-white": {
-    framePath: "/frames/samsung-galaxy-s21-5g-white.png",
+  "samsung galaxy s21 5g white": {
+    framePath: "/frames/Samsung Galaxy S21 5G White.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -909,8 +909,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-ultra-5g-black": {
-    framePath: "/frames/samsung-galaxy-s21-ultra-5g-black.png",
+  "samsung galaxy s21 ultra 5g black": {
+    framePath: "/frames/Samsung Galaxy S21 Ultra 5G Black.png",
     frameW: 1540,
     frameH: 3324,
     screen: {
@@ -922,8 +922,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-ultra-5g-silver": {
-    framePath: "/frames/samsung-galaxy-s21-ultra-5g-silver.png",
+  "samsung galaxy s21 ultra 5g silver": {
+    framePath: "/frames/Samsung Galaxy S21 Ultra 5G Silver.png",
     frameW: 1540,
     frameH: 3324,
     screen: {
@@ -935,8 +935,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-black": {
-    framePath: "/frames/samsung-galaxy-s21-5g-black.png",
+  "samsung galaxy s21+ 5g black": {
+    framePath: "/frames/Samsung Galaxy S21+ 5G Black.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -948,8 +948,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-silver": {
-    framePath: "/frames/samsung-galaxy-s21-5g-silver.png",
+  "samsung galaxy s21+ 5g silver": {
+    framePath: "/frames/Samsung Galaxy S21+ 5G Silver.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -961,8 +961,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s21-5g-violet": {
-    framePath: "/frames/samsung-galaxy-s21-5g-violet.png",
+  "samsung galaxy s21+ 5g violet": {
+    framePath: "/frames/Samsung Galaxy S21+ 5G Violet.png",
     frameW: 1180,
     frameH: 2500,
     screen: {
@@ -974,8 +974,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s3": {
-    framePath: "/frames/samsung-galaxy-s3.png",
+  "samsung galaxy s3": {
+    framePath: "/frames/Samsung Galaxy S3.png",
     frameW: 845,
     frameH: 1618,
     screen: {
@@ -987,8 +987,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s5-black": {
-    framePath: "/frames/samsung-galaxy-s5-black.png",
+  "samsung galaxy s5 black": {
+    framePath: "/frames/Samsung Galaxy S5 Black.png",
     frameW: 1236,
     frameH: 2398,
     screen: {
@@ -1000,8 +1000,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s5-white": {
-    framePath: "/frames/samsung-galaxy-s5-white.png",
+  "samsung galaxy s5 white": {
+    framePath: "/frames/Samsung Galaxy S5 White.png",
     frameW: 1236,
     frameH: 2398,
     screen: {
@@ -1013,8 +1013,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s7-black": {
-    framePath: "/frames/samsung-galaxy-s7-black.png",
+  "samsung galaxy s7 black": {
+    framePath: "/frames/Samsung Galaxy S7 Black.png",
     frameW: 1588,
     frameH: 3212,
     screen: {
@@ -1026,8 +1026,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s7-gold": {
-    framePath: "/frames/samsung-galaxy-s7-gold.png",
+  "samsung galaxy s7 gold": {
+    framePath: "/frames/Samsung Galaxy S7 Gold.png",
     frameW: 1588,
     frameH: 3212,
     screen: {
@@ -1039,8 +1039,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s7-silver": {
-    framePath: "/frames/samsung-galaxy-s7-silver.png",
+  "samsung galaxy s7 silver": {
+    framePath: "/frames/Samsung Galaxy S7 Silver.png",
     frameW: 1588,
     frameH: 3212,
     screen: {
@@ -1052,8 +1052,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s7-white": {
-    framePath: "/frames/samsung-galaxy-s7-white.png",
+  "samsung galaxy s7 white": {
+    framePath: "/frames/Samsung Galaxy S7 White.png",
     frameW: 1588,
     frameH: 3212,
     screen: {
@@ -1065,8 +1065,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s8-arctic-silver": {
-    framePath: "/frames/samsung-galaxy-s8-arctic-silver.png",
+  "samsung galaxy s8 arctic silver": {
+    framePath: "/frames/Samsung Galaxy S8 Arctic Silver.png",
     frameW: 1536,
     frameH: 3312,
     screen: {
@@ -1078,8 +1078,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s8-coral-blue": {
-    framePath: "/frames/samsung-galaxy-s8-coral-blue.png",
+  "samsung galaxy s8 coral blue": {
+    framePath: "/frames/Samsung Galaxy S8 Coral Blue.png",
     frameW: 1536,
     frameH: 3312,
     screen: {
@@ -1091,8 +1091,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s8-maple-gold": {
-    framePath: "/frames/samsung-galaxy-s8-maple-gold.png",
+  "samsung galaxy s8 maple gold": {
+    framePath: "/frames/Samsung Galaxy S8 Maple Gold.png",
     frameW: 1536,
     frameH: 3312,
     screen: {
@@ -1104,8 +1104,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s8-midnight-black": {
-    framePath: "/frames/samsung-galaxy-s8-midnight-black.png",
+  "samsung galaxy s8 midnight black": {
+    framePath: "/frames/Samsung Galaxy S8 Midnight Black.png",
     frameW: 1536,
     frameH: 3312,
     screen: {
@@ -1117,8 +1117,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s8-orchid-gray": {
-    framePath: "/frames/samsung-galaxy-s8-orchid-gray.png",
+  "samsung galaxy s8 orchid gray": {
+    framePath: "/frames/Samsung Galaxy S8 Orchid Gray.png",
     frameW: 1536,
     frameH: 3312,
     screen: {
@@ -1130,8 +1130,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s9-burgundy-red": {
-    framePath: "/frames/samsung-galaxy-s9-burgundy-red.png",
+  "samsung galaxy s9 burgundy red": {
+    framePath: "/frames/Samsung Galaxy S9 Burgundy Red.png",
     frameW: 1532,
     frameH: 3288,
     screen: {
@@ -1143,8 +1143,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s9-coral-blue": {
-    framePath: "/frames/samsung-galaxy-s9-coral-blue.png",
+  "samsung galaxy s9 coral blue": {
+    framePath: "/frames/Samsung Galaxy S9 Coral Blue.png",
     frameW: 1532,
     frameH: 3288,
     screen: {
@@ -1156,8 +1156,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s9-lilac-purple": {
-    framePath: "/frames/samsung-galaxy-s9-lilac-purple.png",
+  "samsung galaxy s9 lilac purple": {
+    framePath: "/frames/Samsung Galaxy S9 Lilac Purple.png",
     frameW: 1532,
     frameH: 3288,
     screen: {
@@ -1169,8 +1169,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s9-midnight-black": {
-    framePath: "/frames/samsung-galaxy-s9-midnight-black.png",
+  "samsung galaxy s9 midnight black": {
+    framePath: "/frames/Samsung Galaxy S9 Midnight Black.png",
     frameW: 1532,
     frameH: 3288,
     screen: {
@@ -1182,8 +1182,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s9-sunrise-gold": {
-    framePath: "/frames/samsung-galaxy-s9-sunrise-gold.png",
+  "samsung galaxy s9 sunrise gold": {
+    framePath: "/frames/Samsung Galaxy S9 Sunrise Gold.png",
     frameW: 1532,
     frameH: 3288,
     screen: {
@@ -1195,8 +1195,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "samsung-galaxy-s9-titanium-gray": {
-    framePath: "/frames/samsung-galaxy-s9-titanium-gray.png",
+  "samsung galaxy s9 titanium gray": {
+    framePath: "/frames/Samsung Galaxy S9 Titanium Gray.png",
     frameW: 1532,
     frameH: 3288,
     screen: {
@@ -1208,8 +1208,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "google-pixel-slate": {
-    framePath: "/frames/google-pixel-slate.png",
+  "google pixel slate": {
+    framePath: "/frames/Google Pixel Slate.png",
     frameW: 3313,
     frameH: 2304,
     screen: {
@@ -1221,8 +1221,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-10-2-gold": {
-    framePath: "/frames/apple-ipad-10-2-gold.png",
+  "apple ipad 10.2 gold": {
+    framePath: "/frames/Apple iPad 10.2 Gold.png",
     frameW: 1812,
     frameH: 2606,
     screen: {
@@ -1234,8 +1234,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-10-2-silver": {
-    framePath: "/frames/apple-ipad-10-2-silver.png",
+  "apple ipad 10.2 silver": {
+    framePath: "/frames/Apple iPad 10.2 Silver.png",
     frameW: 1812,
     frameH: 2606,
     screen: {
@@ -1247,8 +1247,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-10-2-space-gray": {
-    framePath: "/frames/apple-ipad-10-2-space-gray.png",
+  "apple ipad 10.2 space gray": {
+    framePath: "/frames/Apple iPad 10.2 Space Gray.png",
     frameW: 1812,
     frameH: 2606,
     screen: {
@@ -1260,8 +1260,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2-gold": {
-    framePath: "/frames/apple-ipad-air-2019-2-gold.png",
+  "apple ipad air (2019) 2 gold": {
+    framePath: "/frames/Apple iPad Air (2019) 2 Gold.png",
     frameW: 1763,
     frameH: 2495,
     screen: {
@@ -1273,8 +1273,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2-silver": {
-    framePath: "/frames/apple-ipad-air-2019-2-silver.png",
+  "apple ipad air (2019) 2 silver": {
+    framePath: "/frames/Apple iPad Air (2019) 2 Silver.png",
     frameW: 1763,
     frameH: 2495,
     screen: {
@@ -1286,8 +1286,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2-space-gray": {
-    framePath: "/frames/apple-ipad-air-2019-2-space-gray.png",
+  "apple ipad air (2019) 2 space gray": {
+    framePath: "/frames/Apple iPad Air (2019) 2 Space Gray.png",
     frameW: 1763,
     frameH: 2495,
     screen: {
@@ -1299,8 +1299,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2020-green-portrait": {
-    framePath: "/frames/apple-ipad-air-2019-2020-green-portrait.png",
+  "apple ipad air (2019) 2020 green portrait": {
+    framePath: "/frames/Apple iPad Air (2019) 2020 Green Portrait.png",
     frameW: 1864,
     frameH: 2584,
     screen: {
@@ -1312,8 +1312,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2020-rose-gold-portrait": {
-    framePath: "/frames/apple-ipad-air-2019-2020-rose-gold-portrait.png",
+  "apple ipad air (2019) 2020 rose gold portrait": {
+    framePath: "/frames/Apple iPad Air (2019) 2020 Rose Gold Portrait.png",
     frameW: 1864,
     frameH: 2584,
     screen: {
@@ -1325,8 +1325,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2020-silver-portrait": {
-    framePath: "/frames/apple-ipad-air-2019-2020-silver-portrait.png",
+  "apple ipad air (2019) 2020 silver portrait": {
+    framePath: "/frames/Apple iPad Air (2019) 2020 Silver Portrait.png",
     frameW: 1864,
     frameH: 2584,
     screen: {
@@ -1338,8 +1338,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2020-sky-blue-portrait": {
-    framePath: "/frames/apple-ipad-air-2019-2020-sky-blue-portrait.png",
+  "apple ipad air (2019) 2020 sky blue portrait": {
+    framePath: "/frames/Apple iPad Air (2019) 2020 Sky Blue Portrait.png",
     frameW: 1864,
     frameH: 2584,
     screen: {
@@ -1351,8 +1351,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-air-2019-2020-space-gray-portrait": {
-    framePath: "/frames/apple-ipad-air-2019-2020-space-gray-portrait.png",
+  "apple ipad air (2019) 2020 space gray portrait": {
+    framePath: "/frames/Apple iPad Air (2019) 2020 Space Gray Portrait.png",
     frameW: 1864,
     frameH: 2584,
     screen: {
@@ -1364,8 +1364,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-mini-2019-gold": {
-    framePath: "/frames/apple-ipad-mini-2019-gold.png",
+  "apple ipad mini (2019) gold": {
+    framePath: "/frames/Apple iPad Mini (2019) Gold.png",
     frameW: 1728,
     frameH: 2607,
     screen: {
@@ -1377,8 +1377,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-mini-2019-silver": {
-    framePath: "/frames/apple-ipad-mini-2019-silver.png",
+  "apple ipad mini (2019) silver": {
+    framePath: "/frames/Apple iPad Mini (2019) Silver.png",
     frameW: 1728,
     frameH: 2607,
     screen: {
@@ -1390,8 +1390,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-mini-2019-space-gray": {
-    framePath: "/frames/apple-ipad-mini-2019-space-gray.png",
+  "apple ipad mini (2019) space gray": {
+    framePath: "/frames/Apple iPad Mini (2019) Space Gray.png",
     frameW: 1728,
     frameH: 2607,
     screen: {
@@ -1403,8 +1403,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-11-inch-silver": {
-    framePath: "/frames/apple-ipad-pro-11-inch-silver.png",
+  "apple ipad pro (11-inch) silver": {
+    framePath: "/frames/Apple iPad Pro (11-inch) Silver.png",
     frameW: 1863,
     frameH: 2583,
     screen: {
@@ -1416,8 +1416,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-11-inch-space-gray": {
-    framePath: "/frames/apple-ipad-pro-11-inch-space-gray.png",
+  "apple ipad pro (11-inch) space gray": {
+    framePath: "/frames/Apple iPad Pro (11-inch) Space Gray.png",
     frameW: 1863,
     frameH: 2583,
     screen: {
@@ -1429,8 +1429,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-12-9-inch-4th-generation-silver": {
-    framePath: "/frames/apple-ipad-pro-12-9-inch-4th-generation-silver.png",
+  "apple ipad pro (12.9-inch) (4th generation) silver": {
+    framePath: "/frames/Apple iPad Pro (12.9-inch) (4th generation) Silver.png",
     frameW: 2245,
     frameH: 2930,
     screen: {
@@ -1442,8 +1442,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-12-9-inch-4th-generation-space-gray": {
-    framePath: "/frames/apple-ipad-pro-12-9-inch-4th-generation-space-gray.png",
+  "apple ipad pro (12.9-inch) (4th generation) space gray": {
+    framePath: "/frames/Apple iPad Pro (12.9-inch) (4th generation) Space Gray.png",
     frameW: 2245,
     frameH: 2930,
     screen: {
@@ -1455,8 +1455,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-gold": {
-    framePath: "/frames/apple-ipad-pro-gold.png",
+  "apple ipad pro gold": {
+    framePath: "/frames/Apple iPad Pro Gold.png",
     frameW: 2286,
     frameH: 3168,
     screen: {
@@ -1468,8 +1468,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-silver": {
-    framePath: "/frames/apple-ipad-pro-silver.png",
+  "apple ipad pro silver": {
+    framePath: "/frames/Apple iPad Pro Silver.png",
     frameW: 2286,
     frameH: 3168,
     screen: {
@@ -1481,8 +1481,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-ipad-pro-space-gray": {
-    framePath: "/frames/apple-ipad-pro-space-gray.png",
+  "apple ipad pro space gray": {
+    framePath: "/frames/Apple iPad Pro Space Gray.png",
     frameW: 2286,
     frameH: 3168,
     screen: {
@@ -1494,8 +1494,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-black": {
-    framePath: "/frames/apple-iphone-11-black.png",
+  "apple iphone 11 black": {
+    framePath: "/frames/Apple iPhone 11 Black.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -1507,8 +1507,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-green": {
-    framePath: "/frames/apple-iphone-11-green.png",
+  "apple iphone 11 green": {
+    framePath: "/frames/Apple iPhone 11 Green.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -1520,8 +1520,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-gold": {
-    framePath: "/frames/apple-iphone-11-pro-gold.png",
+  "apple iphone 11 pro gold": {
+    framePath: "/frames/Apple iPhone 11 Pro Gold.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -1533,8 +1533,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-max-gold": {
-    framePath: "/frames/apple-iphone-11-pro-max-gold.png",
+  "apple iphone 11 pro max gold": {
+    framePath: "/frames/Apple iPhone 11 Pro Max Gold.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -1546,8 +1546,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-max-midnight-green": {
-    framePath: "/frames/apple-iphone-11-pro-max-midnight-green.png",
+  "apple iphone 11 pro max midnight green": {
+    framePath: "/frames/Apple iPhone 11 Pro Max Midnight Green.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -1559,8 +1559,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-max-silver": {
-    framePath: "/frames/apple-iphone-11-pro-max-silver.png",
+  "apple iphone 11 pro max silver": {
+    framePath: "/frames/Apple iPhone 11 Pro Max Silver.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -1572,8 +1572,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-max-space-gray": {
-    framePath: "/frames/apple-iphone-11-pro-max-space-gray.png",
+  "apple iphone 11 pro max space gray": {
+    framePath: "/frames/Apple iPhone 11 Pro Max Space Gray.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -1585,8 +1585,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-midnight-green": {
-    framePath: "/frames/apple-iphone-11-pro-midnight-green.png",
+  "apple iphone 11 pro midnight green": {
+    framePath: "/frames/Apple iPhone 11 Pro Midnight Green.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -1598,8 +1598,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-silver": {
-    framePath: "/frames/apple-iphone-11-pro-silver.png",
+  "apple iphone 11 pro silver": {
+    framePath: "/frames/Apple iPhone 11 Pro Silver.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -1611,8 +1611,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-pro-space-gray": {
-    framePath: "/frames/apple-iphone-11-pro-space-gray.png",
+  "apple iphone 11 pro space gray": {
+    framePath: "/frames/Apple iPhone 11 Pro Space Gray.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -1624,8 +1624,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-purple": {
-    framePath: "/frames/apple-iphone-11-purple.png",
+  "apple iphone 11 purple": {
+    framePath: "/frames/Apple iPhone 11 Purple.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -1637,8 +1637,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-red": {
-    framePath: "/frames/apple-iphone-11-red.png",
+  "apple iphone 11 red": {
+    framePath: "/frames/Apple iPhone 11 Red.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -1650,8 +1650,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-white": {
-    framePath: "/frames/apple-iphone-11-white.png",
+  "apple iphone 11 white": {
+    framePath: "/frames/Apple iPhone 11 White.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -1663,8 +1663,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-11-yellow": {
-    framePath: "/frames/apple-iphone-11-yellow.png",
+  "apple iphone 11 yellow": {
+    framePath: "/frames/Apple iPhone 11 Yellow.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -1676,8 +1676,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-black": {
-    framePath: "/frames/apple-iphone-12-black.png",
+  "apple iphone 12 black": {
+    framePath: "/frames/Apple iPhone 12 Black.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1689,8 +1689,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-blue": {
-    framePath: "/frames/apple-iphone-12-blue.png",
+  "apple iphone 12 blue": {
+    framePath: "/frames/Apple iPhone 12 Blue.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1702,8 +1702,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-green": {
-    framePath: "/frames/apple-iphone-12-green.png",
+  "apple iphone 12 green": {
+    framePath: "/frames/Apple iPhone 12 Green.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1715,8 +1715,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-mini-black": {
-    framePath: "/frames/apple-iphone-12-mini-black.png",
+  "apple iphone 12 mini black": {
+    framePath: "/frames/Apple iPhone 12 Mini Black.png",
     frameW: 1220,
     frameH: 2458,
     screen: {
@@ -1728,8 +1728,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-mini-blue": {
-    framePath: "/frames/apple-iphone-12-mini-blue.png",
+  "apple iphone 12 mini blue": {
+    framePath: "/frames/Apple iPhone 12 Mini Blue.png",
     frameW: 1220,
     frameH: 2458,
     screen: {
@@ -1741,8 +1741,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-mini-green": {
-    framePath: "/frames/apple-iphone-12-mini-green.png",
+  "apple iphone 12 mini green": {
+    framePath: "/frames/Apple iPhone 12 Mini Green.png",
     frameW: 1220,
     frameH: 2458,
     screen: {
@@ -1754,8 +1754,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-mini-red": {
-    framePath: "/frames/apple-iphone-12-mini-red.png",
+  "apple iphone 12 mini red": {
+    framePath: "/frames/Apple iPhone 12 Mini Red.png",
     frameW: 1220,
     frameH: 2458,
     screen: {
@@ -1767,8 +1767,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-mini-white": {
-    framePath: "/frames/apple-iphone-12-mini-white.png",
+  "apple iphone 12 mini white": {
+    framePath: "/frames/Apple iPhone 12 Mini White.png",
     frameW: 1220,
     frameH: 2458,
     screen: {
@@ -1780,8 +1780,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-gold": {
-    framePath: "/frames/apple-iphone-12-pro-gold.png",
+  "apple iphone 12 pro gold": {
+    framePath: "/frames/Apple iPhone 12 Pro Gold.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1793,8 +1793,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-graphite": {
-    framePath: "/frames/apple-iphone-12-pro-graphite.png",
+  "apple iphone 12 pro graphite": {
+    framePath: "/frames/Apple iPhone 12 Pro Graphite.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1806,8 +1806,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-max-gold": {
-    framePath: "/frames/apple-iphone-12-pro-max-gold.png",
+  "apple iphone 12 pro max gold": {
+    framePath: "/frames/Apple iPhone 12 Pro Max Gold.png",
     frameW: 1432,
     frameH: 2902,
     screen: {
@@ -1819,8 +1819,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-max-graphite": {
-    framePath: "/frames/apple-iphone-12-pro-max-graphite.png",
+  "apple iphone 12 pro max graphite": {
+    framePath: "/frames/Apple iPhone 12 Pro Max Graphite.png",
     frameW: 1432,
     frameH: 2902,
     screen: {
@@ -1832,8 +1832,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-max-pacific-blue": {
-    framePath: "/frames/apple-iphone-12-pro-max-pacific-blue.png",
+  "apple iphone 12 pro max pacific blue": {
+    framePath: "/frames/Apple iPhone 12 Pro Max Pacific Blue.png",
     frameW: 1432,
     frameH: 2902,
     screen: {
@@ -1845,8 +1845,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-max-silver": {
-    framePath: "/frames/apple-iphone-12-pro-max-silver.png",
+  "apple iphone 12 pro max silver": {
+    framePath: "/frames/Apple iPhone 12 Pro Max Silver.png",
     frameW: 1432,
     frameH: 2902,
     screen: {
@@ -1858,8 +1858,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-pacific-blue": {
-    framePath: "/frames/apple-iphone-12-pro-pacific-blue.png",
+  "apple iphone 12 pro pacific blue": {
+    framePath: "/frames/Apple iPhone 12 Pro Pacific Blue.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1871,8 +1871,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-pro-silver": {
-    framePath: "/frames/apple-iphone-12-pro-silver.png",
+  "apple iphone 12 pro silver": {
+    framePath: "/frames/Apple iPhone 12 Pro Silver.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1884,8 +1884,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-red": {
-    framePath: "/frames/apple-iphone-12-red.png",
+  "apple iphone 12 red": {
+    framePath: "/frames/Apple iPhone 12 Red.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1897,8 +1897,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-12-white": {
-    framePath: "/frames/apple-iphone-12-white.png",
+  "apple iphone 12 white": {
+    framePath: "/frames/Apple iPhone 12 White.png",
     frameW: 1314,
     frameH: 2658,
     screen: {
@@ -1910,8 +1910,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-blue": {
-    framePath: "/frames/apple-iphone-13-blue.png",
+  "apple iphone 13 blue": {
+    framePath: "/frames/Apple iPhone 13 Blue.png",
     frameW: 1313,
     frameH: 2661,
     screen: {
@@ -1923,8 +1923,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-midnight": {
-    framePath: "/frames/apple-iphone-13-midnight.png",
+  "apple iphone 13 midnight": {
+    framePath: "/frames/Apple iPhone 13 Midnight.png",
     frameW: 1313,
     frameH: 2661,
     screen: {
@@ -1936,8 +1936,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-mini-blue": {
-    framePath: "/frames/apple-iphone-13-mini-blue.png",
+  "apple iphone 13 mini blue": {
+    framePath: "/frames/Apple iPhone 13 Mini Blue.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -1949,8 +1949,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-mini-midnight": {
-    framePath: "/frames/apple-iphone-13-mini-midnight.png",
+  "apple iphone 13 mini midnight": {
+    framePath: "/frames/Apple iPhone 13 Mini Midnight.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -1962,8 +1962,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-mini-pink": {
-    framePath: "/frames/apple-iphone-13-mini-pink.png",
+  "apple iphone 13 mini pink": {
+    framePath: "/frames/Apple iPhone 13 Mini Pink.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -1975,8 +1975,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-mini-red": {
-    framePath: "/frames/apple-iphone-13-mini-red.png",
+  "apple iphone 13 mini red": {
+    framePath: "/frames/Apple iPhone 13 Mini Red.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -1988,8 +1988,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-mini-starlight": {
-    framePath: "/frames/apple-iphone-13-mini-starlight.png",
+  "apple iphone 13 mini starlight": {
+    framePath: "/frames/Apple iPhone 13 Mini Starlight.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -2001,8 +2001,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pink": {
-    framePath: "/frames/apple-iphone-13-pink.png",
+  "apple iphone 13 pink": {
+    framePath: "/frames/Apple iPhone 13 Pink.png",
     frameW: 1313,
     frameH: 2661,
     screen: {
@@ -2014,8 +2014,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-gold": {
-    framePath: "/frames/apple-iphone-13-pro-gold.png",
+  "apple iphone 13 pro gold": {
+    framePath: "/frames/Apple iPhone 13 Pro Gold.png",
     frameW: 1318,
     frameH: 2660,
     screen: {
@@ -2027,8 +2027,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-graphite": {
-    framePath: "/frames/apple-iphone-13-pro-graphite.png",
+  "apple iphone 13 pro graphite": {
+    framePath: "/frames/Apple iPhone 13 Pro Graphite.png",
     frameW: 1318,
     frameH: 2660,
     screen: {
@@ -2040,8 +2040,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-max-gold": {
-    framePath: "/frames/apple-iphone-13-pro-max-gold.png",
+  "apple iphone 13 pro max gold": {
+    framePath: "/frames/Apple iPhone 13 Pro Max Gold.png",
     frameW: 1433,
     frameH: 2908,
     screen: {
@@ -2053,8 +2053,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-max-graphite": {
-    framePath: "/frames/apple-iphone-13-pro-max-graphite.png",
+  "apple iphone 13 pro max graphite": {
+    framePath: "/frames/Apple iPhone 13 Pro Max Graphite.png",
     frameW: 1433,
     frameH: 2908,
     screen: {
@@ -2066,8 +2066,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-max-sierra-blue": {
-    framePath: "/frames/apple-iphone-13-pro-max-sierra-blue.png",
+  "apple iphone 13 pro max sierra blue": {
+    framePath: "/frames/Apple iPhone 13 Pro Max Sierra Blue.png",
     frameW: 1433,
     frameH: 2908,
     screen: {
@@ -2079,8 +2079,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-max-silver": {
-    framePath: "/frames/apple-iphone-13-pro-max-silver.png",
+  "apple iphone 13 pro max silver": {
+    framePath: "/frames/Apple iPhone 13 Pro Max Silver.png",
     frameW: 1433,
     frameH: 2908,
     screen: {
@@ -2092,8 +2092,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-sierra-blue": {
-    framePath: "/frames/apple-iphone-13-pro-sierra-blue.png",
+  "apple iphone 13 pro sierra blue": {
+    framePath: "/frames/Apple iPhone 13 Pro Sierra Blue.png",
     frameW: 1318,
     frameH: 2660,
     screen: {
@@ -2105,8 +2105,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-pro-silver": {
-    framePath: "/frames/apple-iphone-13-pro-silver.png",
+  "apple iphone 13 pro silver": {
+    framePath: "/frames/Apple iPhone 13 Pro Silver.png",
     frameW: 1318,
     frameH: 2660,
     screen: {
@@ -2118,8 +2118,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-red": {
-    framePath: "/frames/apple-iphone-13-red.png",
+  "apple iphone 13 red": {
+    framePath: "/frames/Apple iPhone 13 Red.png",
     frameW: 1313,
     frameH: 2661,
     screen: {
@@ -2131,8 +2131,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-13-starlight": {
-    framePath: "/frames/apple-iphone-13-starlight.png",
+  "apple iphone 13 starlight": {
+    framePath: "/frames/Apple iPhone 13 Starlight.png",
     frameW: 1313,
     frameH: 2661,
     screen: {
@@ -2144,8 +2144,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-blue": {
-    framePath: "/frames/apple-iphone-14-blue.png",
+  "apple iphone 14 blue": {
+    framePath: "/frames/Apple iPhone 14 Blue.png",
     frameW: 1309,
     frameH: 2655,
     screen: {
@@ -2157,8 +2157,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-midnight": {
-    framePath: "/frames/apple-iphone-14-midnight.png",
+  "apple iphone 14 midnight": {
+    framePath: "/frames/Apple iPhone 14 Midnight.png",
     frameW: 1309,
     frameH: 2655,
     screen: {
@@ -2170,8 +2170,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-plus-blue": {
-    framePath: "/frames/apple-iphone-14-plus-blue.png",
+  "apple iphone 14 plus blue": {
+    framePath: "/frames/Apple iPhone 14 Plus Blue.png",
     frameW: 1429,
     frameH: 2902,
     screen: {
@@ -2183,8 +2183,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-plus-midnight": {
-    framePath: "/frames/apple-iphone-14-plus-midnight.png",
+  "apple iphone 14 plus midnight": {
+    framePath: "/frames/Apple iPhone 14 Plus Midnight.png",
     frameW: 1429,
     frameH: 2902,
     screen: {
@@ -2196,8 +2196,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-plus-purple": {
-    framePath: "/frames/apple-iphone-14-plus-purple.png",
+  "apple iphone 14 plus purple": {
+    framePath: "/frames/Apple iPhone 14 Plus Purple.png",
     frameW: 1429,
     frameH: 2902,
     screen: {
@@ -2209,8 +2209,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-plus-red": {
-    framePath: "/frames/apple-iphone-14-plus-red.png",
+  "apple iphone 14 plus red": {
+    framePath: "/frames/Apple iPhone 14 Plus Red.png",
     frameW: 1429,
     frameH: 2902,
     screen: {
@@ -2222,8 +2222,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-plus-starlight": {
-    framePath: "/frames/apple-iphone-14-plus-starlight.png",
+  "apple iphone 14 plus starlight": {
+    framePath: "/frames/Apple iPhone 14 Plus Starlight.png",
     frameW: 1429,
     frameH: 2902,
     screen: {
@@ -2235,8 +2235,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-black": {
-    framePath: "/frames/apple-iphone-14-pro-black.png",
+  "apple iphone 14 pro black": {
+    framePath: "/frames/Apple iPhone 14 Pro Black.png",
     frameW: 1311,
     frameH: 2672,
     screen: {
@@ -2248,8 +2248,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-gold": {
-    framePath: "/frames/apple-iphone-14-pro-gold.png",
+  "apple iphone 14 pro gold": {
+    framePath: "/frames/Apple iPhone 14 Pro Gold.png",
     frameW: 1311,
     frameH: 2672,
     screen: {
@@ -2261,8 +2261,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-max-black": {
-    framePath: "/frames/apple-iphone-14-pro-max-black.png",
+  "apple iphone 14 pro max black": {
+    framePath: "/frames/Apple iPhone 14 Pro Max Black.png",
     frameW: 1421,
     frameH: 2909,
     screen: {
@@ -2274,8 +2274,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-max-gold": {
-    framePath: "/frames/apple-iphone-14-pro-max-gold.png",
+  "apple iphone 14 pro max gold": {
+    framePath: "/frames/Apple iPhone 14 Pro Max Gold.png",
     frameW: 1421,
     frameH: 2909,
     screen: {
@@ -2287,8 +2287,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-max-purple": {
-    framePath: "/frames/apple-iphone-14-pro-max-purple.png",
+  "apple iphone 14 pro max purple": {
+    framePath: "/frames/Apple iPhone 14 Pro Max Purple.png",
     frameW: 1421,
     frameH: 2909,
     screen: {
@@ -2300,8 +2300,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-max-silver": {
-    framePath: "/frames/apple-iphone-14-pro-max-silver.png",
+  "apple iphone 14 pro max silver": {
+    framePath: "/frames/Apple iPhone 14 Pro Max Silver.png",
     frameW: 1421,
     frameH: 2909,
     screen: {
@@ -2313,8 +2313,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-purple": {
-    framePath: "/frames/apple-iphone-14-pro-purple.png",
+  "apple iphone 14 pro purple": {
+    framePath: "/frames/Apple iPhone 14 Pro Purple.png",
     frameW: 1311,
     frameH: 2672,
     screen: {
@@ -2326,8 +2326,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-pro-silver": {
-    framePath: "/frames/apple-iphone-14-pro-silver.png",
+  "apple iphone 14 pro silver": {
+    framePath: "/frames/Apple iPhone 14 Pro Silver.png",
     frameW: 1311,
     frameH: 2672,
     screen: {
@@ -2339,8 +2339,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-purple": {
-    framePath: "/frames/apple-iphone-14-purple.png",
+  "apple iphone 14 purple": {
+    framePath: "/frames/Apple iPhone 14 Purple.png",
     frameW: 1309,
     frameH: 2655,
     screen: {
@@ -2352,8 +2352,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-red": {
-    framePath: "/frames/apple-iphone-14-red.png",
+  "apple iphone 14 red": {
+    framePath: "/frames/Apple iPhone 14 Red.png",
     frameW: 1309,
     frameH: 2655,
     screen: {
@@ -2365,8 +2365,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-14-starlight": {
-    framePath: "/frames/apple-iphone-14-starlight.png",
+  "apple iphone 14 starlight": {
+    framePath: "/frames/Apple iPhone 14 Starlight.png",
     frameW: 1309,
     frameH: 2655,
     screen: {
@@ -2378,8 +2378,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5c-blue": {
-    framePath: "/frames/apple-iphone-5c-blue.png",
+  "apple iphone 5c blue": {
+    framePath: "/frames/Apple iPhone 5c Blue.png",
     frameW: 767,
     frameH: 1605,
     screen: {
@@ -2391,8 +2391,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5c-green": {
-    framePath: "/frames/apple-iphone-5c-green.png",
+  "apple iphone 5c green": {
+    framePath: "/frames/Apple iPhone 5c Green.png",
     frameW: 767,
     frameH: 1605,
     screen: {
@@ -2404,8 +2404,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5c-red": {
-    framePath: "/frames/apple-iphone-5c-red.png",
+  "apple iphone 5c red": {
+    framePath: "/frames/Apple iPhone 5c Red.png",
     frameW: 767,
     frameH: 1605,
     screen: {
@@ -2417,8 +2417,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5c-white": {
-    framePath: "/frames/apple-iphone-5c-white.png",
+  "apple iphone 5c white": {
+    framePath: "/frames/Apple iPhone 5c White.png",
     frameW: 767,
     frameH: 1605,
     screen: {
@@ -2430,8 +2430,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5c-yellow": {
-    framePath: "/frames/apple-iphone-5c-yellow.png",
+  "apple iphone 5c yellow": {
+    framePath: "/frames/Apple iPhone 5c Yellow.png",
     frameW: 767,
     frameH: 1605,
     screen: {
@@ -2443,8 +2443,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5s-gold": {
-    framePath: "/frames/apple-iphone-5s-gold.png",
+  "apple iphone 5s gold": {
+    framePath: "/frames/Apple iPhone 5s Gold.png",
     frameW: 760,
     frameH: 1597,
     screen: {
@@ -2456,8 +2456,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5s-silver": {
-    framePath: "/frames/apple-iphone-5s-silver.png",
+  "apple iphone 5s silver": {
+    framePath: "/frames/Apple iPhone 5s Silver.png",
     frameW: 760,
     frameH: 1597,
     screen: {
@@ -2469,8 +2469,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-5s-space-gray": {
-    framePath: "/frames/apple-iphone-5s-space-gray.png",
+  "apple iphone 5s space gray": {
+    framePath: "/frames/Apple iPhone 5s Space Gray.png",
     frameW: 760,
     frameH: 1597,
     screen: {
@@ -2482,8 +2482,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-gold": {
-    framePath: "/frames/apple-iphone-6s-gold.png",
+  "apple iphone 6s gold": {
+    framePath: "/frames/Apple iPhone 6s Gold.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2495,8 +2495,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-plus-gold": {
-    framePath: "/frames/apple-iphone-6s-plus-gold.png",
+  "apple iphone 6s plus gold": {
+    framePath: "/frames/Apple iPhone 6s Plus Gold.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2508,8 +2508,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-plus-rose-gold": {
-    framePath: "/frames/apple-iphone-6s-plus-rose-gold.png",
+  "apple iphone 6s plus rose gold": {
+    framePath: "/frames/Apple iPhone 6s Plus Rose Gold.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2521,8 +2521,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-plus-silver": {
-    framePath: "/frames/apple-iphone-6s-plus-silver.png",
+  "apple iphone 6s plus silver": {
+    framePath: "/frames/Apple iPhone 6s Plus Silver.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2534,8 +2534,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-plus-space-gray": {
-    framePath: "/frames/apple-iphone-6s-plus-space-gray.png",
+  "apple iphone 6s plus space gray": {
+    framePath: "/frames/Apple iPhone 6s Plus Space Gray.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2547,8 +2547,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-rose-gold": {
-    framePath: "/frames/apple-iphone-6s-rose-gold.png",
+  "apple iphone 6s rose gold": {
+    framePath: "/frames/Apple iPhone 6s Rose Gold.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2560,8 +2560,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-silver": {
-    framePath: "/frames/apple-iphone-6s-silver.png",
+  "apple iphone 6s silver": {
+    framePath: "/frames/Apple iPhone 6s Silver.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2573,8 +2573,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-6s-space-gray": {
-    framePath: "/frames/apple-iphone-6s-space-gray.png",
+  "apple iphone 6s space gray": {
+    framePath: "/frames/Apple iPhone 6s Space Gray.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2586,8 +2586,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-gold": {
-    framePath: "/frames/apple-iphone-7-gold.png",
+  "apple iphone 7 gold": {
+    framePath: "/frames/Apple iPhone 7 Gold.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2599,8 +2599,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-jet-black": {
-    framePath: "/frames/apple-iphone-7-jet-black.png",
+  "apple iphone 7 jet black": {
+    framePath: "/frames/Apple iPhone 7 Jet Black.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2612,8 +2612,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-matte-black": {
-    framePath: "/frames/apple-iphone-7-matte-black.png",
+  "apple iphone 7 matte black": {
+    framePath: "/frames/Apple iPhone 7 Matte Black.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2625,8 +2625,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-plus-gold": {
-    framePath: "/frames/apple-iphone-7-plus-gold.png",
+  "apple iphone 7 plus gold": {
+    framePath: "/frames/Apple iPhone 7 Plus Gold.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2638,8 +2638,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-plus-jet-black": {
-    framePath: "/frames/apple-iphone-7-plus-jet-black.png",
+  "apple iphone 7 plus jet black": {
+    framePath: "/frames/Apple iPhone 7 Plus Jet Black.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2651,8 +2651,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-plus-matte-black": {
-    framePath: "/frames/apple-iphone-7-plus-matte-black.png",
+  "apple iphone 7 plus matte black": {
+    framePath: "/frames/Apple iPhone 7 Plus Matte Black.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2664,8 +2664,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-plus-rose-gold": {
-    framePath: "/frames/apple-iphone-7-plus-rose-gold.png",
+  "apple iphone 7 plus rose gold": {
+    framePath: "/frames/Apple iPhone 7 Plus Rose Gold.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2677,8 +2677,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-plus-silver": {
-    framePath: "/frames/apple-iphone-7-plus-silver.png",
+  "apple iphone 7 plus silver": {
+    framePath: "/frames/Apple iPhone 7 Plus Silver.png",
     frameW: 1446,
     frameH: 2948,
     screen: {
@@ -2690,8 +2690,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-rose-gold": {
-    framePath: "/frames/apple-iphone-7-rose-gold.png",
+  "apple iphone 7 rose gold": {
+    framePath: "/frames/Apple iPhone 7 Rose Gold.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2703,8 +2703,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-7-silver": {
-    framePath: "/frames/apple-iphone-7-silver.png",
+  "apple iphone 7 silver": {
+    framePath: "/frames/Apple iPhone 7 Silver.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2716,8 +2716,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-8-gold": {
-    framePath: "/frames/apple-iphone-8-gold.png",
+  "apple iphone 8 gold": {
+    framePath: "/frames/Apple iPhone 8 Gold.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2729,8 +2729,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-8-plus-gold": {
-    framePath: "/frames/apple-iphone-8-plus-gold.png",
+  "apple iphone 8 plus gold": {
+    framePath: "/frames/Apple iPhone 8 Plus Gold.png",
     frameW: 1436,
     frameH: 2876,
     screen: {
@@ -2742,8 +2742,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-8-plus-silver": {
-    framePath: "/frames/apple-iphone-8-plus-silver.png",
+  "apple iphone 8 plus silver": {
+    framePath: "/frames/Apple iPhone 8 Plus Silver.png",
     frameW: 1436,
     frameH: 2876,
     screen: {
@@ -2755,8 +2755,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-8-plus-space-gray": {
-    framePath: "/frames/apple-iphone-8-plus-space-gray.png",
+  "apple iphone 8 plus space gray": {
+    framePath: "/frames/Apple iPhone 8 Plus Space Gray.png",
     frameW: 1436,
     frameH: 2876,
     screen: {
@@ -2768,8 +2768,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-8-silver": {
-    framePath: "/frames/apple-iphone-8-silver.png",
+  "apple iphone 8 silver": {
+    framePath: "/frames/Apple iPhone 8 Silver.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2781,8 +2781,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-8-space-gray": {
-    framePath: "/frames/apple-iphone-8-space-gray.png",
+  "apple iphone 8 space gray": {
+    framePath: "/frames/Apple iPhone 8 Space Gray.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2794,8 +2794,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-se-black": {
-    framePath: "/frames/apple-iphone-se-black.png",
+  "apple iphone se black": {
+    framePath: "/frames/Apple iPhone SE Black.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2807,8 +2807,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-se-red": {
-    framePath: "/frames/apple-iphone-se-red.png",
+  "apple iphone se red": {
+    framePath: "/frames/Apple iPhone SE Red.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2820,8 +2820,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-se-white": {
-    framePath: "/frames/apple-iphone-se-white.png",
+  "apple iphone se white": {
+    framePath: "/frames/Apple iPhone SE White.png",
     frameW: 871,
     frameH: 1776,
     screen: {
@@ -2833,8 +2833,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-x-silver": {
-    framePath: "/frames/apple-iphone-x-silver.png",
+  "apple iphone x silver": {
+    framePath: "/frames/Apple iPhone X Silver.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -2846,8 +2846,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-x-space-gray": {
-    framePath: "/frames/apple-iphone-x-space-gray.png",
+  "apple iphone x space gray": {
+    framePath: "/frames/Apple iPhone X Space Gray.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -2859,8 +2859,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xr-blue": {
-    framePath: "/frames/apple-iphone-xr-blue.png",
+  "apple iphone xr blue": {
+    framePath: "/frames/Apple iPhone XR Blue.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -2872,8 +2872,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xr-coral": {
-    framePath: "/frames/apple-iphone-xr-coral.png",
+  "apple iphone xr coral": {
+    framePath: "/frames/Apple iPhone XR Coral.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -2885,8 +2885,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xr-red": {
-    framePath: "/frames/apple-iphone-xr-red.png",
+  "apple iphone xr red": {
+    framePath: "/frames/Apple iPhone XR Red.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -2898,8 +2898,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xr-silver": {
-    framePath: "/frames/apple-iphone-xr-silver.png",
+  "apple iphone xr silver": {
+    framePath: "/frames/Apple iPhone XR Silver.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -2911,8 +2911,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xr-space-gray": {
-    framePath: "/frames/apple-iphone-xr-space-gray.png",
+  "apple iphone xr space gray": {
+    framePath: "/frames/Apple iPhone XR Space Gray.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -2924,8 +2924,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xr-yellow": {
-    framePath: "/frames/apple-iphone-xr-yellow.png",
+  "apple iphone xr yellow": {
+    framePath: "/frames/Apple iPhone XR Yellow.png",
     frameW: 979,
     frameH: 1934,
     screen: {
@@ -2937,8 +2937,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xs-gold": {
-    framePath: "/frames/apple-iphone-xs-gold.png",
+  "apple iphone xs gold": {
+    framePath: "/frames/Apple iPhone XS Gold.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -2950,8 +2950,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xs-max-gold": {
-    framePath: "/frames/apple-iphone-xs-max-gold.png",
+  "apple iphone xs max gold": {
+    framePath: "/frames/Apple iPhone XS Max Gold.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -2963,8 +2963,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xs-max-silver": {
-    framePath: "/frames/apple-iphone-xs-max-silver.png",
+  "apple iphone xs max silver": {
+    framePath: "/frames/Apple iPhone XS Max Silver.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -2976,8 +2976,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xs-max-space-gray": {
-    framePath: "/frames/apple-iphone-xs-max-space-gray.png",
+  "apple iphone xs max space gray": {
+    framePath: "/frames/Apple iPhone XS Max Space Gray.png",
     frameW: 1413,
     frameH: 2844,
     screen: {
@@ -2989,8 +2989,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xs-silver": {
-    framePath: "/frames/apple-iphone-xs-silver.png",
+  "apple iphone xs silver": {
+    framePath: "/frames/Apple iPhone XS Silver.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -3002,8 +3002,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-iphone-xs-space-gray": {
-    framePath: "/frames/apple-iphone-xs-space-gray.png",
+  "apple iphone xs space gray": {
+    framePath: "/frames/Apple iPhone XS Space Gray.png",
     frameW: 1295,
     frameH: 2590,
     screen: {
@@ -3015,8 +3015,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "iphone-13-mini-blue": {
-    framePath: "/frames/iphone-13-mini-blue.png",
+  "iphone 13 mini blue": {
+    framePath: "/frames/iPhone 13 Mini Blue.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -3028,8 +3028,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "iphone-13-mini-midnight": {
-    framePath: "/frames/iphone-13-mini-midnight.png",
+  "iphone 13 mini midnight": {
+    framePath: "/frames/iPhone 13 Mini Midnight.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -3041,8 +3041,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "iphone-13-mini-pink": {
-    framePath: "/frames/iphone-13-mini-pink.png",
+  "iphone 13 mini pink": {
+    framePath: "/frames/iPhone 13 Mini Pink.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -3054,8 +3054,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "iphone-13-mini-red": {
-    framePath: "/frames/iphone-13-mini-red.png",
+  "iphone 13 mini red": {
+    framePath: "/frames/iPhone 13 Mini Red.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -3067,8 +3067,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "iphone-13-mini-starlight": {
-    framePath: "/frames/iphone-13-mini-starlight.png",
+  "iphone 13 mini starlight": {
+    framePath: "/frames/iPhone 13 Mini Starlight.png",
     frameW: 1223,
     frameH: 2466,
     screen: {
@@ -3080,8 +3080,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-air-gold": {
-    framePath: "/frames/apple-macbook-air-gold.png",
+  "apple macbook air gold": {
+    framePath: "/frames/Apple MacBook Air Gold.png",
     frameW: 3306,
     frameH: 1897,
     screen: {
@@ -3093,8 +3093,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-air-silver": {
-    framePath: "/frames/apple-macbook-air-silver.png",
+  "apple macbook air silver": {
+    framePath: "/frames/Apple MacBook Air Silver.png",
     frameW: 3306,
     frameH: 1897,
     screen: {
@@ -3106,8 +3106,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-air-space-gray": {
-    framePath: "/frames/apple-macbook-air-space-gray.png",
+  "apple macbook air space gray": {
+    framePath: "/frames/Apple MacBook Air Space Gray.png",
     frameW: 3306,
     frameH: 1897,
     screen: {
@@ -3119,8 +3119,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-pro-13-silver": {
-    framePath: "/frames/apple-macbook-pro-13-silver.png",
+  "apple macbook pro 13 silver": {
+    framePath: "/frames/Apple Macbook Pro 13 Silver.png",
     frameW: 3348,
     frameH: 1974,
     screen: {
@@ -3132,8 +3132,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-pro-13-space-gray": {
-    framePath: "/frames/apple-macbook-pro-13-space-gray.png",
+  "apple macbook pro 13 space gray": {
+    framePath: "/frames/Apple Macbook Pro 13 Space Gray.png",
     frameW: 3348,
     frameH: 1974,
     screen: {
@@ -3145,8 +3145,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-pro-16-silver": {
-    framePath: "/frames/apple-macbook-pro-16-silver.png",
+  "apple macbook pro 16 silver": {
+    framePath: "/frames/Apple Macbook Pro 16 Silver.png",
     frameW: 3910,
     frameH: 2241,
     screen: {
@@ -3158,8 +3158,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "apple-macbook-pro-16-space-gray": {
-    framePath: "/frames/apple-macbook-pro-16-space-gray.png",
+  "apple macbook pro 16 space gray": {
+    framePath: "/frames/Apple Macbook Pro 16 Space Gray.png",
     frameW: 3910,
     frameH: 2241,
     screen: {
@@ -3172,7 +3172,7 @@ export const MEASURED_FRAME_SPECS = {
     },
   },
   "apple-macbook-gold": {
-    framePath: "/frames/apple-macbook-gold.png",
+    framePath: "/frames/Apple-Macbook-Gold.png",
     frameW: 3064,
     frameH: 1762,
     screen: {
@@ -3185,7 +3185,7 @@ export const MEASURED_FRAME_SPECS = {
     },
   },
   "apple-macbook-space-gray": {
-    framePath: "/frames/apple-macbook-space-gray.png",
+    framePath: "/frames/Apple-Macbook-Space-Gray.png",
     frameW: 3064,
     frameH: 1762,
     screen: {
@@ -3197,8 +3197,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "surface-pro-x-black": {
-    framePath: "/frames/surface-pro-x-black.png",
+  "surface pro x black": {
+    framePath: "/frames/Surface Pro X Black.png",
     frameW: 3020,
     frameH: 2188,
     screen: {
@@ -3210,8 +3210,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "surface-pro-x-silver": {
-    framePath: "/frames/surface-pro-x-silver.png",
+  "surface pro x silver": {
+    framePath: "/frames/Surface Pro X Silver.png",
     frameW: 3020,
     frameH: 2188,
     screen: {
@@ -3223,8 +3223,8 @@ export const MEASURED_FRAME_SPECS = {
       ry: 0.0,
     },
   },
-  "xiaomi-mi-mix-alpha": {
-    framePath: "/frames/xiaomi-mi-mix-alpha.png",
+  "xiaomi mi mix alpha": {
+    framePath: "/frames/Xiaomi Mi Mix Alpha.png",
     frameW: 1090,
     frameH: 2328,
     screen: {

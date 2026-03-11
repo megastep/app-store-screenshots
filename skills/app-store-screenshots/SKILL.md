@@ -289,11 +289,13 @@ Use the support-file bootstrap script before you start writing the actual screen
 - Copies reusable TypeScript helpers into `src/lib/app-store-screenshots/`
 - Writes a project-local `locallama.config.json`
 - Optionally writes `src/app/layout.tsx` from a template
+- Uses a locale label map that covers the full current App Store metadata language set
+- Infers RTL locales from the selected locale set unless you override `--rtl-locales`
 
 Example:
 
 ```bash
-python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --font-import Inter --font-const font --locales en,ar,fr --default-locale en --rtl-locales ar
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --font-import Inter --font-const font --locales en,ar,fr --default-locale en
 ```
 
 Bundled template files:
@@ -446,7 +448,7 @@ Fastlane frames are not all measured the same way. Do not assume every PNG share
 
 Use this approach:
 
-1. Keep per-frame screen inset metadata in a `FRAME_SPECS` object keyed by normalized frame id.
+1. Keep per-frame screen inset metadata in a `FRAME_SPECS` object keyed by the lowercased frame filename stem.
 2. Add entries only for the frames actually present in `public/frames/`.
 3. Prefer generating those entries with `scripts/measure_frame_insets.py` rather than hand-measuring every bezel.
 4. Reuse one preset across color variants of the same device/orientation pair.

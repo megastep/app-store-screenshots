@@ -88,6 +88,8 @@ When the project is missing frame assets, fetch them from the Fastlane frames re
 
 **Use the bundled helper script first**. It resolves the closest device frame for each requested App Store size, prefers the local Fastlane cache, and only hits GitHub if the cache does not have a usable match.
 
+If the script needs to query GitHub repeatedly or runs in CI, provide `GITHUB_TOKEN` (or `GH_TOKEN`) so the repo tree lookup avoids low unauthenticated rate limits.
+
 The script lives next to this skill at `scripts/download_fastlane_frames.py`. Run it from the project root:
 
 ```bash
@@ -120,6 +122,9 @@ python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/downl
 
 # Resolve matches without downloading
 python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/download_fastlane_frames.py --out-dir public/frames --dry-run
+
+# Use authenticated GitHub requests when rate limits matter
+GITHUB_TOKEN=... python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/download_fastlane_frames.py --out-dir public/frames --size-preset marketing-all
 ```
 
 The script writes:

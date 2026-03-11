@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import urllib.error
@@ -35,6 +36,7 @@ SIZE_PRESETS = {
     "android-all": ("android-phone-compact-portrait", "android-phone-large-portrait", "android-tablet-landscape"),
     "desktop-all": ("macbook-air-landscape", "macbook-pro-16-landscape"),
     "marketing-all": ("iphone-6.9-portrait", "iphone-6.9-landscape", "iphone-6.5-portrait", "iphone-6.5-landscape", "iphone-6.3-portrait", "iphone-6.3-landscape", "iphone-6.1-portrait", "iphone-6.1-landscape", "ipad-13-portrait", "ipad-13-landscape", "ipad-11-portrait", "ipad-11-landscape", "android-phone-compact-portrait", "android-phone-large-portrait", "android-tablet-landscape", "macbook-air-landscape", "macbook-pro-16-landscape"),
+    "universal-all": ("iphone-6.9-portrait", "iphone-6.9-landscape", "iphone-6.5-portrait", "iphone-6.5-landscape", "iphone-6.3-portrait", "iphone-6.3-landscape", "iphone-6.1-portrait", "iphone-6.1-landscape", "ipad-13-portrait", "ipad-13-landscape", "ipad-11-portrait", "ipad-11-landscape", "android-phone-compact-portrait", "android-phone-large-portrait", "android-tablet-landscape", "macbook-air-landscape", "macbook-pro-16-landscape"),
 }
 DEFAULT_SIZE_PRESET = "apple-mobile-all"
 DEFAULT_COLOR_PRIORITY = (
@@ -94,43 +96,65 @@ def parse_csv(value: str) -> tuple[str, ...]:
     return tuple(part.strip() for part in value.split(",") if part.strip())
 
 
-def fetch_json(url: str) -> dict:
+def build_headers(token: str | None, accept: str | None = None) -> dict[str, str]:
+    headers = {"User-Agent": "app-store-screenshots-fastlane-frame-downloader"}
+    if accept:
+        headers["Accept"] = accept
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+def fetch_json(url: str, token: str | None) -> dict:
     request = urllib.request.Request(
         url,
-        headers={"Accept": "application/vnd.github+json", "User-Agent": "app-store-screenshots-fastlane-frame-downloader"},
+        headers=build_headers(token, "application/vnd.github+json"),
     )
     with urllib.request.urlopen(request) as response:
         return json.load(response)
 
 
-def fetch_repo_tree(owner: str, repo: str, refs: Iterable[str]) -> tuple[str, list[dict]]:
+def fetch_repo_tree(owner: str, repo: str, refs: Iterable[str], token: str | None) -> tuple[str, list[dict]]:
     errors: list[str] = []
     for ref in refs:
         url = API_TREE_URL.format(owner=owner, repo=repo, ref=urllib.parse.quote(ref, safe=""))
         try:
-            payload = fetch_json(url)
+            payload = fetch_json(url, token)
             tree = payload.get("tree")
             if isinstance(tree, list):
                 return ref, tree
             errors.append(f"{ref}: malformed response")
         except urllib.error.HTTPError as exc:
-            errors.append(f"{ref}: HTTP {exc.code}")
+            if exc.code == 403:
+                errors.append(f"{ref}: HTTP 403 (rate limited; set GITHUB_TOKEN or GH_TOKEN)")
+            else:
+                errors.append(f"{ref}: HTTP {exc.code}")
         except urllib.error.URLError as exc:
             errors.append(f"{ref}: {exc.reason}")
     raise RuntimeError(f"Could not fetch frame tree from {owner}/{repo}. Tried {', '.join(errors)}")
 
 
+def load_remote_candidate_paths(
+    owner: str,
+    repo: str,
+    refs: Iterable[str],
+    token: str | None,
+) -> tuple[str, list[str]]:
+    ref, tree = fetch_repo_tree(owner, repo, refs, token)
+    return ref, [entry["path"] for entry in tree if entry.get("type") == "blob" and is_candidate_asset(entry["path"])]
+
+
 def infer_asset_family(path: str) -> str:
-    lowered = path.lower()
-    if "macbook" in lowered:
+    normalized = path.lower().replace("-", " ").replace("_", " ")
+    if "macbook" in normalized:
         return "mac"
-    if "pixel slate" in lowered:
+    if "pixel slate" in normalized:
         return "android-tablet"
-    if any(term in lowered for term in ("pixel", "galaxy", "nexus", "htc", "huawei", "moto")):
+    if any(term in normalized for term in ("pixel", "galaxy", "nexus", "htc", "huawei", "moto")):
         return "android-phone"
-    if "ipad" in lowered:
+    if "ipad" in normalized:
         return "ipad"
-    if "iphone" in lowered:
+    if "iphone" in normalized:
         return "iphone"
     return "other"
 
@@ -152,6 +176,7 @@ def collect_local_cache_assets(cache_dir: Path) -> list[str]:
 
 def score_path(path: str, bucket: Bucket, color_priority: tuple[str, ...]) -> tuple[int, int, int, int, int, int, int, str]:
     normalized_path = normalize(path)
+    posix_path = Path(path).as_posix()
 
     family_rank = 0 if infer_asset_family(path) == bucket.family else 1
     if family_rank == 1:
@@ -172,9 +197,9 @@ def score_path(path: str, bucket: Bucket, color_priority: tuple[str, ...]) -> tu
             break
 
     orientation_rank = 0 if bucket.orientation in normalized_path else 1
-    latest_rank = 0 if "/latest/" in f"/{path.lower()}" else 1
+    latest_rank = 0 if "/latest/" in f"/{posix_path.lower()}" else 1
     extension_rank = 0 if path.lower().endswith(".png") else 1
-    depth_rank = path.count("/")
+    depth_rank = posix_path.count("/")
     return (family_rank, device_rank, color_rank, orientation_rank, latest_rank, extension_rank, depth_rank, path)
 
 
@@ -186,8 +211,8 @@ def select_best_asset(paths: Iterable[str], bucket: Bucket, color_priority: tupl
     return min(valid)[-1]
 
 
-def download_file(url: str, destination: Path) -> None:
-    request = urllib.request.Request(url, headers={"User-Agent": "app-store-screenshots-fastlane-frame-downloader"})
+def download_file(url: str, destination: Path, token: str | None) -> None:
+    request = urllib.request.Request(url, headers=build_headers(token))
     with urllib.request.urlopen(request) as response:
         data = response.read()
     destination.write_bytes(data)
@@ -208,6 +233,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--refs", default=",".join(DEFAULT_REFS), help="Comma-separated Git refs to try in order. Default: gh-pages,master,main")
     parser.add_argument("--cache-dir", default=DEFAULT_CACHE_DIR, help="Local Fastlane frame cache root to prefer before network download. Default: ~/.fastlane/frameit")
     parser.add_argument("--skip-cache", action="store_true", help="Ignore the local Fastlane cache and resolve frames from GitHub only.")
+    parser.add_argument("--github-token", default=os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"), help="Optional GitHub token for API/raw requests. Defaults to GITHUB_TOKEN or GH_TOKEN when set.")
     parser.add_argument("--manifest-name", default="fastlane-frame-manifest.json", help="Manifest file name written inside out-dir. Default: fastlane-frame-manifest.json")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite already-downloaded output files instead of keeping existing files.")
     parser.add_argument("--dry-run", action="store_true", help="Resolve and print matches without downloading files.")
@@ -227,6 +253,7 @@ def main() -> int:
     refs = parse_csv(args.refs)
     out_dir = Path(args.out_dir).expanduser()
     cache_dir = Path(args.cache_dir).expanduser()
+    github_token = args.github_token
 
     local_candidate_paths: list[str] = []
     if not args.skip_cache:
@@ -234,9 +261,14 @@ def main() -> int:
 
     ref = None
     remote_candidate_paths: list[str] = []
-    if not local_candidate_paths:
-        ref, tree = fetch_repo_tree(args.owner, args.repo, refs)
-        remote_candidate_paths = [entry["path"] for entry in tree if entry.get("type") == "blob" and is_candidate_asset(entry["path"])]
+    remote_loaded = False
+
+    if not local_candidate_paths and not args.skip_cache:
+        ref, remote_candidate_paths = load_remote_candidate_paths(args.owner, args.repo, refs, github_token)
+        remote_loaded = True
+    elif args.skip_cache:
+        ref, remote_candidate_paths = load_remote_candidate_paths(args.owner, args.repo, refs, github_token)
+        remote_loaded = True
 
     if not local_candidate_paths and not remote_candidate_paths:
         raise RuntimeError(f"No candidate image assets found in local cache {cache_dir} or {args.owner}/{args.repo}")
@@ -247,6 +279,7 @@ def main() -> int:
         "out_dir": str(out_dir),
         "cache_dir": str(cache_dir),
         "used_cache": bool(local_candidate_paths),
+        "used_github": False,
         "size_preset": args.size_preset if not args.sizes else None,
         "matches": [],
     }
@@ -257,7 +290,15 @@ def main() -> int:
     resolved_any = False
     for size_key in requested_sizes:
         bucket = BUCKETS[size_key]
-        asset_path = select_best_asset(local_candidate_paths or remote_candidate_paths, bucket, color_priority)
+        asset_path = select_best_asset(local_candidate_paths, bucket, color_priority) if local_candidate_paths else None
+        source_type = "cache" if asset_path else None
+        if asset_path is None:
+            if not remote_loaded:
+                ref, remote_candidate_paths = load_remote_candidate_paths(args.owner, args.repo, refs, github_token)
+                remote_loaded = True
+            asset_path = select_best_asset(remote_candidate_paths, bucket, color_priority)
+            if asset_path is not None:
+                source_type = "github"
         match = {
             "key": bucket.key,
             "family": bucket.family,
@@ -277,13 +318,14 @@ def main() -> int:
         resolved_any = True
         destination = out_dir / bucket.output_name
         match["destination"] = str(destination)
-        if local_candidate_paths:
+        if source_type == "cache":
             match["source_type"] = "cache"
             match["source_path"] = asset_path
         else:
             asset_url = RAW_URL.format(owner=args.owner, repo=args.repo, ref=ref, path=urllib.parse.quote(asset_path, safe="/"))
             match["source_type"] = "github"
             match["asset_url"] = asset_url
+            manifest["used_github"] = True
         manifest["matches"].append(match)
 
         print(f"[match] {bucket.key} -> {asset_path} -> {destination}")
@@ -293,11 +335,11 @@ def main() -> int:
         if destination.exists() and not args.overwrite:
             print(f"[skip] {destination} already exists")
             continue
-        if local_candidate_paths:
+        if source_type == "cache":
             copy_local_file(Path(asset_path), destination)
             print(f"[done] Copied {destination}")
         else:
-            download_file(asset_url, destination)
+            download_file(asset_url, destination, github_token)
             print(f"[done] Downloaded {destination}")
 
     if not resolved_any:

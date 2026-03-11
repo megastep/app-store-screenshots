@@ -74,10 +74,11 @@ export function selectFrameForSize(target: SizeSpec, availableFrames: string[]) 
   const aliasHit = FRAME_PRESETS.find((preset) =>
     preset.family === target.family &&
     preset.orientation === target.orientation &&
-    normalized.some((entry) => preset.aliases.includes(entry.key)),
+    normalized.some((entry) => preset.aliases.map((alias) => normalizeFrameName(alias)).includes(entry.key)),
   );
   if (aliasHit) {
-    const match = normalized.find((entry) => aliasHit.aliases.includes(entry.key));
+    const normalizedAliases = aliasHit.aliases.map((alias) => normalizeFrameName(alias));
+    const match = normalized.find((entry) => normalizedAliases.includes(entry.key));
     return match?.file ?? "/mockup.png";
   }
 

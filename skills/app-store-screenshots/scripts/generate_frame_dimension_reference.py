@@ -68,15 +68,16 @@ def read_image_size(path: Path) -> tuple[int, int]:
 
 def infer_family(name: str) -> str:
     lowered = name.lower()
-    if "macbook" in lowered or "macbook air" in lowered or "macbook pro" in lowered or lowered.startswith("apple-macbook"):
+    normalized = lowered.replace("-", " ").replace("_", " ")
+    if "macbook" in normalized or "macbook air" in normalized or "macbook pro" in normalized or normalized.startswith("apple macbook"):
         return "mac"
-    if "pixel slate" in lowered:
+    if "pixel slate" in normalized:
         return "android-tablet"
-    if any(term in lowered for term in ("pixel", "galaxy", "nexus", "htc", "huawei", "moto")):
+    if any(term in normalized for term in ("pixel", "galaxy", "nexus", "htc", "huawei", "moto")):
         return "android-phone"
-    if "ipad" in lowered:
+    if "ipad" in normalized:
         return "ipad"
-    if "iphone" in lowered:
+    if "iphone" in normalized:
         return "iphone"
     return "other"
 

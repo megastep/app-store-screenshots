@@ -1,5 +1,7 @@
 import { toPng } from "html-to-image";
 
+const warmRenderCache = new WeakMap<HTMLElement, Set<string>>();
+
 export async function exportNodeToPng(
   element: HTMLElement,
   width: number,
@@ -22,7 +24,15 @@ export async function exportNodeToPng(
     cacheBust: true,
   };
 
-  await toPng(element, options);
+  const warmKey = `${width}x${height}`;
+  const warmed = warmRenderCache.get(element) ?? new Set<string>();
+  if (!warmRenderCache.has(element)) {
+    warmRenderCache.set(element, warmed);
+  }
+  if (!warmed.has(warmKey)) {
+    await toPng(element, options);
+    warmed.add(warmKey);
+  }
   const dataUrl = await toPng(element, options);
 
   element.style.left = previous.left;

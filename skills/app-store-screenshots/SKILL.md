@@ -30,12 +30,13 @@ Before writing ANY code, ask the user all of these. Do not proceed until you hav
 
 ### Optional
 
-9. **Component assets** — "Do you have any UI element PNGs (cards, widgets, etc.) you want as floating decorations? If not, that's fine — we'll skip them."
-10. **Additional instructions** — "Any specific requirements, constraints, or preferences?"
+1. **Component assets** — "Do you have any UI element PNGs (cards, widgets, etc.) you want as floating decorations? If not, that's fine — we'll skip them."
+2. **Additional instructions** — "Any specific requirements, constraints, or preferences?"
 
 ### Derived from answers (do NOT ask — decide yourself)
 
 Based on the user's style direction, brand colors, and app aesthetic, decide:
+
 - **Background style**: gradient direction, colors, whether light or dark base
 - **Decorative elements**: blobs, glows, geometric shapes, or none — match the style
 - **Dark vs light slides**: how many of each, which features suit dark treatment
@@ -137,7 +138,7 @@ Use this reference when:
 
 - picking which cached frame variant to keep
 - verifying portrait vs landscape assets
-- measuring and filling `FRAME_SPECS`
+- sanity-checking which devices/orientations exist before measuring insets
 
 The repo includes a pregenerated cache snapshot at `references/frame-dimensions-latest.md` plus structured data at `references/frame-dimensions-latest.json`.
 
@@ -146,6 +147,42 @@ Refresh them with:
 ```bash
 python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/generate_frame_dimension_reference.py --frame-dir ~/.fastlane/frameit/latest --markdown-out /path/to/app-store-screenshots/skills/app-store-screenshots/references/frame-dimensions-latest.md --json-out /path/to/app-store-screenshots/skills/app-store-screenshots/references/frame-dimensions-latest.json
 ```
+
+### Measure Frame Insets Automatically
+
+Use the bundled inset measurer to detect the interior screen opening for every readable bezel PNG in the cache or in `public/frames/`.
+
+Examples:
+
+```bash
+# Measure the full local Fastlane cache and emit refreshable references
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir ~/.fastlane/frameit/latest --source-label fastlane-frameit-latest --json-out frame-insets.json --markdown-out frame-insets.md --ts-out measured-frame-specs.ts
+
+# Measure only the narrowed project frames you actually kept
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir public/frames --source-label public-frames --json-out public/frames/frame-insets.json --markdown-out public/frames/frame-insets.md --ts-out public/frames/measured-frame-specs.ts
+```
+
+The script:
+
+- reads the alpha channel from each PNG
+- finds the largest interior transparent window
+- emits pixel-space and percent-space inset values
+- flags likely cutout/notch frames
+- skips invalid cache files or implausible detections instead of aborting the whole run
+
+The repo includes a pregenerated snapshot from the current Fastlane cache at:
+
+- `references/frame-insets-latest.json`
+- `references/frame-insets-latest.md`
+- `references/frame-insets-latest.ts`
+
+Refresh them with:
+
+```bash
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir ~/.fastlane/frameit/latest --source-label fastlane-frameit-latest --json-out /path/to/app-store-screenshots/skills/app-store-screenshots/references/frame-insets-latest.json --markdown-out /path/to/app-store-screenshots/skills/app-store-screenshots/references/frame-insets-latest.md --ts-out /path/to/app-store-screenshots/skills/app-store-screenshots/references/frame-insets-latest.ts
+```
+
+Use the generated TypeScript file as a scaffold, then copy only the entries that match the frames you actually retain in `public/frames/`.
 
 Only fall back to the manual approaches below if the script is blocked or the user needs unusual device coverage beyond the bundled Apple/Android/Mac presets.
 
@@ -192,7 +229,7 @@ After download:
 
 1. Rename the handful of files you keep into stable kebab-case names like `iphone-16-pro-max.png`, `google-pixel-5.png`, or `apple-macbook-air.png`.
 2. Delete everything you are not going to match against.
-3. Add matching `FRAME_SPECS` entries only for the retained files.
+3. Run `measure_frame_insets.py` against the retained files and copy the matching generated entries into `FRAME_SPECS`.
 4. Keep `mockup.png` in `public/` as the last-resort fallback.
 
 ### File Structure
@@ -261,6 +298,7 @@ Adapt this framework to the user's requested slide count. Not all slots are requ
 | Last | **More Features** | Pills listing extras + coming soon. Skip if few features. |
 
 **Rules:**
+
 - Each slide sells ONE idea. Never two features on one slide.
 - Vary layouts across slides — never repeat the same template structure.
 - Include 1-2 contrast slides (inverted bg) for visual rhythm.
@@ -357,8 +395,9 @@ Use this approach:
 
 1. Keep per-frame screen inset metadata in a `FRAME_SPECS` object keyed by normalized frame id.
 2. Add entries only for the frames actually present in `public/frames/`.
-3. Reuse one preset across color variants of the same device/orientation pair.
-4. If a fastlane frame exists but has no measured inset yet, temporarily route that size to `mockup.png` rather than guessing and shipping a misaligned result.
+3. Prefer generating those entries with `scripts/measure_frame_insets.py` rather than hand-measuring every bezel.
+4. Reuse one preset across color variants of the same device/orientation pair.
+5. If a fastlane frame exists but has no measured inset yet, temporarily route that size to `mockup.png` rather than guessing and shipping a misaligned result.
 
 The bundled `frame-specs.ts` includes:
 
@@ -366,7 +405,7 @@ The bundled `frame-specs.ts` includes:
 - a starter `FRAME_SPECS` object
 - `getFrameSpec(framePath)` so the UI can route unknown frames back to the fallback spec
 
-The important part is the workflow: **measure once per frame, then auto-select by target screenshot size**. Do not handwire slide components to a single device.
+The important part is the workflow: **auto-measure once per frame, then auto-select by target screenshot size**. Do not handwire slide components to a single device.
 
 ### Layout and Orientation Notes
 
@@ -392,17 +431,20 @@ All sizing relative to canvas width W:
 Vary across slides — NEVER use the same layout twice in a row:
 
 **Centered phone** (hero, single-feature, mostly portrait):
+
 ```
 bottom: 0, width: "82-86%", translateX(-50%) translateY(12-14%)
 ```
 
 **Two devices layered** (comparison, before/after, ecosystem):
+
 ```
 Back: left: "-8%", width: "65%", rotate(-4deg), opacity: 0.55
 Front: right: "-4%", width: "82%", translateY(10%)
 ```
 
 **Device + floating elements** (only if user provided component PNGs):
+
 ```
 Cards should NOT block the phone's main content.
 Position at edges, slight rotation (2-5deg), drop shadows.
@@ -410,9 +452,10 @@ If distracting, push partially off-screen or make smaller.
 
 **Landscape split** (best default for iPad landscape and wide iPhone slides):
 ```
+
 Text block: left 8-10%, width 34-40%, vertically centered
 Device: right 4-8%, width 52-58%, slight tilt only if it helps
-```
+
 ```
 
 ### "More Features" Slide (Optional)

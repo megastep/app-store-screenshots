@@ -64,7 +64,7 @@ The repo now also includes a helper to generate a markdown/json dimensions refer
 python skills/app-store-screenshots/scripts/generate_frame_dimension_reference.py --frame-dir ~/.fastlane/frameit/latest --markdown-out frame-dimensions.md --json-out frame-dimensions.json
 ```
 
-This is useful when trimming the cache down to the frames you actually want to keep or when measuring `FRAME_SPECS` entries.
+This is useful when trimming the cache down to the frames you actually want to keep or when checking which device/orientation variants exist.
 
 The repo now also includes a pregenerated snapshot from the current local cache:
 
@@ -75,6 +75,26 @@ Refresh them with:
 
 ```bash
 python skills/app-store-screenshots/scripts/generate_frame_dimension_reference.py --frame-dir ~/.fastlane/frameit/latest --markdown-out skills/app-store-screenshots/references/frame-dimensions-latest.md --json-out skills/app-store-screenshots/references/frame-dimensions-latest.json
+```
+
+The repo also includes an automatic inset measurer for bezel PNGs:
+
+```bash
+python skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir ~/.fastlane/frameit/latest --source-label fastlane-frameit-latest --json-out frame-insets.json --markdown-out frame-insets.md --ts-out measured-frame-specs.ts
+```
+
+It reads the transparent screen opening from each readable frame image, emits a refreshable JSON/Markdown reference, and generates a TypeScript scaffold you can copy into `FRAME_SPECS`.
+
+Pregenerated cache snapshots are checked in at:
+
+- [frame-insets-latest.md](skills/app-store-screenshots/references/frame-insets-latest.md)
+- [frame-insets-latest.json](skills/app-store-screenshots/references/frame-insets-latest.json)
+- [frame-insets-latest.ts](skills/app-store-screenshots/references/frame-insets-latest.ts)
+
+Refresh them with:
+
+```bash
+python skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir ~/.fastlane/frameit/latest --source-label fastlane-frameit-latest --json-out skills/app-store-screenshots/references/frame-insets-latest.json --markdown-out skills/app-store-screenshots/references/frame-insets-latest.md --ts-out skills/app-store-screenshots/references/frame-insets-latest.ts
 ```
 
 The docs also keep three lower-level fallback paths:

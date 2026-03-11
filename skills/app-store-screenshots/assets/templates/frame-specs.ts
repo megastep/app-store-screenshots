@@ -36,7 +36,9 @@ export const FRAME_SPECS: Record<string, FrameSpec> = {
     frameH: 2868,
     screen: { left: 4.0, top: 1.8, width: 92.0, height: 95.2, rx: 12.5, ry: 5.8 },
   },
-  // Add measured fastlane frame specs here as you verify them.
+  // Add measured fastlane frame specs here.
+  // Preferred source: generate them with scripts/measure_frame_insets.py and copy
+  // only the entries for frames you actually keep in public/frames/.
   // Typical next entries:
   // "iphone-16-pro-max-landscape": { ... }
   // "ipad-pro-13": { ... }

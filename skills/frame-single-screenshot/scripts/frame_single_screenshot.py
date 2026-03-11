@@ -182,8 +182,14 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
         y1 += 1
 
     selected = [rows_by_y[y] for y in range(y0, y1 + 1) if y in rows_by_y]
-    x0 = min(start for _, runs, _ in selected for start, _ in runs)
-    x1 = max(end for _, runs, _ in selected for _, end in runs)
+    center_rows = [
+        (y, [(start, end) for start, end in runs if start <= center_x <= end], widest)
+        for y, runs, widest in selected
+        if any(start <= center_x <= end for start, end in runs)
+    ]
+    horizontal_source = center_rows or selected
+    x0 = min(start for _, runs, _ in horizontal_source for start, _ in runs)
+    x1 = max(end for _, runs, _ in horizontal_source for _, end in runs)
     screen_w = x1 - x0 + 1
     screen_h = y1 - y0 + 1
 
@@ -212,6 +218,63 @@ def measure_frame(frame_path: Path) -> dict:
     }
 
 
+def infer_family(frame_entry: dict, frame_path: Path) -> str | None:
+    family = frame_entry.get("family")
+    if isinstance(family, str) and family:
+        return family
+    normalized_name = normalize_text(frame_path.stem)
+    if "iphone" in normalized_name:
+        return "iphone"
+    return None
+
+
+def extend_screen_under_top_cutout(frame: Image.Image, frame_entry: dict, frame_path: Path) -> dict:
+    screen = dict(frame_entry["screen"])
+    if frame_entry.get("topOverlayCutout"):
+        screen["hasTopOverlayCutout"] = True
+        return screen
+
+    family = infer_family(frame_entry, frame_path)
+    if family != "iphone" or int(screen["height"]) <= int(screen["width"]):
+        return screen
+
+    alpha = frame.getchannel("A").tobytes()
+    frame_w, _ = frame.size
+    screen_width = int(screen["width"])
+    current_top = int(screen["top"])
+    if current_top <= 0:
+        return screen
+
+    min_run_width = max(40, round(screen_width * 0.12))
+    min_total_width = screen_width * 0.4
+    cutout_rows: list[int] = []
+
+    for y in range(current_top - 1, -1, -1):
+        runs = [
+            (start, end)
+            for start, end in transparent_runs(alpha, frame_w, y)
+            if (end - start + 1) >= min_run_width
+        ]
+        total_width = sum(end - start + 1 for start, end in runs)
+        if len(runs) >= 2 and total_width >= min_total_width:
+            cutout_rows.append(y)
+            continue
+        if cutout_rows:
+            break
+
+    if not cutout_rows:
+        return screen
+
+    extended_top = min(cutout_rows)
+    if extended_top >= current_top:
+        return screen
+
+    screen["top"] = extended_top
+    screen["height"] = int(screen["height"]) + (current_top - extended_top)
+    screen["hasTopOverlayCutout"] = True
+    return screen
+
+
 def resolve_frame_entry(frame_path: Path, shared_entries: list[dict]) -> tuple[dict, str]:
     for entry in shared_entries:
         if entry.get("filename") == frame_path.name:
@@ -233,7 +296,7 @@ def render_framed_image(image_path: Path, frame_path: Path, frame_entry: dict, f
     with Image.open(frame_path) as frame_image:
         frame = frame_image.convert("RGBA")
 
-    screen = frame_entry["screen"]
+    screen = extend_screen_under_top_cutout(frame, frame_entry, frame_path)
     box_size = (int(screen["width"]), int(screen["height"]))
     if fit_mode == "contain":
         composed_screen = ImageOps.contain(screenshot, box_size, Image.Resampling.LANCZOS)

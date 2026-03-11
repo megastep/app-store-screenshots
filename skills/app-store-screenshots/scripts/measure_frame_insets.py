@@ -162,6 +162,81 @@ def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = 0) -> li
     return runs
 
 
+def infer_top_overlay_cutout(
+    alpha: bytes,
+    frame_w: int,
+    screen: dict,
+    family: str,
+    orientation: str,
+) -> dict | None:
+    if family != "iphone" or orientation != "portrait":
+        return None
+
+    screen_width = int(screen["width"])
+    current_top = int(screen["top"])
+    if current_top <= 0:
+        return None
+
+    min_display_width = screen_width * 0.3
+    min_run_width = max(40, round(screen_width * 0.12))
+    min_total_width = screen_width * 0.4
+    display_rows: list[int] = []
+    shoulder_rows: list[tuple[int, list[tuple[int, int]]]] = []
+
+    for y in range(current_top - 1, -1, -1):
+        interior_runs = [
+            (start, end)
+            for start, end in transparent_runs(alpha, frame_w, y)
+            if start > 0 and end < frame_w - 1
+        ]
+        display_width = sum(end - start + 1 for start, end in interior_runs)
+        if display_width >= min_display_width:
+            display_rows.append(y)
+        elif display_rows:
+            break
+
+    for y in range(current_top - 1, -1, -1):
+        runs = [
+            (start, end)
+            for start, end in transparent_runs(alpha, frame_w, y)
+            if (end - start + 1) >= min_run_width
+        ]
+        total_width = sum(end - start + 1 for start, end in runs)
+        if len(runs) >= 2 and total_width >= min_total_width:
+            shoulder_rows.append((y, runs))
+            continue
+        if shoulder_rows:
+            break
+
+    if not shoulder_rows:
+        return None
+
+    display_top = min(display_rows) if display_rows else min(y for y, _ in shoulder_rows)
+    cutout_top = min(y for y, _ in shoulder_rows)
+    if display_top >= current_top:
+        return None
+
+    # Use the lowest split row because it most closely matches the full display width
+    # immediately before the transparent regions merge into one uninterrupted screen run.
+    _, anchor_runs = max(shoulder_rows, key=lambda item: item[0])
+    left_run = anchor_runs[0]
+    right_run = anchor_runs[-1]
+    cutout_left = left_run[1] + 1
+    cutout_right = right_run[0] - 1
+    if cutout_right < cutout_left:
+        return None
+
+    return {
+        "screenTop": display_top,
+        "cutout": {
+            "left": cutout_left,
+            "top": cutout_top,
+            "width": cutout_right - cutout_left + 1,
+            "height": current_top - cutout_top,
+        },
+    }
+
+
 def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     rows: list[tuple[int, list[tuple[int, int]], int]] = []
     max_width = 0
@@ -211,8 +286,14 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
         y1 += 1
 
     selected = [rows_by_y[y] for y in range(y0, y1 + 1) if y in rows_by_y]
-    x0 = min(start for _, runs, _ in selected for start, _ in runs)
-    x1 = max(end for _, runs, _ in selected for _, end in runs)
+    center_rows = [
+        (y, [(start, end) for start, end in runs if start <= center_x <= end], widest)
+        for y, runs, widest in selected
+        if any(start <= center_x <= end for start, end in runs)
+    ]
+    horizontal_source = center_rows or selected
+    x0 = min(start for _, runs, _ in horizontal_source for start, _ in runs)
+    x1 = max(end for _, runs, _ in horizontal_source for _, end in runs)
     screen_w = x1 - x0 + 1
     screen_h = y1 - y0 + 1
 
@@ -271,11 +352,20 @@ def measure_frame(path: Path) -> dict | None:
         return None
     filename = path.name
     key = build_frame_key(path)
+    family = infer_family(filename)
+    orientation = "landscape" if frame_w > frame_h else "portrait"
+    top_overlay = infer_top_overlay_cutout(alpha, frame_w, screen, family, orientation)
+    if top_overlay:
+        original_top = screen["top"]
+        screen["top"] = top_overlay["screenTop"]
+        screen["height"] += original_top - top_overlay["screenTop"]
+        screen["hasCutout"] = True
+        screen["hasTopOverlayCutout"] = True
     return {
         "key": key,
         "filename": filename,
-        "family": infer_family(filename),
-        "orientation": "landscape" if frame_w > frame_h else "portrait",
+        "family": family,
+        "orientation": orientation,
         "frameW": frame_w,
         "frameH": frame_h,
         "framePath": build_frame_path(filename),
@@ -288,6 +378,19 @@ def measure_frame(path: Path) -> dict | None:
             "rx": round(screen["rx"] / screen["width"] * 100, 4) if screen["width"] else 0.0,
             "ry": round(screen["ry"] / screen["height"] * 100, 4) if screen["height"] else 0.0,
         },
+        **(
+            {
+                "topOverlayCutout": top_overlay["cutout"],
+                "topOverlayCutoutPercent": {
+                    "left": round(top_overlay["cutout"]["left"] / frame_w * 100, 4),
+                    "top": round(top_overlay["cutout"]["top"] / frame_h * 100, 4),
+                    "width": round(top_overlay["cutout"]["width"] / frame_w * 100, 4),
+                    "height": round(top_overlay["cutout"]["height"] / frame_h * 100, 4),
+                },
+            }
+            if top_overlay
+            else {}
+        ),
     }
 
 
@@ -299,16 +402,23 @@ def build_markdown(entries: list[dict], source_label: str) -> str:
         "",
         f"Entries: {len(entries)}",
         "",
-        "| Filename | Family | Orientation | Frame | Screen Insets | Screen Size | Radius | Cutout |",
-        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+        "| Filename | Family | Orientation | Frame | Screen Insets | Screen Size | Radius | Cutout | Top Overlay |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     ]
     for entry in entries:
         screen = entry["screen"]
+        top_overlay = entry.get("topOverlayCutout")
+        overlay_text = (
+            f'left {top_overlay["left"]}, top {top_overlay["top"]}, {top_overlay["width"]} x {top_overlay["height"]}'
+            if top_overlay
+            else "-"
+        )
         lines.append(
             "| {filename} | {family} | {orientation} | {frameW} x {frameH} | "
-            "left {left}, top {top} | {width} x {height} | rx {rx:.1f}, ry {ry:.1f} | {hasCutout} |".format(
+            "left {left}, top {top} | {width} x {height} | rx {rx:.1f}, ry {ry:.1f} | {hasCutout} | {overlay_text} |".format(
                 **entry,
                 **screen,
+                overlay_text=overlay_text,
             )
         )
     lines.append("")
@@ -335,6 +445,18 @@ def build_ts(entries: list[dict]) -> str:
                 f'      rx: {sp["rx"]},',
                 f'      ry: {sp["ry"]},',
                 "    },",
+                *(
+                    [
+                        "    topOverlayCutout: {",
+                        f'      left: {entry["topOverlayCutoutPercent"]["left"]},',
+                        f'      top: {entry["topOverlayCutoutPercent"]["top"]},',
+                        f'      width: {entry["topOverlayCutoutPercent"]["width"]},',
+                        f'      height: {entry["topOverlayCutoutPercent"]["height"]},',
+                        "    },",
+                    ]
+                    if entry.get("topOverlayCutoutPercent")
+                    else []
+                ),
                 "  },",
             ]
         )

@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 import re
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageDraw, ImageOps
 
 
 DEFAULT_FRAME_DIR = Path.home() / ".fastlane" / "frameit" / "latest"
@@ -193,11 +193,40 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     screen_w = x1 - x0 + 1
     screen_h = y1 - y0 + 1
 
+    top_centered_rows: list[tuple[int, int]] = []
+    seen_narrowed_top = False
+    for y, runs, _ in selected:
+        centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
+        if centered_run:
+            run_width = centered_run[1] - centered_run[0] + 1
+            if run_width < screen_w * 0.995:
+                seen_narrowed_top = True
+                top_centered_rows.append((y, run_width))
+                continue
+            if not seen_narrowed_top:
+                top_centered_rows.append((y, run_width))
+                continue
+            break
+            continue
+        if top_centered_rows:
+            break
+
+    if top_centered_rows:
+        min_centered_width = min(run_width for _, run_width in top_centered_rows)
+        rx = max(0.0, (screen_w - min_centered_width) / 2)
+        narrowed_rows = [y for y, run_width in top_centered_rows if run_width < screen_w * 0.995]
+        ry = max(0.0, (max(narrowed_rows) - y0 + 1) if narrowed_rows else 0.0)
+    else:
+        rx = 0.0
+        ry = 0.0
+
     return {
         "left": x0,
         "top": y0,
         "width": screen_w,
         "height": screen_h,
+        "rx": rx,
+        "ry": ry,
     }
 
 
@@ -307,8 +336,25 @@ def render_framed_image(image_path: Path, frame_path: Path, frame_entry: dict, f
     else:
         fitted = ImageOps.fit(screenshot, box_size, method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
 
+    box_left = int(screen["left"])
+    box_top = int(screen["top"])
+    box_width = int(screen["width"])
+    box_height = int(screen["height"])
+    corner_radius = int(round(max(float(screen.get("rx", 0.0)), float(screen.get("ry", 0.0)))))
+
+    fitted_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+    fitted_layer.paste(fitted, (box_left, box_top), fitted)
+
+    mask = Image.new("L", frame.size, 0)
+    mask_draw = ImageDraw.Draw(mask)
+    mask_draw.rounded_rectangle(
+        (box_left, box_top, box_left + box_width - 1, box_top + box_height - 1),
+        radius=max(0, corner_radius),
+        fill=255,
+    )
+
     canvas = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-    canvas.paste(fitted, (int(screen["left"]), int(screen["top"])), fitted)
+    canvas = Image.composite(fitted_layer, canvas, mask)
     canvas.alpha_composite(frame)
     return canvas
 

@@ -48,7 +48,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3436,
       height: 86.2534,
       rx: 5.8333,
-      ry: 0.0,
+      ry: 2.1528,
     },
   },
   "google pixel 2 xl just black": {
@@ -61,7 +61,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3436,
       height: 86.2534,
       rx: 5.8333,
-      ry: 0.0,
+      ry: 2.1528,
     },
   },
   "google pixel 3 clearly white": {
@@ -74,7 +74,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 90.0751,
       height: 84.9725,
       rx: 4.1667,
-      ry: 0.0,
+      ry: 1.4815,
     },
   },
   "google pixel 3 just black": {
@@ -87,7 +87,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 90.0751,
       height: 84.9725,
       rx: 4.1667,
-      ry: 0.0,
+      ry: 1.4815,
     },
   },
   "google pixel 3 not pink": {
@@ -100,7 +100,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 90.0751,
       height: 84.9725,
       rx: 4.1667,
-      ry: 0.0,
+      ry: 1.4815,
     },
   },
   "google pixel 3 xl clearly white": {
@@ -112,8 +112,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 7.4507,
       width: 90.5091,
       height: 85.8682,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 3.9236,
+      ry: 100.0,
     },
   },
   "google pixel 3 xl just black": {
@@ -125,8 +125,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 7.4507,
       width: 90.623,
       height: 85.8682,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 3.9236,
+      ry: 100.0,
     },
   },
   "google pixel 3 xl not pink": {
@@ -138,8 +138,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 7.4507,
       width: 90.5091,
       height: 85.8682,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 3.9236,
+      ry: 100.0,
     },
   },
   "google pixel 4 clearly white": {
@@ -152,7 +152,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.6808,
       height: 91.3462,
       rx: 10.463,
-      ry: 0.0,
+      ry: 3.7281,
     },
   },
   "google pixel 4 just black": {
@@ -165,7 +165,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.6808,
       height: 91.3462,
       rx: 10.463,
-      ry: 0.0,
+      ry: 3.7281,
     },
   },
   "google pixel 4 oh so orange": {
@@ -178,7 +178,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.6808,
       height: 91.3462,
       rx: 10.463,
-      ry: 0.0,
+      ry: 3.7281,
     },
   },
   "google pixel 4 xl clearly white": {
@@ -191,7 +191,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 92.0716,
       height: 91.5663,
       rx: 10.4861,
-      ry: 0.0,
+      ry: 3.6842,
     },
   },
   "google pixel 4 xl just black": {
@@ -204,7 +204,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 92.0716,
       height: 91.5663,
       rx: 10.4861,
-      ry: 0.0,
+      ry: 3.6842,
     },
   },
   "google pixel 4 xl oh so orange": {
@@ -217,7 +217,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 92.0716,
       height: 91.5663,
       rx: 10.4861,
-      ry: 0.0,
+      ry: 3.6842,
     },
   },
   "google pixel 5 just black": {
@@ -230,7 +230,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.701,
       height: 95.2769,
       rx: 11.3889,
-      ry: 0.0,
+      ry: 4.7863,
     },
   },
   "google pixel 5 sorta sage": {
@@ -243,7 +243,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.701,
       height: 95.2769,
       rx: 11.3889,
-      ry: 0.0,
+      ry: 4.7863,
     },
   },
   "google pixel quite black": {
@@ -424,8 +424,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.0338,
       width: 93.7943,
       height: 92.7242,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9149,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10 aura glow": {
@@ -437,8 +437,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.0338,
       width: 93.7943,
       height: 92.7242,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9149,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10 aura pink": {
@@ -450,8 +450,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.0338,
       width: 93.7943,
       height: 92.7242,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9149,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10 aura red": {
@@ -463,8 +463,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.0338,
       width: 93.7943,
       height: 92.7242,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9149,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10 aura white": {
@@ -476,8 +476,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.0338,
       width: 93.7943,
       height: 92.7242,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9149,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10+ aura black": {
@@ -489,8 +489,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.046,
       width: 93.9414,
       height: 92.7325,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9256,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10+ aura blue": {
@@ -502,8 +502,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.046,
       width: 93.9414,
       height: 92.7325,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9256,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10+ aura glow": {
@@ -515,8 +515,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.046,
       width: 93.9414,
       height: 92.7325,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9256,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 10+ aura white": {
@@ -528,8 +528,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 5.046,
       width: 93.9414,
       height: 92.7325,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 4.9256,
+      ry: 100.0,
     },
   },
   "samsung galaxy note 5 black": {
@@ -620,7 +620,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.1359,
       height: 94.5862,
       rx: 7.1326,
-      ry: 0.0,
+      ry: 1.25,
     },
   },
   "samsung galaxy s10 prism black": {
@@ -633,7 +633,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.1359,
       height: 94.5862,
       rx: 7.1326,
-      ry: 0.0,
+      ry: 1.25,
     },
   },
   "samsung galaxy s10 prism blue": {
@@ -646,7 +646,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.1359,
       height: 94.5862,
       rx: 7.1326,
-      ry: 0.0,
+      ry: 1.25,
     },
   },
   "samsung galaxy s10 prism green": {
@@ -659,7 +659,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.1359,
       height: 94.5862,
       rx: 7.1326,
-      ry: 0.0,
+      ry: 1.25,
     },
   },
   "samsung galaxy s10 prism white": {
@@ -672,7 +672,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.1359,
       height: 94.5862,
       rx: 7.1326,
-      ry: 0.0,
+      ry: 1.25,
     },
   },
   "samsung galaxy s10+ ceramic white": {
@@ -685,7 +685,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.3272,
       height: 94.7631,
       rx: 7.1942,
-      ry: 0.0,
+      ry: 1.2829,
     },
   },
   "samsung galaxy s10+ flamingo pink": {
@@ -698,7 +698,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.3272,
       height: 94.7631,
       rx: 7.1942,
-      ry: 0.0,
+      ry: 1.2829,
     },
   },
   "samsung galaxy s10+ prism black": {
@@ -711,7 +711,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.3272,
       height: 94.7631,
       rx: 7.1942,
-      ry: 0.0,
+      ry: 1.2829,
     },
   },
   "samsung galaxy s10+ prism blue": {
@@ -724,7 +724,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.3272,
       height: 94.7631,
       rx: 7.1942,
-      ry: 0.0,
+      ry: 1.2829,
     },
   },
   "samsung galaxy s10+ prism green": {
@@ -737,7 +737,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.3272,
       height: 94.7631,
       rx: 7.1942,
-      ry: 0.0,
+      ry: 1.2829,
     },
   },
   "samsung galaxy s10+ prism white": {
@@ -750,7 +750,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.3272,
       height: 94.7631,
       rx: 7.1942,
-      ry: 0.0,
+      ry: 1.2829,
     },
   },
   "samsung galaxy s20 cloud blue": {
@@ -763,7 +763,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.5732,
       height: 92.6237,
       rx: 0.2972,
-      ry: 0.0,
+      ry: 0.2266,
     },
   },
   "samsung galaxy s20 cloud pink": {
@@ -776,7 +776,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.5732,
       height: 92.6237,
       rx: 0.2972,
-      ry: 0.0,
+      ry: 0.2266,
     },
   },
   "samsung galaxy s20 cosmic gray": {
@@ -789,7 +789,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.5732,
       height: 92.6237,
       rx: 0.2972,
-      ry: 0.0,
+      ry: 0.2266,
     },
   },
   "samsung galaxy s20 utra cosmic black": {
@@ -802,7 +802,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.6228,
       height: 93.5202,
       rx: 0.299,
-      ry: 0.0,
+      ry: 0.3545,
     },
   },
   "samsung galaxy s20 utra cosmic gray": {
@@ -815,7 +815,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.6228,
       height: 93.5202,
       rx: 0.299,
-      ry: 0.0,
+      ry: 0.3545,
     },
   },
   "samsung galaxy s20+ cloud blue": {
@@ -828,7 +828,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.6228,
       height: 93.5202,
       rx: 0.299,
-      ry: 0.0,
+      ry: 0.3545,
     },
   },
   "samsung galaxy s20+ cosmic black": {
@@ -841,7 +841,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.6228,
       height: 93.5202,
       rx: 0.299,
-      ry: 0.0,
+      ry: 0.3545,
     },
   },
   "samsung galaxy s20+ cosmic gray": {
@@ -854,7 +854,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.6228,
       height: 93.5202,
       rx: 0.299,
-      ry: 0.0,
+      ry: 0.3545,
     },
   },
   "samsung galaxy s21 5g black": {
@@ -867,7 +867,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s21 5g pink": {
@@ -880,7 +880,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s21 5g violet": {
@@ -893,7 +893,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s21 5g white": {
@@ -906,7 +906,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s21 ultra 5g black": {
@@ -918,8 +918,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 4.4525,
       width: 93.4416,
       height: 93.4416,
-      rx: 0.2085,
-      ry: 0.0,
+      rx: 10.6324,
+      ry: 100.0,
     },
   },
   "samsung galaxy s21 ultra 5g silver": {
@@ -931,8 +931,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 4.4525,
       width: 93.4416,
       height: 93.4416,
-      rx: 0.2085,
-      ry: 0.0,
+      rx: 10.6324,
+      ry: 100.0,
     },
   },
   "samsung galaxy s21+ 5g black": {
@@ -945,7 +945,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s21+ 5g silver": {
@@ -958,7 +958,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s21+ 5g violet": {
@@ -971,7 +971,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.5254,
       height: 92.84,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.3878,
     },
   },
   "samsung galaxy s3": {
@@ -1075,7 +1075,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 93.75,
       height: 89.372,
       rx: 8.6806,
-      ry: 0.0,
+      ry: 3.5811,
     },
   },
   "samsung galaxy s8 coral blue": {
@@ -1088,7 +1088,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 93.75,
       height: 89.372,
       rx: 8.6806,
-      ry: 0.0,
+      ry: 3.5811,
     },
   },
   "samsung galaxy s8 maple gold": {
@@ -1101,7 +1101,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 93.75,
       height: 89.372,
       rx: 8.6806,
-      ry: 0.0,
+      ry: 3.5811,
     },
   },
   "samsung galaxy s8 midnight black": {
@@ -1114,7 +1114,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 93.75,
       height: 89.372,
       rx: 8.6806,
-      ry: 0.0,
+      ry: 3.5811,
     },
   },
   "samsung galaxy s8 orchid gray": {
@@ -1127,7 +1127,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 93.75,
       height: 89.372,
       rx: 8.6806,
-      ry: 0.0,
+      ry: 3.5811,
     },
   },
   "samsung galaxy s9 burgundy red": {
@@ -1140,7 +1140,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8146,
       height: 90.0243,
       rx: 5.2632,
-      ry: 0.0,
+      ry: 0.7095,
     },
   },
   "samsung galaxy s9 coral blue": {
@@ -1153,7 +1153,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8146,
       height: 90.0243,
       rx: 5.2632,
-      ry: 0.0,
+      ry: 0.7095,
     },
   },
   "samsung galaxy s9 lilac purple": {
@@ -1166,7 +1166,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8146,
       height: 90.0243,
       rx: 5.2632,
-      ry: 0.0,
+      ry: 0.7095,
     },
   },
   "samsung galaxy s9 midnight black": {
@@ -1179,7 +1179,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8146,
       height: 90.0243,
       rx: 5.2632,
-      ry: 0.0,
+      ry: 0.7095,
     },
   },
   "samsung galaxy s9 sunrise gold": {
@@ -1192,7 +1192,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8146,
       height: 90.0243,
       rx: 5.2632,
-      ry: 0.0,
+      ry: 0.7095,
     },
   },
   "samsung galaxy s9 titanium gray": {
@@ -1205,7 +1205,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8146,
       height: 90.0243,
       rx: 5.2632,
-      ry: 0.0,
+      ry: 0.7095,
     },
   },
   "google pixel slate": {
@@ -1309,7 +1309,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.9828,
       height: 91.3313,
       rx: 2.7134,
-      ry: 0.0,
+      ry: 0.8475,
     },
   },
   "apple ipad air (2019) 2020 rose gold portrait": {
@@ -1322,7 +1322,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.9828,
       height: 91.3313,
       rx: 2.7134,
-      ry: 0.0,
+      ry: 0.8475,
     },
   },
   "apple ipad air (2019) 2020 silver portrait": {
@@ -1335,7 +1335,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.9828,
       height: 91.3313,
       rx: 2.7134,
-      ry: 0.0,
+      ry: 0.8475,
     },
   },
   "apple ipad air (2019) 2020 sky blue portrait": {
@@ -1348,7 +1348,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.9828,
       height: 91.3313,
       rx: 2.7134,
-      ry: 0.0,
+      ry: 0.8475,
     },
   },
   "apple ipad air (2019) 2020 space gray portrait": {
@@ -1361,7 +1361,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.9828,
       height: 91.3313,
       rx: 2.7134,
-      ry: 0.0,
+      ry: 0.8475,
     },
   },
   "apple ipad mini (2019) gold": {
@@ -1413,7 +1413,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.533,
       height: 92.4506,
       rx: 2.5779,
-      ry: 0.0,
+      ry: 0.7956,
     },
   },
   "apple ipad pro (11-inch) space gray": {
@@ -1426,7 +1426,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.533,
       height: 92.4506,
       rx: 2.5779,
-      ry: 0.0,
+      ry: 0.7956,
     },
   },
   "apple ipad pro (12.9-inch) (4th generation) silver": {
@@ -1439,7 +1439,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.2249,
       height: 93.2423,
       rx: 2.0996,
-      ry: 0.0,
+      ry: 0.6223,
     },
   },
   "apple ipad pro (12.9-inch) (4th generation) space gray": {
@@ -1452,7 +1452,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 91.2249,
       height: 93.2423,
       rx: 2.0996,
-      ry: 0.0,
+      ry: 0.6223,
     },
   },
   "apple ipad pro gold": {
@@ -1504,7 +1504,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -1523,7 +1523,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -1542,7 +1542,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -1561,7 +1561,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -1580,7 +1580,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -1599,7 +1599,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -1618,7 +1618,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -1637,7 +1637,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -1656,7 +1656,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -1675,7 +1675,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -1694,7 +1694,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -1713,7 +1713,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -1732,7 +1732,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -1751,7 +1751,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -1770,7 +1770,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.4677,
     },
     topOverlayCutout: {
       left: 30.0609,
@@ -1789,7 +1789,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.4677,
     },
     topOverlayCutout: {
       left: 30.0609,
@@ -1808,7 +1808,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.4677,
     },
     topOverlayCutout: {
       left: 30.0609,
@@ -1827,7 +1827,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.5246,
       height: 94.0602,
       rx: 0.463,
-      ry: 0.0,
+      ry: 0.8651,
     },
     topOverlayCutout: {
       left: 27.7049,
@@ -1846,7 +1846,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.5246,
       height: 94.0602,
       rx: 0.463,
-      ry: 0.0,
+      ry: 0.8651,
     },
     topOverlayCutout: {
       left: 27.7049,
@@ -1865,7 +1865,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.5246,
       height: 94.0602,
       rx: 0.463,
-      ry: 0.0,
+      ry: 0.8651,
     },
     topOverlayCutout: {
       left: 27.7049,
@@ -1884,7 +1884,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.5246,
       height: 94.0602,
       rx: 0.463,
-      ry: 0.0,
+      ry: 0.8651,
     },
     topOverlayCutout: {
       left: 27.7049,
@@ -1903,7 +1903,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.5246,
       height: 94.0602,
       rx: 0.463,
-      ry: 0.0,
+      ry: 0.8651,
     },
     topOverlayCutout: {
       left: 27.7049,
@@ -1922,7 +1922,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.428,
     },
     topOverlayCutout: {
       left: 30.2892,
@@ -1941,7 +1941,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.428,
     },
     topOverlayCutout: {
       left: 30.2892,
@@ -1960,7 +1960,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6648,
       height: 95.5548,
       rx: 1.1682,
-      ry: 0.0,
+      ry: 1.6589,
     },
     topOverlayCutout: {
       left: 32.1927,
@@ -1979,7 +1979,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6648,
       height: 95.5548,
       rx: 1.1682,
-      ry: 0.0,
+      ry: 1.6589,
     },
     topOverlayCutout: {
       left: 32.1927,
@@ -1998,7 +1998,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6648,
       height: 95.5548,
       rx: 1.1682,
-      ry: 0.0,
+      ry: 1.6589,
     },
     topOverlayCutout: {
       left: 32.1927,
@@ -2017,7 +2017,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6648,
       height: 95.5548,
       rx: 1.1682,
-      ry: 0.0,
+      ry: 1.6589,
     },
     topOverlayCutout: {
       left: 32.1927,
@@ -2036,7 +2036,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.428,
     },
     topOverlayCutout: {
       left: 30.2892,
@@ -2055,7 +2055,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.428,
     },
     topOverlayCutout: {
       left: 30.2892,
@@ -2074,7 +2074,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.4677,
     },
     topOverlayCutout: {
       left: 30.0609,
@@ -2093,7 +2093,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.0411,
       height: 94.8457,
       rx: 0.7692,
-      ry: 0.0,
+      ry: 1.4677,
     },
     topOverlayCutout: {
       left: 30.0609,
@@ -2112,7 +2112,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.1089,
       height: 95.077,
       rx: 0.6838,
-      ry: 0.0,
+      ry: 0.9091,
     },
     topOverlayCutout: {
       left: 35.7959,
@@ -2131,7 +2131,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.1089,
       height: 95.077,
       rx: 0.6838,
-      ry: 0.0,
+      ry: 0.9091,
     },
     topOverlayCutout: {
       left: 35.7959,
@@ -2150,7 +2150,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -2169,7 +2169,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.933,
@@ -2188,7 +2188,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -2207,7 +2207,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -2226,7 +2226,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -2245,7 +2245,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.1089,
       height: 95.077,
       rx: 0.6838,
-      ry: 0.0,
+      ry: 0.9091,
     },
     topOverlayCutout: {
       left: 35.7959,
@@ -2264,7 +2264,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.7709,
       height: 95.1128,
       rx: 0.5128,
-      ry: 0.0,
+      ry: 1.1067,
     },
     topOverlayCutout: {
       left: 35.8877,
@@ -2283,7 +2283,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.7709,
       height: 95.1128,
       rx: 0.5128,
-      ry: 0.0,
+      ry: 1.1067,
     },
     topOverlayCutout: {
       left: 35.8877,
@@ -2302,7 +2302,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6022,
       height: 95.4952,
       rx: 0.4673,
-      ry: 0.0,
+      ry: 0.7202,
     },
     topOverlayCutout: {
       left: 35.8688,
@@ -2321,7 +2321,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6022,
       height: 95.4952,
       rx: 0.4673,
-      ry: 0.0,
+      ry: 0.7202,
     },
     topOverlayCutout: {
       left: 35.8688,
@@ -2340,7 +2340,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6022,
       height: 95.4952,
       rx: 0.4673,
-      ry: 0.0,
+      ry: 0.7202,
     },
     topOverlayCutout: {
       left: 35.799,
@@ -2359,7 +2359,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.6022,
       height: 95.4952,
       rx: 0.4673,
-      ry: 0.0,
+      ry: 0.7202,
     },
     topOverlayCutout: {
       left: 35.8688,
@@ -2378,7 +2378,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.7709,
       height: 95.1128,
       rx: 0.5128,
-      ry: 0.0,
+      ry: 1.1067,
     },
     topOverlayCutout: {
       left: 35.8877,
@@ -2397,7 +2397,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.7709,
       height: 95.1128,
       rx: 0.5128,
-      ry: 0.0,
+      ry: 1.1067,
     },
     topOverlayCutout: {
       left: 35.8877,
@@ -2416,7 +2416,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.1089,
       height: 95.077,
       rx: 0.6838,
-      ry: 0.0,
+      ry: 0.9091,
     },
     topOverlayCutout: {
       left: 35.7959,
@@ -2435,7 +2435,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 89.1089,
       height: 95.077,
       rx: 0.6838,
-      ry: 0.0,
+      ry: 0.9091,
     },
     topOverlayCutout: {
       left: 35.7959,
@@ -2453,8 +2453,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.4105,
       width: 89.0756,
       height: 95.1412,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.5146,
+      ry: 0.673,
     },
     topOverlayCutout: {
       left: 36.3636,
@@ -2472,8 +2472,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.4105,
       width: 89.0756,
       height: 95.1412,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.5146,
+      ry: 0.673,
     },
     topOverlayCutout: {
       left: 36.3636,
@@ -2491,8 +2491,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.1709,
       width: 89.7131,
       height: 95.5203,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 1.014,
+      ry: 2.2006,
     },
     topOverlayCutout: {
       left: 37.5087,
@@ -2510,8 +2510,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.1709,
       width: 89.7131,
       height: 95.5203,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 1.014,
+      ry: 2.2006,
     },
     topOverlayCutout: {
       left: 37.5087,
@@ -2529,8 +2529,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.1709,
       width: 89.7131,
       height: 95.5203,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 1.014,
+      ry: 2.2006,
     },
     topOverlayCutout: {
       left: 37.5087,
@@ -2548,8 +2548,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.1709,
       width: 89.7131,
       height: 95.5203,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 1.014,
+      ry: 2.2006,
     },
     topOverlayCutout: {
       left: 37.5087,
@@ -2567,8 +2567,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.1709,
       width: 89.7131,
       height: 95.5203,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 1.014,
+      ry: 2.2006,
     },
     topOverlayCutout: {
       left: 37.5087,
@@ -2586,8 +2586,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.2829,
       width: 89.7788,
       height: 95.4341,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4248,
+      ry: 1.3725,
     },
     topOverlayCutout: {
       left: 39.6644,
@@ -2605,8 +2605,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.2829,
       width: 89.7788,
       height: 95.4341,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4248,
+      ry: 1.3725,
     },
     topOverlayCutout: {
       left: 39.6644,
@@ -2624,8 +2624,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 1.9938,
       width: 90.6404,
       height: 95.9092,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4658,
+      ry: 0.8961,
     },
     topOverlayCutout: {
       left: 40.3941,
@@ -2643,8 +2643,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 1.9938,
       width: 90.6404,
       height: 95.9092,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4658,
+      ry: 0.8961,
     },
     topOverlayCutout: {
       left: 40.3941,
@@ -2662,8 +2662,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 1.9938,
       width: 90.6404,
       height: 95.9092,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4658,
+      ry: 0.8961,
     },
     topOverlayCutout: {
       left: 40.3941,
@@ -2681,8 +2681,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 1.9938,
       width: 90.6404,
       height: 95.9092,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4658,
+      ry: 0.8961,
     },
     topOverlayCutout: {
       left: 40.3941,
@@ -2700,8 +2700,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.2829,
       width: 89.7788,
       height: 95.4341,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4248,
+      ry: 1.3725,
     },
     topOverlayCutout: {
       left: 39.6644,
@@ -2719,8 +2719,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.2829,
       width: 89.7788,
       height: 95.4341,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.4248,
+      ry: 1.3725,
     },
     topOverlayCutout: {
       left: 39.6644,
@@ -2738,8 +2738,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.4105,
       width: 89.0756,
       height: 95.1412,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.5146,
+      ry: 0.673,
     },
     topOverlayCutout: {
       left: 36.3636,
@@ -2757,8 +2757,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.4105,
       width: 89.0756,
       height: 95.1412,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.5146,
+      ry: 0.673,
     },
     topOverlayCutout: {
       left: 36.3636,
@@ -2776,8 +2776,8 @@ export const MEASURED_FRAME_SPECS = {
       top: 2.4105,
       width: 89.0756,
       height: 95.1412,
-      rx: 0.0,
-      ry: 0.0,
+      rx: 0.5146,
+      ry: 0.673,
     },
     topOverlayCutout: {
       left: 36.3636,
@@ -3251,7 +3251,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -3270,7 +3270,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -3289,7 +3289,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -3308,7 +3308,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -3327,7 +3327,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -3346,7 +3346,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -3365,7 +3365,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -3384,7 +3384,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 84.5761,
       height: 92.3475,
       rx: 0.3623,
-      ry: 0.0,
+      ry: 0.28,
     },
     topOverlayCutout: {
       left: 30.9499,
@@ -3403,7 +3403,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -3422,7 +3422,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -3441,7 +3441,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -3460,7 +3460,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 87.8981,
       height: 94.4444,
       rx: 0.4026,
-      ry: 0.0,
+      ry: 0.2606,
     },
     topOverlayCutout: {
       left: 31.9887,
@@ -3479,7 +3479,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -3498,7 +3498,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 86.8726,
       height: 93.7066,
       rx: 0.4444,
-      ry: 0.0,
+      ry: 0.5356,
     },
     topOverlayCutout: {
       left: 30.2703,
@@ -3517,7 +3517,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -3536,7 +3536,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.933,
@@ -3555,7 +3555,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -3574,7 +3574,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,
@@ -3593,7 +3593,7 @@ export const MEASURED_FRAME_SPECS = {
       width: 88.3074,
       height: 94.7689,
       rx: 0.3704,
-      ry: 0.0,
+      ry: 0.6846,
     },
     topOverlayCutout: {
       left: 33.6877,

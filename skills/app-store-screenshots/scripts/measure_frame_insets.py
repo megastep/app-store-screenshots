@@ -297,14 +297,38 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     screen_w = x1 - x0 + 1
     screen_h = y1 - y0 + 1
 
-    first_single = next((row for row in selected if len(row[1]) == 1), None)
-    if first_single:
-        single_width = first_single[1][0][1] - first_single[1][0][0] + 1
-        rx = max(0.0, (screen_w - single_width) / 2)
-        ry = max(0.0, first_single[0] - y0)
+    top_centered_rows: list[tuple[int, int]] = []
+    seen_narrowed_top = False
+    for y, runs, _ in selected:
+        centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
+        if centered_run:
+            run_width = centered_run[1] - centered_run[0] + 1
+            if run_width < screen_w * 0.995:
+                seen_narrowed_top = True
+                top_centered_rows.append((y, run_width))
+                continue
+            if not seen_narrowed_top:
+                top_centered_rows.append((y, run_width))
+                continue
+            break
+            continue
+        if top_centered_rows:
+            break
+
+    if top_centered_rows:
+        min_centered_width = min(width for _, width in top_centered_rows)
+        rx = max(0.0, (screen_w - min_centered_width) / 2)
+        narrowed_rows = [y for y, run_width in top_centered_rows if run_width < screen_w * 0.995]
+        ry = max(0.0, (max(narrowed_rows) - y0 + 1) if narrowed_rows else 0.0)
     else:
-        rx = 0.0
-        ry = 0.0
+        first_single = next((row for row in selected if len(row[1]) == 1), None)
+        if first_single:
+            single_width = first_single[1][0][1] - first_single[1][0][0] + 1
+            rx = max(0.0, (screen_w - single_width) / 2)
+            ry = max(0.0, first_single[0] - y0)
+        else:
+            rx = 0.0
+            ry = 0.0
 
     has_cutout = any(len(runs) > 1 for _, runs, _ in selected[: max(1, min(16, screen_h // 8 or 1))])
 

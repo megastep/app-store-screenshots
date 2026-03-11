@@ -1,7 +1,3 @@
-### NOTE
-Use the simulator/device that matches the target export family when possible.
-For iPhone-only work, 6.1" is still the safest source capture. For iPad screenshots, capture on iPad-sized simulators instead of scaling phone captures up.
-
 # App Store Screenshots Generator
 
 A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that generates production-ready App Store screenshots and broader marketing mockups. It scaffolds a Next.js project, designs advertisement-style screenshots, and exports them at required Apple resolutions with automatic device frame matching and locale-aware content scaffolding.
@@ -121,7 +117,7 @@ Those scripts handle package-manager-aware scaffolding, install `html-to-image` 
 ### Using npx skills (recommended)
 
 ```bash
-npx skills add ParthJadhav/app-store-screenshots
+npx skills add megastep/app-store-screenshots
 ```
 
 This works with Claude Code, Cursor, Windsurf, OpenCode, Codex, and [40+ other agents](https://github.com/vercel-labs/skills#available-agents).
@@ -129,19 +125,19 @@ This works with Claude Code, Cursor, Windsurf, OpenCode, Codex, and [40+ other a
 Install globally (available across all projects):
 
 ```bash
-npx skills add ParthJadhav/app-store-screenshots -g
+npx skills add megastep/app-store-screenshots -g
 ```
 
 Install for a specific agent:
 
 ```bash
-npx skills add ParthJadhav/app-store-screenshots -a claude-code
+npx skills add megastep/app-store-screenshots -a claude-code
 ```
 
 ### Manual (git clone)
 
 ```bash
-git clone https://github.com/ParthJadhav/app-store-screenshots ~/.claude/skills/app-store-screenshots
+git clone https://github.com/megastep/app-store-screenshots ~/.claude/skills/app-store-screenshots
 ```
 
 ## Usage
@@ -235,7 +231,7 @@ Design within the largest target for each Apple family/orientation set, then sca
 
 ## Requirements
 
-- Node.js 18+
+- Node.js 20+
 - One of: bun, pnpm, yarn, or npm (detected automatically, bun preferred)
 - Python 3.11+ for the bundled helper scripts
 - Pillow for `measure_frame_insets.py` if you want practical cache-wide inset measurement

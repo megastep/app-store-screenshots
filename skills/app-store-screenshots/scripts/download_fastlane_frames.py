@@ -150,12 +150,12 @@ def collect_local_cache_assets(cache_dir: Path) -> list[str]:
     return [str(path) for path in cache_dir.rglob("*") if path.is_file() and is_candidate_asset(str(path))]
 
 
-def score_path(path: str, bucket: Bucket, color_priority: tuple[str, ...]) -> tuple[int, int, int, int, int, int, str]:
+def score_path(path: str, bucket: Bucket, color_priority: tuple[str, ...]) -> tuple[int, int, int, int, int, int, int, str]:
     normalized_path = normalize(path)
 
     family_rank = 0 if infer_asset_family(path) == bucket.family else 1
     if family_rank == 1:
-        return (sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, path)
+        return (sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, path)
 
     device_rank = None
     for index, device_name in enumerate(bucket.device_candidates):
@@ -163,7 +163,7 @@ def score_path(path: str, bucket: Bucket, color_priority: tuple[str, ...]) -> tu
             device_rank = index
             break
     if device_rank is None:
-        return (sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, path)
+        return (sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, sys.maxsize, path)
 
     color_rank = len(color_priority) + 1
     for index, color_name in enumerate(color_priority):

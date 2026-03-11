@@ -452,10 +452,8 @@ If distracting, push partially off-screen or make smaller.
 
 **Landscape split** (best default for iPad landscape and wide iPhone slides):
 ```
-
 Text block: left 8-10%, width 34-40%, vertically centered
 Device: right 4-8%, width 52-58%, slight tilt only if it helps
-
 ```
 
 ### "More Features" Slide (Optional)

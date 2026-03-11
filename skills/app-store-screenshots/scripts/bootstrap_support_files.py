@@ -6,8 +6,12 @@ Copy the reusable support files for the App Store screenshots skill into a proje
 from __future__ import annotations
 
 import argparse
+import re
 import shutil
 from pathlib import Path
+
+
+IDENTIFIER_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 
 
 def copy_file(source: Path, destination: Path, overwrite: bool) -> None:
@@ -31,6 +35,12 @@ def write_template(source: Path, destination: Path, overwrite: bool, replacement
     print(f"[write] {destination}")
 
 
+def validate_identifier(value: str, label: str) -> str:
+    if not IDENTIFIER_RE.fullmatch(value):
+        raise SystemExit(f"Invalid {label}: {value!r}. Use only letters, digits, and underscores, and do not start with a digit.")
+    return value
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Copy reusable screenshot generator support files into a Next.js project.")
     parser.add_argument("--project-root", default=".", help="Target project root. Default: current directory")
@@ -39,6 +49,9 @@ def main() -> int:
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files")
     parser.add_argument("--with-layout", action="store_true", help="Also write src/app/layout.tsx from the template")
     args = parser.parse_args()
+
+    font_import = validate_identifier(args.font_import, "font import")
+    font_const = validate_identifier(args.font_const, "font const")
 
     skill_root = Path(__file__).resolve().parents[1]
     templates_root = skill_root / "assets" / "templates"
@@ -64,8 +77,8 @@ def main() -> int:
             project_root / "src" / "app" / "layout.tsx",
             args.overwrite,
             {
-                "__FONT_IMPORT__": args.font_import,
-                "__FONT_CONST__": args.font_const,
+                "__FONT_IMPORT__": font_import,
+                "__FONT_CONST__": font_const,
             },
         )
 

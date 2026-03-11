@@ -2,6 +2,8 @@
 
 A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that generates production-ready App Store screenshots and broader marketing mockups. It scaffolds a Next.js project, designs advertisement-style screenshots, and exports them at required Apple resolutions with automatic device frame matching and locale-aware content scaffolding.
 
+The repo also now includes a second, narrower skill at [skills/frame-single-screenshot](skills/frame-single-screenshot/SKILL.md) for one-off device framing when you already have a flat screenshot and just need a single Fastlane-framed output image.
+
 ![Example output — Bloom coffee tracking app](example.png)
 
 ## What it does

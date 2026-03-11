@@ -1,0 +1,322 @@
+#!/usr/bin/env python3
+"""
+Render one framed device screenshot from a flat screenshot image and a Fastlane frame PNG.
+"""
+
+from __future__ import annotations
+
+import argparse
+import difflib
+import json
+from pathlib import Path
+import re
+
+from PIL import Image, ImageOps
+
+
+DEFAULT_FRAME_DIR = Path.home() / ".fastlane" / "frameit" / "latest"
+SHARED_INSETS_JSON = Path(__file__).resolve().parents[2] / "app-store-screenshots" / "references" / "frame-insets-latest.json"
+
+
+def normalize_text(value: str) -> str:
+    return re.sub(r"[^a-z0-9+]+", " ", value.lower()).strip()
+
+
+def infer_orientation(width: int, height: int) -> str:
+    return "landscape" if width > height else "portrait"
+
+
+def load_shared_entries() -> list[dict]:
+    if not SHARED_INSETS_JSON.exists():
+        return []
+    return json.loads(SHARED_INSETS_JSON.read_text(encoding="utf-8"))
+
+
+def rank_frame_paths(frame_paths: list[Path], query: str, orientation: str | None, color_priority: list[str]) -> list[tuple[float, Path]]:
+    ranked: list[tuple[float, Path]] = []
+    normalized_query = normalize_text(query)
+    query_tokens = set(normalized_query.split())
+    for path in frame_paths:
+        normalized_filename = normalize_text(path.stem)
+        filename_tokens = set(normalized_filename.split())
+        score = difflib.SequenceMatcher(None, normalized_query, normalized_filename).ratio() * 100
+        if normalized_query and normalized_query in normalized_filename:
+            score += 60
+        score += len(filename_tokens & query_tokens) * 12
+        if orientation:
+            try:
+                with Image.open(path) as image:
+                    if infer_orientation(*image.size) == orientation:
+                        score += 15
+            except Exception:
+                continue
+        lowered_filename = path.name.lower()
+        for index, color in enumerate(color_priority):
+            if color and color.lower() in lowered_filename:
+                score += max(1, 10 - index)
+        ranked.append((score, path))
+    ranked.sort(key=lambda item: (-item[0], item[1].name.lower()))
+    return ranked
+
+
+def resolve_frame_path(frame_dir: Path, device: str | None, frame_file: str | None, orientation: str | None, color_priority: list[str]) -> tuple[Path, list[tuple[float, Path]]]:
+    frame_paths = sorted(path for path in frame_dir.iterdir() if path.is_file() and path.suffix.lower() == ".png")
+    if not frame_paths:
+        raise SystemExit(f"No PNG frames found in {frame_dir}")
+
+    if frame_file:
+        candidate = Path(frame_file).expanduser()
+        if candidate.is_file():
+            return candidate, []
+        matches = [path for path in frame_paths if path.name == frame_file or path.stem == frame_file]
+        if not matches:
+            raise SystemExit(f'Frame file not found in {frame_dir}: "{frame_file}"')
+        return matches[0], []
+
+    if not device:
+        raise SystemExit("--device is required unless --frame-file is provided")
+
+    ranked = rank_frame_paths(frame_paths, device, orientation, color_priority)
+    if not ranked or ranked[0][0] <= 0:
+        raise SystemExit(f'No suitable Fastlane frame match found for "{device}" in {frame_dir}')
+    return ranked[0][1], ranked
+
+
+def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = 0) -> list[tuple[int, int]]:
+    runs: list[tuple[int, int]] = []
+    in_run = False
+    start = 0
+    row_offset = y * width
+    for x in range(width + 1):
+        transparent = x < width and alpha[row_offset + x] <= threshold
+        if transparent and not in_run:
+            start = x
+            in_run = True
+        elif in_run and not transparent:
+            end = x - 1
+            if start > 0 and end < width - 1:
+                runs.append((start, end))
+            in_run = False
+    return runs
+
+
+def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
+    rows: list[tuple[int, list[tuple[int, int]], int]] = []
+    max_width = 0
+    for y in range(height):
+        runs = transparent_runs(alpha, width, y)
+        if not runs:
+            continue
+        widest = max(end - start + 1 for start, end in runs)
+        max_width = max(max_width, widest)
+        rows.append((y, runs, widest))
+
+    if not rows or max_width == 0:
+        return None
+
+    candidates = [row for row in rows if row[2] >= max_width * 0.7]
+    if not candidates:
+        return None
+
+    groups: list[list[tuple[int, list[tuple[int, int]], int]]] = []
+    current = [candidates[0]]
+    for row in candidates[1:]:
+        if row[0] == current[-1][0] + 1:
+            current.append(row)
+        else:
+            groups.append(current)
+            current = [row]
+    groups.append(current)
+    group = max(groups, key=lambda g: sum(item[2] for item in g))
+
+    rows_by_y = {row[0]: row for row in rows}
+    y0 = group[0][0]
+    y1 = group[-1][0]
+    center_x = sum((start + end) / 2 for _, runs, _ in group for start, end in runs) / sum(len(runs) for _, runs, _ in group)
+    while y0 - 1 in rows_by_y:
+        prev = rows_by_y[y0 - 1]
+        if prev[2] < max_width * 0.2 or not any(start <= center_x <= end for start, end in prev[1]):
+            break
+        y0 -= 1
+    while y1 + 1 in rows_by_y:
+        nxt = rows_by_y[y1 + 1]
+        if nxt[2] < max_width * 0.2 or not any(start <= center_x <= end for start, end in nxt[1]):
+            break
+        y1 += 1
+
+    selected = [rows_by_y[y] for y in range(y0, y1 + 1) if y in rows_by_y]
+    x0 = min(start for _, runs, _ in selected for start, _ in runs)
+    x1 = max(end for _, runs, _ in selected for _, end in runs)
+    screen_w = x1 - x0 + 1
+    screen_h = y1 - y0 + 1
+
+    return {
+        "left": x0,
+        "top": y0,
+        "width": screen_w,
+        "height": screen_h,
+    }
+
+
+def measure_frame(frame_path: Path) -> dict:
+    with Image.open(frame_path) as image:
+        rgba = image.convert("RGBA")
+        frame_w, frame_h = rgba.size
+        alpha = rgba.getchannel("A").tobytes()
+    screen = detect_screen(alpha, frame_w, frame_h)
+    if not screen:
+        raise SystemExit(f"Could not detect the screen opening in {frame_path.name}")
+    return {
+        "filename": frame_path.name,
+        "framePath": f"/frames/{frame_path.name}",
+        "frameW": frame_w,
+        "frameH": frame_h,
+        "screen": screen,
+    }
+
+
+def resolve_frame_entry(frame_path: Path, shared_entries: list[dict]) -> tuple[dict, str]:
+    for entry in shared_entries:
+        if entry.get("filename") == frame_path.name:
+            return entry, "shared-reference"
+    return measure_frame(frame_path), "measured"
+
+
+def render_framed_image(image_path: Path, frame_path: Path, frame_entry: dict, fit_mode: str) -> Image.Image:
+    with Image.open(image_path) as screenshot_image:
+        screenshot = screenshot_image.convert("RGBA")
+    with Image.open(frame_path) as frame_image:
+        frame = frame_image.convert("RGBA")
+
+    screen = frame_entry["screen"]
+    box_size = (int(screen["width"]), int(screen["height"]))
+    if fit_mode == "contain":
+        composed_screen = ImageOps.contain(screenshot, box_size, Image.Resampling.LANCZOS)
+        fitted = Image.new("RGBA", box_size, (0, 0, 0, 0))
+        x = (box_size[0] - composed_screen.width) // 2
+        y = (box_size[1] - composed_screen.height) // 2
+        fitted.paste(composed_screen, (x, y), composed_screen)
+    else:
+        fitted = ImageOps.fit(screenshot, box_size, method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+
+    canvas = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+    canvas.paste(fitted, (int(screen["left"]), int(screen["top"])), fitted)
+    canvas.alpha_composite(frame)
+    return canvas
+
+
+def infer_output_format(output_path: Path, requested_format: str | None) -> str:
+    if requested_format:
+        normalized = requested_format.lower()
+        if normalized in {"jpg", "jpeg"}:
+            return "jpeg"
+        if normalized in {"png", "webp"}:
+            return normalized
+        raise SystemExit(f"Unsupported output format: {requested_format}")
+
+    suffix = output_path.suffix.lower().lstrip(".")
+    if suffix in {"jpg", "jpeg"}:
+        return "jpeg"
+    if suffix in {"png", "webp"}:
+        return suffix
+    return "png"
+
+
+def resize_output(image: Image.Image, width: int | None, height: int | None) -> Image.Image:
+    if not width and not height:
+        return image
+    source_w, source_h = image.size
+    if width and height:
+        target_size = (width, height)
+    elif width:
+        target_size = (width, max(1, round(source_h * (width / source_w))))
+    else:
+        target_size = (max(1, round(source_w * (height / source_h))), height)
+    return image.resize(target_size, Image.Resampling.LANCZOS)
+
+
+def save_output(image: Image.Image, output_path: Path, output_format: str, quality: int) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if output_format == "jpeg":
+        background = Image.new("RGB", image.size, (255, 255, 255))
+        background.paste(image, mask=image.getchannel("A"))
+        background.save(output_path, format="JPEG", quality=quality, optimize=True)
+        return
+    if output_format == "webp":
+        image.save(output_path, format="WEBP", quality=quality, method=6)
+        return
+    image.save(output_path, format="PNG")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Frame one screenshot image with a Fastlane device bezel.")
+    parser.add_argument("--image", required=True, help="Input screenshot PNG/JPG path")
+    parser.add_argument("--device", help='Target device query, for example "iPhone 16 Pro Max"')
+    parser.add_argument("--frame-file", help="Exact frame filename or absolute path to a frame PNG")
+    parser.add_argument("--frame-dir", default=str(DEFAULT_FRAME_DIR), help="Directory containing Fastlane frame PNGs")
+    parser.add_argument("--output", help="Output PNG path")
+    parser.add_argument("--format", choices=("png", "jpeg", "jpg", "webp"), help="Output format. Defaults to the output file extension, or png")
+    parser.add_argument("--width", type=int, help="Optional output width in pixels")
+    parser.add_argument("--height", type=int, help="Optional output height in pixels")
+    parser.add_argument("--quality", type=int, default=95, help="JPEG/WEBP quality from 1-100. Default: 95")
+    parser.add_argument("--orientation", choices=("portrait", "landscape"), help="Preferred frame orientation")
+    parser.add_argument("--color-priority", default="", help='Comma-separated preferred color terms, for example "black,silver"')
+    parser.add_argument("--fit", choices=("cover", "contain"), default="cover", help="How the screenshot should fill the screen opening")
+    parser.add_argument("--list-matches", action="store_true", help="Print the top cached frame matches and exit")
+    args = parser.parse_args()
+
+    image_path = Path(args.image).expanduser()
+    if not image_path.is_file():
+        raise SystemExit(f"Input image does not exist: {image_path}")
+
+    if not args.output and not args.list_matches:
+        raise SystemExit("--output is required unless --list-matches is used")
+    if args.width is not None and args.width <= 0:
+        raise SystemExit("--width must be greater than 0")
+    if args.height is not None and args.height <= 0:
+        raise SystemExit("--height must be greater than 0")
+    if not 1 <= args.quality <= 100:
+        raise SystemExit("--quality must be between 1 and 100")
+
+    with Image.open(image_path) as image:
+        inferred_orientation = infer_orientation(*image.size)
+
+    frame_dir = Path(args.frame_dir).expanduser()
+    if not frame_dir.exists():
+        raise SystemExit(f"Frame directory does not exist: {frame_dir}")
+
+    color_priority = [part.strip() for part in args.color_priority.split(",") if part.strip()]
+    frame_path, ranked = resolve_frame_path(
+        frame_dir=frame_dir,
+        device=args.device,
+        frame_file=args.frame_file,
+        orientation=args.orientation or inferred_orientation,
+        color_priority=color_priority,
+    )
+
+    if args.list_matches:
+        if not ranked:
+            print(frame_path.name)
+            return 0
+        for score, path in ranked[:10]:
+            print(f"{score:6.2f}  {path.name}")
+        return 0
+
+    shared_entries = load_shared_entries()
+    frame_entry, source = resolve_frame_entry(frame_path, shared_entries)
+    output_path = Path(args.output).expanduser()
+    output_format = infer_output_format(output_path, args.format)
+    rendered = render_framed_image(image_path, frame_path, frame_entry, args.fit)
+    resized = resize_output(rendered, args.width, args.height)
+    save_output(resized, output_path, output_format, args.quality)
+
+    print(f"[done] wrote {output_path}")
+    print(f"[frame] {frame_path.name}")
+    print(f"[insets] {source}")
+    print(f"[format] {output_format}")
+    print(f"[size] {resized.size[0]}x{resized.size[1]}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

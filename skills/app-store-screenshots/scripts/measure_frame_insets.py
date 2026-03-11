@@ -311,7 +311,6 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
                 top_centered_rows.append((y, run_width))
                 continue
             break
-            continue
         if top_centered_rows:
             break
 

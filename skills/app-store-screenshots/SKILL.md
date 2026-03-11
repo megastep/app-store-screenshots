@@ -1,13 +1,13 @@
 ---
 name: app-store-screenshots
-description: Use when building App Store screenshot pages, generating exportable marketing screenshots for iOS apps, or creating programmatic screenshot generators with Next.js. Triggers on app store, screenshots, marketing assets, html-to-image, phone mockup.
+description: Use when building App Store screenshot pages, generating exportable marketing screenshots for Apple mobile, Android, or Mac apps, or creating programmatic screenshot generators with Next.js. Triggers on app store, screenshots, marketing assets, html-to-image, device mockup.
 ---
 
-# App Store Screenshots Generator
+# App Store and Marketing Screenshots Generator
 
 ## Overview
 
-Build a Next.js page that renders iOS App Store screenshots as **advertisements** (not UI showcases) and exports them via `html-to-image` at Apple's required resolutions. Screenshots are the single most important conversion asset on the App Store.
+Build a Next.js page that renders App Store screenshots and broader device-framed marketing screenshots as **advertisements** (not UI showcases) and exports them via `html-to-image` at the required platform resolutions. Screenshots are usually the single most important conversion asset on an app listing, and they also need to work as reusable campaign creative across Apple, Android, and Mac device classes.
 
 ## Core Principle
 
@@ -24,9 +24,9 @@ Before writing ANY code, ask the user all of these. Do not proceed until you hav
 3. **Brand colors** — "What are your brand colors? (accent color, text color, background preference)"
 4. **Font** — "What font does your app use? (or what font do you want for the screenshots?)"
 5. **Feature list** — "List your app's features in priority order. What's the #1 thing your app does?"
-6. **Platforms and orientations** — "Do you want iPhone, iPad, or both? For each, portrait only or portrait + landscape?"
-7. **Number of slides** — "How many screenshots do you want? (Apple allows up to 10 per device class/orientation set)"
-8. **Style direction** — "What style do you want? Examples: warm/organic, dark/moody, clean/minimal, bold/colorful, gradient-heavy, flat. Share App Store screenshot references if you have any."
+6. **Platforms and orientations** — "Which device families do you want to support: iPhone, iPad, Android phone, Android tablet, Mac, or a subset? For each, which orientations do you need?"
+7. **Number of slides** — "How many screenshots do you want per device/orientation set? (Apple allows up to 10 per App Store set; marketing sets can vary.)"
+8. **Style direction** — "What style do you want? Examples: warm/organic, dark/moody, clean/minimal, bold/colorful, gradient-heavy, flat. Share App Store or mobile/desktop marketing screenshot references if you have any."
 
 ### Optional
 
@@ -46,6 +46,15 @@ Based on the user's style direction, brand colors, and app aesthetic, decide:
 **IMPORTANT:** If the user gives additional instructions at any point during the process, follow them. User instructions always override skill defaults.
 
 ## Step 2: Set Up the Project
+
+### Runtime Requirements
+
+The helper scripts in this skill assume a working Python 3 environment.
+
+- Use Python 3.11+ if possible.
+- `scaffold_next_app.py`, `bootstrap_support_files.py`, `download_fastlane_frames.py`, and `generate_frame_dimension_reference.py` use only the standard library.
+- `measure_frame_insets.py` expects Pillow to be installed for practical cache-wide runs. Install it with `python -m pip install pillow` if it is missing.
+- The inset measurer keeps a pure-Python PNG fallback, but that path is much slower and should be treated as a backup rather than the normal workflow.
 
 ### Scaffold the Project
 
@@ -354,7 +363,7 @@ Keep `page.tsx` focused on slide composition. Reuse the bootstrapped helper file
 - `src/lib/app-store-screenshots/frame-specs.ts`
   Contains the fallback mockup measurements and your measured fastlane frame metadata
 - `src/lib/app-store-screenshots/phone-frame.tsx`
-  Contains the reusable phone/frame overlay component
+  Contains the reusable device/frame overlay component
 - `src/lib/app-store-screenshots/export-png.ts`
   Contains the `html-to-image` export helper and double-call workaround
 
@@ -375,7 +384,7 @@ Use that helper for both preview rendering and export rendering so each output s
 
 ### Rendering Strategy
 
-Each screenshot is designed at full resolution (1320x2868px). Two copies exist:
+Each screenshot is designed at the largest required resolution for its current device/orientation family. Two copies exist:
 
 1. **Preview**: CSS `transform: scale()` via ResizeObserver to fit a grid card
 2. **Export**: Offscreen at `position: absolute; left: -9999px` at true resolution
@@ -385,7 +394,7 @@ Each screenshot is designed at full resolution (1320x2868px). Two copies exist:
 Do not retype the mockup math in the skill body. Reuse:
 
 - `frame-specs.ts` for the bundled fallback mockup measurements
-- `phone-frame.tsx` for the frame + screenshot overlay component
+- `phone-frame.tsx` for the device frame + screenshot overlay component
 
 ### Frame Metadata Rules
 
@@ -430,7 +439,7 @@ All sizing relative to canvas width W:
 
 Vary across slides — NEVER use the same layout twice in a row:
 
-**Centered phone** (hero, single-feature, mostly portrait):
+**Centered device** (hero, single-feature, mostly portrait):
 
 ```
 bottom: 0, width: "82-86%", translateX(-50%) translateY(12-14%)
@@ -446,11 +455,12 @@ Front: right: "-4%", width: "82%", translateY(10%)
 **Device + floating elements** (only if user provided component PNGs):
 
 ```
-Cards should NOT block the phone's main content.
+Cards should NOT block the device's main content.
 Position at edges, slight rotation (2-5deg), drop shadows.
 If distracting, push partially off-screen or make smaller.
+```
 
-**Landscape split** (best default for iPad landscape and wide iPhone slides):
+**Landscape split** (best default for iPad landscape, Android tablet, Mac, and wide iPhone slides):
 ```
 Text block: left 8-10%, width 34-40%, vertically centered
 Device: right 4-8%, width 52-58%, slight tilt only if it helps
@@ -484,12 +494,12 @@ Do not paste the export workaround from memory. Reuse `src/lib/app-store-screens
 
 | Mistake | Fix |
 |---------|-----|
-| All slides look the same | Vary phone position (center, left, right, two-phone, no-phone) |
+| All slides look the same | Vary device position (center, left, right, layered devices, text-led) |
 | Decorative elements invisible | Increase size and opacity — better too visible than invisible |
 | Copy is too complex | "One second at arm's length" test |
-| Floating elements block the phone | Move off-screen edges or above the phone |
+| Floating elements block the device | Move off-screen edges or above the frame |
 | Plain white/black background | Use gradients — even subtle ones add depth |
-| Too cluttered | Remove floating elements, simplify to phone + caption |
+| Too cluttered | Remove floating elements, simplify to device + caption |
 | Too simple/empty | Add larger decorative elements, floating items at edges |
 | Headlines use "and" | Split into two slides or pick one idea |
 | No visual contrast across slides | Mix light and dark backgrounds |

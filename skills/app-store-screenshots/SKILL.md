@@ -289,6 +289,7 @@ Use the support-file bootstrap script before you start writing the actual screen
 - Copies reusable TypeScript helpers into `src/lib/app-store-screenshots/`
 - Writes a project-local `locallama.config.json`
 - Optionally writes `src/app/layout.tsx` from a template
+- Uses a locale label map that covers the full current App Store metadata language set
 
 Example:
 

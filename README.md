@@ -114,7 +114,7 @@ python skills/app-store-screenshots/scripts/scaffold_next_app.py --project-root 
 python skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --locales en,ar,fr --default-locale en --rtl-locales ar
 ```
 
-Those scripts handle package-manager-aware scaffolding, install `html-to-image` + `i18next`, copy `mockup.png`, create the expected `public/` folders, write starter locale files under `src/locales/`, and install reusable TypeScript helpers from the bundled templates, including a locale-state hook for multi-locale preview/export in one app build.
+Those scripts handle package-manager-aware scaffolding, install `html-to-image` + `i18next`, copy `mockup.png`, create the expected `public/` folders, write starter locale files under `src/locales/`, and install reusable TypeScript helpers from the bundled templates, including a locale-state hook for multi-locale preview/export in one app build. The locale label map now covers the full current App Store metadata language set, so generated selectors show proper labels instead of raw codes for supported App Store locales.
 
 ## Install
 

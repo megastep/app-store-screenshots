@@ -15,7 +15,10 @@ export function inlinePositionForDir(
 }
 
 export function inlineTranslateForDir(dir: LocaleDirection, amount: string) {
-  return dir === "rtl" ? amount.replace("-", "") : amount;
+  if (dir !== "rtl") {
+    return amount;
+  }
+  return amount.startsWith("-") ? amount.slice(1) : `-${amount}`;
 }
 
 export function maybeMirrorRotation(dir: LocaleDirection, degrees: number) {

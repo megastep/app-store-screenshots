@@ -71,7 +71,7 @@ export function syncDocumentLocale(code: string | undefined) {
   }
 
   const locale = getSupportedLocale(code);
-  document.documentElement.lang = locale.lang;
+  document.documentElement.lang = locale.code;
   document.documentElement.dir = locale.dir;
 }
 

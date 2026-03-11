@@ -40,14 +40,14 @@ type DeckTranslations = {
 export const BASE_SLIDES = [
   {
     id: "hero",
-    screenshot: "/screenshots/home.png",
+    screenshot: "/screenshots/shared/home.png",
     enabled: true,
     family: "iphone",
     orientation: "portrait",
   },
   {
     id: "insights",
-    screenshot: "/screenshots/feature-1.png",
+    screenshot: "/screenshots/shared/feature-1.png",
     enabled: true,
     family: "iphone",
     orientation: "portrait",

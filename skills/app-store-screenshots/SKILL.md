@@ -290,11 +290,12 @@ Use the support-file bootstrap script before you start writing the actual screen
 - Writes a project-local `locallama.config.json`
 - Optionally writes `src/app/layout.tsx` from a template
 - Uses a locale label map that covers the full current App Store metadata language set
+- Infers RTL locales from the selected locale set unless you override `--rtl-locales`
 
 Example:
 
 ```bash
-python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --font-import Inter --font-const font --locales en,ar,fr --default-locale en --rtl-locales ar
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --font-import Inter --font-const font --locales en,ar,fr --default-locale en
 ```
 
 Bundled template files:

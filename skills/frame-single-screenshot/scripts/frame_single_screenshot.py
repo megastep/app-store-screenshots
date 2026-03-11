@@ -90,6 +90,10 @@ def resolve_frame_path(
         candidate = Path(frame_file).expanduser()
         if candidate.is_file():
             return candidate, []
+        # If the user supplied a path-like value (absolute or containing directories)
+        # and it does not exist, fail fast with an explicit error instead of searching frame_dir.
+        if candidate.is_absolute() or candidate.parent != Path("."):
+            raise SystemExit(f"Frame file does not exist: {candidate}")
         if not frame_dir.exists():
             raise SystemExit(f"Frame directory does not exist: {frame_dir}")
         if not frame_dir.is_dir():

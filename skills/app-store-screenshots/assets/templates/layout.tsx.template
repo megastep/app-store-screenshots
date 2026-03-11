@@ -1,11 +1,12 @@
 import type { ReactNode } from "react";
 import { __FONT_IMPORT__ } from "next/font/google";
+import { DEFAULT_LOCALE } from "@/lib/app-store-screenshots/localization";
 
 const __FONT_CONST__ = __FONT_IMPORT__({ subsets: ["latin"] });
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang={DEFAULT_LOCALE.lang} dir={DEFAULT_LOCALE.dir}>
       <body className={__FONT_CONST__.className}>{children}</body>
     </html>
   );

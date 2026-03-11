@@ -1,0 +1,100 @@
+import type { i18n } from "i18next";
+
+import { getSupportedLocale, type LocaleDirection } from "./localization";
+
+export type SlideDeviceFamily = "iphone" | "ipad" | "android-phone" | "android-tablet" | "mac";
+export type SlideOrientation = "portrait" | "landscape";
+
+export type BaseSlideConfig = {
+  id: string;
+  screenshot: string;
+  enabled: boolean;
+  family: SlideDeviceFamily;
+  orientation: SlideOrientation;
+};
+
+export type LocalizedSlideCopy = {
+  kicker?: string;
+  title: string;
+  body?: string;
+  exportLabel?: string;
+  screenshotOverride?: string;
+};
+
+export type LocalizedSlide = BaseSlideConfig & LocalizedSlideCopy;
+
+export type LocalizedDeck = {
+  localeCode: string;
+  dir: LocaleDirection;
+  appName: string;
+  tagline?: string;
+  slides: LocalizedSlide[];
+};
+
+type DeckTranslations = {
+  appName?: string;
+  tagline?: string;
+  slides?: Record<string, LocalizedSlideCopy>;
+};
+
+export const BASE_SLIDES = [
+  {
+    id: "hero",
+    screenshot: "/screenshots/home.png",
+    enabled: true,
+    family: "iphone",
+    orientation: "portrait",
+  },
+  {
+    id: "insights",
+    screenshot: "/screenshots/feature-1.png",
+    enabled: true,
+    family: "iphone",
+    orientation: "portrait",
+  },
+] as const satisfies readonly BaseSlideConfig[];
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null;
+}
+
+function readSlideCopy(
+  translations: DeckTranslations["slides"],
+  slideId: string,
+  localeCode: string,
+): LocalizedSlideCopy {
+  const copy = translations?.[slideId];
+  if (!copy || typeof copy.title !== "string") {
+    throw new Error(`Missing localized slide copy for "${slideId}" in locale "${localeCode}".`);
+  }
+  return copy;
+}
+
+export function buildLocalizedDeck(instance: i18n, localeCode: string): LocalizedDeck {
+  const locale = getSupportedLocale(localeCode);
+  const deck = instance.getResource(locale.code, "slides", "deck") as DeckTranslations | undefined;
+
+  if (!isRecord(deck)) {
+    throw new Error(`Missing deck translations for locale "${locale.code}".`);
+  }
+
+  const slides = BASE_SLIDES.filter((slide) => slide.enabled).map((baseSlide) => {
+    const copy = readSlideCopy(deck.slides, baseSlide.id, locale.code);
+    return {
+      ...baseSlide,
+      ...copy,
+      screenshot:
+        typeof copy.screenshotOverride === "string" && copy.screenshotOverride.length > 0
+          ? copy.screenshotOverride
+          : baseSlide.screenshot,
+    };
+  });
+
+  return {
+    localeCode: locale.code,
+    dir: locale.dir,
+    appName: typeof deck.appName === "string" ? deck.appName : "Localized Screenshot App",
+    tagline: typeof deck.tagline === "string" ? deck.tagline : undefined,
+    slides,
+  };
+}

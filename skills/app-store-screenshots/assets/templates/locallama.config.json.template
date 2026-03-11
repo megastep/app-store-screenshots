@@ -1,0 +1,13 @@
+{
+  "format": "i18next",
+  "root": "./src/locales",
+  "layout": "{lang}/{namespace}.json",
+  "inputs": ["./src/locales"],
+  "namespaces": ["ui", "slides"],
+  "sourceLanguage": "__SOURCE_LANGUAGE__",
+  "languages": [__TARGET_LANGUAGES__],
+  "progress": "minimal",
+  "suspiciousReview": true,
+  "strictCheckSuspicious": true,
+  "reportDir": "./reports/locallama"
+}

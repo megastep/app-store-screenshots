@@ -1,0 +1,88 @@
+import { createInstance, type i18n, type TFunction } from "i18next";
+__I18N_IMPORTS__
+
+export type LocaleDirection = "ltr" | "rtl";
+
+export type LocaleDefinition = {
+  code: string;
+  lang: string;
+  label: string;
+  dir: LocaleDirection;
+  source: boolean;
+};
+
+export const SUPPORTED_LOCALES = [
+__SUPPORTED_LOCALES__
+] as const satisfies readonly LocaleDefinition[];
+
+export const DEFAULT_LOCALE =
+  SUPPORTED_LOCALES.find((locale) => locale.code === "__DEFAULT_LOCALE__") ?? SUPPORTED_LOCALES[0];
+
+export const LOCALE_NAMESPACES = ["ui", "slides"] as const;
+export type LocaleNamespace = (typeof LOCALE_NAMESPACES)[number];
+
+const RESOURCES = {
+__I18N_RESOURCES__
+} as const;
+
+export function getSupportedLocale(code: string | undefined) {
+  return SUPPORTED_LOCALES.find((locale) => locale.code === code) ?? DEFAULT_LOCALE;
+}
+
+export function getLocaleOptions() {
+  return SUPPORTED_LOCALES.map((locale) => ({
+    value: locale.code,
+    label: locale.label,
+    dir: locale.dir,
+  }));
+}
+
+export function isRtlLocale(code: string | undefined) {
+  return getSupportedLocale(code).dir === "rtl";
+}
+
+export function getLocaleOutputDir(code: string | undefined) {
+  return `exports/${getSupportedLocale(code).code}`;
+}
+
+export async function createLocalization(code: string) {
+  const locale = getSupportedLocale(code);
+  const instance = createInstance();
+  await instance.init({
+    lng: locale.code,
+    fallbackLng: DEFAULT_LOCALE.code,
+    resources: RESOURCES,
+    ns: [...LOCALE_NAMESPACES],
+    defaultNS: "ui",
+    interpolation: { escapeValue: false },
+    returnObjects: true,
+  });
+
+  return {
+    i18n: instance,
+    locale,
+    t: instance.getFixedT(locale.code),
+  };
+}
+
+export function syncDocumentLocale(code: string | undefined) {
+  if (typeof document === "undefined") {
+    return;
+  }
+
+  const locale = getSupportedLocale(code);
+  document.documentElement.lang = locale.lang;
+  document.documentElement.dir = locale.dir;
+}
+
+export function getLocaleResource<T>(instance: i18n, localeCode: string, namespace: LocaleNamespace, key: string) {
+  return instance.getResource(getSupportedLocale(localeCode).code, namespace, key) as T;
+}
+
+export function getLocaleText(
+  t: TFunction<LocaleNamespace, undefined>,
+  key: string,
+  namespace: LocaleNamespace = "ui",
+) {
+  return t(key, { ns: namespace });
+}

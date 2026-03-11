@@ -27,6 +27,8 @@ Before writing ANY code, ask the user all of these. Do not proceed until you hav
 6. **Platforms and orientations** — "Which device families do you want to support: iPhone, iPad, Android phone, Android tablet, Mac, or a subset? For each, which orientations do you need?"
 7. **Number of slides** — "How many screenshots do you want per device/orientation set? (Apple allows up to 10 per App Store set; marketing sets can vary.)"
 8. **Style direction** — "What style do you want? Examples: warm/organic, dark/moody, clean/minimal, bold/colorful, gradient-heavy, flat. Share App Store or mobile/desktop marketing screenshot references if you have any."
+9. **Locales** — "Which locales do you want to ship? What is the source/default locale? Do any of them need RTL layout?"
+10. **Localized assets** — "Do screenshots, app icons, or overlays change by locale, or is the copy the only localized part?"
 
 ### Optional
 
@@ -55,6 +57,7 @@ The helper scripts in this skill assume a working Python 3 environment.
 - `scaffold_next_app.py`, `bootstrap_support_files.py`, `download_fastlane_frames.py`, and `generate_frame_dimension_reference.py` use only the standard library.
 - `measure_frame_insets.py` expects Pillow to be installed for practical cache-wide runs. Install it with `python -m pip install pillow` if it is missing.
 - The inset measurer keeps a pure-Python PNG fallback, but that path is much slower and should be treated as a backup rather than the normal workflow.
+- The generated app now expects `i18next`, which `scaffold_next_app.py` installs alongside `html-to-image`.
 
 ### Scaffold the Project
 
@@ -69,6 +72,8 @@ Example:
 ```bash
 python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/scaffold_next_app.py --project-root . --execute
 ```
+
+That installs the runtime dependencies needed for screenshot export and localization (`html-to-image` and `i18next`).
 
 ### Device Frames
 
@@ -279,13 +284,16 @@ Use the support-file bootstrap script before you start writing the actual screen
 - Script: `scripts/bootstrap_support_files.py`
 - Copies `mockup.png`
 - Creates `public/frames/` and `public/screenshots/`
+- Creates locale-aware screenshot folders under `public/screenshots/`
+- Writes starter locale files under `src/locales/`
 - Copies reusable TypeScript helpers into `src/lib/app-store-screenshots/`
+- Writes a project-local `locallama.config.json`
 - Optionally writes `src/app/layout.tsx` from a template
 
 Example:
 
 ```bash
-python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --font-import Inter --font-const font
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --font-import Inter --font-const font --locales en,ar,fr --default-locale en --rtl-locales ar
 ```
 
 Bundled template files:
@@ -295,6 +303,29 @@ Bundled template files:
 - `assets/templates/frame-specs.ts`
 - `assets/templates/phone-frame.tsx`
 - `assets/templates/export-png.ts`
+- `assets/templates/localization.ts.template`
+- `assets/templates/screenshot-content.ts.template`
+- `assets/templates/use-localized-screenshot-app.tsx`
+- `assets/templates/layout-direction.ts`
+- `assets/templates/locallama.config.json.template`
+
+The bootstrap step also creates:
+
+- `src/locales/<locale>/ui.json`
+- `src/locales/<locale>/slides.json`
+- `docs/translation-style-guide.txt`
+- `locallama.config.json`
+
+Use the generated locale helpers in `page.tsx` instead of hardcoding English strings:
+
+- `src/lib/app-store-screenshots/localization.ts`
+  Contains locale metadata, `i18next` setup, `lang` / `dir` helpers, and export folder helpers
+- `src/lib/app-store-screenshots/screenshot-content.ts`
+  Contains the base slide schema and locale-aware deck builder
+- `src/lib/app-store-screenshots/use-localized-screenshot-app.tsx`
+  Contains the runtime locale loader/hook for single-build multi-locale preview and export flows
+- `src/lib/app-store-screenshots/layout-direction.ts`
+  Contains RTL/LTR-aware layout helpers for split and asymmetric compositions
 
 ## Step 3: Plan the Slides
 
@@ -370,7 +401,15 @@ Keep `page.tsx` focused on slide composition. Reuse the bootstrapped helper file
 - `src/lib/app-store-screenshots/phone-frame.tsx`
   Contains the reusable device/frame overlay component
 - `src/lib/app-store-screenshots/export-png.ts`
-  Contains the `html-to-image` export helper and double-call workaround
+  Contains the `html-to-image` export helper plus locale-aware filename and manifest helpers
+- `src/lib/app-store-screenshots/localization.ts`
+  Contains supported locale metadata, `i18next` resources, and document locale syncing
+- `src/lib/app-store-screenshots/screenshot-content.ts`
+  Contains the localized slide/content schema and locale-aware deck builder
+- `src/lib/app-store-screenshots/use-localized-screenshot-app.tsx`
+  Contains the runtime locale state hook plus loaders for one-app multi-locale previews and exports
+- `src/lib/app-store-screenshots/layout-direction.ts`
+  Contains RTL/LTR-aware alignment and mirroring helpers
 
 For App Store work, design each Apple device/orientation set at its largest required size and scale down within that family where needed.
 For Android and Mac marketing mockups, treat the frame canvas as the native composition size for that preset unless you have campaign-specific export requirements.
@@ -420,6 +459,30 @@ The bundled `frame-specs.ts` includes:
 - `getFrameSpec(framePath)` so the UI can route unknown frames back to the fallback spec
 
 The important part is the workflow: **auto-measure once per frame, then auto-select by target screenshot size**. Do not handwire slide components to a single device.
+
+### Localization Workflow
+
+Do not keep screenshot copy inline in `page.tsx`. Treat locale files as the source of truth.
+
+Use this approach:
+
+1. Keep locale metadata in `src/lib/app-store-screenshots/localization.ts`.
+2. Keep screenshot UI strings in `src/locales/<locale>/ui.json`.
+3. Keep localized slide copy in `src/locales/<locale>/slides.json`.
+4. Keep non-translated slide structure in `src/lib/app-store-screenshots/screenshot-content.ts`.
+5. Use `src/lib/app-store-screenshots/use-localized-screenshot-app.tsx` as the app-level locale state source so previews and exports can switch locales without rebuilding.
+6. Allow locale-specific screenshot asset overrides through the locale slide JSON when a market needs different imagery.
+7. Sync `document.documentElement.lang` and `dir` when the active locale changes.
+
+For translation maintenance, prefer the bundled `locallama.config.json`:
+
+```bash
+locallama --config ./locallama.config.json stats
+locallama --config ./locallama.config.json fill --lang ar,fr
+locallama --config ./locallama.config.json check
+```
+
+Use `docs/translation-style-guide.txt` as the project-specific guidance file when you need to tighten copy style before filling or reviewing translations.
 
 ### Layout and Orientation Notes
 
@@ -494,6 +557,8 @@ Do not paste the export workaround from memory. Reuse `src/lib/app-store-screens
 - 300ms delay between sequential exports.
 - Set `fontFamily` on the offscreen container.
 - **Numbered filenames**: Prefix exports with zero-padded index so they sort correctly: `01-hero-1320x2868.png`, `02-freshness-1320x2868.png`, etc. Use `String(index + 1).padStart(2, "0")`.
+- Keep export outputs grouped by locale, for example `exports/en/...` and `exports/ar/...`.
+- Record locale, direction, size key, and frame path in the export manifest entries so localized screenshot sets stay auditable.
 
 ## Common Mistakes
 

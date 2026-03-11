@@ -25,6 +25,8 @@ CREATE_ARGS = [
     "@/*",
 ]
 
+RUNTIME_DEPENDENCIES = ["html-to-image", "i18next"]
+
 
 def detect_package_manager(preferred: str | None = None) -> str:
     if preferred:
@@ -51,13 +53,13 @@ def build_commands(package_manager: str, project_root: Path) -> list[list[str]]:
             commands.append(["npx", "create-next-app@latest", root_arg, *CREATE_ARGS])
 
     if package_manager == "bun":
-        commands.append(["bun", "add", "html-to-image"])
+        commands.append(["bun", "add", *RUNTIME_DEPENDENCIES])
     elif package_manager == "pnpm":
-        commands.append(["pnpm", "add", "html-to-image"])
+        commands.append(["pnpm", "add", *RUNTIME_DEPENDENCIES])
     elif package_manager == "yarn":
-        commands.append(["yarn", "add", "html-to-image"])
+        commands.append(["yarn", "add", *RUNTIME_DEPENDENCIES])
     else:
-        commands.append(["npm", "install", "html-to-image"])
+        commands.append(["npm", "install", *RUNTIME_DEPENDENCIES])
 
     return commands
 

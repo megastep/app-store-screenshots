@@ -4,7 +4,7 @@ For iPhone-only work, 6.1" is still the safest source capture. For iPad screensh
 
 # App Store Screenshots Generator
 
-A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that generates production-ready App Store screenshots for iOS apps and broader marketing mockups. It scaffolds a Next.js project, designs advertisement-style screenshots, and exports them at required Apple resolutions with automatic device frame matching.
+A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that generates production-ready App Store screenshots and broader marketing mockups. It scaffolds a Next.js project, designs advertisement-style screenshots, and exports them at required Apple resolutions with automatic device frame matching and locale-aware content scaffolding.
 
 ![Example output — Bloom coffee tracking app](example.png)
 
@@ -13,6 +13,7 @@ A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that 
 - Asks you about your app's brand, features, and style preferences
 - Scaffolds a minimal Next.js project (or works within an existing one)
 - Includes a scaffold helper for the base Next.js + `html-to-image` setup
+- Adds `i18next`-based localization helpers and starter locale files for the generated app
 - Designs each screenshot as an **advertisement** — not a UI showcase
 - Writes compelling copy using proven App Store copywriting patterns
 - Renders screenshots at full resolution with fastlane `frameit` device frames when available
@@ -20,6 +21,7 @@ A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that 
 - Supports iPad screenshot exports, including landscape orientation
 - Supports broader marketing mockups using cached/downloaded Android phone, Android tablet, and Mac laptop frames
 - Includes bootstrap templates for frame selection, frame specs, phone rendering, and PNG export
+- Includes bootstrap templates for locale metadata, localized slide content, RTL-aware layout helpers, and `locallama` config
 - Exports PNGs for iPhone and iPad size buckets, including landscape sets
 
 ## Included assets
@@ -109,10 +111,10 @@ The skill now bundles helper scripts instead of keeping the reusable setup code 
 
 ```bash
 python skills/app-store-screenshots/scripts/scaffold_next_app.py --project-root . --execute
-python skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout
+python skills/app-store-screenshots/scripts/bootstrap_support_files.py --project-root . --with-layout --locales en,ar,fr --default-locale en --rtl-locales ar
 ```
 
-Those scripts handle package-manager-aware scaffolding, copy `mockup.png`, create the expected `public/` folders, and install reusable TypeScript helpers from the bundled templates.
+Those scripts handle package-manager-aware scaffolding, install `html-to-image` + `i18next`, copy `mockup.png`, create the expected `public/` folders, write starter locale files under `src/locales/`, and install reusable TypeScript helpers from the bundled templates, including a locale-state hook for multi-locale preview/export in one app build.
 
 ## Install
 
@@ -147,7 +149,7 @@ git clone https://github.com/ParthJadhav/app-store-screenshots ~/.claude/skills/
 Once installed, the skill triggers automatically when you ask Claude Code to:
 
 - Build App Store screenshots
-- Generate marketing screenshots for an iOS app
+- Generate marketing screenshots for a mobile or desktop app
 - Create exportable screenshot assets
 
 Or just tell Claude Code what you need:
@@ -157,6 +159,7 @@ Or just tell Claude Code what you need:
 ```
 
 Claude will ask you about your app's screenshots, brand colors, font, features, style direction, and number of slides before building anything.
+It should also ask about locales, default/source language, RTL needs, and whether screenshots/assets vary by locale.
 
 ## What gets scaffolded
 
@@ -168,15 +171,28 @@ project/
 │   ├── mockup.png          # Fallback frame (copied from skill)
 │   ├── frames/             # Fastlane frameit device PNGs
 │   ├── app-icon.png        # Your app icon
-│   └── screenshots/        # Your app screenshots
+│   └── screenshots/        # Shared + per-locale screenshots
 ├── src/app/
 │   ├── layout.tsx          # Font setup
 │   └── page.tsx            # Screenshot generator (single file)
+├── src/lib/app-store-screenshots/
+│   ├── localization.ts
+│   ├── screenshot-content.ts
+│   ├── use-localized-screenshot-app.tsx
+│   └── export-png.ts
+├── src/locales/
+│   ├── en/
+│   │   ├── ui.json
+│   │   └── slides.json
+│   └── ar/
+│       ├── ui.json
+│       └── slides.json
+├── locallama.config.json
 ├── package.json
 └── ...
 ```
 
-The entire generator is a **single `page.tsx` file**. Run the dev server, open the browser, click any screenshot to export it as a PNG.
+The screenshot composition still lives in a **single `page.tsx` file**, but the reusable runtime now lives under `src/lib/app-store-screenshots/` so locale switching, deck loading, direction syncing, and export metadata do not have to be reimplemented in the page itself.
 
 ## Export sizes
 
@@ -206,6 +222,7 @@ Design within the largest target for each Apple family/orientation set, then sca
 | TypeScript | Type safety |
 | Tailwind CSS | Styling |
 | html-to-image | PNG export at exact resolutions |
+| i18next | Multi-locale content loading |
 | React | Component composition |
 
 ## Key design principles
@@ -220,6 +237,8 @@ Design within the largest target for each Apple family/orientation set, then sca
 
 - Node.js 18+
 - One of: bun, pnpm, yarn, or npm (detected automatically, bun preferred)
+- Python 3.11+ for the bundled helper scripts
+- Pillow for `measure_frame_insets.py` if you want practical cache-wide inset measurement
 
 ## License
 

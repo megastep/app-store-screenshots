@@ -24,7 +24,6 @@ export function PhoneFrame({
       className={`relative ${className}`}
       style={{ aspectRatio: `${spec.frameW}/${spec.frameH}`, ...style }}
     >
-      <img src={spec.framePath} alt="" className="block h-full w-full" draggable={false} />
       <div
         className="absolute z-10 overflow-hidden"
         style={{
@@ -42,6 +41,12 @@ export function PhoneFrame({
           draggable={false}
         />
       </div>
+      <img
+        src={spec.framePath}
+        alt=""
+        className="absolute inset-0 z-20 block h-full w-full"
+        draggable={false}
+      />
     </div>
   );
 }

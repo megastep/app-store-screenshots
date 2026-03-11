@@ -10,6 +10,12 @@ export type FrameSpec = {
     rx: number;
     ry: number;
   };
+  topOverlayCutout?: {
+    left: number;
+    top: number;
+    width: number;
+    height: number;
+  };
 };
 
 const MK_W = 1022;

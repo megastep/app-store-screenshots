@@ -32,7 +32,29 @@ def load_shared_entries() -> list[dict]:
     return json.loads(SHARED_INSETS_JSON.read_text(encoding="utf-8"))
 
 
-def rank_frame_paths(frame_paths: list[Path], query: str, orientation: str | None, color_priority: list[str]) -> list[tuple[float, Path]]:
+def build_shared_entry_map(shared_entries: list[dict]) -> dict[str, dict]:
+    return {str(entry.get("filename")): entry for entry in shared_entries if entry.get("filename")}
+
+
+def infer_frame_orientation_hint(path: Path, shared_entry: dict | None) -> str | None:
+    if shared_entry and shared_entry.get("orientation") in {"portrait", "landscape"}:
+        return str(shared_entry["orientation"])
+    normalized = normalize_text(path.stem)
+    tokens = set(normalized.split())
+    if "landscape" in tokens or "horizontal" in tokens:
+        return "landscape"
+    if "portrait" in tokens or "vertical" in tokens:
+        return "portrait"
+    return None
+
+
+def rank_frame_paths(
+    frame_paths: list[Path],
+    query: str,
+    orientation: str | None,
+    color_priority: list[str],
+    shared_entry_map: dict[str, dict],
+) -> list[tuple[float, Path]]:
     ranked: list[tuple[float, Path]] = []
     normalized_query = normalize_text(query)
     query_tokens = set(normalized_query.split())
@@ -44,12 +66,9 @@ def rank_frame_paths(frame_paths: list[Path], query: str, orientation: str | Non
             score += 60
         score += len(filename_tokens & query_tokens) * 12
         if orientation:
-            try:
-                with Image.open(path) as image:
-                    if infer_orientation(*image.size) == orientation:
-                        score += 15
-            except Exception:
-                continue
+            orientation_hint = infer_frame_orientation_hint(path, shared_entry_map.get(path.name))
+            if orientation_hint == orientation:
+                score += 15
         lowered_filename = path.name.lower()
         for index, color in enumerate(color_priority):
             if color and color.lower() in lowered_filename:
@@ -59,15 +78,25 @@ def rank_frame_paths(frame_paths: list[Path], query: str, orientation: str | Non
     return ranked
 
 
-def resolve_frame_path(frame_dir: Path, device: str | None, frame_file: str | None, orientation: str | None, color_priority: list[str]) -> tuple[Path, list[tuple[float, Path]]]:
-    frame_paths = sorted(path for path in frame_dir.iterdir() if path.is_file() and path.suffix.lower() == ".png")
-    if not frame_paths:
-        raise SystemExit(f"No PNG frames found in {frame_dir}")
-
+def resolve_frame_path(
+    frame_dir: Path,
+    device: str | None,
+    frame_file: str | None,
+    orientation: str | None,
+    color_priority: list[str],
+    shared_entry_map: dict[str, dict],
+) -> tuple[Path, list[tuple[float, Path]]]:
     if frame_file:
         candidate = Path(frame_file).expanduser()
         if candidate.is_file():
             return candidate, []
+        if not frame_dir.exists():
+            raise SystemExit(f"Frame directory does not exist: {frame_dir}")
+        if not frame_dir.is_dir():
+            raise SystemExit(f"Frame directory is not a directory: {frame_dir}")
+        frame_paths = sorted(path for path in frame_dir.iterdir() if path.is_file() and path.suffix.lower() == ".png")
+        if not frame_paths:
+            raise SystemExit(f"No PNG frames found in {frame_dir}")
         matches = [path for path in frame_paths if path.name == frame_file or path.stem == frame_file]
         if not matches:
             raise SystemExit(f'Frame file not found in {frame_dir}: "{frame_file}"')
@@ -76,7 +105,15 @@ def resolve_frame_path(frame_dir: Path, device: str | None, frame_file: str | No
     if not device:
         raise SystemExit("--device is required unless --frame-file is provided")
 
-    ranked = rank_frame_paths(frame_paths, device, orientation, color_priority)
+    if not frame_dir.exists():
+        raise SystemExit(f"Frame directory does not exist: {frame_dir}")
+    if not frame_dir.is_dir():
+        raise SystemExit(f"Frame directory is not a directory: {frame_dir}")
+    frame_paths = sorted(path for path in frame_dir.iterdir() if path.is_file() and path.suffix.lower() == ".png")
+    if not frame_paths:
+        raise SystemExit(f"No PNG frames found in {frame_dir}")
+
+    ranked = rank_frame_paths(frame_paths, device, orientation, color_priority, shared_entry_map)
     if not ranked or ranked[0][0] <= 0:
         raise SystemExit(f'No suitable Fastlane frame match found for "{device}" in {frame_dir}')
     return ranked[0][1], ranked
@@ -178,7 +215,15 @@ def measure_frame(frame_path: Path) -> dict:
 def resolve_frame_entry(frame_path: Path, shared_entries: list[dict]) -> tuple[dict, str]:
     for entry in shared_entries:
         if entry.get("filename") == frame_path.name:
-            return entry, "shared-reference"
+            stored_w = entry.get("frameW")
+            stored_h = entry.get("frameH")
+            if stored_w is None or stored_h is None:
+                return measure_frame(frame_path), "measured"
+            with Image.open(frame_path) as frame_image:
+                actual_w, actual_h = frame_image.size
+            if int(stored_w) == int(actual_w) and int(stored_h) == int(actual_h):
+                return entry, "shared-reference"
+            return measure_frame(frame_path), "measured"
     return measure_frame(frame_path), "measured"
 
 
@@ -254,7 +299,7 @@ def main() -> int:
     parser.add_argument("--device", help='Target device query, for example "iPhone 16 Pro Max"')
     parser.add_argument("--frame-file", help="Exact frame filename or absolute path to a frame PNG")
     parser.add_argument("--frame-dir", default=str(DEFAULT_FRAME_DIR), help="Directory containing Fastlane frame PNGs")
-    parser.add_argument("--output", help="Output PNG path")
+    parser.add_argument("--output", help="Output image path (PNG/JPEG/WEBP). Format defaults to the file extension, or png")
     parser.add_argument("--format", choices=("png", "jpeg", "jpg", "webp"), help="Output format. Defaults to the output file extension, or png")
     parser.add_argument("--width", type=int, help="Optional output width in pixels")
     parser.add_argument("--height", type=int, help="Optional output height in pixels")
@@ -282,9 +327,8 @@ def main() -> int:
         inferred_orientation = infer_orientation(*image.size)
 
     frame_dir = Path(args.frame_dir).expanduser()
-    if not frame_dir.exists():
-        raise SystemExit(f"Frame directory does not exist: {frame_dir}")
-
+    shared_entries = load_shared_entries()
+    shared_entry_map = build_shared_entry_map(shared_entries)
     color_priority = [part.strip() for part in args.color_priority.split(",") if part.strip()]
     frame_path, ranked = resolve_frame_path(
         frame_dir=frame_dir,
@@ -292,6 +336,7 @@ def main() -> int:
         frame_file=args.frame_file,
         orientation=args.orientation or inferred_orientation,
         color_priority=color_priority,
+        shared_entry_map=shared_entry_map,
     )
 
     if args.list_matches:
@@ -302,7 +347,6 @@ def main() -> int:
             print(f"{score:6.2f}  {path.name}")
         return 0
 
-    shared_entries = load_shared_entries()
     frame_entry, source = resolve_frame_entry(frame_path, shared_entries)
     output_path = Path(args.output).expanduser()
     output_format = infer_output_format(output_path, args.format)

@@ -186,6 +186,8 @@ The script:
 - reads the alpha channel from each PNG
 - finds the largest interior transparent window
 - emits pixel-space and percent-space inset values
+- records top overlay cutouts for notch / Dynamic Island style frames
+- derives corner radii from a shallow top band so curved Android glass does not get over-rounded from lower-screen taper
 - flags likely cutout/notch frames
 - skips invalid cache files or implausible detections instead of aborting the whole run
 
@@ -453,6 +455,7 @@ Use this approach:
 3. Prefer generating those entries with `scripts/measure_frame_insets.py` rather than hand-measuring every bezel.
 4. Reuse one preset across color variants of the same device/orientation pair.
 5. If a fastlane frame exists but has no measured inset yet, temporarily route that size to `mockup.png` rather than guessing and shipping a misaligned result.
+6. Do not hand-inflate `rx` / `ry` for Android phones. If a Galaxy or Pixel frame looks too rounded or too square, regenerate the measured refs from the exact retained PNGs and copy those values instead.
 
 The bundled `frame-specs.ts` includes:
 
@@ -491,7 +494,7 @@ Use `docs/translation-style-guide.txt` as the project-specific guidance file whe
 - iPhone portrait remains the default hero layout.
 - For iPhone landscape and iPad landscape, treat the canvas as editorial spread space: put headline/caption on one side and device imagery on the other.
 - For iPad portrait, give the device more breathing room than iPhone portrait. The bezel is visually lighter, so compensate with stronger composition and larger type blocks.
-- For Android phones, expect tighter screen cutouts and slightly less generous bezel padding than iPhone frames.
+- For Android phones, expect tighter screen cutouts, slightly less generous bezel padding than iPhone frames, and generally squarer display corners than recent iPhones. Let the measured frame refs drive that geometry.
 - For Mac laptop frames, use wider editorial layouts, smaller tilt angles, and more surrounding whitespace than phone/tablet compositions.
 - Do not blindly rotate portrait compositions into landscape. Re-compose them.
 

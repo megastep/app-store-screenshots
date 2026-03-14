@@ -45,6 +45,9 @@ export const FRAME_SPECS: Record<string, FrameSpec> = {
   // Add measured fastlane frame specs here.
   // Preferred source: generate them with scripts/measure_frame_insets.py and copy
   // only the entries for frames you actually keep in public/frames/.
+  // Keep the generated rx/ry values unless you have a specific visual correction.
+  // Android phones in particular should use the measured values; hand-tuned radii
+  // tend to over-round Galaxy / Pixel screens.
   // Typical next entries:
   // "iphone-16-pro-max-landscape": { ... }
   // "ipad-pro-13": { ... }

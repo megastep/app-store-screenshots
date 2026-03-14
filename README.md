@@ -83,7 +83,7 @@ The repo also includes an automatic inset measurer for bezel PNGs:
 python skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir ~/.fastlane/frameit/latest --source-label fastlane-frameit-latest --json-out frame-insets.json --markdown-out frame-insets.md --ts-out measured-frame-specs.ts
 ```
 
-It reads the transparent screen opening from each readable frame image, emits a refreshable JSON/Markdown reference, and generates a TypeScript scaffold you can copy into `FRAME_SPECS`.
+It reads the transparent screen opening from each readable frame image, emits a refreshable JSON/Markdown reference, records notch/top-overlay cutouts where needed, and generates a TypeScript scaffold you can copy into `FRAME_SPECS`. The corner-radius detection is constrained to the top of the display so curved Android phones do not get over-rounded from lower-screen taper.
 
 Pregenerated cache snapshots are checked in at:
 

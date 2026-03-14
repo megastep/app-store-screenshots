@@ -22,7 +22,7 @@ This skill is intentionally narrower than `app-store-screenshots`:
 1. The unframed screenshot path
 2. The target device, for example `iPhone 16 Pro Max`, `iPad Pro 13`, `Pixel 8 Pro`, or `MacBook Air`
 3. The output path
-4. Optional: orientation, preferred finish/color, exact frame filename, and output size/format
+4. Optional: orientation, preferred finish/color, exact frame filename, output size/format, and landscape rotation direction
 
 ## Runtime Requirements
 
@@ -43,6 +43,9 @@ Useful variants:
 ```bash
 # Prefer a specific orientation
 python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --image ./capture.png --device "iPad Pro 13" --orientation landscape --output ./framed-ipad.png
+
+# Rotate a portrait bezel counterclockwise for a landscape screenshot
+python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --image ./capture-landscape.png --frame-file "Apple iPad Pro (11-inch) Silver.png" --landscape-rotation counterclockwise --output ./framed-ipad-landscape.png
 
 # Prefer a specific finish/color
 python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --image ./capture.png --device "Pixel 8 Pro" --color-priority "black,obsidian,bay" --output ./framed-pixel.png
@@ -74,6 +77,19 @@ Use this order:
 
 Do not hand-edit bezel placements unless the generated result is obviously wrong.
 
+## Landscape Behavior
+
+- If the input screenshot is landscape but the selected Fastlane bezel asset is portrait, the script rotates the frame and its inset geometry automatically.
+- The default rotation direction is `clockwise`.
+- Override it with `--landscape-rotation counterclockwise` if the resulting composition is upside down or if you want the opposite home button / camera edge.
+- This is especially useful for iPad fixtures because many local Fastlane caches only contain portrait iPad frames.
+
+## Test Fixtures
+
+- Test-only screenshot fixtures live under `tests/frame_single_screenshot/fixtures/`, not inside the skill package itself.
+- The bundled runner at `tests/frame_single_screenshot/run_fixture_renders.py` shells out to the real skill script and writes inspectable outputs to `tests/frame_single_screenshot/artifacts/`.
+- That runner includes iPhone portrait fixtures plus iPad portrait and landscape fixtures.
+
 ## If Frames Are Missing
 
 If `~/.fastlane/frameit/latest` does not contain usable frame PNGs, tell the user to fetch them first. If the full screenshot skill is present beside this one, prefer its downloader:
@@ -97,3 +113,4 @@ Then rerun this skill with `--frame-dir`.
 - The output format defaults from the output extension, or `png` if none is obvious.
 - JPEG output is flattened onto white because the format does not support alpha.
 - The script defaults to `cover` fitting so the screen area is fully filled.
+- Portrait frames can be reused for landscape inputs via rotation; `--landscape-rotation` controls the direction.

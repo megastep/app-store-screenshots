@@ -14,9 +14,9 @@ Entries: 249
 | Google Pixel 3 Clearly White.png | android-phone | portrait | 1199 x 2542 | left 55, top 199 | 1080 x 2160 | rx 45.0, ry 32.0 | False | - |
 | Google Pixel 3 Just Black.png | android-phone | portrait | 1199 x 2542 | left 55, top 199 | 1080 x 2160 | rx 45.0, ry 32.0 | False | - |
 | Google Pixel 3 Not Pink.png | android-phone | portrait | 1199 x 2542 | left 55, top 199 | 1080 x 2160 | rx 45.0, ry 32.0 | False | - |
-| Google Pixel 3 XL Clearly White.png | android-phone | portrait | 1591 x 3248 | left 69, top 242 | 1440 x 2789 | rx 56.5, ry 2789.0 | False | - |
-| Google Pixel 3 XL Just Black.png | android-phone | portrait | 1589 x 3248 | left 69, top 242 | 1440 x 2789 | rx 56.5, ry 2789.0 | False | - |
-| Google Pixel 3 XL Not Pink.png | android-phone | portrait | 1591 x 3248 | left 69, top 242 | 1440 x 2789 | rx 56.5, ry 2789.0 | False | - |
+| Google Pixel 3 XL Clearly White.png | android-phone | portrait | 1591 x 3248 | left 69, top 242 | 1440 x 2789 | rx 0.0, ry 0.0 | False | - |
+| Google Pixel 3 XL Just Black.png | android-phone | portrait | 1589 x 3248 | left 69, top 242 | 1440 x 2789 | rx 0.0, ry 0.0 | False | - |
+| Google Pixel 3 XL Not Pink.png | android-phone | portrait | 1591 x 3248 | left 69, top 242 | 1440 x 2789 | rx 0.0, ry 0.0 | False | - |
 | Google Pixel 4 Clearly White.png | android-phone | portrait | 1178 x 2496 | left 44, top 145 | 1080 x 2280 | rx 113.0, ry 85.0 | False | - |
 | Google Pixel 4 Just Black.png | android-phone | portrait | 1178 x 2496 | left 44, top 145 | 1080 x 2280 | rx 113.0, ry 85.0 | False | - |
 | Google Pixel 4 Oh So Orange.png | android-phone | portrait | 1178 x 2496 | left 44, top 145 | 1080 x 2280 | rx 113.0, ry 85.0 | False | - |
@@ -38,15 +38,15 @@ Entries: 249
 | Nexus 5x.png | android-phone | portrait | 1195 x 2406 | left 53, top 231 | 1080 x 1920 | rx 0.0, ry 0.0 | False | - |
 | Nexus 6P.png | android-phone | portrait | 1566 x 3198 | left 59, top 329 | 1440 x 2560 | rx 0.0, ry 0.0 | False | - |
 | Nexus 9.png | android-phone | portrait | 1728 x 2567 | left 96, top 260 | 1536 x 2048 | rx 0.0, ry 0.0 | False | - |
-| Samsung Galaxy Note 10 Aura Black.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 52.0, ry 2192.0 | False | - |
-| Samsung Galaxy Note 10 Aura Glow.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 52.0, ry 2192.0 | False | - |
-| Samsung Galaxy Note 10 Aura Pink.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 52.0, ry 2192.0 | False | - |
-| Samsung Galaxy Note 10 Aura Red.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 52.0, ry 2192.0 | False | - |
-| Samsung Galaxy Note 10 Aura White.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 52.0, ry 2192.0 | False | - |
-| Samsung Galaxy Note 10+ Aura Black.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 69.5, ry 2922.0 | False | - |
-| Samsung Galaxy Note 10+ Aura Blue.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 69.5, ry 2922.0 | False | - |
-| Samsung Galaxy Note 10+ Aura Glow.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 69.5, ry 2922.0 | False | - |
-| Samsung Galaxy Note 10+ Aura White.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 69.5, ry 2922.0 | False | - |
+| Samsung Galaxy Note 10 Aura Black.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10 Aura Glow.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10 Aura Pink.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10 Aura Red.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10 Aura White.png | android-phone | portrait | 1128 x 2364 | left 39, top 119 | 1058 x 2192 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10+ Aura Black.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10+ Aura Blue.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10+ Aura Glow.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 0.0, ry 0.0 | False | - |
+| Samsung Galaxy Note 10+ Aura White.png | android-phone | portrait | 1502 x 3151 | left 51, top 159 | 1411 x 2922 | rx 0.0, ry 0.0 | False | - |
 | Samsung Galaxy Note 5 Black.png | android-phone | portrait | 1568 x 3117 | left 66, top 290 | 1440 x 2560 | rx 0.0, ry 0.0 | False | - |
 | Samsung Galaxy Note 5 Gold.png | android-phone | portrait | 1568 x 3117 | left 66, top 290 | 1440 x 2560 | rx 0.0, ry 0.0 | False | - |
 | Samsung Galaxy Note 5 Pink.png | android-phone | portrait | 1568 x 3117 | left 66, top 290 | 1440 x 2560 | rx 0.0, ry 0.0 | False | - |
@@ -76,8 +76,8 @@ Entries: 249
 | Samsung Galaxy S21 5G Pink.png | android-phone | portrait | 1180 x 2500 | left 44, top 121 | 1080 x 2321 | rx 4.0, ry 9.0 | False | - |
 | Samsung Galaxy S21 5G Violet.png | android-phone | portrait | 1180 x 2500 | left 44, top 121 | 1080 x 2321 | rx 4.0, ry 9.0 | False | - |
 | Samsung Galaxy S21 5G White.png | android-phone | portrait | 1180 x 2500 | left 44, top 121 | 1080 x 2321 | rx 4.0, ry 9.0 | False | - |
-| Samsung Galaxy S21 Ultra 5G Black.png | android-phone | portrait | 1540 x 3324 | left 44, top 148 | 1439 x 3106 | rx 153.0, ry 3106.0 | False | - |
-| Samsung Galaxy S21 Ultra 5G Silver.png | android-phone | portrait | 1540 x 3324 | left 44, top 148 | 1439 x 3106 | rx 153.0, ry 3106.0 | False | - |
+| Samsung Galaxy S21 Ultra 5G Black.png | android-phone | portrait | 1540 x 3324 | left 44, top 148 | 1439 x 3106 | rx 3.0, ry 0.0 | False | - |
+| Samsung Galaxy S21 Ultra 5G Silver.png | android-phone | portrait | 1540 x 3324 | left 44, top 148 | 1439 x 3106 | rx 3.0, ry 0.0 | False | - |
 | Samsung Galaxy S21+ 5G Black.png | android-phone | portrait | 1180 x 2500 | left 44, top 121 | 1080 x 2321 | rx 4.0, ry 9.0 | False | - |
 | Samsung Galaxy S21+ 5G Silver.png | android-phone | portrait | 1180 x 2500 | left 41, top 121 | 1080 x 2321 | rx 4.0, ry 9.0 | False | - |
 | Samsung Galaxy S21+ 5G Violet.png | android-phone | portrait | 1180 x 2500 | left 43, top 121 | 1080 x 2321 | rx 4.0, ry 9.0 | False | - |

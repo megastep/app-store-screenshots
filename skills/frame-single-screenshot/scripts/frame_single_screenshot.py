@@ -199,7 +199,10 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
 
     top_centered_rows: list[tuple[int, int]] = []
     seen_narrowed_top = False
+    top_band_limit = y0 + min(max(48, screen_h // 12), 200)
     for y, runs, _ in selected:
+        if y > top_band_limit:
+            break
         centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
         if centered_run:
             run_width = centered_run[1] - centered_run[0] + 1
@@ -322,13 +325,66 @@ def resolve_frame_entry(frame_path: Path, shared_entries: list[dict]) -> tuple[d
     return measure_frame(frame_path), "measured"
 
 
-def render_framed_image(image_path: Path, frame_path: Path, frame_entry: dict, fit_mode: str) -> Image.Image:
+def rotate_rect(rect: dict, source_w: int, source_h: int, direction: str) -> dict:
+    if direction == "counterclockwise":
+        return {
+            **rect,
+            "left": int(rect["top"]),
+            "top": source_w - (int(rect["left"]) + int(rect["width"])),
+            "width": int(rect["height"]),
+            "height": int(rect["width"]),
+        }
+    return {
+        **rect,
+        "left": source_h - (int(rect["top"]) + int(rect["height"])),
+        "top": int(rect["left"]),
+        "width": int(rect["height"]),
+        "height": int(rect["width"]),
+    }
+
+
+def rotate_frame_geometry(frame: Image.Image, frame_entry: dict, direction: str) -> tuple[Image.Image, dict]:
+    rotation = Image.Transpose.ROTATE_90 if direction == "counterclockwise" else Image.Transpose.ROTATE_270
+    rotated_frame = frame.transpose(rotation)
+    source_w = int(frame_entry["frameW"])
+    source_h = int(frame_entry["frameH"])
+
+    rotated_entry = dict(frame_entry)
+    rotated_entry["frameW"] = source_h
+    rotated_entry["frameH"] = source_w
+
+    screen = dict(frame_entry["screen"])
+    rotated_screen = rotate_rect(screen, source_w, source_h, direction)
+    rotated_screen["rx"] = float(screen.get("ry", 0.0))
+    rotated_screen["ry"] = float(screen.get("rx", 0.0))
+    rotated_entry["screen"] = rotated_screen
+
+    top_overlay = frame_entry.get("topOverlayCutout")
+    if top_overlay:
+        rotated_entry["topOverlayCutout"] = rotate_rect(top_overlay, source_w, source_h, direction)
+
+    return rotated_frame, rotated_entry
+
+
+def render_framed_image(
+    image_path: Path,
+    frame_path: Path,
+    frame_entry: dict,
+    fit_mode: str,
+    landscape_rotation: str,
+) -> Image.Image:
     with Image.open(image_path) as screenshot_image:
         screenshot = screenshot_image.convert("RGBA")
     with Image.open(frame_path) as frame_image:
         frame = frame_image.convert("RGBA")
 
-    screen = extend_screen_under_top_cutout(frame, frame_entry, frame_path)
+    screenshot_orientation = infer_orientation(*screenshot.size)
+    frame_orientation = infer_orientation(*frame.size)
+    effective_entry = frame_entry
+    if screenshot_orientation != frame_orientation:
+        frame, effective_entry = rotate_frame_geometry(frame, frame_entry, landscape_rotation)
+
+    screen = extend_screen_under_top_cutout(frame, effective_entry, frame_path)
     box_size = (int(screen["width"]), int(screen["height"]))
     if fit_mode == "contain":
         composed_screen = ImageOps.contain(screenshot, box_size, Image.Resampling.LANCZOS)
@@ -417,6 +473,12 @@ def main() -> int:
     parser.add_argument("--height", type=int, help="Optional output height in pixels")
     parser.add_argument("--quality", type=int, default=95, help="JPEG/WEBP quality from 1-100. Default: 95")
     parser.add_argument("--orientation", choices=("portrait", "landscape"), help="Preferred frame orientation")
+    parser.add_argument(
+        "--landscape-rotation",
+        choices=("clockwise", "counterclockwise"),
+        default="clockwise",
+        help="How a portrait frame should be rotated when framing a landscape screenshot. Default: clockwise",
+    )
     parser.add_argument("--color-priority", default="", help='Comma-separated preferred color terms, for example "black,silver"')
     parser.add_argument("--fit", choices=("cover", "contain"), default="cover", help="How the screenshot should fill the screen opening")
     parser.add_argument("--list-matches", action="store_true", help="Print the top cached frame matches and exit")
@@ -462,7 +524,7 @@ def main() -> int:
     frame_entry, source = resolve_frame_entry(frame_path, shared_entries)
     output_path = Path(args.output).expanduser()
     output_format = infer_output_format(output_path, args.format)
-    rendered = render_framed_image(image_path, frame_path, frame_entry, args.fit)
+    rendered = render_framed_image(image_path, frame_path, frame_entry, args.fit, args.landscape_rotation)
     resized = resize_output(rendered, args.width, args.height)
     save_output(resized, output_path, output_format, args.quality)
 

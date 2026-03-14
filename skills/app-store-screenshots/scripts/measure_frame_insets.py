@@ -299,7 +299,10 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
 
     top_centered_rows: list[tuple[int, int]] = []
     seen_narrowed_top = False
+    top_band_limit = y0 + min(max(48, screen_h // 12), 200)
     for y, runs, _ in selected:
+        if y > top_band_limit:
+            break
         centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
         if centered_run:
             run_width = centered_run[1] - centered_run[0] + 1

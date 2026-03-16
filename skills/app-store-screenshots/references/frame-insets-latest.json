@@ -455,7 +455,7 @@
       "width": 1080,
       "height": 2340,
       "rx": 123.0,
-      "ry": 112,
+      "ry": 34,
       "hasCutout": false
     },
     "screenPercent": {
@@ -464,7 +464,7 @@
       "width": 89.701,
       "height": 95.2769,
       "rx": 11.3889,
-      "ry": 4.7863
+      "ry": 1.453
     }
   },
   {
@@ -481,7 +481,7 @@
       "width": 1080,
       "height": 2340,
       "rx": 123.0,
-      "ry": 112,
+      "ry": 34,
       "hasCutout": false
     },
     "screenPercent": {
@@ -490,7 +490,7 @@
       "width": 89.701,
       "height": 95.2769,
       "rx": 11.3889,
-      "ry": 4.7863
+      "ry": 1.453
     }
   },
   {
@@ -1833,7 +1833,7 @@
       "width": 1440,
       "height": 3200,
       "rx": 153.5,
-      "ry": 94,
+      "ry": 18,
       "hasCutout": false
     },
     "screenPercent": {
@@ -1842,7 +1842,7 @@
       "width": 93.5065,
       "height": 96.2696,
       "rx": 10.6597,
-      "ry": 2.9375
+      "ry": 0.5625
     }
   },
   {
@@ -1859,7 +1859,7 @@
       "width": 1440,
       "height": 3200,
       "rx": 153.5,
-      "ry": 94,
+      "ry": 18,
       "hasCutout": false
     },
     "screenPercent": {
@@ -1868,7 +1868,7 @@
       "width": 93.5065,
       "height": 96.2696,
       "rx": 10.6597,
-      "ry": 2.9375
+      "ry": 0.5625
     }
   },
   {
@@ -4953,7 +4953,7 @@
       "width": 1172,
       "height": 2534,
       "rx": 14.5,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -4963,7 +4963,7 @@
       "width": 89.534,
       "height": 95.4426,
       "rx": 1.2372,
-      "ry": 0.1184
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 471,
@@ -4992,7 +4992,7 @@
       "width": 1172,
       "height": 2534,
       "rx": 14.5,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5002,7 +5002,7 @@
       "width": 89.534,
       "height": 95.4426,
       "rx": 1.2372,
-      "ry": 0.1184
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 471,
@@ -5031,7 +5031,7 @@
       "width": 1286,
       "height": 2779,
       "rx": 21.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5041,7 +5041,7 @@
       "width": 89.993,
       "height": 95.7615,
       "rx": 1.633,
-      "ry": 0.108
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 532,
@@ -5070,7 +5070,7 @@
       "width": 1286,
       "height": 2779,
       "rx": 21.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5080,7 +5080,7 @@
       "width": 89.993,
       "height": 95.7615,
       "rx": 1.633,
-      "ry": 0.108
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 532,
@@ -5109,7 +5109,7 @@
       "width": 1286,
       "height": 2779,
       "rx": 21.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5119,7 +5119,7 @@
       "width": 89.993,
       "height": 95.7615,
       "rx": 1.633,
-      "ry": 0.108
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 532,
@@ -5148,7 +5148,7 @@
       "width": 1286,
       "height": 2779,
       "rx": 21.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5158,7 +5158,7 @@
       "width": 89.993,
       "height": 95.7615,
       "rx": 1.633,
-      "ry": 0.108
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 532,
@@ -5187,7 +5187,7 @@
       "width": 1286,
       "height": 2779,
       "rx": 21.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5197,7 +5197,7 @@
       "width": 89.993,
       "height": 95.7615,
       "rx": 1.633,
-      "ry": 0.108
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 532,
@@ -5226,7 +5226,7 @@
       "width": 1181,
       "height": 2558,
       "rx": 12.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5236,7 +5236,7 @@
       "width": 90.0839,
       "height": 95.7335,
       "rx": 1.0161,
-      "ry": 0.1173
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 516,
@@ -5265,7 +5265,7 @@
       "width": 1181,
       "height": 2558,
       "rx": 12.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5275,7 +5275,7 @@
       "width": 90.0839,
       "height": 95.7335,
       "rx": 1.0161,
-      "ry": 0.1173
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 516,
@@ -5304,7 +5304,7 @@
       "width": 1292,
       "height": 2798,
       "rx": 13.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5314,7 +5314,7 @@
       "width": 90.9219,
       "height": 96.1843,
       "rx": 1.0062,
-      "ry": 0.1072
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 569,
@@ -5343,7 +5343,7 @@
       "width": 1292,
       "height": 2798,
       "rx": 13.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5353,7 +5353,7 @@
       "width": 90.9219,
       "height": 96.1843,
       "rx": 1.0062,
-      "ry": 0.1072
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 569,
@@ -5382,7 +5382,7 @@
       "width": 1292,
       "height": 2798,
       "rx": 13.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5392,7 +5392,7 @@
       "width": 90.9219,
       "height": 96.1843,
       "rx": 1.0062,
-      "ry": 0.1072
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 569,
@@ -5421,7 +5421,7 @@
       "width": 1292,
       "height": 2798,
       "rx": 13.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5431,7 +5431,7 @@
       "width": 90.9219,
       "height": 96.1843,
       "rx": 1.0062,
-      "ry": 0.1072
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 569,
@@ -5460,7 +5460,7 @@
       "width": 1181,
       "height": 2558,
       "rx": 12.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5470,7 +5470,7 @@
       "width": 90.0839,
       "height": 95.7335,
       "rx": 1.0161,
-      "ry": 0.1173
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 516,
@@ -5499,7 +5499,7 @@
       "width": 1181,
       "height": 2558,
       "rx": 12.0,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5509,7 +5509,7 @@
       "width": 90.0839,
       "height": 95.7335,
       "rx": 1.0161,
-      "ry": 0.1173
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 516,
@@ -5538,7 +5538,7 @@
       "width": 1172,
       "height": 2534,
       "rx": 14.5,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5548,7 +5548,7 @@
       "width": 89.534,
       "height": 95.4426,
       "rx": 1.2372,
-      "ry": 0.1184
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 471,
@@ -5577,7 +5577,7 @@
       "width": 1172,
       "height": 2534,
       "rx": 14.5,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5587,7 +5587,7 @@
       "width": 89.534,
       "height": 95.4426,
       "rx": 1.2372,
-      "ry": 0.1184
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 471,
@@ -5616,7 +5616,7 @@
       "width": 1172,
       "height": 2534,
       "rx": 14.5,
-      "ry": 3,
+      "ry": 0.0,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
@@ -5626,7 +5626,7 @@
       "width": 89.534,
       "height": 95.4426,
       "rx": 1.2372,
-      "ry": 0.1184
+      "ry": 0.0
     },
     "topOverlayCutout": {
       "left": 471,

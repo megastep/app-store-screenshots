@@ -23,8 +23,8 @@ Entries: 248
 | Google Pixel 4 XL Clearly White.png | android-phone | portrait | 1564 x 3320 | left 60, top 193 | 1440 x 3040 | rx 151.0, ry 112.0 | False | - |
 | Google Pixel 4 XL Just Black.png | android-phone | portrait | 1564 x 3320 | left 60, top 193 | 1440 x 3040 | rx 151.0, ry 112.0 | False | - |
 | Google Pixel 4 XL Oh So Orange.png | android-phone | portrait | 1564 x 3320 | left 60, top 193 | 1440 x 3040 | rx 151.0, ry 112.0 | False | - |
-| Google Pixel 5 Just Black.png | android-phone | portrait | 1204 x 2456 | left 58, top 58 | 1080 x 2340 | rx 123.0, ry 112.0 | False | - |
-| Google Pixel 5 Sorta Sage.png | android-phone | portrait | 1204 x 2456 | left 58, top 58 | 1080 x 2340 | rx 123.0, ry 112.0 | False | - |
+| Google Pixel 5 Just Black.png | android-phone | portrait | 1204 x 2456 | left 58, top 58 | 1080 x 2340 | rx 123.0, ry 34.0 | False | - |
+| Google Pixel 5 Sorta Sage.png | android-phone | portrait | 1204 x 2456 | left 58, top 58 | 1080 x 2340 | rx 123.0, ry 34.0 | False | - |
 | Google Pixel Quite Black.png | android-phone | portrait | 1213 x 2458 | left 62, top 252 | 1080 x 1920 | rx 0.0, ry 0.0 | False | - |
 | Google Pixel Really Blue.png | android-phone | portrait | 1213 x 2458 | left 62, top 252 | 1080 x 1920 | rx 0.0, ry 0.0 | False | - |
 | Google Pixel Very Silver.png | android-phone | portrait | 1213 x 2458 | left 62, top 252 | 1080 x 1920 | rx 0.0, ry 0.0 | False | - |
@@ -76,8 +76,8 @@ Entries: 248
 | Samsung Galaxy S21 5G Pink.png | android-phone | portrait | 1180 x 2500 | left 44, top 42 | 1080 x 2400 | rx 133.5, ry 88.0 | False | - |
 | Samsung Galaxy S21 5G Violet.png | android-phone | portrait | 1180 x 2500 | left 44, top 42 | 1080 x 2400 | rx 133.5, ry 88.0 | False | - |
 | Samsung Galaxy S21 5G White.png | android-phone | portrait | 1180 x 2500 | left 44, top 42 | 1080 x 2400 | rx 133.5, ry 88.0 | False | - |
-| Samsung Galaxy S21 Ultra 5G Black.png | android-phone | portrait | 1540 x 3324 | left 44, top 54 | 1440 x 3200 | rx 153.5, ry 94.0 | False | - |
-| Samsung Galaxy S21 Ultra 5G Silver.png | android-phone | portrait | 1540 x 3324 | left 44, top 54 | 1440 x 3200 | rx 153.5, ry 94.0 | False | - |
+| Samsung Galaxy S21 Ultra 5G Black.png | android-phone | portrait | 1540 x 3324 | left 44, top 54 | 1440 x 3200 | rx 153.5, ry 18.0 | False | - |
+| Samsung Galaxy S21 Ultra 5G Silver.png | android-phone | portrait | 1540 x 3324 | left 44, top 54 | 1440 x 3200 | rx 153.5, ry 18.0 | False | - |
 | Samsung Galaxy S21+ 5G Black.png | android-phone | portrait | 1180 x 2500 | left 44, top 42 | 1080 x 2400 | rx 133.5, ry 88.0 | False | - |
 | Samsung Galaxy S21+ 5G Silver.png | android-phone | portrait | 1180 x 2500 | left 41, top 42 | 1080 x 2400 | rx 133.5, ry 88.0 | False | - |
 | Samsung Galaxy S21+ 5G Violet.png | android-phone | portrait | 1180 x 2500 | left 43, top 42 | 1080 x 2400 | rx 133.5, ry 88.0 | False | - |
@@ -171,24 +171,24 @@ Entries: 248
 | Apple iPhone 13 Pro Silver.png | iphone | portrait | 1318 x 2660 | left 74, top 63 | 1170 x 2532 | rx 6.0, ry 28.0 | True | left 482, top 68, 354 x 100 |
 | Apple iPhone 13 Red.png | iphone | portrait | 1313 x 2661 | left 72, top 64 | 1170 x 2532 | rx 8.0, ry 24.0 | True | left 469, top 70, 375 x 95 |
 | Apple iPhone 13 Starlight.png | iphone | portrait | 1313 x 2661 | left 72, top 64 | 1170 x 2532 | rx 8.0, ry 24.0 | True | left 469, top 70, 375 x 95 |
-| Apple iPhone 14 Blue.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 3.0 | True | left 471, top 66, 376 x 95 |
-| Apple iPhone 14 Midnight.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 3.0 | True | left 471, top 66, 376 x 95 |
-| Apple iPhone 14 Plus Blue.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 3.0 | True | left 532, top 64, 368 x 96 |
-| Apple iPhone 14 Plus Midnight.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 3.0 | True | left 532, top 64, 368 x 96 |
-| Apple iPhone 14 Plus Purple.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 3.0 | True | left 532, top 64, 368 x 96 |
-| Apple iPhone 14 Plus Red.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 3.0 | True | left 532, top 64, 368 x 96 |
-| Apple iPhone 14 Plus Starlight.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 3.0 | True | left 532, top 64, 368 x 96 |
-| Apple iPhone 14 Pro Black.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 3.0 | True | left 516, top 92, 284 x 108 |
-| Apple iPhone 14 Pro Gold.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 3.0 | True | left 516, top 92, 284 x 108 |
-| Apple iPhone 14 Pro Max Black.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 3.0 | True | left 569, top 88, 285 x 110 |
-| Apple iPhone 14 Pro Max Gold.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 3.0 | True | left 569, top 88, 285 x 110 |
-| Apple iPhone 14 Pro Max Purple.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 3.0 | True | left 569, top 88, 285 x 110 |
-| Apple iPhone 14 Pro Max Silver.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 3.0 | True | left 569, top 88, 285 x 110 |
-| Apple iPhone 14 Pro Purple.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 3.0 | True | left 516, top 92, 284 x 108 |
-| Apple iPhone 14 Pro Silver.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 3.0 | True | left 516, top 92, 284 x 108 |
-| Apple iPhone 14 Purple.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 3.0 | True | left 471, top 66, 376 x 95 |
-| Apple iPhone 14 Red.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 3.0 | True | left 471, top 66, 376 x 95 |
-| Apple iPhone 14 Starlight.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 3.0 | True | left 471, top 66, 376 x 95 |
+| Apple iPhone 14 Blue.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 0.0 | True | left 471, top 66, 376 x 95 |
+| Apple iPhone 14 Midnight.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 0.0 | True | left 471, top 66, 376 x 95 |
+| Apple iPhone 14 Plus Blue.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 0.0 | True | left 532, top 64, 368 x 96 |
+| Apple iPhone 14 Plus Midnight.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 0.0 | True | left 532, top 64, 368 x 96 |
+| Apple iPhone 14 Plus Purple.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 0.0 | True | left 532, top 64, 368 x 96 |
+| Apple iPhone 14 Plus Red.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 0.0 | True | left 532, top 64, 368 x 96 |
+| Apple iPhone 14 Plus Starlight.png | iphone | portrait | 1429 x 2902 | left 73, top 60 | 1286 x 2779 | rx 21.0, ry 0.0 | True | left 532, top 64, 368 x 96 |
+| Apple iPhone 14 Pro Black.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 0.0 | True | left 516, top 92, 284 x 108 |
+| Apple iPhone 14 Pro Gold.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 0.0 | True | left 516, top 92, 284 x 108 |
+| Apple iPhone 14 Pro Max Black.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 0.0 | True | left 569, top 88, 285 x 110 |
+| Apple iPhone 14 Pro Max Gold.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 0.0 | True | left 569, top 88, 285 x 110 |
+| Apple iPhone 14 Pro Max Purple.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 0.0 | True | left 569, top 88, 285 x 110 |
+| Apple iPhone 14 Pro Max Silver.png | iphone | portrait | 1421 x 2909 | left 66, top 54 | 1292 x 2798 | rx 13.0, ry 0.0 | True | left 569, top 88, 285 x 110 |
+| Apple iPhone 14 Pro Purple.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 0.0 | True | left 516, top 92, 284 x 108 |
+| Apple iPhone 14 Pro Silver.png | iphone | portrait | 1311 x 2672 | left 67, top 57 | 1181 x 2558 | rx 12.0, ry 0.0 | True | left 516, top 92, 284 x 108 |
+| Apple iPhone 14 Purple.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 0.0 | True | left 471, top 66, 376 x 95 |
+| Apple iPhone 14 Red.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 0.0 | True | left 471, top 66, 376 x 95 |
+| Apple iPhone 14 Starlight.png | iphone | portrait | 1309 x 2655 | left 73, top 60 | 1172 x 2534 | rx 14.5, ry 0.0 | True | left 471, top 66, 376 x 95 |
 | Apple iPhone 5c Blue.png | iphone | portrait | 767 x 1605 | left 67, top 239 | 640 x 1136 | rx 0.0, ry 0.0 | False | - |
 | Apple iPhone 5c Green.png | iphone | portrait | 767 x 1605 | left 67, top 239 | 640 x 1136 | rx 0.0, ry 0.0 | False | - |
 | Apple iPhone 5c Red.png | iphone | portrait | 767 x 1605 | left 67, top 239 | 640 x 1136 | rx 0.0, ry 0.0 | False | - |

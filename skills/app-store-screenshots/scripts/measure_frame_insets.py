@@ -241,14 +241,14 @@ def infer_top_overlay_cutout(
     }
 
 
-def radius_row_width(runs: list[tuple[int, int]], center_x: float, screen_w: int) -> int | None:
+def radius_row_width(runs: list[tuple[int, int]], center_x: float, screen_w: int) -> tuple[int | None, bool]:
     total_width = sum(end - start + 1 for start, end in runs)
     if len(runs) > 1 and total_width >= screen_w * 0.85:
-        return total_width
+        return total_width, True
     centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
     if centered_run:
-        return centered_run[1] - centered_run[0] + 1
-    return None
+        return centered_run[1] - centered_run[0] + 1, False
+    return None, False
 
 
 def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
@@ -312,29 +312,29 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     screen_h = y1 - y0 + 1
 
     radius_rows = [(y, transparent_runs(alpha, width, y, threshold=RADIUS_ALPHA_THRESHOLD)) for y, _, _ in selected]
-    top_centered_rows: list[tuple[int, int]] = []
+    top_centered_rows: list[tuple[int, int, bool]] = []
     seen_narrowed_top = False
     top_band_limit = y0 + min(max(48, screen_h // 12), 200)
     for y, runs in radius_rows:
         if y > top_band_limit:
             break
-        run_width = radius_row_width(runs, center_x, screen_w)
+        run_width, is_split_cutout = radius_row_width(runs, center_x, screen_w)
         if run_width is not None:
             if run_width < screen_w * 0.995:
-                seen_narrowed_top = True
-                top_centered_rows.append((y, run_width))
+                seen_narrowed_top = seen_narrowed_top or not is_split_cutout
+                top_centered_rows.append((y, run_width, is_split_cutout))
                 continue
             if not seen_narrowed_top:
-                top_centered_rows.append((y, run_width))
+                top_centered_rows.append((y, run_width, is_split_cutout))
                 continue
             break
         if top_centered_rows:
             break
 
     if top_centered_rows:
-        min_centered_width = min(width for _, width in top_centered_rows)
+        min_centered_width = min(width for _, width, _ in top_centered_rows)
         rx = max(0.0, (screen_w - min_centered_width) / 2)
-        narrowed_rows = [y for y, run_width in top_centered_rows if run_width < screen_w * 0.995]
+        narrowed_rows = [y for y, run_width, is_split_cutout in top_centered_rows if run_width < screen_w * 0.995 and not is_split_cutout]
         ry = max(0.0, (max(narrowed_rows) - y0 + 1) if narrowed_rows else 0.0)
     else:
         first_single = next(((y, runs) for y, runs in radius_rows if len(runs) == 1), None)

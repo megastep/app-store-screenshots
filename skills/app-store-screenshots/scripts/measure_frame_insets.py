@@ -22,6 +22,10 @@ except ImportError:  # pragma: no cover - Pillow is expected locally, but keep f
 
 
 DEFAULT_FRAME_DIR = str(Path.home() / ".fastlane" / "frameit" / "latest")
+TRANSPARENT_ALPHA_THRESHOLD = 254
+RADIUS_ALPHA_THRESHOLD = 0
+
+
 def build_frame_key(path: Path) -> str:
     return path.stem.lower()
 
@@ -144,7 +148,7 @@ def read_png_alpha_size(path: Path) -> tuple[int, int, bytes]:
     return width, height, bytes(alpha)
 
 
-def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = 0) -> list[tuple[int, int]]:
+def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = TRANSPARENT_ALPHA_THRESHOLD) -> list[tuple[int, int]]:
     runs: list[tuple[int, int]] = []
     in_run = False
     start = 0
@@ -237,6 +241,16 @@ def infer_top_overlay_cutout(
     }
 
 
+def radius_row_width(runs: list[tuple[int, int]], center_x: float, screen_w: int) -> tuple[int | None, bool]:
+    total_width = sum(end - start + 1 for start, end in runs)
+    if len(runs) > 1 and total_width >= screen_w * 0.85:
+        return total_width, True
+    centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
+    if centered_run:
+        return centered_run[1] - centered_run[0] + 1, False
+    return None, False
+
+
 def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     rows: list[tuple[int, list[tuple[int, int]], int]] = []
     max_width = 0
@@ -297,33 +311,33 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     screen_w = x1 - x0 + 1
     screen_h = y1 - y0 + 1
 
-    top_centered_rows: list[tuple[int, int]] = []
+    radius_rows = [(y, transparent_runs(alpha, width, y, threshold=RADIUS_ALPHA_THRESHOLD)) for y, _, _ in selected]
+    top_centered_rows: list[tuple[int, int, bool]] = []
     seen_narrowed_top = False
     top_band_limit = y0 + min(max(48, screen_h // 12), 200)
-    for y, runs, _ in selected:
+    for y, runs in radius_rows:
         if y > top_band_limit:
             break
-        centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
-        if centered_run:
-            run_width = centered_run[1] - centered_run[0] + 1
+        run_width, is_split_cutout = radius_row_width(runs, center_x, screen_w)
+        if run_width is not None:
             if run_width < screen_w * 0.995:
-                seen_narrowed_top = True
-                top_centered_rows.append((y, run_width))
+                seen_narrowed_top = seen_narrowed_top or not is_split_cutout
+                top_centered_rows.append((y, run_width, is_split_cutout))
                 continue
             if not seen_narrowed_top:
-                top_centered_rows.append((y, run_width))
+                top_centered_rows.append((y, run_width, is_split_cutout))
                 continue
             break
         if top_centered_rows:
             break
 
     if top_centered_rows:
-        min_centered_width = min(width for _, width in top_centered_rows)
+        min_centered_width = min(width for _, width, _ in top_centered_rows)
         rx = max(0.0, (screen_w - min_centered_width) / 2)
-        narrowed_rows = [y for y, run_width in top_centered_rows if run_width < screen_w * 0.995]
+        narrowed_rows = [y for y, run_width, is_split_cutout in top_centered_rows if run_width < screen_w * 0.995 and not is_split_cutout]
         ry = max(0.0, (max(narrowed_rows) - y0 + 1) if narrowed_rows else 0.0)
     else:
-        first_single = next((row for row in selected if len(row[1]) == 1), None)
+        first_single = next(((y, runs) for y, runs in radius_rows if len(runs) == 1), None)
         if first_single:
             single_width = first_single[1][0][1] - first_single[1][0][0] + 1
             rx = max(0.0, (screen_w - single_width) / 2)

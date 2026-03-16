@@ -2,6 +2,8 @@ import type { CSSProperties } from "react";
 
 import { getFrameSpec } from "./frame-specs";
 
+const SCREEN_BLEED_PX = 2;
+
 type PhoneFrameProps = {
   screenshotSrc: string;
   screenshotAlt: string;
@@ -27,10 +29,10 @@ export function PhoneFrame({
       <div
         className="absolute z-10 overflow-hidden"
         style={{
-          left: `${spec.screen.left}%`,
-          top: `${spec.screen.top}%`,
-          width: `${spec.screen.width}%`,
-          height: `${spec.screen.height}%`,
+          left: `calc(${spec.screen.left}% - ${SCREEN_BLEED_PX}px)`,
+          top: `calc(${spec.screen.top}% - ${SCREEN_BLEED_PX}px)`,
+          width: `calc(${spec.screen.width}% + ${SCREEN_BLEED_PX * 2}px)`,
+          height: `calc(${spec.screen.height}% + ${SCREEN_BLEED_PX * 2}px)`,
           borderRadius: `${spec.screen.rx}% / ${spec.screen.ry}%`,
         }}
       >

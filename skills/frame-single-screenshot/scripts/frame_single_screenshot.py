@@ -8,14 +8,18 @@ from __future__ import annotations
 import argparse
 import difflib
 import json
+import math
 from pathlib import Path
 import re
 
-from PIL import Image, ImageDraw, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageOps
 
 
 DEFAULT_FRAME_DIR = Path.home() / ".fastlane" / "frameit" / "latest"
 SHARED_INSETS_JSON = Path(__file__).resolve().parents[2] / "app-store-screenshots" / "references" / "frame-insets-latest.json"
+DEFAULT_SCREEN_BLEED = 2
+TRANSPARENT_ALPHA_THRESHOLD = 254
+RADIUS_ALPHA_THRESHOLD = 0
 
 
 def normalize_text(value: str) -> str:
@@ -123,7 +127,7 @@ def resolve_frame_path(
     return ranked[0][1], ranked
 
 
-def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = 0) -> list[tuple[int, int]]:
+def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = TRANSPARENT_ALPHA_THRESHOLD) -> list[tuple[int, int]]:
     runs: list[tuple[int, int]] = []
     in_run = False
     start = 0
@@ -139,6 +143,46 @@ def transparent_runs(alpha: bytes, width: int, y: int, threshold: int = 0) -> li
                 runs.append((start, end))
             in_run = False
     return runs
+
+
+def radius_row_width(runs: list[tuple[int, int]], center_x: float, screen_w: int) -> int | None:
+    total_width = sum(end - start + 1 for start, end in runs)
+    if len(runs) > 1 and total_width >= screen_w * 0.85:
+        return total_width
+    centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
+    if centered_run:
+        return centered_run[1] - centered_run[0] + 1
+    return None
+
+
+def build_visible_screen_mask(alpha: bytes, frame_size: tuple[int, int], screen: dict) -> Image.Image:
+    frame_w, _ = frame_size
+    box_left = math.floor(float(screen["left"]))
+    box_top = math.floor(float(screen["top"]))
+    box_right = math.ceil(float(screen["left"]) + float(screen["width"]))
+    box_bottom = math.ceil(float(screen["top"]) + float(screen["height"]))
+
+    mask = Image.new("L", frame_size, 0)
+    draw = ImageDraw.Draw(mask)
+    any_pixels = False
+    for y in range(max(0, box_top), max(0, box_bottom)):
+        for start, end in transparent_runs(alpha, frame_w, y):
+            clipped_start = max(start, box_left)
+            clipped_end = min(end, box_right - 1)
+            if clipped_start <= clipped_end:
+                draw.line((clipped_start, y, clipped_end, y), fill=255)
+                any_pixels = True
+
+    if any_pixels:
+        return mask
+
+    corner_radius = int(round(max(float(screen.get("rx", 0.0)), float(screen.get("ry", 0.0)))))
+    draw.rounded_rectangle(
+        (box_left, box_top, box_right - 1, box_bottom - 1),
+        radius=max(0, corner_radius),
+        fill=255,
+    )
+    return mask
 
 
 def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
@@ -197,15 +241,15 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
     screen_w = x1 - x0 + 1
     screen_h = y1 - y0 + 1
 
+    radius_rows = [(y, transparent_runs(alpha, width, y, threshold=RADIUS_ALPHA_THRESHOLD)) for y, _, _ in selected]
     top_centered_rows: list[tuple[int, int]] = []
     seen_narrowed_top = False
     top_band_limit = y0 + min(max(48, screen_h // 12), 200)
-    for y, runs, _ in selected:
+    for y, runs in radius_rows:
         if y > top_band_limit:
             break
-        centered_run = next(((start, end) for start, end in runs if start <= center_x <= end), None)
-        if centered_run:
-            run_width = centered_run[1] - centered_run[0] + 1
+        run_width = radius_row_width(runs, center_x, screen_w)
+        if run_width is not None:
             if run_width < screen_w * 0.995:
                 seen_narrowed_top = True
                 top_centered_rows.append((y, run_width))
@@ -223,8 +267,14 @@ def detect_screen(alpha: bytes, width: int, height: int) -> dict | None:
         narrowed_rows = [y for y, run_width in top_centered_rows if run_width < screen_w * 0.995]
         ry = max(0.0, (max(narrowed_rows) - y0 + 1) if narrowed_rows else 0.0)
     else:
-        rx = 0.0
-        ry = 0.0
+        first_single = next(((y, runs) for y, runs in radius_rows if len(runs) == 1), None)
+        if first_single:
+            single_width = first_single[1][0][1] - first_single[1][0][0] + 1
+            rx = max(0.0, (screen_w - single_width) / 2)
+            ry = max(0.0, first_single[0] - y0)
+        else:
+            rx = 0.0
+            ry = 0.0
 
     return {
         "left": x0,
@@ -372,6 +422,7 @@ def render_framed_image(
     frame_entry: dict,
     fit_mode: str,
     landscape_rotation: str,
+    screen_bleed: int,
 ) -> Image.Image:
     with Image.open(image_path) as screenshot_image:
         screenshot = screenshot_image.convert("RGBA")
@@ -385,32 +436,44 @@ def render_framed_image(
         frame, effective_entry = rotate_frame_geometry(frame, frame_entry, landscape_rotation)
 
     screen = extend_screen_under_top_cutout(frame, effective_entry, frame_path)
-    box_size = (int(screen["width"]), int(screen["height"]))
+    frame_alpha = frame.getchannel("A")
+    frame_alpha_bytes = frame_alpha.tobytes()
+    box_left = math.floor(float(screen["left"]))
+    box_top = math.floor(float(screen["top"]))
+    box_right = math.ceil(float(screen["left"]) + float(screen["width"]))
+    box_bottom = math.ceil(float(screen["top"]) + float(screen["height"]))
+    box_width = max(1, box_right - box_left)
+    box_height = max(1, box_bottom - box_top)
+    bleed = max(0, int(screen_bleed))
+    paste_left = max(0, box_left - bleed)
+    paste_top = max(0, box_top - bleed)
+    paste_right = min(frame.width, box_right + bleed)
+    paste_bottom = min(frame.height, box_bottom + bleed)
+    paste_width = max(1, paste_right - paste_left)
+    paste_height = max(1, paste_bottom - paste_top)
+
     if fit_mode == "contain":
-        composed_screen = ImageOps.contain(screenshot, box_size, Image.Resampling.LANCZOS)
-        fitted = Image.new("RGBA", box_size, (0, 0, 0, 0))
-        x = (box_size[0] - composed_screen.width) // 2
-        y = (box_size[1] - composed_screen.height) // 2
+        composed_screen = ImageOps.contain(screenshot, (box_width, box_height), Image.Resampling.LANCZOS)
+        fitted = Image.new("RGBA", (box_width, box_height), (0, 0, 0, 0))
+        x = (box_width - composed_screen.width) // 2
+        y = (box_height - composed_screen.height) // 2
         fitted.paste(composed_screen, (x, y), composed_screen)
+        fitted_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+        fitted_layer.paste(fitted, (box_left, box_top), fitted)
     else:
-        fitted = ImageOps.fit(screenshot, box_size, method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+        fitted = ImageOps.fit(screenshot, (paste_width, paste_height), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+        fitted_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+        fitted_layer.paste(fitted, (paste_left, paste_top), fitted)
 
-    box_left = int(screen["left"])
-    box_top = int(screen["top"])
-    box_width = int(screen["width"])
-    box_height = int(screen["height"])
-    corner_radius = int(round(max(float(screen.get("rx", 0.0)), float(screen.get("ry", 0.0)))))
-
-    fitted_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-    fitted_layer.paste(fitted, (box_left, box_top), fitted)
-
-    mask = Image.new("L", frame.size, 0)
-    mask_draw = ImageDraw.Draw(mask)
-    mask_draw.rounded_rectangle(
-        (box_left, box_top, box_left + box_width - 1, box_top + box_height - 1),
-        radius=max(0, corner_radius),
-        fill=255,
-    )
+    mask = build_visible_screen_mask(frame_alpha_bytes, frame.size, screen)
+    if fit_mode == "cover" and bleed:
+        filter_size = max(3, bleed * 2 + 1)
+        if filter_size % 2 == 0:
+            filter_size += 1
+        under_frame_mask = mask.filter(ImageFilter.MaxFilter(filter_size))
+        ring_mask = ImageChops.subtract(under_frame_mask, mask)
+        ring_mask = ImageChops.multiply(ring_mask, frame_alpha)
+        mask = ImageChops.lighter(mask, ring_mask)
 
     canvas = Image.new("RGBA", frame.size, (0, 0, 0, 0))
     canvas = Image.composite(fitted_layer, canvas, mask)
@@ -472,6 +535,12 @@ def main() -> int:
     parser.add_argument("--width", type=int, help="Optional output width in pixels")
     parser.add_argument("--height", type=int, help="Optional output height in pixels")
     parser.add_argument("--quality", type=int, default=95, help="JPEG/WEBP quality from 1-100. Default: 95")
+    parser.add_argument(
+        "--screen-bleed",
+        type=int,
+        default=DEFAULT_SCREEN_BLEED,
+        help=f"Extra screenshot overscan under the frame in pixels. Default: {DEFAULT_SCREEN_BLEED}",
+    )
     parser.add_argument("--orientation", choices=("portrait", "landscape"), help="Preferred frame orientation")
     parser.add_argument(
         "--landscape-rotation",
@@ -496,6 +565,8 @@ def main() -> int:
         raise SystemExit("--height must be greater than 0")
     if not 1 <= args.quality <= 100:
         raise SystemExit("--quality must be between 1 and 100")
+    if args.screen_bleed < 0:
+        raise SystemExit("--screen-bleed must be 0 or greater")
 
     with Image.open(image_path) as image:
         inferred_orientation = infer_orientation(*image.size)
@@ -524,7 +595,14 @@ def main() -> int:
     frame_entry, source = resolve_frame_entry(frame_path, shared_entries)
     output_path = Path(args.output).expanduser()
     output_format = infer_output_format(output_path, args.format)
-    rendered = render_framed_image(image_path, frame_path, frame_entry, args.fit, args.landscape_rotation)
+    rendered = render_framed_image(
+        image_path,
+        frame_path,
+        frame_entry,
+        args.fit,
+        args.landscape_rotation,
+        args.screen_bleed,
+    )
     resized = resize_output(rendered, args.width, args.height)
     save_output(resized, output_path, output_format, args.quality)
 
@@ -533,6 +611,7 @@ def main() -> int:
     print(f"[insets] {source}")
     print(f"[format] {output_format}")
     print(f"[size] {resized.size[0]}x{resized.size[1]}")
+    print(f"[screen-bleed] {args.screen_bleed}")
     return 0
 
 

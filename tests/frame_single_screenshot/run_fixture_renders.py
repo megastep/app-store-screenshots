@@ -147,8 +147,9 @@ def ensure_inputs_exist() -> None:
 
 
 def render_fixture(item: dict, frame_dir: Path, output_dir: Path) -> dict:
-    output_path = output_dir / item["output"].name
-    command = [
+    png_output_path = output_dir / item["output"].name
+    jpeg_output_path = output_dir / f'{Path(item["output"]).stem}-white.jpg'
+    base_command = [
         sys.executable,
         str(SKILL_SCRIPT),
         "--image",
@@ -157,17 +158,33 @@ def render_fixture(item: dict, frame_dir: Path, output_dir: Path) -> dict:
         str(item["frame_file"]),
         "--frame-dir",
         str(frame_dir),
-        "--output",
-        str(output_path),
     ]
-    completed = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, check=True)
+
+    png_command = [
+        *base_command,
+        "--output",
+        str(png_output_path),
+    ]
+    png_completed = subprocess.run(png_command, cwd=ROOT, capture_output=True, text=True, check=True)
+
+    jpeg_command = [
+        *base_command,
+        "--output",
+        str(jpeg_output_path),
+        "--format",
+        "jpeg",
+    ]
+    jpeg_completed = subprocess.run(jpeg_command, cwd=ROOT, capture_output=True, text=True, check=True)
+
     return {
         "name": item["name"],
         "device": item["device"],
         "frame_file": item["frame_file"],
         "input": str(item["input"].relative_to(ROOT)),
-        "output": str(output_path.relative_to(ROOT)),
-        "stdout": completed.stdout.strip().splitlines(),
+        "png_output": str(png_output_path.relative_to(ROOT)),
+        "jpeg_white_output": str(jpeg_output_path.relative_to(ROOT)),
+        "png_stdout": png_completed.stdout.strip().splitlines(),
+        "jpeg_stdout": jpeg_completed.stdout.strip().splitlines(),
     }
 
 
@@ -185,9 +202,10 @@ def main() -> int:
     manifest_path = output_dir / "manifest.json"
     manifest_path.write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
 
-    print(f"[done] wrote {len(results)} framed fixtures to {output_dir}")
+    print(f"[done] wrote {len(results)} framed fixtures as PNG + white JPEG companions to {output_dir}")
     for result in results:
-        print(f'[fixture] {result["name"]} -> {result["output"]}')
+        print(f'[fixture] {result["name"]} -> {result["png_output"]}')
+        print(f'[fixture-jpeg] {result["name"]} -> {result["jpeg_white_output"]}')
     print(f"[manifest] {manifest_path}")
     return 0
 

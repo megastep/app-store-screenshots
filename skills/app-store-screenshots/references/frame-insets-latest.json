@@ -216,20 +216,20 @@
     "frameH": 3248,
     "framePath": "/frames/Google Pixel 3 XL Clearly White.png",
     "screen": {
-      "left": 69,
-      "top": 242,
-      "width": 1440,
-      "height": 2789,
-      "rx": 0.0,
+      "left": 68,
+      "top": 241,
+      "width": 1442,
+      "height": 2790,
+      "rx": 1.0,
       "ry": 0.0,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3369,
-      "top": 7.4507,
-      "width": 90.5091,
-      "height": 85.8682,
-      "rx": 0.0,
+      "left": 4.274,
+      "top": 7.42,
+      "width": 90.6348,
+      "height": 85.899,
+      "rx": 0.0693,
       "ry": 0.0
     }
   },
@@ -242,20 +242,20 @@
     "frameH": 3248,
     "framePath": "/frames/Google Pixel 3 XL Just Black.png",
     "screen": {
-      "left": 69,
-      "top": 242,
-      "width": 1440,
-      "height": 2789,
-      "rx": 0.0,
+      "left": 68,
+      "top": 241,
+      "width": 1442,
+      "height": 2790,
+      "rx": 1.0,
       "ry": 0.0,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3424,
-      "top": 7.4507,
-      "width": 90.623,
-      "height": 85.8682,
-      "rx": 0.0,
+      "left": 4.2794,
+      "top": 7.42,
+      "width": 90.7489,
+      "height": 85.899,
+      "rx": 0.0693,
       "ry": 0.0
     }
   },
@@ -268,20 +268,20 @@
     "frameH": 3248,
     "framePath": "/frames/Google Pixel 3 XL Not Pink.png",
     "screen": {
-      "left": 69,
-      "top": 242,
-      "width": 1440,
-      "height": 2789,
-      "rx": 0.0,
+      "left": 68,
+      "top": 241,
+      "width": 1442,
+      "height": 2790,
+      "rx": 1.0,
       "ry": 0.0,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3369,
-      "top": 7.4507,
-      "width": 90.5091,
-      "height": 85.8682,
-      "rx": 0.0,
+      "left": 4.274,
+      "top": 7.42,
+      "width": 90.6348,
+      "height": 85.899,
+      "rx": 0.0693,
       "ry": 0.0
     }
   },
@@ -840,21 +840,21 @@
     "frameH": 2364,
     "framePath": "/frames/Samsung Galaxy Note 10 Aura Black.png",
     "screen": {
-      "left": 39,
-      "top": 119,
-      "width": 1058,
-      "height": 2192,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 28,
+      "top": 118,
+      "width": 1080,
+      "height": 2193,
+      "rx": 19.0,
+      "ry": 183,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.4574,
-      "top": 5.0338,
-      "width": 93.7943,
-      "height": 92.7242,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.4823,
+      "top": 4.9915,
+      "width": 95.7447,
+      "height": 92.7665,
+      "rx": 1.7593,
+      "ry": 8.3447
     }
   },
   {
@@ -866,21 +866,21 @@
     "frameH": 2364,
     "framePath": "/frames/Samsung Galaxy Note 10 Aura Glow.png",
     "screen": {
-      "left": 39,
-      "top": 119,
-      "width": 1058,
-      "height": 2192,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 28,
+      "top": 118,
+      "width": 1080,
+      "height": 2193,
+      "rx": 19.0,
+      "ry": 183,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.4574,
-      "top": 5.0338,
-      "width": 93.7943,
-      "height": 92.7242,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.4823,
+      "top": 4.9915,
+      "width": 95.7447,
+      "height": 92.7665,
+      "rx": 1.7593,
+      "ry": 8.3447
     }
   },
   {
@@ -892,21 +892,21 @@
     "frameH": 2364,
     "framePath": "/frames/Samsung Galaxy Note 10 Aura Pink.png",
     "screen": {
-      "left": 39,
-      "top": 119,
-      "width": 1058,
-      "height": 2192,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 28,
+      "top": 118,
+      "width": 1080,
+      "height": 2193,
+      "rx": 19.0,
+      "ry": 183,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.4574,
-      "top": 5.0338,
-      "width": 93.7943,
-      "height": 92.7242,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.4823,
+      "top": 4.9915,
+      "width": 95.7447,
+      "height": 92.7665,
+      "rx": 1.7593,
+      "ry": 8.3447
     }
   },
   {
@@ -918,21 +918,21 @@
     "frameH": 2364,
     "framePath": "/frames/Samsung Galaxy Note 10 Aura Red.png",
     "screen": {
-      "left": 39,
-      "top": 119,
-      "width": 1058,
-      "height": 2192,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 28,
+      "top": 118,
+      "width": 1080,
+      "height": 2193,
+      "rx": 19.0,
+      "ry": 183,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.4574,
-      "top": 5.0338,
-      "width": 93.7943,
-      "height": 92.7242,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.4823,
+      "top": 4.9915,
+      "width": 95.7447,
+      "height": 92.7665,
+      "rx": 1.7593,
+      "ry": 8.3447
     }
   },
   {
@@ -944,21 +944,21 @@
     "frameH": 2364,
     "framePath": "/frames/Samsung Galaxy Note 10 Aura White.png",
     "screen": {
-      "left": 39,
-      "top": 119,
-      "width": 1058,
-      "height": 2192,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 28,
+      "top": 118,
+      "width": 1080,
+      "height": 2193,
+      "rx": 19.0,
+      "ry": 183,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.4574,
-      "top": 5.0338,
-      "width": 93.7943,
-      "height": 92.7242,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.4823,
+      "top": 4.9915,
+      "width": 95.7447,
+      "height": 92.7665,
+      "rx": 1.7593,
+      "ry": 8.3447
     }
   },
   {
@@ -970,21 +970,21 @@
     "frameH": 3151,
     "framePath": "/frames/Samsung Galaxy Note 10+ Aura Black.png",
     "screen": {
-      "left": 51,
-      "top": 159,
-      "width": 1411,
-      "height": 2922,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 36,
+      "top": 158,
+      "width": 1440,
+      "height": 2923,
+      "rx": 23.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.3955,
-      "top": 5.046,
-      "width": 93.9414,
-      "height": 92.7325,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.3968,
+      "top": 5.0143,
+      "width": 95.8722,
+      "height": 92.7642,
+      "rx": 1.6319,
+      "ry": 6.8765
     }
   },
   {
@@ -996,21 +996,21 @@
     "frameH": 3151,
     "framePath": "/frames/Samsung Galaxy Note 10+ Aura Blue.png",
     "screen": {
-      "left": 51,
-      "top": 159,
-      "width": 1411,
-      "height": 2922,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 36,
+      "top": 158,
+      "width": 1440,
+      "height": 2923,
+      "rx": 23.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.3955,
-      "top": 5.046,
-      "width": 93.9414,
-      "height": 92.7325,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.3968,
+      "top": 5.0143,
+      "width": 95.8722,
+      "height": 92.7642,
+      "rx": 1.6319,
+      "ry": 6.8765
     }
   },
   {
@@ -1022,21 +1022,21 @@
     "frameH": 3151,
     "framePath": "/frames/Samsung Galaxy Note 10+ Aura Glow.png",
     "screen": {
-      "left": 51,
-      "top": 159,
-      "width": 1411,
-      "height": 2922,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 36,
+      "top": 158,
+      "width": 1440,
+      "height": 2923,
+      "rx": 23.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.3955,
-      "top": 5.046,
-      "width": 93.9414,
-      "height": 92.7325,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.3968,
+      "top": 5.0143,
+      "width": 95.8722,
+      "height": 92.7642,
+      "rx": 1.6319,
+      "ry": 6.8765
     }
   },
   {
@@ -1048,21 +1048,21 @@
     "frameH": 3151,
     "framePath": "/frames/Samsung Galaxy Note 10+ Aura White.png",
     "screen": {
-      "left": 51,
-      "top": 159,
-      "width": 1411,
-      "height": 2922,
-      "rx": 0.0,
-      "ry": 0.0,
+      "left": 36,
+      "top": 158,
+      "width": 1440,
+      "height": 2923,
+      "rx": 23.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 3.3955,
-      "top": 5.046,
-      "width": 93.9414,
-      "height": 92.7325,
-      "rx": 0.0,
-      "ry": 0.0
+      "left": 2.3968,
+      "top": 5.0143,
+      "width": 95.8722,
+      "height": 92.7642,
+      "rx": 1.6319,
+      "ry": 6.8765
     }
   },
   {
@@ -1230,21 +1230,21 @@
     "frameH": 3214,
     "framePath": "/frames/Samsung Galaxy S10 Flamingo Pink.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 71,
-      "width": 1388,
+      "width": 1440,
       "height": 3040,
-      "rx": 99.0,
-      "ry": 38,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3336,
+      "left": 2.6921,
       "top": 2.2091,
-      "width": 91.1359,
+      "width": 94.5502,
       "height": 94.5862,
-      "rx": 7.1326,
-      "ry": 1.25
+      "rx": 8.6806,
+      "ry": 6.6118
     }
   },
   {
@@ -1256,21 +1256,21 @@
     "frameH": 3214,
     "framePath": "/frames/Samsung Galaxy S10 Prism Black.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 71,
-      "width": 1388,
+      "width": 1440,
       "height": 3040,
-      "rx": 99.0,
-      "ry": 38,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3336,
+      "left": 2.6921,
       "top": 2.2091,
-      "width": 91.1359,
+      "width": 94.5502,
       "height": 94.5862,
-      "rx": 7.1326,
-      "ry": 1.25
+      "rx": 8.6806,
+      "ry": 6.6118
     }
   },
   {
@@ -1282,21 +1282,21 @@
     "frameH": 3214,
     "framePath": "/frames/Samsung Galaxy S10 Prism Blue.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 71,
-      "width": 1388,
+      "width": 1440,
       "height": 3040,
-      "rx": 99.0,
-      "ry": 38,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3336,
+      "left": 2.6921,
       "top": 2.2091,
-      "width": 91.1359,
+      "width": 94.5502,
       "height": 94.5862,
-      "rx": 7.1326,
-      "ry": 1.25
+      "rx": 8.6806,
+      "ry": 6.6118
     }
   },
   {
@@ -1308,21 +1308,21 @@
     "frameH": 3214,
     "framePath": "/frames/Samsung Galaxy S10 Prism Green.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 71,
-      "width": 1388,
+      "width": 1440,
       "height": 3040,
-      "rx": 99.0,
-      "ry": 38,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3336,
+      "left": 2.6921,
       "top": 2.2091,
-      "width": 91.1359,
+      "width": 94.5502,
       "height": 94.5862,
-      "rx": 7.1326,
-      "ry": 1.25
+      "rx": 8.6806,
+      "ry": 6.6118
     }
   },
   {
@@ -1334,21 +1334,21 @@
     "frameH": 3214,
     "framePath": "/frames/Samsung Galaxy S10 Prism White.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 71,
-      "width": 1388,
+      "width": 1440,
       "height": 3040,
-      "rx": 99.0,
-      "ry": 38,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3336,
+      "left": 2.6921,
       "top": 2.2091,
-      "width": 91.1359,
+      "width": 94.5502,
       "height": 94.5862,
-      "rx": 7.1326,
-      "ry": 1.25
+      "rx": 8.6806,
+      "ry": 6.6118
     }
   },
   {
@@ -1360,21 +1360,21 @@
     "frameH": 3208,
     "framePath": "/frames/Samsung Galaxy S10+ Ceramic White.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 65,
-      "width": 1390,
+      "width": 1440,
       "height": 3040,
-      "rx": 100.0,
-      "ry": 39,
+      "rx": 173.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3364,
+      "left": 2.6938,
       "top": 2.0262,
-      "width": 91.3272,
+      "width": 94.6124,
       "height": 94.7631,
-      "rx": 7.1942,
-      "ry": 1.2829
+      "rx": 12.0486,
+      "ry": 6.6118
     }
   },
   {
@@ -1386,21 +1386,21 @@
     "frameH": 3208,
     "framePath": "/frames/Samsung Galaxy S10+ Flamingo Pink.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 65,
-      "width": 1390,
+      "width": 1440,
       "height": 3040,
-      "rx": 100.0,
-      "ry": 39,
+      "rx": 173.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3364,
+      "left": 2.6938,
       "top": 2.0262,
-      "width": 91.3272,
+      "width": 94.6124,
       "height": 94.7631,
-      "rx": 7.1942,
-      "ry": 1.2829
+      "rx": 12.0486,
+      "ry": 6.6118
     }
   },
   {
@@ -1412,21 +1412,21 @@
     "frameH": 3208,
     "framePath": "/frames/Samsung Galaxy S10+ Prism Black.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 65,
-      "width": 1390,
+      "width": 1440,
       "height": 3040,
-      "rx": 100.0,
-      "ry": 39,
+      "rx": 173.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3364,
+      "left": 2.6938,
       "top": 2.0262,
-      "width": 91.3272,
+      "width": 94.6124,
       "height": 94.7631,
-      "rx": 7.1942,
-      "ry": 1.2829
+      "rx": 12.0486,
+      "ry": 6.6118
     }
   },
   {
@@ -1438,21 +1438,21 @@
     "frameH": 3208,
     "framePath": "/frames/Samsung Galaxy S10+ Prism Blue.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 65,
-      "width": 1390,
+      "width": 1440,
       "height": 3040,
-      "rx": 100.0,
-      "ry": 39,
+      "rx": 173.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3364,
+      "left": 2.6938,
       "top": 2.0262,
-      "width": 91.3272,
+      "width": 94.6124,
       "height": 94.7631,
-      "rx": 7.1942,
-      "ry": 1.2829
+      "rx": 12.0486,
+      "ry": 6.6118
     }
   },
   {
@@ -1464,21 +1464,21 @@
     "frameH": 3208,
     "framePath": "/frames/Samsung Galaxy S10+ Prism Green.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 65,
-      "width": 1390,
+      "width": 1440,
       "height": 3040,
-      "rx": 100.0,
-      "ry": 39,
+      "rx": 173.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3364,
+      "left": 2.6938,
       "top": 2.0262,
-      "width": 91.3272,
+      "width": 94.6124,
       "height": 94.7631,
-      "rx": 7.1942,
-      "ry": 1.2829
+      "rx": 12.0486,
+      "ry": 6.6118
     }
   },
   {
@@ -1490,21 +1490,21 @@
     "frameH": 3208,
     "framePath": "/frames/Samsung Galaxy S10+ Prism White.png",
     "screen": {
-      "left": 66,
+      "left": 41,
       "top": 65,
-      "width": 1390,
+      "width": 1440,
       "height": 3040,
-      "rx": 100.0,
-      "ry": 39,
+      "rx": 173.5,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 4.3364,
+      "left": 2.6938,
       "top": 2.0262,
-      "width": 91.3272,
+      "width": 94.6124,
       "height": 94.7631,
-      "rx": 7.1942,
-      "ry": 1.2829
+      "rx": 12.0486,
+      "ry": 6.6118
     }
   },
   {
@@ -1516,21 +1516,21 @@
     "frameH": 3335,
     "framePath": "/frames/Samsung Galaxy S20 Cloud Blue.png",
     "screen": {
-      "left": 91,
-      "top": 168,
-      "width": 1346,
-      "height": 3089,
-      "rx": 4.0,
-      "ry": 7,
+      "left": 44,
+      "top": 167,
+      "width": 1440,
+      "height": 3090,
+      "rx": 60.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.9206,
-      "top": 5.0375,
-      "width": 87.5732,
-      "height": 92.6237,
-      "rx": 0.2972,
-      "ry": 0.2266
+      "left": 2.8627,
+      "top": 5.0075,
+      "width": 93.689,
+      "height": 92.6537,
+      "rx": 4.1667,
+      "ry": 6.5049
     }
   },
   {
@@ -1542,21 +1542,21 @@
     "frameH": 3335,
     "framePath": "/frames/Samsung Galaxy S20 Cloud Pink.png",
     "screen": {
-      "left": 91,
-      "top": 168,
-      "width": 1346,
-      "height": 3089,
-      "rx": 4.0,
-      "ry": 7,
+      "left": 44,
+      "top": 167,
+      "width": 1440,
+      "height": 3090,
+      "rx": 60.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.9206,
-      "top": 5.0375,
-      "width": 87.5732,
-      "height": 92.6237,
-      "rx": 0.2972,
-      "ry": 0.2266
+      "left": 2.8627,
+      "top": 5.0075,
+      "width": 93.689,
+      "height": 92.6537,
+      "rx": 4.1667,
+      "ry": 6.5049
     }
   },
   {
@@ -1568,21 +1568,21 @@
     "frameH": 3335,
     "framePath": "/frames/Samsung Galaxy S20 Cosmic Gray.png",
     "screen": {
-      "left": 91,
-      "top": 168,
-      "width": 1346,
-      "height": 3089,
-      "rx": 4.0,
-      "ry": 7,
+      "left": 44,
+      "top": 167,
+      "width": 1440,
+      "height": 3090,
+      "rx": 60.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.9206,
-      "top": 5.0375,
-      "width": 87.5732,
-      "height": 92.6237,
-      "rx": 0.2972,
-      "ry": 0.2266
+      "left": 2.8627,
+      "top": 5.0075,
+      "width": 93.689,
+      "height": 92.6537,
+      "rx": 4.1667,
+      "ry": 6.5049
     }
   },
   {
@@ -1594,21 +1594,21 @@
     "frameH": 3318,
     "framePath": "/frames/Samsung Galaxy S20 Utra Cosmic Black.png",
     "screen": {
-      "left": 90,
-      "top": 143,
-      "width": 1338,
-      "height": 3103,
-      "rx": 4.0,
-      "ry": 11,
+      "left": 39,
+      "top": 142,
+      "width": 1440,
+      "height": 3104,
+      "rx": 64.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.8939,
-      "top": 4.3098,
-      "width": 87.6228,
-      "height": 93.5202,
-      "rx": 0.299,
-      "ry": 0.3545
+      "left": 2.554,
+      "top": 4.2797,
+      "width": 94.3026,
+      "height": 93.5503,
+      "rx": 4.4444,
+      "ry": 6.4755
     }
   },
   {
@@ -1620,21 +1620,21 @@
     "frameH": 3318,
     "framePath": "/frames/Samsung Galaxy S20 Utra Cosmic Gray.png",
     "screen": {
-      "left": 90,
-      "top": 143,
-      "width": 1338,
-      "height": 3103,
-      "rx": 4.0,
-      "ry": 11,
+      "left": 39,
+      "top": 142,
+      "width": 1440,
+      "height": 3104,
+      "rx": 64.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.8939,
-      "top": 4.3098,
-      "width": 87.6228,
-      "height": 93.5202,
-      "rx": 0.299,
-      "ry": 0.3545
+      "left": 2.554,
+      "top": 4.2797,
+      "width": 94.3026,
+      "height": 93.5503,
+      "rx": 4.4444,
+      "ry": 6.4755
     }
   },
   {
@@ -1646,21 +1646,21 @@
     "frameH": 3318,
     "framePath": "/frames/Samsung Galaxy S20+ Cloud Blue.png",
     "screen": {
-      "left": 90,
-      "top": 145,
-      "width": 1338,
-      "height": 3103,
-      "rx": 4.0,
-      "ry": 11,
+      "left": 39,
+      "top": 144,
+      "width": 1440,
+      "height": 3104,
+      "rx": 64.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.8939,
-      "top": 4.3701,
-      "width": 87.6228,
-      "height": 93.5202,
-      "rx": 0.299,
-      "ry": 0.3545
+      "left": 2.554,
+      "top": 4.34,
+      "width": 94.3026,
+      "height": 93.5503,
+      "rx": 4.4444,
+      "ry": 6.4755
     }
   },
   {
@@ -1672,21 +1672,21 @@
     "frameH": 3318,
     "framePath": "/frames/Samsung Galaxy S20+ Cosmic Black.png",
     "screen": {
-      "left": 90,
-      "top": 145,
-      "width": 1338,
-      "height": 3103,
-      "rx": 4.0,
-      "ry": 11,
+      "left": 39,
+      "top": 144,
+      "width": 1440,
+      "height": 3104,
+      "rx": 64.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.8939,
-      "top": 4.3701,
-      "width": 87.6228,
-      "height": 93.5202,
-      "rx": 0.299,
-      "ry": 0.3545
+      "left": 2.554,
+      "top": 4.34,
+      "width": 94.3026,
+      "height": 93.5503,
+      "rx": 4.4444,
+      "ry": 6.4755
     }
   },
   {
@@ -1698,21 +1698,21 @@
     "frameH": 3318,
     "framePath": "/frames/Samsung Galaxy S20+ Cosmic Gray.png",
     "screen": {
-      "left": 90,
-      "top": 145,
-      "width": 1338,
-      "height": 3103,
-      "rx": 4.0,
-      "ry": 11,
+      "left": 39,
+      "top": 144,
+      "width": 1440,
+      "height": 3104,
+      "rx": 64.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 5.8939,
-      "top": 4.3701,
-      "width": 87.6228,
-      "height": 93.5202,
-      "rx": 0.299,
-      "ry": 0.3545
+      "left": 2.554,
+      "top": 4.34,
+      "width": 94.3026,
+      "height": 93.5503,
+      "rx": 4.4444,
+      "ry": 6.4755
     }
   },
   {
@@ -1725,20 +1725,20 @@
     "framePath": "/frames/Samsung Galaxy S21 5G Black.png",
     "screen": {
       "left": 44,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.7288,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -1751,20 +1751,20 @@
     "framePath": "/frames/Samsung Galaxy S21 5G Pink.png",
     "screen": {
       "left": 44,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.7288,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -1777,20 +1777,20 @@
     "framePath": "/frames/Samsung Galaxy S21 5G Violet.png",
     "screen": {
       "left": 44,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.7288,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -1803,20 +1803,20 @@
     "framePath": "/frames/Samsung Galaxy S21 5G White.png",
     "screen": {
       "left": 44,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.7288,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -1829,20 +1829,20 @@
     "framePath": "/frames/Samsung Galaxy S21 Ultra 5G Black.png",
     "screen": {
       "left": 44,
-      "top": 148,
-      "width": 1439,
-      "height": 3106,
-      "rx": 3.0,
-      "ry": 0.0,
+      "top": 54,
+      "width": 1440,
+      "height": 3200,
+      "rx": 153.5,
+      "ry": 94,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 2.8571,
-      "top": 4.4525,
-      "width": 93.4416,
-      "height": 93.4416,
-      "rx": 0.2085,
-      "ry": 0.0
+      "top": 1.6245,
+      "width": 93.5065,
+      "height": 96.2696,
+      "rx": 10.6597,
+      "ry": 2.9375
     }
   },
   {
@@ -1855,20 +1855,20 @@
     "framePath": "/frames/Samsung Galaxy S21 Ultra 5G Silver.png",
     "screen": {
       "left": 44,
-      "top": 148,
-      "width": 1439,
-      "height": 3106,
-      "rx": 3.0,
-      "ry": 0.0,
+      "top": 54,
+      "width": 1440,
+      "height": 3200,
+      "rx": 153.5,
+      "ry": 94,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 2.8571,
-      "top": 4.4525,
-      "width": 93.4416,
-      "height": 93.4416,
-      "rx": 0.2085,
-      "ry": 0.0
+      "top": 1.6245,
+      "width": 93.5065,
+      "height": 96.2696,
+      "rx": 10.6597,
+      "ry": 2.9375
     }
   },
   {
@@ -1881,20 +1881,20 @@
     "framePath": "/frames/Samsung Galaxy S21+ 5G Black.png",
     "screen": {
       "left": 44,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.7288,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -1907,20 +1907,20 @@
     "framePath": "/frames/Samsung Galaxy S21+ 5G Silver.png",
     "screen": {
       "left": 41,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.4746,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -1933,20 +1933,20 @@
     "framePath": "/frames/Samsung Galaxy S21+ 5G Violet.png",
     "screen": {
       "left": 43,
-      "top": 121,
+      "top": 42,
       "width": 1080,
-      "height": 2321,
-      "rx": 4.0,
-      "ry": 9,
+      "height": 2400,
+      "rx": 133.5,
+      "ry": 88,
       "hasCutout": false
     },
     "screenPercent": {
       "left": 3.6441,
-      "top": 4.84,
+      "top": 1.68,
       "width": 91.5254,
-      "height": 92.84,
-      "rx": 0.3704,
-      "ry": 0.3878
+      "height": 96.0,
+      "rx": 12.3611,
+      "ry": 3.6667
     }
   },
   {
@@ -2270,21 +2270,21 @@
     "frameH": 3288,
     "framePath": "/frames/Samsung Galaxy S9 Burgundy Red.png",
     "screen": {
-      "left": 101,
+      "left": 46,
       "top": 178,
-      "width": 1330,
+      "width": 1440,
       "height": 2960,
-      "rx": 70.0,
-      "ry": 21,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 6.5927,
+      "left": 3.0026,
       "top": 5.4136,
-      "width": 86.8146,
+      "width": 93.9948,
       "height": 90.0243,
-      "rx": 5.2632,
-      "ry": 0.7095
+      "rx": 8.6806,
+      "ry": 6.7905
     }
   },
   {
@@ -2296,21 +2296,21 @@
     "frameH": 3288,
     "framePath": "/frames/Samsung Galaxy S9 Coral Blue.png",
     "screen": {
-      "left": 101,
+      "left": 46,
       "top": 178,
-      "width": 1330,
+      "width": 1440,
       "height": 2960,
-      "rx": 70.0,
-      "ry": 21,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 6.5927,
+      "left": 3.0026,
       "top": 5.4136,
-      "width": 86.8146,
+      "width": 93.9948,
       "height": 90.0243,
-      "rx": 5.2632,
-      "ry": 0.7095
+      "rx": 8.6806,
+      "ry": 6.7905
     }
   },
   {
@@ -2322,21 +2322,21 @@
     "frameH": 3288,
     "framePath": "/frames/Samsung Galaxy S9 Lilac Purple.png",
     "screen": {
-      "left": 101,
+      "left": 46,
       "top": 178,
-      "width": 1330,
+      "width": 1440,
       "height": 2960,
-      "rx": 70.0,
-      "ry": 21,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 6.5927,
+      "left": 3.0026,
       "top": 5.4136,
-      "width": 86.8146,
+      "width": 93.9948,
       "height": 90.0243,
-      "rx": 5.2632,
-      "ry": 0.7095
+      "rx": 8.6806,
+      "ry": 6.7905
     }
   },
   {
@@ -2348,21 +2348,21 @@
     "frameH": 3288,
     "framePath": "/frames/Samsung Galaxy S9 Midnight Black.png",
     "screen": {
-      "left": 101,
+      "left": 46,
       "top": 178,
-      "width": 1330,
+      "width": 1440,
       "height": 2960,
-      "rx": 70.0,
-      "ry": 21,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 6.5927,
+      "left": 3.0026,
       "top": 5.4136,
-      "width": 86.8146,
+      "width": 93.9948,
       "height": 90.0243,
-      "rx": 5.2632,
-      "ry": 0.7095
+      "rx": 8.6806,
+      "ry": 6.7905
     }
   },
   {
@@ -2374,21 +2374,21 @@
     "frameH": 3288,
     "framePath": "/frames/Samsung Galaxy S9 Sunrise Gold.png",
     "screen": {
-      "left": 101,
+      "left": 46,
       "top": 178,
-      "width": 1330,
+      "width": 1440,
       "height": 2960,
-      "rx": 70.0,
-      "ry": 21,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 6.5927,
+      "left": 3.0026,
       "top": 5.4136,
-      "width": 86.8146,
+      "width": 93.9948,
       "height": 90.0243,
-      "rx": 5.2632,
-      "ry": 0.7095
+      "rx": 8.6806,
+      "ry": 6.7905
     }
   },
   {
@@ -2400,21 +2400,21 @@
     "frameH": 3288,
     "framePath": "/frames/Samsung Galaxy S9 Titanium Gray.png",
     "screen": {
-      "left": 101,
+      "left": 46,
       "top": 178,
-      "width": 1330,
+      "width": 1440,
       "height": 2960,
-      "rx": 70.0,
-      "ry": 21,
+      "rx": 125.0,
+      "ry": 201,
       "hasCutout": false
     },
     "screenPercent": {
-      "left": 6.5927,
+      "left": 3.0026,
       "top": 5.4136,
-      "width": 86.8146,
+      "width": 93.9948,
       "height": 90.0243,
-      "rx": 5.2632,
-      "ry": 0.7095
+      "rx": 8.6806,
+      "ry": 6.7905
     }
   },
   {
@@ -2999,9 +2999,9 @@
     "framePath": "/frames/Apple iPhone 11 Black.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -3009,23 +3009,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -3038,9 +3038,9 @@
     "framePath": "/frames/Apple iPhone 11 Green.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -3048,23 +3048,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -3077,9 +3077,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Gold.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -3087,23 +3087,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -3116,9 +3116,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Max Gold.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -3126,23 +3126,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -3155,9 +3155,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Max Midnight Green.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -3165,23 +3165,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -3194,9 +3194,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Max Silver.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -3204,23 +3204,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -3233,9 +3233,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Max Space Gray.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -3243,23 +3243,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -3272,9 +3272,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Midnight Green.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -3282,23 +3282,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -3311,9 +3311,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Silver.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -3321,23 +3321,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -3350,9 +3350,9 @@
     "framePath": "/frames/Apple iPhone 11 Pro Space Gray.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -3360,23 +3360,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -3389,9 +3389,9 @@
     "framePath": "/frames/Apple iPhone 11 Purple.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -3399,23 +3399,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -3428,9 +3428,9 @@
     "framePath": "/frames/Apple iPhone 11 Red.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -3438,23 +3438,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -3467,9 +3467,9 @@
     "framePath": "/frames/Apple iPhone 11 White.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -3477,23 +3477,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -3506,9 +3506,9 @@
     "framePath": "/frames/Apple iPhone 11 Yellow.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -3516,23 +3516,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -3545,33 +3545,33 @@
     "framePath": "/frames/Apple iPhone 12 Black.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 72,
       "width": 1170,
-      "height": 2521,
+      "height": 2523,
       "rx": 9.0,
-      "ry": 37,
+      "ry": 38,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7088,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.921,
       "rx": 0.7692,
-      "ry": 1.4677
+      "ry": 1.5061
     },
     "topOverlayCutout": {
-      "left": 395,
-      "top": 109,
-      "width": 522,
-      "height": 49
+      "left": 396,
+      "top": 106,
+      "width": 521,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.0609,
-      "top": 4.1008,
-      "width": 39.726,
-      "height": 1.8435
+      "left": 30.137,
+      "top": 3.988,
+      "width": 39.6499,
+      "height": 1.9187
     }
   },
   {
@@ -3584,33 +3584,33 @@
     "framePath": "/frames/Apple iPhone 12 Blue.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 72,
       "width": 1170,
-      "height": 2521,
+      "height": 2523,
       "rx": 9.0,
-      "ry": 37,
+      "ry": 38,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7088,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.921,
       "rx": 0.7692,
-      "ry": 1.4677
+      "ry": 1.5061
     },
     "topOverlayCutout": {
-      "left": 395,
-      "top": 109,
-      "width": 522,
-      "height": 49
+      "left": 396,
+      "top": 106,
+      "width": 521,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.0609,
-      "top": 4.1008,
-      "width": 39.726,
-      "height": 1.8435
+      "left": 30.137,
+      "top": 3.988,
+      "width": 39.6499,
+      "height": 1.9187
     }
   },
   {
@@ -3623,33 +3623,33 @@
     "framePath": "/frames/Apple iPhone 12 Green.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 72,
       "width": 1170,
-      "height": 2521,
+      "height": 2523,
       "rx": 9.0,
-      "ry": 37,
+      "ry": 38,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7088,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.921,
       "rx": 0.7692,
-      "ry": 1.4677
+      "ry": 1.5061
     },
     "topOverlayCutout": {
-      "left": 395,
-      "top": 109,
-      "width": 522,
-      "height": 49
+      "left": 396,
+      "top": 106,
+      "width": 521,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.0609,
-      "top": 4.1008,
-      "width": 39.726,
-      "height": 1.8435
+      "left": 30.137,
+      "top": 3.988,
+      "width": 39.6499,
+      "height": 1.9187
     }
   },
   {
@@ -3662,33 +3662,33 @@
     "framePath": "/frames/Apple iPhone 12 Mini Black.png",
     "screen": {
       "left": 70,
-      "top": 87,
+      "top": 85,
       "width": 1080,
-      "height": 2312,
+      "height": 2314,
       "rx": 5.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.7377,
-      "top": 3.5395,
+      "top": 3.4581,
       "width": 88.5246,
-      "height": 94.0602,
+      "height": 94.1416,
       "rx": 0.463,
-      "ry": 0.8651
+      "ry": 0.9075
     },
     "topOverlayCutout": {
-      "left": 338,
-      "top": 134,
-      "width": 543,
-      "height": 24
+      "left": 339,
+      "top": 132,
+      "width": 542,
+      "height": 25
     },
     "topOverlayCutoutPercent": {
-      "left": 27.7049,
-      "top": 5.4516,
-      "width": 44.5082,
-      "height": 0.9764
+      "left": 27.7869,
+      "top": 5.3702,
+      "width": 44.4262,
+      "height": 1.0171
     }
   },
   {
@@ -3701,33 +3701,33 @@
     "framePath": "/frames/Apple iPhone 12 Mini Blue.png",
     "screen": {
       "left": 70,
-      "top": 87,
+      "top": 85,
       "width": 1080,
-      "height": 2312,
+      "height": 2314,
       "rx": 5.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.7377,
-      "top": 3.5395,
+      "top": 3.4581,
       "width": 88.5246,
-      "height": 94.0602,
+      "height": 94.1416,
       "rx": 0.463,
-      "ry": 0.8651
+      "ry": 0.9075
     },
     "topOverlayCutout": {
-      "left": 338,
-      "top": 134,
-      "width": 543,
-      "height": 24
+      "left": 339,
+      "top": 132,
+      "width": 542,
+      "height": 25
     },
     "topOverlayCutoutPercent": {
-      "left": 27.7049,
-      "top": 5.4516,
-      "width": 44.5082,
-      "height": 0.9764
+      "left": 27.7869,
+      "top": 5.3702,
+      "width": 44.4262,
+      "height": 1.0171
     }
   },
   {
@@ -3740,33 +3740,33 @@
     "framePath": "/frames/Apple iPhone 12 Mini Green.png",
     "screen": {
       "left": 70,
-      "top": 87,
+      "top": 85,
       "width": 1080,
-      "height": 2312,
+      "height": 2314,
       "rx": 5.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.7377,
-      "top": 3.5395,
+      "top": 3.4581,
       "width": 88.5246,
-      "height": 94.0602,
+      "height": 94.1416,
       "rx": 0.463,
-      "ry": 0.8651
+      "ry": 0.9075
     },
     "topOverlayCutout": {
-      "left": 338,
-      "top": 134,
-      "width": 543,
-      "height": 24
+      "left": 339,
+      "top": 132,
+      "width": 542,
+      "height": 25
     },
     "topOverlayCutoutPercent": {
-      "left": 27.7049,
-      "top": 5.4516,
-      "width": 44.5082,
-      "height": 0.9764
+      "left": 27.7869,
+      "top": 5.3702,
+      "width": 44.4262,
+      "height": 1.0171
     }
   },
   {
@@ -3779,33 +3779,33 @@
     "framePath": "/frames/Apple iPhone 12 Mini Red.png",
     "screen": {
       "left": 70,
-      "top": 87,
+      "top": 85,
       "width": 1080,
-      "height": 2312,
+      "height": 2314,
       "rx": 5.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.7377,
-      "top": 3.5395,
+      "top": 3.4581,
       "width": 88.5246,
-      "height": 94.0602,
+      "height": 94.1416,
       "rx": 0.463,
-      "ry": 0.8651
+      "ry": 0.9075
     },
     "topOverlayCutout": {
-      "left": 338,
-      "top": 134,
-      "width": 543,
-      "height": 24
+      "left": 339,
+      "top": 132,
+      "width": 542,
+      "height": 25
     },
     "topOverlayCutoutPercent": {
-      "left": 27.7049,
-      "top": 5.4516,
-      "width": 44.5082,
-      "height": 0.9764
+      "left": 27.7869,
+      "top": 5.3702,
+      "width": 44.4262,
+      "height": 1.0171
     }
   },
   {
@@ -3818,33 +3818,33 @@
     "framePath": "/frames/Apple iPhone 12 Mini White.png",
     "screen": {
       "left": 70,
-      "top": 87,
+      "top": 85,
       "width": 1080,
-      "height": 2312,
+      "height": 2314,
       "rx": 5.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.7377,
-      "top": 3.5395,
+      "top": 3.4581,
       "width": 88.5246,
-      "height": 94.0602,
+      "height": 94.1416,
       "rx": 0.463,
-      "ry": 0.8651
+      "ry": 0.9075
     },
     "topOverlayCutout": {
-      "left": 338,
-      "top": 134,
-      "width": 543,
-      "height": 24
+      "left": 339,
+      "top": 132,
+      "width": 542,
+      "height": 25
     },
     "topOverlayCutoutPercent": {
-      "left": 27.7049,
-      "top": 5.4516,
-      "width": 44.5082,
-      "height": 0.9764
+      "left": 27.7869,
+      "top": 5.3702,
+      "width": 44.4262,
+      "height": 1.0171
     }
   },
   {
@@ -3857,33 +3857,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Gold.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 73,
       "width": 1170,
-      "height": 2521,
+      "height": 2522,
       "rx": 9.0,
-      "ry": 36,
+      "ry": 37,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7464,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.8834,
       "rx": 0.7692,
-      "ry": 1.428
+      "ry": 1.4671
     },
     "topOverlayCutout": {
-      "left": 398,
-      "top": 110,
-      "width": 516,
-      "height": 49
+      "left": 399,
+      "top": 107,
+      "width": 514,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2892,
-      "top": 4.1384,
-      "width": 39.2694,
-      "height": 1.8435
+      "left": 30.3653,
+      "top": 4.0256,
+      "width": 39.1172,
+      "height": 1.9187
     }
   },
   {
@@ -3896,33 +3896,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Graphite.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 73,
       "width": 1170,
-      "height": 2521,
+      "height": 2522,
       "rx": 9.0,
-      "ry": 36,
+      "ry": 37,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7464,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.8834,
       "rx": 0.7692,
-      "ry": 1.428
+      "ry": 1.4671
     },
     "topOverlayCutout": {
-      "left": 398,
-      "top": 110,
-      "width": 516,
-      "height": 49
+      "left": 399,
+      "top": 107,
+      "width": 514,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2892,
-      "top": 4.1384,
-      "width": 39.2694,
-      "height": 1.8435
+      "left": 30.3653,
+      "top": 4.0256,
+      "width": 39.1172,
+      "height": 1.9187
     }
   },
   {
@@ -3935,33 +3935,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Max Gold.png",
     "screen": {
       "left": 74,
-      "top": 67,
+      "top": 66,
       "width": 1284,
-      "height": 2773,
+      "height": 2774,
       "rx": 15.0,
-      "ry": 46,
+      "ry": 47,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.1676,
-      "top": 2.3088,
+      "top": 2.2743,
       "width": 89.6648,
-      "height": 95.5548,
+      "height": 95.5892,
       "rx": 1.1682,
-      "ry": 1.6589
+      "ry": 1.6943
     },
     "topOverlayCutout": {
-      "left": 461,
-      "top": 90,
-      "width": 516,
-      "height": 68
+      "left": 462,
+      "top": 88,
+      "width": 514,
+      "height": 69
     },
     "topOverlayCutoutPercent": {
-      "left": 32.1927,
-      "top": 3.1013,
-      "width": 36.0335,
-      "height": 2.3432
+      "left": 32.2626,
+      "top": 3.0324,
+      "width": 35.8939,
+      "height": 2.3777
     }
   },
   {
@@ -3974,33 +3974,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Max Graphite.png",
     "screen": {
       "left": 74,
-      "top": 67,
+      "top": 66,
       "width": 1284,
-      "height": 2773,
+      "height": 2774,
       "rx": 15.0,
-      "ry": 46,
+      "ry": 47,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.1676,
-      "top": 2.3088,
+      "top": 2.2743,
       "width": 89.6648,
-      "height": 95.5548,
+      "height": 95.5892,
       "rx": 1.1682,
-      "ry": 1.6589
+      "ry": 1.6943
     },
     "topOverlayCutout": {
-      "left": 461,
-      "top": 90,
-      "width": 516,
-      "height": 68
+      "left": 462,
+      "top": 88,
+      "width": 514,
+      "height": 69
     },
     "topOverlayCutoutPercent": {
-      "left": 32.1927,
-      "top": 3.1013,
-      "width": 36.0335,
-      "height": 2.3432
+      "left": 32.2626,
+      "top": 3.0324,
+      "width": 35.8939,
+      "height": 2.3777
     }
   },
   {
@@ -4013,33 +4013,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Max Pacific Blue.png",
     "screen": {
       "left": 74,
-      "top": 67,
+      "top": 66,
       "width": 1284,
-      "height": 2773,
+      "height": 2774,
       "rx": 15.0,
-      "ry": 46,
+      "ry": 47,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.1676,
-      "top": 2.3088,
+      "top": 2.2743,
       "width": 89.6648,
-      "height": 95.5548,
+      "height": 95.5892,
       "rx": 1.1682,
-      "ry": 1.6589
+      "ry": 1.6943
     },
     "topOverlayCutout": {
-      "left": 461,
-      "top": 90,
-      "width": 516,
-      "height": 68
+      "left": 462,
+      "top": 88,
+      "width": 514,
+      "height": 69
     },
     "topOverlayCutoutPercent": {
-      "left": 32.1927,
-      "top": 3.1013,
-      "width": 36.0335,
-      "height": 2.3432
+      "left": 32.2626,
+      "top": 3.0324,
+      "width": 35.8939,
+      "height": 2.3777
     }
   },
   {
@@ -4052,33 +4052,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Max Silver.png",
     "screen": {
       "left": 74,
-      "top": 67,
+      "top": 66,
       "width": 1284,
-      "height": 2773,
+      "height": 2774,
       "rx": 15.0,
-      "ry": 46,
+      "ry": 47,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.1676,
-      "top": 2.3088,
+      "top": 2.2743,
       "width": 89.6648,
-      "height": 95.5548,
+      "height": 95.5892,
       "rx": 1.1682,
-      "ry": 1.6589
+      "ry": 1.6943
     },
     "topOverlayCutout": {
-      "left": 461,
-      "top": 90,
-      "width": 516,
-      "height": 68
+      "left": 462,
+      "top": 88,
+      "width": 514,
+      "height": 69
     },
     "topOverlayCutoutPercent": {
-      "left": 32.1927,
-      "top": 3.1013,
-      "width": 36.0335,
-      "height": 2.3432
+      "left": 32.2626,
+      "top": 3.0324,
+      "width": 35.8939,
+      "height": 2.3777
     }
   },
   {
@@ -4091,33 +4091,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Pacific Blue.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 73,
       "width": 1170,
-      "height": 2521,
+      "height": 2522,
       "rx": 9.0,
-      "ry": 36,
+      "ry": 37,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7464,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.8834,
       "rx": 0.7692,
-      "ry": 1.428
+      "ry": 1.4671
     },
     "topOverlayCutout": {
-      "left": 398,
-      "top": 110,
-      "width": 516,
-      "height": 49
+      "left": 399,
+      "top": 107,
+      "width": 514,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2892,
-      "top": 4.1384,
-      "width": 39.2694,
-      "height": 1.8435
+      "left": 30.3653,
+      "top": 4.0256,
+      "width": 39.1172,
+      "height": 1.9187
     }
   },
   {
@@ -4130,33 +4130,33 @@
     "framePath": "/frames/Apple iPhone 12 Pro Silver.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 73,
       "width": 1170,
-      "height": 2521,
+      "height": 2522,
       "rx": 9.0,
-      "ry": 36,
+      "ry": 37,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7464,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.8834,
       "rx": 0.7692,
-      "ry": 1.428
+      "ry": 1.4671
     },
     "topOverlayCutout": {
-      "left": 398,
-      "top": 110,
-      "width": 516,
-      "height": 49
+      "left": 399,
+      "top": 107,
+      "width": 514,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2892,
-      "top": 4.1384,
-      "width": 39.2694,
-      "height": 1.8435
+      "left": 30.3653,
+      "top": 4.0256,
+      "width": 39.1172,
+      "height": 1.9187
     }
   },
   {
@@ -4169,33 +4169,33 @@
     "framePath": "/frames/Apple iPhone 12 Red.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 72,
       "width": 1170,
-      "height": 2521,
+      "height": 2523,
       "rx": 9.0,
-      "ry": 37,
+      "ry": 38,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7088,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.921,
       "rx": 0.7692,
-      "ry": 1.4677
+      "ry": 1.5061
     },
     "topOverlayCutout": {
-      "left": 395,
-      "top": 109,
-      "width": 522,
-      "height": 49
+      "left": 396,
+      "top": 106,
+      "width": 521,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.0609,
-      "top": 4.1008,
-      "width": 39.726,
-      "height": 1.8435
+      "left": 30.137,
+      "top": 3.988,
+      "width": 39.6499,
+      "height": 1.9187
     }
   },
   {
@@ -4208,33 +4208,33 @@
     "framePath": "/frames/Apple iPhone 12 White.png",
     "screen": {
       "left": 72,
-      "top": 74,
+      "top": 72,
       "width": 1170,
-      "height": 2521,
+      "height": 2523,
       "rx": 9.0,
-      "ry": 37,
+      "ry": 38,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4795,
-      "top": 2.784,
+      "top": 2.7088,
       "width": 89.0411,
-      "height": 94.8457,
+      "height": 94.921,
       "rx": 0.7692,
-      "ry": 1.4677
+      "ry": 1.5061
     },
     "topOverlayCutout": {
-      "left": 395,
-      "top": 109,
-      "width": 522,
-      "height": 49
+      "left": 396,
+      "top": 106,
+      "width": 521,
+      "height": 51
     },
     "topOverlayCutoutPercent": {
-      "left": 30.0609,
-      "top": 4.1008,
-      "width": 39.726,
-      "height": 1.8435
+      "left": 30.137,
+      "top": 3.988,
+      "width": 39.6499,
+      "height": 1.9187
     }
   },
   {
@@ -4247,32 +4247,32 @@
     "framePath": "/frames/Apple iPhone 13 Blue.png",
     "screen": {
       "left": 72,
-      "top": 65,
+      "top": 64,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 8.0,
-      "ry": 23,
+      "ry": 24,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4836,
-      "top": 2.4427,
+      "top": 2.4051,
       "width": 89.1089,
-      "height": 95.077,
+      "height": 95.1522,
       "rx": 0.6838,
-      "ry": 0.9091
+      "ry": 0.9479
     },
     "topOverlayCutout": {
-      "left": 470,
-      "top": 71,
-      "width": 374,
+      "left": 469,
+      "top": 70,
+      "width": 375,
       "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 35.7959,
-      "top": 2.6682,
-      "width": 28.4844,
+      "left": 35.7197,
+      "top": 2.6306,
+      "width": 28.5605,
       "height": 3.5701
     }
   },
@@ -4286,32 +4286,32 @@
     "framePath": "/frames/Apple iPhone 13 Midnight.png",
     "screen": {
       "left": 72,
-      "top": 65,
+      "top": 64,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 8.0,
-      "ry": 23,
+      "ry": 24,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4836,
-      "top": 2.4427,
+      "top": 2.4051,
       "width": 89.1089,
-      "height": 95.077,
+      "height": 95.1522,
       "rx": 0.6838,
-      "ry": 0.9091
+      "ry": 0.9479
     },
     "topOverlayCutout": {
-      "left": 470,
-      "top": 71,
-      "width": 374,
+      "left": 469,
+      "top": 70,
+      "width": 375,
       "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 35.7959,
-      "top": 2.6682,
-      "width": 28.4844,
+      "left": 35.7197,
+      "top": 2.6306,
+      "width": 28.5605,
       "height": 3.5701
     }
   },
@@ -4325,9 +4325,9 @@
     "framePath": "/frames/Apple iPhone 13 Mini Blue.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -4335,23 +4335,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -4364,9 +4364,9 @@
     "framePath": "/frames/Apple iPhone 13 Mini Midnight.png",
     "screen": {
       "left": 74,
-      "top": 69,
+      "top": 68,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -4374,23 +4374,23 @@
     },
     "screenPercent": {
       "left": 6.0507,
-      "top": 2.7981,
+      "top": 2.7575,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 415,
-      "top": 81,
-      "width": 399,
-      "height": 94
+      "left": 423,
+      "top": 79,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.933,
-      "top": 3.2847,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.5871,
+      "top": 3.2036,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -4403,9 +4403,9 @@
     "framePath": "/frames/Apple iPhone 13 Mini Pink.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -4413,23 +4413,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -4442,9 +4442,9 @@
     "framePath": "/frames/Apple iPhone 13 Mini Red.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -4452,23 +4452,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -4481,9 +4481,9 @@
     "framePath": "/frames/Apple iPhone 13 Mini Starlight.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -4491,23 +4491,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -4520,32 +4520,32 @@
     "framePath": "/frames/Apple iPhone 13 Pink.png",
     "screen": {
       "left": 72,
-      "top": 65,
+      "top": 64,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 8.0,
-      "ry": 23,
+      "ry": 24,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4836,
-      "top": 2.4427,
+      "top": 2.4051,
       "width": 89.1089,
-      "height": 95.077,
+      "height": 95.1522,
       "rx": 0.6838,
-      "ry": 0.9091
+      "ry": 0.9479
     },
     "topOverlayCutout": {
-      "left": 470,
-      "top": 71,
-      "width": 374,
+      "left": 469,
+      "top": 70,
+      "width": 375,
       "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 35.7959,
-      "top": 2.6682,
-      "width": 28.4844,
+      "left": 35.7197,
+      "top": 2.6306,
+      "width": 28.5605,
       "height": 3.5701
     }
   },
@@ -4559,9 +4559,9 @@
     "framePath": "/frames/Apple iPhone 13 Pro Gold.png",
     "screen": {
       "left": 74,
-      "top": 63,
+      "top": 62,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 6.0,
       "ry": 28,
       "hasCutout": true,
@@ -4569,23 +4569,23 @@
     },
     "screenPercent": {
       "left": 5.6146,
-      "top": 2.3684,
+      "top": 2.3308,
       "width": 88.7709,
-      "height": 95.1128,
+      "height": 95.188,
       "rx": 0.5128,
-      "ry": 1.1067
+      "ry": 1.1058
     },
     "topOverlayCutout": {
-      "left": 473,
-      "top": 69,
-      "width": 372,
-      "height": 98
+      "left": 482,
+      "top": 67,
+      "width": 354,
+      "height": 100
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8877,
-      "top": 2.594,
-      "width": 28.2246,
-      "height": 3.6842
+      "left": 36.5706,
+      "top": 2.5188,
+      "width": 26.8589,
+      "height": 3.7594
     }
   },
   {
@@ -4598,9 +4598,9 @@
     "framePath": "/frames/Apple iPhone 13 Pro Graphite.png",
     "screen": {
       "left": 74,
-      "top": 63,
+      "top": 62,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 6.0,
       "ry": 28,
       "hasCutout": true,
@@ -4608,23 +4608,23 @@
     },
     "screenPercent": {
       "left": 5.6146,
-      "top": 2.3684,
+      "top": 2.3308,
       "width": 88.7709,
-      "height": 95.1128,
+      "height": 95.188,
       "rx": 0.5128,
-      "ry": 1.1067
+      "ry": 1.1058
     },
     "topOverlayCutout": {
-      "left": 473,
-      "top": 69,
-      "width": 372,
-      "height": 98
+      "left": 482,
+      "top": 67,
+      "width": 354,
+      "height": 100
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8877,
-      "top": 2.594,
-      "width": 28.2246,
-      "height": 3.6842
+      "left": 36.5706,
+      "top": 2.5188,
+      "width": 26.8589,
+      "height": 3.7594
     }
   },
   {
@@ -4637,32 +4637,32 @@
     "framePath": "/frames/Apple iPhone 13 Pro Max Gold.png",
     "screen": {
       "left": 75,
-      "top": 71,
+      "top": 70,
       "width": 1284,
-      "height": 2777,
+      "height": 2778,
       "rx": 6.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.2338,
-      "top": 2.4415,
+      "top": 2.4072,
       "width": 89.6022,
-      "height": 95.4952,
+      "height": 95.5296,
       "rx": 0.4673,
-      "ry": 0.7202
+      "ry": 0.7559
     },
     "topOverlayCutout": {
-      "left": 514,
-      "top": 77,
-      "width": 404,
+      "left": 512,
+      "top": 76,
+      "width": 407,
       "height": 109
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8688,
-      "top": 2.6479,
-      "width": 28.1926,
+      "left": 35.7292,
+      "top": 2.6135,
+      "width": 28.402,
       "height": 3.7483
     }
   },
@@ -4676,32 +4676,32 @@
     "framePath": "/frames/Apple iPhone 13 Pro Max Graphite.png",
     "screen": {
       "left": 75,
-      "top": 70,
+      "top": 69,
       "width": 1284,
-      "height": 2777,
+      "height": 2778,
       "rx": 6.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.2338,
-      "top": 2.4072,
+      "top": 2.3728,
       "width": 89.6022,
-      "height": 95.4952,
+      "height": 95.5296,
       "rx": 0.4673,
-      "ry": 0.7202
+      "ry": 0.7559
     },
     "topOverlayCutout": {
-      "left": 514,
-      "top": 76,
-      "width": 404,
+      "left": 512,
+      "top": 75,
+      "width": 407,
       "height": 109
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8688,
-      "top": 2.6135,
-      "width": 28.1926,
+      "left": 35.7292,
+      "top": 2.5791,
+      "width": 28.402,
       "height": 3.7483
     }
   },
@@ -4715,32 +4715,32 @@
     "framePath": "/frames/Apple iPhone 13 Pro Max Sierra Blue.png",
     "screen": {
       "left": 74,
-      "top": 70,
+      "top": 69,
       "width": 1284,
-      "height": 2777,
+      "height": 2778,
       "rx": 6.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.164,
-      "top": 2.4072,
+      "top": 2.3728,
       "width": 89.6022,
-      "height": 95.4952,
+      "height": 95.5296,
       "rx": 0.4673,
-      "ry": 0.7202
+      "ry": 0.7559
     },
     "topOverlayCutout": {
-      "left": 513,
-      "top": 76,
-      "width": 404,
+      "left": 511,
+      "top": 75,
+      "width": 407,
       "height": 109
     },
     "topOverlayCutoutPercent": {
-      "left": 35.799,
-      "top": 2.6135,
-      "width": 28.1926,
+      "left": 35.6595,
+      "top": 2.5791,
+      "width": 28.402,
       "height": 3.7483
     }
   },
@@ -4754,32 +4754,32 @@
     "framePath": "/frames/Apple iPhone 13 Pro Max Silver.png",
     "screen": {
       "left": 75,
-      "top": 70,
+      "top": 69,
       "width": 1284,
-      "height": 2777,
+      "height": 2778,
       "rx": 6.0,
-      "ry": 20,
+      "ry": 21,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.2338,
-      "top": 2.4072,
+      "top": 2.3728,
       "width": 89.6022,
-      "height": 95.4952,
+      "height": 95.5296,
       "rx": 0.4673,
-      "ry": 0.7202
+      "ry": 0.7559
     },
     "topOverlayCutout": {
-      "left": 514,
-      "top": 76,
-      "width": 404,
+      "left": 512,
+      "top": 75,
+      "width": 407,
       "height": 109
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8688,
-      "top": 2.6135,
-      "width": 28.1926,
+      "left": 35.7292,
+      "top": 2.5791,
+      "width": 28.402,
       "height": 3.7483
     }
   },
@@ -4793,9 +4793,9 @@
     "framePath": "/frames/Apple iPhone 13 Pro Sierra Blue.png",
     "screen": {
       "left": 74,
-      "top": 63,
+      "top": 62,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 6.0,
       "ry": 28,
       "hasCutout": true,
@@ -4803,23 +4803,23 @@
     },
     "screenPercent": {
       "left": 5.6146,
-      "top": 2.3684,
+      "top": 2.3308,
       "width": 88.7709,
-      "height": 95.1128,
+      "height": 95.188,
       "rx": 0.5128,
-      "ry": 1.1067
+      "ry": 1.1058
     },
     "topOverlayCutout": {
-      "left": 473,
-      "top": 69,
-      "width": 372,
-      "height": 98
+      "left": 482,
+      "top": 67,
+      "width": 354,
+      "height": 100
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8877,
-      "top": 2.594,
-      "width": 28.2246,
-      "height": 3.6842
+      "left": 36.5706,
+      "top": 2.5188,
+      "width": 26.8589,
+      "height": 3.7594
     }
   },
   {
@@ -4832,9 +4832,9 @@
     "framePath": "/frames/Apple iPhone 13 Pro Silver.png",
     "screen": {
       "left": 74,
-      "top": 64,
+      "top": 63,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 6.0,
       "ry": 28,
       "hasCutout": true,
@@ -4842,23 +4842,23 @@
     },
     "screenPercent": {
       "left": 5.6146,
-      "top": 2.406,
+      "top": 2.3684,
       "width": 88.7709,
-      "height": 95.1128,
+      "height": 95.188,
       "rx": 0.5128,
-      "ry": 1.1067
+      "ry": 1.1058
     },
     "topOverlayCutout": {
-      "left": 473,
-      "top": 70,
-      "width": 372,
-      "height": 98
+      "left": 482,
+      "top": 68,
+      "width": 354,
+      "height": 100
     },
     "topOverlayCutoutPercent": {
-      "left": 35.8877,
-      "top": 2.6316,
-      "width": 28.2246,
-      "height": 3.6842
+      "left": 36.5706,
+      "top": 2.5564,
+      "width": 26.8589,
+      "height": 3.7594
     }
   },
   {
@@ -4871,32 +4871,32 @@
     "framePath": "/frames/Apple iPhone 13 Red.png",
     "screen": {
       "left": 72,
-      "top": 65,
+      "top": 64,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 8.0,
-      "ry": 23,
+      "ry": 24,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4836,
-      "top": 2.4427,
+      "top": 2.4051,
       "width": 89.1089,
-      "height": 95.077,
+      "height": 95.1522,
       "rx": 0.6838,
-      "ry": 0.9091
+      "ry": 0.9479
     },
     "topOverlayCutout": {
-      "left": 470,
-      "top": 71,
-      "width": 374,
+      "left": 469,
+      "top": 70,
+      "width": 375,
       "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 35.7959,
-      "top": 2.6682,
-      "width": 28.4844,
+      "left": 35.7197,
+      "top": 2.6306,
+      "width": 28.5605,
       "height": 3.5701
     }
   },
@@ -4910,32 +4910,32 @@
     "framePath": "/frames/Apple iPhone 13 Starlight.png",
     "screen": {
       "left": 72,
-      "top": 65,
+      "top": 64,
       "width": 1170,
-      "height": 2530,
+      "height": 2532,
       "rx": 8.0,
-      "ry": 23,
+      "ry": 24,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
       "left": 5.4836,
-      "top": 2.4427,
+      "top": 2.4051,
       "width": 89.1089,
-      "height": 95.077,
+      "height": 95.1522,
       "rx": 0.6838,
-      "ry": 0.9091
+      "ry": 0.9479
     },
     "topOverlayCutout": {
-      "left": 470,
-      "top": 71,
-      "width": 374,
+      "left": 469,
+      "top": 70,
+      "width": 375,
       "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 35.7959,
-      "top": 2.6682,
-      "width": 28.4844,
+      "left": 35.7197,
+      "top": 2.6306,
+      "width": 28.5605,
       "height": 3.5701
     }
   },
@@ -4948,34 +4948,34 @@
     "frameH": 2655,
     "framePath": "/frames/Apple iPhone 14 Blue.png",
     "screen": {
-      "left": 76,
-      "top": 64,
-      "width": 1166,
-      "height": 2526,
-      "rx": 6.0,
-      "ry": 17,
+      "left": 73,
+      "top": 60,
+      "width": 1172,
+      "height": 2534,
+      "rx": 14.5,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.806,
-      "top": 2.4105,
-      "width": 89.0756,
-      "height": 95.1412,
-      "rx": 0.5146,
-      "ry": 0.673
+      "left": 5.5768,
+      "top": 2.2599,
+      "width": 89.534,
+      "height": 95.4426,
+      "rx": 1.2372,
+      "ry": 0.1184
     },
     "topOverlayCutout": {
-      "left": 476,
-      "top": 69,
-      "width": 366,
-      "height": 96
+      "left": 471,
+      "top": 66,
+      "width": 376,
+      "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 36.3636,
-      "top": 2.5989,
-      "width": 27.9603,
-      "height": 3.6158
+      "left": 35.9817,
+      "top": 2.4859,
+      "width": 28.7242,
+      "height": 3.5782
     }
   },
   {
@@ -4987,34 +4987,34 @@
     "frameH": 2655,
     "framePath": "/frames/Apple iPhone 14 Midnight.png",
     "screen": {
-      "left": 76,
-      "top": 64,
-      "width": 1166,
-      "height": 2526,
-      "rx": 6.0,
-      "ry": 17,
+      "left": 73,
+      "top": 60,
+      "width": 1172,
+      "height": 2534,
+      "rx": 14.5,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.806,
-      "top": 2.4105,
-      "width": 89.0756,
-      "height": 95.1412,
-      "rx": 0.5146,
-      "ry": 0.673
+      "left": 5.5768,
+      "top": 2.2599,
+      "width": 89.534,
+      "height": 95.4426,
+      "rx": 1.2372,
+      "ry": 0.1184
     },
     "topOverlayCutout": {
-      "left": 476,
-      "top": 69,
-      "width": 366,
-      "height": 96
+      "left": 471,
+      "top": 66,
+      "width": 376,
+      "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 36.3636,
-      "top": 2.5989,
-      "width": 27.9603,
-      "height": 3.6158
+      "left": 35.9817,
+      "top": 2.4859,
+      "width": 28.7242,
+      "height": 3.5782
     }
   },
   {
@@ -5026,34 +5026,34 @@
     "frameH": 2902,
     "framePath": "/frames/Apple iPhone 14 Plus Blue.png",
     "screen": {
-      "left": 75,
-      "top": 63,
-      "width": 1282,
-      "height": 2772,
-      "rx": 13.0,
-      "ry": 61,
+      "left": 73,
+      "top": 60,
+      "width": 1286,
+      "height": 2779,
+      "rx": 21.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2484,
-      "top": 2.1709,
-      "width": 89.7131,
-      "height": 95.5203,
-      "rx": 1.014,
-      "ry": 2.2006
+      "left": 5.1085,
+      "top": 2.0675,
+      "width": 89.993,
+      "height": 95.7615,
+      "rx": 1.633,
+      "ry": 0.108
     },
     "topOverlayCutout": {
-      "left": 536,
-      "top": 67,
-      "width": 360,
-      "height": 97
+      "left": 532,
+      "top": 64,
+      "width": 368,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 37.5087,
-      "top": 2.3088,
-      "width": 25.1924,
-      "height": 3.3425
+      "left": 37.2288,
+      "top": 2.2054,
+      "width": 25.7523,
+      "height": 3.3081
     }
   },
   {
@@ -5065,34 +5065,34 @@
     "frameH": 2902,
     "framePath": "/frames/Apple iPhone 14 Plus Midnight.png",
     "screen": {
-      "left": 75,
-      "top": 63,
-      "width": 1282,
-      "height": 2772,
-      "rx": 13.0,
-      "ry": 61,
+      "left": 73,
+      "top": 60,
+      "width": 1286,
+      "height": 2779,
+      "rx": 21.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2484,
-      "top": 2.1709,
-      "width": 89.7131,
-      "height": 95.5203,
-      "rx": 1.014,
-      "ry": 2.2006
+      "left": 5.1085,
+      "top": 2.0675,
+      "width": 89.993,
+      "height": 95.7615,
+      "rx": 1.633,
+      "ry": 0.108
     },
     "topOverlayCutout": {
-      "left": 536,
-      "top": 67,
-      "width": 360,
-      "height": 97
+      "left": 532,
+      "top": 64,
+      "width": 368,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 37.5087,
-      "top": 2.3088,
-      "width": 25.1924,
-      "height": 3.3425
+      "left": 37.2288,
+      "top": 2.2054,
+      "width": 25.7523,
+      "height": 3.3081
     }
   },
   {
@@ -5104,34 +5104,34 @@
     "frameH": 2902,
     "framePath": "/frames/Apple iPhone 14 Plus Purple.png",
     "screen": {
-      "left": 75,
-      "top": 63,
-      "width": 1282,
-      "height": 2772,
-      "rx": 13.0,
-      "ry": 61,
+      "left": 73,
+      "top": 60,
+      "width": 1286,
+      "height": 2779,
+      "rx": 21.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2484,
-      "top": 2.1709,
-      "width": 89.7131,
-      "height": 95.5203,
-      "rx": 1.014,
-      "ry": 2.2006
+      "left": 5.1085,
+      "top": 2.0675,
+      "width": 89.993,
+      "height": 95.7615,
+      "rx": 1.633,
+      "ry": 0.108
     },
     "topOverlayCutout": {
-      "left": 536,
-      "top": 67,
-      "width": 360,
-      "height": 97
+      "left": 532,
+      "top": 64,
+      "width": 368,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 37.5087,
-      "top": 2.3088,
-      "width": 25.1924,
-      "height": 3.3425
+      "left": 37.2288,
+      "top": 2.2054,
+      "width": 25.7523,
+      "height": 3.3081
     }
   },
   {
@@ -5143,34 +5143,34 @@
     "frameH": 2902,
     "framePath": "/frames/Apple iPhone 14 Plus Red.png",
     "screen": {
-      "left": 75,
-      "top": 63,
-      "width": 1282,
-      "height": 2772,
-      "rx": 13.0,
-      "ry": 61,
+      "left": 73,
+      "top": 60,
+      "width": 1286,
+      "height": 2779,
+      "rx": 21.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2484,
-      "top": 2.1709,
-      "width": 89.7131,
-      "height": 95.5203,
-      "rx": 1.014,
-      "ry": 2.2006
+      "left": 5.1085,
+      "top": 2.0675,
+      "width": 89.993,
+      "height": 95.7615,
+      "rx": 1.633,
+      "ry": 0.108
     },
     "topOverlayCutout": {
-      "left": 536,
-      "top": 67,
-      "width": 360,
-      "height": 97
+      "left": 532,
+      "top": 64,
+      "width": 368,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 37.5087,
-      "top": 2.3088,
-      "width": 25.1924,
-      "height": 3.3425
+      "left": 37.2288,
+      "top": 2.2054,
+      "width": 25.7523,
+      "height": 3.3081
     }
   },
   {
@@ -5182,34 +5182,34 @@
     "frameH": 2902,
     "framePath": "/frames/Apple iPhone 14 Plus Starlight.png",
     "screen": {
-      "left": 75,
-      "top": 63,
-      "width": 1282,
-      "height": 2772,
-      "rx": 13.0,
-      "ry": 61,
+      "left": 73,
+      "top": 60,
+      "width": 1286,
+      "height": 2779,
+      "rx": 21.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2484,
-      "top": 2.1709,
-      "width": 89.7131,
-      "height": 95.5203,
-      "rx": 1.014,
-      "ry": 2.2006
+      "left": 5.1085,
+      "top": 2.0675,
+      "width": 89.993,
+      "height": 95.7615,
+      "rx": 1.633,
+      "ry": 0.108
     },
     "topOverlayCutout": {
-      "left": 536,
-      "top": 67,
-      "width": 360,
-      "height": 97
+      "left": 532,
+      "top": 64,
+      "width": 368,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 37.5087,
-      "top": 2.3088,
-      "width": 25.1924,
-      "height": 3.3425
+      "left": 37.2288,
+      "top": 2.2054,
+      "width": 25.7523,
+      "height": 3.3081
     }
   },
   {
@@ -5221,34 +5221,34 @@
     "frameH": 2672,
     "framePath": "/frames/Apple iPhone 14 Pro Black.png",
     "screen": {
-      "left": 69,
-      "top": 61,
-      "width": 1177,
-      "height": 2550,
-      "rx": 5.0,
-      "ry": 35,
+      "left": 67,
+      "top": 57,
+      "width": 1181,
+      "height": 2558,
+      "rx": 12.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2632,
-      "top": 2.2829,
-      "width": 89.7788,
-      "height": 95.4341,
-      "rx": 0.4248,
-      "ry": 1.3725
+      "left": 5.1106,
+      "top": 2.1332,
+      "width": 90.0839,
+      "height": 95.7335,
+      "rx": 1.0161,
+      "ry": 0.1173
     },
     "topOverlayCutout": {
-      "left": 520,
-      "top": 88,
-      "width": 275,
-      "height": 116
+      "left": 516,
+      "top": 92,
+      "width": 284,
+      "height": 108
     },
     "topOverlayCutoutPercent": {
-      "left": 39.6644,
-      "top": 3.2934,
-      "width": 20.9764,
-      "height": 4.3413
+      "left": 39.3593,
+      "top": 3.4431,
+      "width": 21.6629,
+      "height": 4.0419
     }
   },
   {
@@ -5260,34 +5260,34 @@
     "frameH": 2672,
     "framePath": "/frames/Apple iPhone 14 Pro Gold.png",
     "screen": {
-      "left": 69,
-      "top": 61,
-      "width": 1177,
-      "height": 2550,
-      "rx": 5.0,
-      "ry": 35,
+      "left": 67,
+      "top": 57,
+      "width": 1181,
+      "height": 2558,
+      "rx": 12.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2632,
-      "top": 2.2829,
-      "width": 89.7788,
-      "height": 95.4341,
-      "rx": 0.4248,
-      "ry": 1.3725
+      "left": 5.1106,
+      "top": 2.1332,
+      "width": 90.0839,
+      "height": 95.7335,
+      "rx": 1.0161,
+      "ry": 0.1173
     },
     "topOverlayCutout": {
-      "left": 520,
-      "top": 88,
-      "width": 275,
-      "height": 116
+      "left": 516,
+      "top": 92,
+      "width": 284,
+      "height": 108
     },
     "topOverlayCutoutPercent": {
-      "left": 39.6644,
-      "top": 3.2934,
-      "width": 20.9764,
-      "height": 4.3413
+      "left": 39.3593,
+      "top": 3.4431,
+      "width": 21.6629,
+      "height": 4.0419
     }
   },
   {
@@ -5299,34 +5299,34 @@
     "frameH": 2909,
     "framePath": "/frames/Apple iPhone 14 Pro Max Black.png",
     "screen": {
-      "left": 68,
-      "top": 58,
-      "width": 1288,
-      "height": 2790,
-      "rx": 6.0,
-      "ry": 25,
+      "left": 66,
+      "top": 54,
+      "width": 1292,
+      "height": 2798,
+      "rx": 13.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 4.7854,
-      "top": 1.9938,
-      "width": 90.6404,
-      "height": 95.9092,
-      "rx": 0.4658,
-      "ry": 0.8961
+      "left": 4.6446,
+      "top": 1.8563,
+      "width": 90.9219,
+      "height": 96.1843,
+      "rx": 1.0062,
+      "ry": 0.1072
     },
     "topOverlayCutout": {
-      "left": 574,
-      "top": 84,
-      "width": 276,
-      "height": 118
+      "left": 569,
+      "top": 88,
+      "width": 285,
+      "height": 110
     },
     "topOverlayCutoutPercent": {
-      "left": 40.3941,
-      "top": 2.8876,
-      "width": 19.4229,
-      "height": 4.0564
+      "left": 40.0422,
+      "top": 3.0251,
+      "width": 20.0563,
+      "height": 3.7814
     }
   },
   {
@@ -5338,34 +5338,34 @@
     "frameH": 2909,
     "framePath": "/frames/Apple iPhone 14 Pro Max Gold.png",
     "screen": {
-      "left": 68,
-      "top": 58,
-      "width": 1288,
-      "height": 2790,
-      "rx": 6.0,
-      "ry": 25,
+      "left": 66,
+      "top": 54,
+      "width": 1292,
+      "height": 2798,
+      "rx": 13.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 4.7854,
-      "top": 1.9938,
-      "width": 90.6404,
-      "height": 95.9092,
-      "rx": 0.4658,
-      "ry": 0.8961
+      "left": 4.6446,
+      "top": 1.8563,
+      "width": 90.9219,
+      "height": 96.1843,
+      "rx": 1.0062,
+      "ry": 0.1072
     },
     "topOverlayCutout": {
-      "left": 574,
-      "top": 84,
-      "width": 276,
-      "height": 118
+      "left": 569,
+      "top": 88,
+      "width": 285,
+      "height": 110
     },
     "topOverlayCutoutPercent": {
-      "left": 40.3941,
-      "top": 2.8876,
-      "width": 19.4229,
-      "height": 4.0564
+      "left": 40.0422,
+      "top": 3.0251,
+      "width": 20.0563,
+      "height": 3.7814
     }
   },
   {
@@ -5377,34 +5377,34 @@
     "frameH": 2909,
     "framePath": "/frames/Apple iPhone 14 Pro Max Purple.png",
     "screen": {
-      "left": 68,
-      "top": 58,
-      "width": 1288,
-      "height": 2790,
-      "rx": 6.0,
-      "ry": 25,
+      "left": 66,
+      "top": 54,
+      "width": 1292,
+      "height": 2798,
+      "rx": 13.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 4.7854,
-      "top": 1.9938,
-      "width": 90.6404,
-      "height": 95.9092,
-      "rx": 0.4658,
-      "ry": 0.8961
+      "left": 4.6446,
+      "top": 1.8563,
+      "width": 90.9219,
+      "height": 96.1843,
+      "rx": 1.0062,
+      "ry": 0.1072
     },
     "topOverlayCutout": {
-      "left": 574,
-      "top": 84,
-      "width": 276,
-      "height": 118
+      "left": 569,
+      "top": 88,
+      "width": 285,
+      "height": 110
     },
     "topOverlayCutoutPercent": {
-      "left": 40.3941,
-      "top": 2.8876,
-      "width": 19.4229,
-      "height": 4.0564
+      "left": 40.0422,
+      "top": 3.0251,
+      "width": 20.0563,
+      "height": 3.7814
     }
   },
   {
@@ -5416,34 +5416,34 @@
     "frameH": 2909,
     "framePath": "/frames/Apple iPhone 14 Pro Max Silver.png",
     "screen": {
-      "left": 68,
-      "top": 58,
-      "width": 1288,
-      "height": 2790,
-      "rx": 6.0,
-      "ry": 25,
+      "left": 66,
+      "top": 54,
+      "width": 1292,
+      "height": 2798,
+      "rx": 13.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 4.7854,
-      "top": 1.9938,
-      "width": 90.6404,
-      "height": 95.9092,
-      "rx": 0.4658,
-      "ry": 0.8961
+      "left": 4.6446,
+      "top": 1.8563,
+      "width": 90.9219,
+      "height": 96.1843,
+      "rx": 1.0062,
+      "ry": 0.1072
     },
     "topOverlayCutout": {
-      "left": 574,
-      "top": 84,
-      "width": 276,
-      "height": 118
+      "left": 569,
+      "top": 88,
+      "width": 285,
+      "height": 110
     },
     "topOverlayCutoutPercent": {
-      "left": 40.3941,
-      "top": 2.8876,
-      "width": 19.4229,
-      "height": 4.0564
+      "left": 40.0422,
+      "top": 3.0251,
+      "width": 20.0563,
+      "height": 3.7814
     }
   },
   {
@@ -5455,34 +5455,34 @@
     "frameH": 2672,
     "framePath": "/frames/Apple iPhone 14 Pro Purple.png",
     "screen": {
-      "left": 69,
-      "top": 61,
-      "width": 1177,
-      "height": 2550,
-      "rx": 5.0,
-      "ry": 35,
+      "left": 67,
+      "top": 57,
+      "width": 1181,
+      "height": 2558,
+      "rx": 12.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2632,
-      "top": 2.2829,
-      "width": 89.7788,
-      "height": 95.4341,
-      "rx": 0.4248,
-      "ry": 1.3725
+      "left": 5.1106,
+      "top": 2.1332,
+      "width": 90.0839,
+      "height": 95.7335,
+      "rx": 1.0161,
+      "ry": 0.1173
     },
     "topOverlayCutout": {
-      "left": 520,
-      "top": 88,
-      "width": 275,
-      "height": 116
+      "left": 516,
+      "top": 92,
+      "width": 284,
+      "height": 108
     },
     "topOverlayCutoutPercent": {
-      "left": 39.6644,
-      "top": 3.2934,
-      "width": 20.9764,
-      "height": 4.3413
+      "left": 39.3593,
+      "top": 3.4431,
+      "width": 21.6629,
+      "height": 4.0419
     }
   },
   {
@@ -5494,34 +5494,34 @@
     "frameH": 2672,
     "framePath": "/frames/Apple iPhone 14 Pro Silver.png",
     "screen": {
-      "left": 69,
-      "top": 61,
-      "width": 1177,
-      "height": 2550,
-      "rx": 5.0,
-      "ry": 35,
+      "left": 67,
+      "top": 57,
+      "width": 1181,
+      "height": 2558,
+      "rx": 12.0,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.2632,
-      "top": 2.2829,
-      "width": 89.7788,
-      "height": 95.4341,
-      "rx": 0.4248,
-      "ry": 1.3725
+      "left": 5.1106,
+      "top": 2.1332,
+      "width": 90.0839,
+      "height": 95.7335,
+      "rx": 1.0161,
+      "ry": 0.1173
     },
     "topOverlayCutout": {
-      "left": 520,
-      "top": 88,
-      "width": 275,
-      "height": 116
+      "left": 516,
+      "top": 92,
+      "width": 284,
+      "height": 108
     },
     "topOverlayCutoutPercent": {
-      "left": 39.6644,
-      "top": 3.2934,
-      "width": 20.9764,
-      "height": 4.3413
+      "left": 39.3593,
+      "top": 3.4431,
+      "width": 21.6629,
+      "height": 4.0419
     }
   },
   {
@@ -5533,34 +5533,34 @@
     "frameH": 2655,
     "framePath": "/frames/Apple iPhone 14 Purple.png",
     "screen": {
-      "left": 76,
-      "top": 64,
-      "width": 1166,
-      "height": 2526,
-      "rx": 6.0,
-      "ry": 17,
+      "left": 73,
+      "top": 60,
+      "width": 1172,
+      "height": 2534,
+      "rx": 14.5,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.806,
-      "top": 2.4105,
-      "width": 89.0756,
-      "height": 95.1412,
-      "rx": 0.5146,
-      "ry": 0.673
+      "left": 5.5768,
+      "top": 2.2599,
+      "width": 89.534,
+      "height": 95.4426,
+      "rx": 1.2372,
+      "ry": 0.1184
     },
     "topOverlayCutout": {
-      "left": 476,
-      "top": 69,
-      "width": 366,
-      "height": 96
+      "left": 471,
+      "top": 66,
+      "width": 376,
+      "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 36.3636,
-      "top": 2.5989,
-      "width": 27.9603,
-      "height": 3.6158
+      "left": 35.9817,
+      "top": 2.4859,
+      "width": 28.7242,
+      "height": 3.5782
     }
   },
   {
@@ -5572,34 +5572,34 @@
     "frameH": 2655,
     "framePath": "/frames/Apple iPhone 14 Red.png",
     "screen": {
-      "left": 76,
-      "top": 64,
-      "width": 1166,
-      "height": 2526,
-      "rx": 6.0,
-      "ry": 17,
+      "left": 73,
+      "top": 60,
+      "width": 1172,
+      "height": 2534,
+      "rx": 14.5,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.806,
-      "top": 2.4105,
-      "width": 89.0756,
-      "height": 95.1412,
-      "rx": 0.5146,
-      "ry": 0.673
+      "left": 5.5768,
+      "top": 2.2599,
+      "width": 89.534,
+      "height": 95.4426,
+      "rx": 1.2372,
+      "ry": 0.1184
     },
     "topOverlayCutout": {
-      "left": 476,
-      "top": 69,
-      "width": 366,
-      "height": 96
+      "left": 471,
+      "top": 66,
+      "width": 376,
+      "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 36.3636,
-      "top": 2.5989,
-      "width": 27.9603,
-      "height": 3.6158
+      "left": 35.9817,
+      "top": 2.4859,
+      "width": 28.7242,
+      "height": 3.5782
     }
   },
   {
@@ -5611,34 +5611,34 @@
     "frameH": 2655,
     "framePath": "/frames/Apple iPhone 14 Starlight.png",
     "screen": {
-      "left": 76,
-      "top": 64,
-      "width": 1166,
-      "height": 2526,
-      "rx": 6.0,
-      "ry": 17,
+      "left": 73,
+      "top": 60,
+      "width": 1172,
+      "height": 2534,
+      "rx": 14.5,
+      "ry": 3,
       "hasCutout": true,
       "hasTopOverlayCutout": true
     },
     "screenPercent": {
-      "left": 5.806,
-      "top": 2.4105,
-      "width": 89.0756,
-      "height": 95.1412,
-      "rx": 0.5146,
-      "ry": 0.673
+      "left": 5.5768,
+      "top": 2.2599,
+      "width": 89.534,
+      "height": 95.4426,
+      "rx": 1.2372,
+      "ry": 0.1184
     },
     "topOverlayCutout": {
-      "left": 476,
-      "top": 69,
-      "width": 366,
-      "height": 96
+      "left": 471,
+      "top": 66,
+      "width": 376,
+      "height": 95
     },
     "topOverlayCutoutPercent": {
-      "left": 36.3636,
-      "top": 2.5989,
-      "width": 27.9603,
-      "height": 3.6158
+      "left": 35.9817,
+      "top": 2.4859,
+      "width": 28.7242,
+      "height": 3.5782
     }
   },
   {
@@ -6561,9 +6561,9 @@
     "framePath": "/frames/Apple iPhone X Silver.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -6571,23 +6571,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -6600,9 +6600,9 @@
     "framePath": "/frames/Apple iPhone X Space Gray.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -6610,23 +6610,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -6639,9 +6639,9 @@
     "framePath": "/frames/Apple iPhone XR Blue.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -6649,23 +6649,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -6678,9 +6678,9 @@
     "framePath": "/frames/Apple iPhone XR Coral.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -6688,23 +6688,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -6717,9 +6717,9 @@
     "framePath": "/frames/Apple iPhone XR Red.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -6727,23 +6727,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -6756,9 +6756,9 @@
     "framePath": "/frames/Apple iPhone XR Silver.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -6766,23 +6766,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -6795,9 +6795,9 @@
     "framePath": "/frames/Apple iPhone XR Space Gray.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -6805,23 +6805,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -6834,9 +6834,9 @@
     "framePath": "/frames/Apple iPhone XR Yellow.png",
     "screen": {
       "left": 75,
-      "top": 77,
+      "top": 75,
       "width": 828,
-      "height": 1786,
+      "height": 1788,
       "rx": 3.0,
       "ry": 5,
       "hasCutout": true,
@@ -6844,23 +6844,23 @@
     },
     "screenPercent": {
       "left": 7.6609,
-      "top": 3.9814,
+      "top": 3.878,
       "width": 84.5761,
-      "height": 92.3475,
+      "height": 92.4509,
       "rx": 0.3623,
-      "ry": 0.28
+      "ry": 0.2796
     },
     "topOverlayCutout": {
-      "left": 303,
-      "top": 101,
-      "width": 372,
-      "height": 36
+      "left": 319,
+      "top": 98,
+      "width": 340,
+      "height": 39
     },
     "topOverlayCutoutPercent": {
-      "left": 30.9499,
-      "top": 5.2223,
-      "width": 37.998,
-      "height": 1.8614
+      "left": 32.5843,
+      "top": 5.0672,
+      "width": 34.7293,
+      "height": 2.0165
     }
   },
   {
@@ -6873,9 +6873,9 @@
     "framePath": "/frames/Apple iPhone XS Gold.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -6883,23 +6883,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -6912,9 +6912,9 @@
     "framePath": "/frames/Apple iPhone XS Max Gold.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -6922,23 +6922,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -6951,9 +6951,9 @@
     "framePath": "/frames/Apple iPhone XS Max Silver.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -6961,23 +6961,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -6990,9 +6990,9 @@
     "framePath": "/frames/Apple iPhone XS Max Space Gray.png",
     "screen": {
       "left": 86,
-      "top": 80,
+      "top": 79,
       "width": 1242,
-      "height": 2686,
+      "height": 2687,
       "rx": 5.0,
       "ry": 7,
       "hasCutout": true,
@@ -7000,23 +7000,23 @@
     },
     "screenPercent": {
       "left": 6.0863,
-      "top": 2.8129,
+      "top": 2.7778,
       "width": 87.8981,
-      "height": 94.4444,
+      "height": 94.4796,
       "rx": 0.4026,
-      "ry": 0.2606
+      "ry": 0.2605
     },
     "topOverlayCutout": {
-      "left": 452,
-      "top": 96,
-      "width": 510,
-      "height": 74
+      "left": 472,
+      "top": 94,
+      "width": 470,
+      "height": 76
     },
     "topOverlayCutoutPercent": {
-      "left": 31.9887,
-      "top": 3.3755,
-      "width": 36.0934,
-      "height": 2.602
+      "left": 33.4041,
+      "top": 3.3052,
+      "width": 33.2626,
+      "height": 2.6723
     }
   },
   {
@@ -7029,9 +7029,9 @@
     "framePath": "/frames/Apple iPhone XS Silver.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -7039,23 +7039,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -7068,9 +7068,9 @@
     "framePath": "/frames/Apple iPhone XS Space Gray.png",
     "screen": {
       "left": 85,
-      "top": 86,
+      "top": 85,
       "width": 1125,
-      "height": 2427,
+      "height": 2428,
       "rx": 5.0,
       "ry": 13,
       "hasCutout": true,
@@ -7078,23 +7078,23 @@
     },
     "screenPercent": {
       "left": 6.5637,
-      "top": 3.3205,
+      "top": 3.2819,
       "width": 86.8726,
-      "height": 93.7066,
+      "height": 93.7452,
       "rx": 0.4444,
-      "ry": 0.5356
+      "ry": 0.5354
     },
     "topOverlayCutout": {
-      "left": 392,
-      "top": 122,
-      "width": 512,
-      "height": 45
+      "left": 405,
+      "top": 119,
+      "width": 486,
+      "height": 48
     },
     "topOverlayCutoutPercent": {
-      "left": 30.2703,
-      "top": 4.7104,
-      "width": 39.5367,
-      "height": 1.7375
+      "left": 31.2741,
+      "top": 4.5946,
+      "width": 37.529,
+      "height": 1.8533
     }
   },
   {
@@ -7107,9 +7107,9 @@
     "framePath": "/frames/iPhone 13 Mini Blue.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -7117,23 +7117,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -7146,9 +7146,9 @@
     "framePath": "/frames/iPhone 13 Mini Midnight.png",
     "screen": {
       "left": 74,
-      "top": 69,
+      "top": 68,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -7156,23 +7156,23 @@
     },
     "screenPercent": {
       "left": 6.0507,
-      "top": 2.7981,
+      "top": 2.7575,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 415,
-      "top": 81,
-      "width": 399,
-      "height": 94
+      "left": 423,
+      "top": 79,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.933,
-      "top": 3.2847,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.5871,
+      "top": 3.2036,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -7185,9 +7185,9 @@
     "framePath": "/frames/iPhone 13 Mini Pink.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -7195,23 +7195,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -7224,9 +7224,9 @@
     "framePath": "/frames/iPhone 13 Mini Red.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -7234,23 +7234,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -7263,9 +7263,9 @@
     "framePath": "/frames/iPhone 13 Mini Starlight.png",
     "screen": {
       "left": 71,
-      "top": 66,
+      "top": 65,
       "width": 1080,
-      "height": 2337,
+      "height": 2338,
       "rx": 4.0,
       "ry": 16,
       "hasCutout": true,
@@ -7273,23 +7273,23 @@
     },
     "screenPercent": {
       "left": 5.8054,
-      "top": 2.6764,
+      "top": 2.6358,
       "width": 88.3074,
-      "height": 94.7689,
+      "height": 94.8094,
       "rx": 0.3704,
-      "ry": 0.6846
+      "ry": 0.6843
     },
     "topOverlayCutout": {
-      "left": 412,
-      "top": 78,
-      "width": 399,
-      "height": 94
+      "left": 420,
+      "top": 76,
+      "width": 382,
+      "height": 96
     },
     "topOverlayCutoutPercent": {
-      "left": 33.6877,
-      "top": 3.163,
-      "width": 32.6247,
-      "height": 3.8118
+      "left": 34.3418,
+      "top": 3.0819,
+      "width": 31.2347,
+      "height": 3.8929
     }
   },
   {
@@ -7574,32 +7574,6 @@
       "top": 6.1243,
       "width": 95.3642,
       "height": 87.7514,
-      "rx": 0.0,
-      "ry": 0.0
-    }
-  },
-  {
-    "key": "xiaomi mi mix alpha",
-    "filename": "Xiaomi Mi Mix Alpha.png",
-    "family": "other",
-    "orientation": "portrait",
-    "frameW": 1090,
-    "frameH": 2328,
-    "framePath": "/frames/Xiaomi Mi Mix Alpha.png",
-    "screen": {
-      "left": 81,
-      "top": 43,
-      "width": 928,
-      "height": 2250,
-      "rx": 0.0,
-      "ry": 0.0,
-      "hasCutout": false
-    },
-    "screenPercent": {
-      "left": 7.4312,
-      "top": 1.8471,
-      "width": 85.1376,
-      "height": 96.6495,
       "rx": 0.0,
       "ry": 0.0
     }

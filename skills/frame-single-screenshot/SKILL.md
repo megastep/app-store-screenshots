@@ -22,7 +22,7 @@ This skill is intentionally narrower than `app-store-screenshots`:
 1. The unframed screenshot path
 2. The target device, for example `iPhone 16 Pro Max`, `iPad Pro 13`, `Pixel 8 Pro`, or `MacBook Air`
 3. The output path
-4. Optional: orientation, preferred finish/color, exact frame filename, output size/format, and landscape rotation direction
+4. Optional: orientation, preferred finish/color, exact frame filename, output size/format, landscape rotation direction, and screen bleed if the bezel shows a hairline seam
 
 ## Runtime Requirements
 
@@ -59,6 +59,9 @@ python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --ima
 # Export JPEG or WEBP instead of PNG
 python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --image ./capture.png --device "iPhone 16 Pro Max" --format webp --quality 90 --output ./framed.webp
 
+# Increase the screenshot overscan under the bezel if you still see a 1-2px gap
+python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --image ./capture.png --device "Galaxy S24 Ultra" --screen-bleed 3 --output ./framed-galaxy.png
+
 # Force an exact output size
 python /path/to/frame-single-screenshot/scripts/frame_single_screenshot.py --image ./capture.png --device "iPad Pro 13" --width 2064 --height 2752 --output ./ipad-store-shot.jpg
 
@@ -84,11 +87,17 @@ Do not hand-edit bezel placements unless the generated result is obviously wrong
 - Override it with `--landscape-rotation counterclockwise` if the resulting composition is upside down or if you want the opposite home button / camera edge.
 - This is especially useful for iPad fixtures because many local Fastlane caches only contain portrait iPad frames.
 
+## Seam / Bleed Behavior
+
+- The script slightly overfills the screen area under the bezel to avoid 1-2px seams from rounding at export time.
+- Default overscan is `2px`.
+- Override it with `--screen-bleed <pixels>` if a particular frame still shows a gap or if you want stricter edge matching.
+
 ## Test Fixtures
 
 - Test-only screenshot fixtures live under `tests/frame_single_screenshot/fixtures/`, not inside the skill package itself.
 - The bundled runner at `tests/frame_single_screenshot/run_fixture_renders.py` shells out to the real skill script and writes inspectable outputs to `tests/frame_single_screenshot/artifacts/`.
-- That runner includes iPhone portrait fixtures plus iPad portrait and landscape fixtures.
+- That runner includes iPhone, iPad, Android phone, and Android tablet fixtures in both portrait and landscape where applicable.
 
 ## If Frames Are Missing
 
@@ -114,3 +123,4 @@ Then rerun this skill with `--frame-dir`.
 - JPEG output is flattened onto white because the format does not support alpha.
 - The script defaults to `cover` fitting so the screen area is fully filled.
 - Portrait frames can be reused for landscape inputs via rotation; `--landscape-rotation` controls the direction.
+- `--screen-bleed` defaults to `2` so the screenshot slightly tucks under the frame instead of stopping exactly at the measured edge.

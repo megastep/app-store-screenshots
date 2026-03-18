@@ -13,6 +13,16 @@ Build a Next.js page that renders App Store screenshots and broader device-frame
 
 **Screenshots are advertisements, not documentation.** Every screenshot sells one idea. If you're showing UI, you're doing it wrong — you're selling a *feeling*, an *outcome*, or killing a *pain point*.
 
+## Design Doctrine
+
+Treat the guidance here in this order:
+
+1. **Hard constraints** - readability, scale, thumbnail clarity, truthful product marketing, and real canvas awareness
+2. **Strong defaults** - variety, asymmetry, overlap, rhythm, and avoiding generic layouts
+3. **Taste preferences** - anti-slop heuristics and style defaults that can be broken when a stronger idea clearly improves the work
+
+If breaking a default produces a better screenshot set, break it deliberately. The skill should help you make stronger ads, not flatter ones.
+
 ## Step 1: Ask the User These Questions
 
 Before writing ANY code, ask the user all of these. Do not proceed until you have answers:
@@ -44,6 +54,16 @@ Based on the user's style direction, brand colors, and app aesthetic, decide:
 - **Dark vs light slides**: how many of each, which features suit dark treatment
 - **Typography treatment**: weight, tracking, line height — match the brand personality
 - **Color palette**: derive text colors, secondary colors, shadow tints from the brand colors
+
+### Creative Defaults
+
+- Treat the screenshot set as a short ad campaign, not a gallery of UI mocks.
+- Draft the narrative arc and 2-3 headline options per slide before touching layout.
+- Each slide should sell one idea. Avoid packing two features into one shot unless the user explicitly wants a dense comparison slide.
+- Aim for at least three distinct layout archetypes across a set: hero, text-led, and device-led or layered.
+- Use asymmetry, overlap, and edge-breaking crops when they strengthen the composition.
+- Avoid generic centered phone-on-gradient layouts unless the app genuinely needs that treatment.
+- Use the logo-swap test: if a competitor’s name would fit, the set is too generic.
 
 **IMPORTANT:** If the user gives additional instructions at any point during the process, follow them. User instructions always override skill defaults.
 
@@ -379,6 +399,13 @@ Get all headlines approved before building layouts. Bad copy ruins good design.
 - **Vague aspirational**: "Every item, tracked"
 - **Marketing buzzwords**: "AI-powered tips" (unless it's actually AI)
 
+### Visual Rhythm
+
+- Do not repeat the same upright, centered device composition on consecutive slides.
+- Mix light and dark backgrounds deliberately so the set feels like a campaign, not a theme pack.
+- Keep the content cluster large enough to read at thumbnail size; if the slide feels timid, scale it up or choose a stronger layout.
+- Prefer CSS grid, layered cards, and deliberate overlap over a simple vertical stack when the concept needs energy.
+
 ### Copy Process
 
 1. Write 3 options per slide using the three approaches
@@ -391,6 +418,13 @@ Get all headlines approved before building layouts. Bad copy ruins good design.
 - **Raycast** — specific, descriptive, one concrete value per slide
 - **Turf** — ultra-simple action verbs, conversational
 - **Mela / Notion** — warm, minimal, elegant
+
+### Canvas-Aware Layout
+
+- Plan text/device zones before CSS: decide which area owns what percentage of the canvas.
+- Avoid large empty bands between the headline and the device.
+- On wide or landscape canvases, treat the layout like editorial spread space, not a portrait screenshot rotated sideways.
+- If a device is the hero, keep the device top/notch visible and the main screen content readable.
 
 ## Step 5: Build the Page
 

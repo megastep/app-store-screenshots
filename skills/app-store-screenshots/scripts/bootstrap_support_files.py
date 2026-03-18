@@ -209,6 +209,23 @@ def build_translation_style_guide(default_locale: str, rtl_locales: set[str]) ->
     )
 
 
+def build_design_style_guide() -> str:
+    return "\n".join(
+        [
+            "Screenshots are ads, not documentation.",
+            "Each slide should sell one idea.",
+            "Draft the narrative arc and 2-3 headline options per slide before layout.",
+            "Aim for at least three distinct layout archetypes across a set.",
+            "Prefer asymmetry, overlap, and edge-breaking crops over centered default compositions.",
+            "Avoid generic phone-on-gradient thumbnails and timid stacked layouts.",
+            "Plan text and device zones before CSS so the composition stays intentional.",
+            "Treat landscape as editorial space, not just a stretched portrait frame.",
+            "Use the logo-swap test: if another app logo still works, the composition is too generic.",
+            "",
+        ]
+    )
+
+
 def empty_ui_messages() -> dict[str, str]:
     return {
         "appTitle": "",
@@ -385,6 +402,12 @@ def main() -> int:
     write_file(
         project_root / "docs" / "translation-style-guide.txt",
         build_translation_style_guide(default_locale, rtl_locales),
+        args.overwrite,
+    )
+
+    write_file(
+        project_root / "docs" / "design-style-guide.txt",
+        build_design_style_guide(),
         args.overwrite,
     )
 

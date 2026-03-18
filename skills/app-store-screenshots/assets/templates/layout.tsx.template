@@ -4,6 +4,10 @@ import { DEFAULT_LOCALE } from "@/lib/app-store-screenshots/localization";
 
 const __FONT_CONST__ = __FONT_IMPORT__({ subsets: ["latin"] });
 
+// Keep this shell minimal. App Store screenshots are ad creative, not docs.
+// The visual strategy belongs in the slide data and page composition:
+// one idea per slide, a deliberate narrative arc, asymmetry where it helps,
+// and landscape treated as editorial space instead of a stretched portrait mockup.
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang={DEFAULT_LOCALE.lang} dir={DEFAULT_LOCALE.dir}>

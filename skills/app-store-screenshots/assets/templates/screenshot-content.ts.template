@@ -37,6 +37,11 @@ type DeckTranslations = {
   slides?: Record<string, LocalizedSlideCopy>;
 };
 
+// Keep the deck campaign-oriented:
+// - one idea per slide
+// - a few distinct layout archetypes across the set
+// - copy that still reads in a thumbnail
+// - device/text balance planned before CSS
 export const BASE_SLIDES = [
   {
     id: "hero",

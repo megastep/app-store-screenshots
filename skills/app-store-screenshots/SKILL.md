@@ -97,23 +97,23 @@ That installs the runtime dependencies needed for screenshot export and localiza
 
 ### Device Frames
 
-Prefer **fastlane `frameit` frames** over the bundled single mockup. They give you many more device choices and let you export screenshots that match the actual App Store size bucket more closely across iPhone and iPad, and they also unlock broader marketing mockups for Android phones, Android tablets, and Mac laptops.
+Prefer real device frames over the bundled single mockup. Use **Fastlane `frameit`** for the broad legacy/device cache and Android coverage, and **Koubou** to supplement newer Apple mobile, iPad, and Mac hardware that Fastlane does not include.
 
 Use this order:
 
 1. **Best**: Reuse the local Fastlane cache in `~/.fastlane/frameit` if it exists
-2. **Next best**: Download matching `frameit` device PNGs into `public/frames/`
+2. **Next best**: Download matching device PNGs from Fastlane and Koubou into `public/frames/`
 3. **Fallback**: Use the bundled `mockup.png` if no usable frame assets are available
 
-If the project does not already include device frames, create `public/frames/` and populate it from the fastlane frame assets source. Keep the existing `mockup.png` available as a fallback.
+If the project does not already include device frames, create `public/frames/` and populate it from the Fastlane and Koubou frame sources. Keep the existing `mockup.png` available as a fallback.
 
-### Automatically Download Fastlane Frames
+### Automatically Download Device Frames
 
-When the project is missing frame assets, fetch them from the Fastlane frames repo before building the generator.
+When the project is missing frame assets, fetch them from the available frame sources before building the generator.
 
-**Use the bundled helper script first**. It resolves the closest device frame for each requested App Store size, prefers the local Fastlane cache, and only hits GitHub if the cache does not have a usable match.
+**Use the bundled helper script first**. It resolves the closest device frame for each requested App Store size, prefers the local Fastlane cache, and then uses GitHub frame sources when the cache does not have a usable match. For Apple/iPad/Mac buckets it can pull from Koubou's newer frames; for Android buckets it continues to use Fastlane.
 
-If the script needs to query GitHub repeatedly or runs in CI, provide `GITHUB_TOKEN` (or `GH_TOKEN`) so the repo tree lookup avoids low unauthenticated rate limits.
+If the script needs to query GitHub repeatedly or runs in CI, provide `GITHUB_TOKEN` (or `GH_TOKEN`) so the repo tree lookups avoid low unauthenticated rate limits.
 
 The script lives next to this skill at `scripts/download_fastlane_frames.py`. Run it from the project root:
 
@@ -148,6 +148,9 @@ python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/downl
 # Resolve matches without downloading
 python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/download_fastlane_frames.py --out-dir public/frames --dry-run
 
+# Restrict Apple-family matching to Koubou's newer frames only
+python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/download_fastlane_frames.py --out-dir public/frames --size-preset apple-mobile-all --sources koubou
+
 # Use authenticated GitHub requests when rate limits matter
 GITHUB_TOKEN=... python /path/to/app-store-screenshots/skills/app-store-screenshots/scripts/download_fastlane_frames.py --out-dir public/frames --size-preset marketing-all
 ```
@@ -155,9 +158,9 @@ GITHUB_TOKEN=... python /path/to/app-store-screenshots/skills/app-store-screensh
 The script writes:
 
 - the selected frame PNGs into `public/frames/`
-- a manifest file describing which Fastlane asset matched each App Store size
+- a manifest file describing which source asset matched each App Store size
 
-By default it looks for cached frame assets under `~/.fastlane/frameit`. That catches outputs from prior `fastlane frameit download_frames` runs and avoids redundant network fetches.
+By default it looks for cached frame assets under `~/.fastlane/frameit`. That catches outputs from prior `fastlane frameit download_frames` runs and avoids redundant network fetches. It then supplements that cache with GitHub sources, including Koubou's `src/koubou/frames/` tree for newer Apple devices.
 
 ### Generate a Quick Frame-Dimensions Reference
 
@@ -227,10 +230,11 @@ Use the generated TypeScript file as a scaffold, then copy only the entries that
 
 Only fall back to the manual approaches below if the script is blocked or the user needs unusual device coverage beyond the bundled Apple/Android/Mac presets.
 
-Preferred source:
+Preferred sources:
 
-- Repo: `https://github.com/fastlane/frameit-frames`
-- Hosted index: `https://fastlane.github.io/frameit-frames/`
+- Fastlane repo: `https://github.com/fastlane/frameit-frames`
+- Fastlane hosted index: `https://fastlane.github.io/frameit-frames/`
+- Koubou repo: `https://github.com/bitomule/Koubou/tree/main/src/koubou/frames`
 
 Use one of these approaches:
 
@@ -256,7 +260,15 @@ mkdir -p /path/to/project/public/frames
 find /tmp/frameit-frames-extract -type f \( -iname '*.png' -o -iname '*.jpg' \) -exec cp {} /path/to/project/public/frames/ \;
 ```
 
-#### Option C: Use `fastlane frameit download_frames`
+#### Option C: Copy the Koubou frame tree
+
+```bash
+git clone --depth=1 https://github.com/bitomule/Koubou.git /tmp/koubou
+mkdir -p /path/to/project/public/frames
+find /tmp/koubou/src/koubou/frames -type f -iname '*.png' -exec cp {} /path/to/project/public/frames/ \;
+```
+
+#### Option D: Use `fastlane frameit download_frames`
 
 If Fastlane is already installed for the user’s project, prefer the built-in downloader:
 
@@ -279,7 +291,7 @@ After download:
 project/
 ├── public/
 │   ├── mockup.png              # Fallback frame (included with skill)
-│   ├── frames/                 # Fastlane frameit device PNGs
+│   ├── frames/                 # Selected Fastlane + Koubou device PNGs
 │   │   ├── iphone-16-pro-max.png
 │   │   ├── ipad-pro-13.png
 │   │   ├── google-pixel-5.png
@@ -530,6 +542,7 @@ Use `docs/translation-style-guide.txt` as the project-specific guidance file whe
 - For iPad portrait, give the device more breathing room than iPhone portrait. The bezel is visually lighter, so compensate with stronger composition and larger type blocks.
 - For Android phones, expect tighter screen cutouts, slightly less generous bezel padding than iPhone frames, and generally squarer display corners than recent iPhones. Let the measured frame refs drive that geometry.
 - For Mac laptop frames, use wider editorial layouts, smaller tilt angles, and more surrounding whitespace than phone/tablet compositions.
+- Koubou Apple frames usually track newer industrial design more closely than Fastlane. If both sources can satisfy an Apple bucket, prefer the newer Koubou device unless the user explicitly wants an older bezel.
 - Do not blindly rotate portrait compositions into landscape. Re-compose them.
 
 ### Typography (Resolution-Independent)

@@ -2,7 +2,7 @@
 
 A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that generates production-ready App Store screenshots and broader marketing mockups. It scaffolds a Next.js project, designs advertisement-style screenshots, and exports them at required Apple resolutions with automatic device frame matching and locale-aware content scaffolding.
 
-The repo also now includes a second, narrower skill at [skills/frame-single-screenshot](skills/frame-single-screenshot/SKILL.md) for one-off device framing when you already have a flat screenshot and just need a single Fastlane-framed output image.
+The repo also now includes a second, narrower skill at [skills/frame-single-screenshot](skills/frame-single-screenshot/SKILL.md) for one-off device framing when you already have a flat screenshot and just need a single device-framed output image.
 
 ![Example output — Bloom coffee tracking app](example.png)
 
@@ -14,7 +14,7 @@ The repo also now includes a second, narrower skill at [skills/frame-single-scre
 - Adds `i18next`-based localization helpers and starter locale files for the generated app
 - Designs each screenshot as an **advertisement** — not a UI showcase
 - Writes compelling copy using proven App Store copywriting patterns
-- Renders screenshots at full resolution with fastlane `frameit` device frames when available
+- Renders screenshots at full resolution with Fastlane `frameit` and Koubou device frames when available
 - Automatically matches the closest device frame to each Apple screenshot size bucket
 - Supports iPad screenshot exports, including landscape orientation
 - Supports broader marketing mockups using cached/downloaded Android phone, Android tablet, and Mac laptop frames
@@ -28,12 +28,13 @@ The repo also now includes a second, narrower skill at [skills/frame-single-scre
 
 ## Frame strategy
 
-The skill now prefers fastlane `frameit` frames over the bundled single mockup:
+The skill now uses two frame sources before falling back to the bundled single mockup:
 
-- Put fastlane frame PNGs in `public/frames/`
-- Reuse cached frames from `~/.fastlane/frameit` before downloading anything
+- Reuse cached Fastlane `frameit` frames from `~/.fastlane/frameit` before downloading anything
+- Supplement newer Apple/iPad/Mac frames from Koubou when Fastlane stops at older hardware
+- Put the selected frame PNGs in `public/frames/`
 - Run the bundled helper to fetch only the best matching frames for the requested Apple, Android, or Mac frame families
-- Download them from `fastlane/frameit-frames` or `fastlane frameit download_frames`
+- Download them from `fastlane/frameit-frames`, `bitomule/Koubou`, or `fastlane frameit download_frames`
 - The generator picks the closest frame for each export size automatically
 - If a matching frame or screen inset definition is missing, it falls back to `mockup.png`
 
@@ -47,7 +48,7 @@ The documented workflow now includes a bundled script:
 python skills/app-store-screenshots/scripts/download_fastlane_frames.py --out-dir public/frames --size-preset marketing-all
 ```
 
-It first checks the local Fastlane cache at `~/.fastlane/frameit`, then falls back to `fastlane/frameit-frames` on GitHub, picks the nearest device for each requested Apple/Android/Mac bucket, and writes a manifest.
+It first checks the local Fastlane cache at `~/.fastlane/frameit`, then falls back to GitHub sources, picks the nearest device for each requested Apple/Android/Mac bucket, and writes a manifest. Apple, iPad, and Mac buckets can resolve from Koubou's newer frame set; Android still resolves from Fastlane.
 
 Common presets:
 
@@ -97,9 +98,10 @@ Refresh them with:
 python skills/app-store-screenshots/scripts/measure_frame_insets.py --frame-dir ~/.fastlane/frameit/latest --source-label fastlane-frameit-latest --json-out skills/app-store-screenshots/references/frame-insets-latest.json --markdown-out skills/app-store-screenshots/references/frame-insets-latest.md --ts-out skills/app-store-screenshots/references/frame-insets-latest.ts
 ```
 
-The docs also keep three lower-level fallback paths:
+The docs also keep four lower-level fallback paths:
 
 - sparse-clone [fastlane/frameit-frames](https://github.com/fastlane/frameit-frames)
+- sparse-clone [bitomule/Koubou](https://github.com/bitomule/Koubou) and copy `src/koubou/frames/*.png`
 - download the repo archive and copy the frame images into `public/frames/`
 - use `fastlane frameit download_frames` if Fastlane is already installed
 
@@ -167,7 +169,7 @@ If starting from an empty folder, the skill creates:
 project/
 ├── public/
 │   ├── mockup.png          # Fallback frame (copied from skill)
-│   ├── frames/             # Fastlane frameit device PNGs
+│   ├── frames/             # Selected Fastlane + Koubou device PNGs
 │   ├── app-icon.png        # Your app icon
 │   └── screenshots/        # Shared + per-locale screenshots
 ├── src/app/
